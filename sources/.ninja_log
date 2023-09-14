@@ -1,0 +1,11 @@
+# ninja log v5
+0	538	1694662033314402000	master_ufo/Jaro-Jaro.designspace	11c38c0b039641bf
+0	538	1694662033314402000	master_ufo/Jaro-Jaro.ufo	11c38c0b039641bf
+0	544	1694662187568433000	master_ufo/Jaro-Jaro.designspace	11c38c0b039641bf
+0	544	1694662187568433000	master_ufo/Jaro-Jaro.ufo	11c38c0b039641bf
+545	910	1694662187976854000	instance_ufo/Jaro-Regular.ufo	db217abb90e7b64a
+910	1467	1694662188530153017	../fonts/ttf/Jaro-Regular.ttf	dc39ef263d9af47
+910	1976	1694662189038266448	../fonts/otf/Jaro-Regular.otf	9c0f2f703fefa6bc
+0	424	1694662219347975000	instance_ufo/Jaro-Regular.ufo	db217abb90e7b64a
+425	904	1694662219844268812	../fonts/ttf/Jaro-Regular.ttf	dc39ef263d9af47
+424	1371	1694662220309648848	../fonts/otf/Jaro-Regular.otf	9c0f2f703fefa6bc
