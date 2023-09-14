@@ -18,7 +18,7 @@ Jaro is a global display typeface inspired by the work of Jaroslav Benda
 
 ## About
 
-Description of you and/or organisation goes here.
+Agyei Archer is a typeface designer based in Trinidad and Tobago.
 
 ## Building
 
@@ -34,13 +34,8 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 ## Changelog
 
-When you update your font (new version or new release), please report all notable changes here, with a date.
-[Font Versioning](https://github.com/googlefonts/gf-docs/tree/main/Spec#font-versioning) is based on semver. 
-Changelog example:
-
-**26 May 2021. Version 2.13**
-- MAJOR Font turned to a variable font.
-- SIGNIFICANT New Stylistic sets added.
+**14 Sep 2023. Version 1.00**
+- MAJOR Font source file added to repo with GF African Latin glyphs
 
 ## License
 
