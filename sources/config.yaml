@@ -3,3 +3,5 @@ sources:
 axisOrder:
   - opsz
 familyName: Jaro
+outputDir: "../fonts"
+googleFonts: "true"
