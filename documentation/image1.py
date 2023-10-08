@@ -9,18 +9,18 @@ from drawbot_skia.drawbot import *
 from fontTools.ttLib import TTFont
 from fontTools.misc.fixedTools import floatToFixedToStr
 
-# Import moduels from the Python Standard Library: https://docs.python.org/3/library/
+# Import modules from the Python Standard Library: https://docs.python.org/3/library/
 import subprocess
 import sys
 import argparse
 
 # Constants, these are the main "settings" for the image
 WIDTH, HEIGHT, MARGIN, FRAMES = 2048, 2048, 128, 1
-FONT_PATH = "fonts/ttf/Jaro.ttf"
+FONT_PATH = "fonts/ttf/Jaro72pt.ttf"
 FONT_LICENSE = "OFL v1.1"
 AUXILIARY_FONT = "Helvetica"
 AUXILIARY_FONT_SIZE = 48
-BIG_TEXT = "AZ"
+BIG_TEXT = "Az"
 BIG_TEXT_FONT_SIZE = 1024
 BIG_TEXT_SIDE_MARGIN = MARGIN * 3.1
 BIG_TEXT_BOTTOM_MARGIN = MARGIN * 5.5

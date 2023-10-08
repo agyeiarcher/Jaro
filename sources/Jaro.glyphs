@@ -1,7 +1,6 @@
 {
 .appVersion = "3151";
 DisplayStrings = (
-"",
 "/colonmod/doubleapostrophemod/minusmod/shortequalmod"
 );
 customParameters = (
@@ -22,7 +21,7 @@ Tag = opsz;
 date = "2022-03-08 00:05:33 +0000";
 designer = "Agyei Archer";
 designerURL = "http://agyei.design";
-familyName = "Jaro-SEPT28_MIRKO";
+familyName = Jaro;
 fontMaster = (
 {
 alignmentZones = (
@@ -50819,6 +50818,7 @@ unicode = A7B9;
 );
 instances = (
 {
+exports = 0;
 interpolationWeight = 6;
 instanceInterpolations = {
 "462F72A0-0500-4E69-A49B-6C2F2580580D" = 1;
@@ -50826,6 +50826,7 @@ instanceInterpolations = {
 name = "Jaro 6pt";
 },
 {
+exports = 0;
 interpolationWeight = 48;
 instanceInterpolations = {
 "462F72A0-0500-4E69-A49B-6C2F2580580D" = 0.36364;
