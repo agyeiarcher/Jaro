@@ -9,7 +9,10 @@ DisplayStrings = (
 "/Lj",
 "/chi-latin",
 "HH/Schwa HHOO/Schwa OO",
-"/Yogh"
+"/Yogh",
+"/Bhook",
+"/Phook",
+"HH/Dhook HH"
 );
 customParameters = (
 {
@@ -5465,7 +5468,7 @@ unicode = "1E0C,1E0D";
 },
 {
 glyphname = Dhook;
-lastChange = "2023-10-05 19:45:44 +0000";
+lastChange = "2023-10-08 18:52:54 +0000";
 layers = (
 {
 anchors = (
@@ -5596,6 +5599,7 @@ nodes = (
 width = 709;
 }
 );
+leftMetricsKey = "-t20";
 unicode = "018A,0257";
 },
 {
@@ -19268,7 +19272,7 @@ unicode = "1E56,1E57";
 },
 {
 glyphname = Phook;
-lastChange = "2023-10-05 19:45:44 +0000";
+lastChange = "2023-10-08 18:56:26 +0000";
 layers = (
 {
 components = (
@@ -19286,13 +19290,14 @@ components = (
 {
 alignment = -1;
 name = P;
-transform = "{1, 0, 0, 1, 179, 0}";
+transform = "{1, 0, 0, 1, 145, 0}";
 }
 );
 layerId = m002;
-width = 764;
+width = 730;
 }
 );
+leftMetricsKey = "=Dhook";
 rightMetricsKey = "=P";
 unicode = "01A4,01A5";
 },
