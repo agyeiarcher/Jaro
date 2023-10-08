@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+                <html lang="en">
+                    <head>
+                        <meta charset="utf-8">
+                        <title>FontBakery Check Report</title>
+                        <style>
+                            
+            html {
+                font-family: sans-serif;
+            }
+
+            h2 {
+                margin-top: 2em;
+            }
+
+            h3 {
+                margin-bottom: 1px;
+            }
+
+            table {
+                border-collapse: collapse;
+            }
+
+            th,
+            td {
+                border: 1px solid #ddd;
+                padding: 0.5em
+            }
+
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            tr {
+                text-align: left;
+            }
+
+            ul {
+                margin-top: 0;
+            }
+
+            .details_item {
+                list-style: none;
+                display: flex;
+                align-items: baseline;
+            }
+
+            .details_indicator {
+                flex: 0 0 5em;
+                font-weight: bold;
+                padding-right: 0.5em;
+                text-align: right;
+            }
+
+            .details_text {
+                flex: 1 0;
+            }
+            
+                        </style>
+                    </head>
+                    <body>
+                    <h1>FontBakery Technical Report</h1>
+<div>If you think a check is flawed or have an idea for a check, please  file an issue at <a href='https://github.com/fonttools/fontbakery/issues'>https://github.com/fonttools/fontbakery/issues</a> and remember to include a pointer to the repo and branch you're checking.</div>
+<h2>Summary</h2>
+            <table>
+            <tr>
+                <th>💥 ERROR</th>
+                <th>🔥 FAIL</th>
+                <th>⚠️ WARN</th>
+                <th>⏩ SKIP</th>
+                <th>ℹ️ INFO</th>
+                <th>✅ PASS</th>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>10</td>
+                <td>12</td>
+                <td>131</td>
+                <td>6</td>
+                <td>88</td>
+            </tr>
+            <tr>
+                <td>1%</td>
+                <td>4%</td>
+                <td>5%</td>
+                <td>52%</td>
+                <td>2%</td>
+                <td>35%</td>
+            </tr>
+            </table>
+            
+<p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, INFO, PASS, DEBUG</p>
+<h2>&lt;Section: Google Fonts&gt; 💥💥🔥🔥🔥🔥🔥⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Checking OS/2 fsType does not impose restrictions.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/fstype&gt;</div>
+
+<details><summary>🔥 <strong>fonts/ttf/Jaro-Jaro72pt.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>In this font fsType is set to 8 meaning that:
+The font may be embedded but must only be installed temporarily on other systems.</p>
+<p>No such DRM restrictions can be enabled on the Google Fonts collection, so the fsType field must be set to zero (Installable Embedding) instead. [code: drm]</p>
+</span></li></ul></div></details>
+<h3>Checking OS/2 achVendID.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/vendor_id&gt;</div>
+
+<details><summary>💥 <strong>fonts/ttf/Jaro-Jaro72pt.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>The condition <a href="FontBakeryCondition:registered_vendor_ids">FontBakeryCondition:registered_vendor_ids</a> had an error: ModuleNotFoundError: No module named 'bs4'</p>
+</span></li></ul></div></details>
+<h3>Check Google Fonts glyph coverage.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/glyph_coverage&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Jaro-Jaro72pt.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GF_TransLatin_Pinyin is almost fulfilled. Missing codepoints:</p>
+<pre><code>- 0x1D3A (MODIFIER LETTER CAPITAL N)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GF_Latin_Beyond is almost fulfilled. Missing codepoints:</p>
+<pre><code>- 0x03BB (GREEK SMALL LETTER LAMDA)
+
+
+- 0x03C7 (GREEK SMALL LETTER CHI)
+
+
+- 0x01F0 (LATIN SMALL LETTER J WITH CARON)
+
+
+- 0x0138 (LATIN SMALL LETTER KRA)
+
+
+- 0x02B8 (MODIFIER LETTER SMALL Y)
+
+
+- 0x1DBF (MODIFIER LETTER SMALL THETA)
+
+
+- 0x2144 (TURNED SANS-SERIF CAPITAL Y)
+
+
+- 0x0315 (COMBINING COMMA ABOVE RIGHT)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:</p>
+<pre><code>- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
+
+
+- 0x1E97 (LATIN SMALL LETTER T WITH DIAERESIS)
+
+
+- 0x02BD (MODIFIER LETTER REVERSED COMMA)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<h3>Check copyright namerecords match license file.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/license&gt;</div>
+
+<details><summary>🔥 <strong>fonts/ttf/Jaro-Jaro72pt.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]</p>
+</span></li></ul></div></details>
+<h3>Show hinting filesize impact.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/hinting_impact&gt;</div>
+
+<details><summary>💥 <strong>fonts/ttf/Jaro-Jaro72pt.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>The condition <a href="FontBakeryCondition:hinting_stats">FontBakeryCondition:hinting_stats</a> had an error: ModuleNotFoundError: No module named 'dehinter'</p>
+</span></li></ul></div></details>
+<h3>Font has old ttfautohint applied?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/old_ttfautohint&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Jaro-Jaro72pt.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]</p>
+</span></li></ul></div></details>
+<h3>Check font names are correct</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/font_names&gt;</div>
+
+<details><summary>🔥 <strong>fonts/ttf/Jaro-Jaro72pt.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Font names are incorrect:</p>
+<p>| nameID | current | expected |
+| :--- | :--- | :--- |
+| Family Name | Jaro Jaro 72pt | Jaro 72pt |
+| Subfamily Name | Regular | Regular |
+| Full Name | Jaro Jaro 72pt | Jaro 72pt Regular |
+| Poscript Name | Jaro-Jaro72pt | Jaro72pt-Regular |
+| Typographic Family Name | Jaro | N/A |
+| Typographic Subfamily Name | Jaro 72pt | N/A | [code: bad-names]</p>
+</span></li></ul></div></details>
+<h3>Check font follows the Google Fonts vertical metric schema</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/vertical_metrics&gt;</div>
+
+<details><summary>🔥 <strong>fonts/ttf/Jaro-Jaro72pt.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.sTypoLineGap is &quot;150&quot; it should be 0 [code: bad-OS/2.sTypoLineGap]</p>
+</span></li></ul></div></details>
+<h3>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/os2/use_typo_metrics&gt;</div>
+
+<details><summary>🔥 <strong>fonts/ttf/Jaro-Jaro72pt.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/Jaro-Jaro72pt.ttf']. [code: missing-os2-fsselection-bit7]</p>
+</span></li></ul></div></details>
+<h3>Ensure fonts have ScriptLangTags declared on the 'meta' table.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/meta/script_lang_tags&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Jaro-Jaro72pt.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Universal&gt; 🔥🔥🔥🔥⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩ℹ️ℹ️</h2>
+<h3>Checking OS/2 usWinAscent & usWinDescent.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/win_ascent_and_descent&gt;</div>
+
+<details><summary>🔥 <strong>fonts/ttf/Jaro-Jaro72pt.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1265, but got 950 instead [code: ascent]</p>
+</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinDescent value should be equal or greater than 410, but got 250 instead [code: descent]</p>
+</span></li></ul></div></details>
+<h3>Checking OS/2 Metrics match hhea Metrics.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/os2_metrics_match_hhea&gt;</div>
+
+<details><summary>🔥 <strong>fonts/ttf/Jaro-Jaro72pt.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2 sTypoAscender (800) and hhea ascent (950) must be equal. [code: ascender]</p>
+</span></li></ul></div></details>
+<h3>Do we have the latest version of FontBakery installed?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/fontbakery_version&gt;</div>
+
+<details><summary>🔥 <strong>fonts/ttf/Jaro-Jaro72pt.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Current FontBakery version is 0.9.0, while a newer 0.9.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]</p>
+</span></li></ul></div></details>
+<h3>Font contains '.notdef' as its first glyph?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/mandatory_glyphs&gt;</div>
+
+<details><summary>🔥 <strong>fonts/ttf/Jaro-Jaro72pt.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The '.notdef' glyph should contain a drawing, but it is blank. [code: notdef-is-blank]</p>
+</span></li></ul></div></details>
+<h3>Check font contains no unreachable glyphs</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unreachable_glyphs&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Jaro-Jaro72pt.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- Ccaron.czech
+
+- IJ_acutecomb
+
+- Iacute.czech
+
+- M.alt
+
+- N.alt
+
+- R.ss01
+
+- R.ss02
+
+- R.ss03
+
+- Racute.ss08
+
+- Rcaron.ss08
+
+- Rmacronbelow.ss08
+
+- Y.ss02
+
+- Y.ss03
+
+- e.ss01
+
+- i.loclTRK
+
+- nine.ALT
+
+- nine.ss02
+
+- nine.ss03
+
+- periodcentered.loclCAT.case
+
+- six.ALT
+
+- six.ss02
+
+- six.ss03
+
+- strokelongcomb_part
+
+- tildecomb_acutecomb
+
+- uni004A0301
+
+- uni006A0301
+
+- uni013B.loclMAH
+
+- uni0145.loclMAH
+
+- uni0181.alt
+
+- uni01A4.001
+
+- uni01A4.002
+
+- uni01A4.003
+
+- uni01A4.004
+
+- uni01A4.005
+
+- uni03000304
+
+- uni03010304
+
+- uni03010304.001
+
+- uni03020300
+
+- uni03020301
+
+- uni03020303
+
+- uni03020309
+
+- uni03040300
+
+- uni03040301
+
+- uni03060300
+
+- uni03060301
+
+- uni03060303
+
+- uni03060303.case.001
+
+- uni03060309
+
+- uni0326.loclMAH
+
+- uni1E3E.ss06
+
+- uni1E42.ss06
+
+- uni1E5A.ss08
+
+- uni2C63.ss02
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<h3>Check if each glyph has the recommended amount of contours.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/contour_count&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Jaro-Jaro72pt.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: braceleft	Contours detected: 3	Expected: 1
+
+- Glyph name: braceright	Contours detected: 3	Expected: 1
+
+- Glyph name: cent	Contours detected: 4	Expected: 1or2
+
+- Glyph name: sterling	Contours detected: 3	Expected: 1or2
+
+- Glyph name: yen	Contours detected: 4	Expected: 1or2
+
+- Glyph name: AE	Contours detected: 2	Expected: 3
+
+- Glyph name: Egrave	Contours detected: 2	Expected: 3
+
+- Glyph name: Eacute	Contours detected: 2	Expected: 3
+
+- Glyph name: Ecircumflex	Contours detected: 2	Expected: 3
+
+- Glyph name: Edieresis	Contours detected: 3	Expected: 4
+
+- Glyph name: Oslash	Contours detected: 2	Expected: 3
+
+- Glyph name: Aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: Emacron	Contours detected: 2	Expected: 3
+
+- Glyph name: Ebreve	Contours detected: 2	Expected: 3
+
+- Glyph name: Edotaccent	Contours detected: 2	Expected: 3
+
+- Glyph name: Ecaron	Contours detected: 2	Expected: 3
+
+- Glyph name: Gcircumflex	Contours detected: 2	Expected: 3or4
+
+- Glyph name: Gbreve	Contours detected: 2	Expected: 3or4
+
+- Glyph name: Gdotaccent	Contours detected: 2	Expected: 3or4
+
+- Glyph name: uni0122	Contours detected: 2	Expected: 3or4
+
+- Glyph name: IJ	Contours detected: 2	Expected: 3or4
+
+- Glyph name: OE	Contours detected: 2	Expected: 3
+
+- Glyph name: Racute	Contours detected: 3	Expected: 2
+
+- Glyph name: uni0156	Contours detected: 3	Expected: 2
+
+- Glyph name: Rcaron	Contours detected: 3	Expected: 2
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uni0191	Contours detected: 2	Expected: 1
+
+- Glyph name: florin	Contours detected: 3	Expected: 1
+
+- Glyph name: Ohorn	Contours detected: 3	Expected: 2
+
+- Glyph name: Uhorn	Contours detected: 2	Expected: 1
+
+- Glyph name: uni01B5	Contours detected: 2	Expected: 1
+
+- Glyph name: uni01C0	Contours detected: 0	Expected: 1
+
+- Glyph name: uni01C1	Contours detected: 0	Expected: 2
+
+- Glyph name: uni01C2	Contours detected: 0	Expected: 1
+
+- Glyph name: uni01C3	Contours detected: 0	Expected: 2
+
+- Glyph name: uni01C8	Contours detected: 1	Expected: 3
+
+- Glyph name: uni01C7	Contours detected: 2	Expected: 3
+
+- Glyph name: uni01CB	Contours detected: 1	Expected: 3
+
+- Glyph name: uni01CA	Contours detected: 2	Expected: 3
+
+- Glyph name: uni018E	Contours detected: 1	Expected: 2
+
+- Glyph name: uni01E2	Contours detected: 3	Expected: 4
+
+- Glyph name: uni01E4	Contours detected: 1	Expected: 2
+
+- Glyph name: Gcaron	Contours detected: 2	Expected: 3or4
+
+- Glyph name: uni01EA	Contours detected: 3	Expected: 2
+
+- Glyph name: uni01EC	Contours detected: 4	Expected: 3
+
+- Glyph name: uni01ED	Contours detected: 4	Expected: 3
+
+- Glyph name: uni01F4	Contours detected: 2	Expected: 3
+
+- Glyph name: AEacute	Contours detected: 3	Expected: 4
+
+- Glyph name: Oslashacute	Contours detected: 3	Expected: 4
+
+- Glyph name: uni0204	Contours detected: 3	Expected: 4
+
+- Glyph name: uni0206	Contours detected: 2	Expected: 3
+
+- Glyph name: uni0210	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0212	Contours detected: 3	Expected: 2
+
+- Glyph name: uni023B	Contours detected: 1	Expected: 2
+
+- Glyph name: uni0246	Contours detected: 1	Expected: 4
+
+- Glyph name: uni0248	Contours detected: 2	Expected: 1
+
+- Glyph name: uni0249	Contours detected: 3	Expected: 2
+
+- Glyph name: uni024C	Contours detected: 2	Expected: 1
+
+- Glyph name: uni024E	Contours detected: 1	Expected: 2
+
+- Glyph name: uni02B9	Contours detected: 0	Expected: 1
+
+- Glyph name: uni02BB	Contours detected: 0	Expected: 1
+
+- Glyph name: uni02BC	Contours detected: 0	Expected: 1
+
+- Glyph name: uni02BE	Contours detected: 0	Expected: 1
+
+- Glyph name: uni02BF	Contours detected: 0	Expected: 1
+
+- Glyph name: uni02C8	Contours detected: 0	Expected: 1
+
+- Glyph name: uni02CA	Contours detected: 0	Expected: 1
+
+- Glyph name: uni02CB	Contours detected: 0	Expected: 1
+
+- Glyph name: uni0313	Contours detected: 0	Expected: 1
+
+- Glyph name: uni0334	Contours detected: 0	Expected: 1
+
+- Glyph name: uni1E02	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E14	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1E16	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1E20	Contours detected: 2	Expected: 3or4
+
+- Glyph name: uni1E5A	Contours detected: 3	Expected: 2
+
+- Glyph name: Rmacronbelow	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EB8	Contours detected: 2	Expected: 3
+
+- Glyph name: uni1EBA	Contours detected: 2	Expected: 3
+
+- Glyph name: uni1EBC	Contours detected: 2	Expected: 3
+
+- Glyph name: uni1EBE	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1EC0	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1EC2	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1EC4	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1EC6	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1ECA	Contours detected: 2	Expected: 3
+
+- Glyph name: uni1EDA	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1EDC	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1EDE	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1EE0	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1EE2	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+
+- Glyph name: quotedblleft	Contours detected: 3	Expected: 2
+
+- Glyph name: quotedblright	Contours detected: 3	Expected: 2
+
+- Glyph name: quotedblbase	Contours detected: 3	Expected: 2
+
+- Glyph name: Euro	Contours detected: 4	Expected: 1or2
+
+- Glyph name: uni20AD	Contours detected: 3	Expected: 1
+
+- Glyph name: arrowleft	Contours detected: 2	Expected: 1
+
+- Glyph name: arrowup	Contours detected: 2	Expected: 1
+
+- Glyph name: arrowright	Contours detected: 2	Expected: 1
+
+- Glyph name: arrowdown	Contours detected: 2	Expected: 1
+
+- Glyph name: arrowboth	Contours detected: 3	Expected: 1
+
+- Glyph name: arrowupdn	Contours detected: 3	Expected: 1
+
+- Glyph name: uni2196	Contours detected: 2	Expected: 1
+
+- Glyph name: uni2197	Contours detected: 2	Expected: 1
+
+- Glyph name: uni2198	Contours detected: 2	Expected: 1
+
+- Glyph name: uni2199	Contours detected: 2	Expected: 1
+
+- Glyph name: Euro	Contours detected: 4	Expected: 1or2
+
+- Glyph name: Hbar	Contours detected: 1	Expected: 2
+
+- Glyph name: Oslashacute	Contours detected: 3	Expected: 4
+
+- Glyph name: Uhorn	Contours detected: 2	Expected: 1
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: arrowboth	Contours detected: 3	Expected: 1
+
+- Glyph name: arrowdown	Contours detected: 2	Expected: 1
+
+- Glyph name: arrowup	Contours detected: 2	Expected: 1
+
+- Glyph name: arrowupdn	Contours detected: 3	Expected: 1
+
+- Glyph name: braceleft	Contours detected: 3	Expected: 1
+
+- Glyph name: braceright	Contours detected: 3	Expected: 1
+
+- Glyph name: cent	Contours detected: 4	Expected: 1or2
+
+- Glyph name: quotedblbase	Contours detected: 3	Expected: 2
+
+- Glyph name: quotedblleft	Contours detected: 3	Expected: 2
+
+- Glyph name: quotedblright	Contours detected: 3	Expected: 2
+
+- Glyph name: sterling	Contours detected: 3	Expected: 1or2
+
+- Glyph name: uni0191	Contours detected: 2	Expected: 1
+
+- Glyph name: uni019F	Contours detected: 2	Expected: 3
+
+- Glyph name: uni01B5	Contours detected: 2	Expected: 1
+
+- Glyph name: uni01C0	Contours detected: 0	Expected: 1
+
+- Glyph name: uni01C1	Contours detected: 0	Expected: 2
+
+- Glyph name: uni01C2	Contours detected: 0	Expected: 1
+
+- Glyph name: uni01C3	Contours detected: 0	Expected: 2
+
+- Glyph name: uni01C8	Contours detected: 1	Expected: 3
+
+- Glyph name: uni01CB	Contours detected: 1	Expected: 3
+
+- Glyph name: uni01EC	Contours detected: 4	Expected: 3
+
+- Glyph name: uni01ED	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0228	Contours detected: 2	Expected: 1
+
+- Glyph name: uni023A	Contours detected: 2	Expected: 3
+
+- Glyph name: uni023B	Contours detected: 1	Expected: 2
+
+- Glyph name: uni023E	Contours detected: 1	Expected: 2
+
+- Glyph name: uni0244	Contours detected: 1	Expected: 2
+
+- Glyph name: uni0246	Contours detected: 1	Expected: 3
+
+- Glyph name: uni0248	Contours detected: 2	Expected: 1
+
+- Glyph name: uni0249	Contours detected: 3	Expected: 2
+
+- Glyph name: uni024E	Contours detected: 1	Expected: 2
+
+- Glyph name: uni02B9	Contours detected: 0	Expected: 1
+
+- Glyph name: uni02BB	Contours detected: 0	Expected: 1
+
+- Glyph name: uni02BC	Contours detected: 0	Expected: 1
+
+- Glyph name: uni02BE	Contours detected: 0	Expected: 1
+
+- Glyph name: uni02BF	Contours detected: 0	Expected: 1
+
+- Glyph name: uni02C8	Contours detected: 0	Expected: 1
+
+- Glyph name: uni02CA	Contours detected: 0	Expected: 1
+
+- Glyph name: uni02CB	Contours detected: 0	Expected: 1
+
+- Glyph name: uni0313	Contours detected: 0	Expected: 1
+
+- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+
+- Glyph name: uni20AD	Contours detected: 3	Expected: 1
+
+- Glyph name: uni2196	Contours detected: 2	Expected: 1
+
+- Glyph name: uni2197	Contours detected: 2	Expected: 1
+
+- Glyph name: uni2198	Contours detected: 2	Expected: 1
+
+- Glyph name: uni2199	Contours detected: 2	Expected: 1
+
+- Glyph name: yen	Contours detected: 4	Expected: 1or2
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<h3>Check math signs have the same width.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/math_signs_width&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Jaro-Jaro72pt.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The most common width is 426 among a set of 5 math glyphs.
+The following math glyphs have a different width, though:</p>
+<p>Width = 377:
+less</p>
+<p>Width = 406:
+greater
+[code: width-outliers]</p>
+</span></li></ul></div></details>
+<h3>Checking Vertical Metric Linegaps.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/linegaps&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Jaro-Jaro72pt.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 sTypoLineGap is not equal to 0. [code: OS/2]</p>
+</span></li></ul></div></details>
+<h3>Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron)</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/alt_caron:googlefonts&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Jaro-Jaro72pt.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Dcaron is decomposed and therefore could not be checked. Please check manually. [code: decomposed-outline]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Tcaron is decomposed and therefore could not be checked. Please check manually. [code: decomposed-outline]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.glyf&gt; 🔥</h2>
+<h3>Check glyphs do not have duplicate components which have the same x,y coordinates.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/glyf_non_transformed_duplicate_components&gt;</div>
+
+<details><summary>🔥 <strong>fonts/ttf/Jaro-Jaro72pt.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyphs have duplicate components which have the same x,y coordinates:
+* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0}
+* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0}
+* {'glyph': 'quotedblbase', 'component': 'comma', 'x': 7, 'y': 0} and {'glyph': 'quotedblright', 'component': 'comma', 'x': 7, 'y': 660} [code: found-duplicates]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⚠️⚠️</h2>
+<h3>Do any segments have colinear vectors?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_colinear_vectors&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Jaro-Jaro72pt.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
+<pre><code>* uni018F (U+018F): L&lt;&lt;29.0,728.0&gt;--&lt;156.0,730.0&gt;&gt; -&gt; L&lt;&lt;156.0,730.0&gt;--&lt;400.0,730.0&gt;&gt;
+
+* uni018F (U+0259): L&lt;&lt;29.0,728.0&gt;--&lt;156.0,730.0&gt;&gt; -&gt; L&lt;&lt;156.0,730.0&gt;--&lt;400.0,730.0&gt;&gt;
+
+* uni029D (U+029D): L&lt;&lt;222.0,-250.0&gt;--&lt;118.0,-250.0&gt;&gt; -&gt; L&lt;&lt;118.0,-250.0&gt;--&lt;114.0,-250.0&gt;&gt; [code: found-colinear-vectors]
+</code></pre>
+</span></li></ul></div></details>
+<h3>Do outlines contain any jaggy segments?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_jaggy_segments&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Jaro-Jaro72pt.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
+<pre><code>* Eng (U+014A): L&lt;&lt;299.0,1.0&gt;--&lt;338.0,0.0&gt;&gt;/B&lt;&lt;338.0,0.0&gt;-&lt;325.0,2.0&gt;-&lt;325.0,15.0&gt;&gt; = 7.277361548169348
+
+* Eng (U+014B): L&lt;&lt;299.0,1.0&gt;--&lt;338.0,0.0&gt;&gt;/B&lt;&lt;338.0,0.0&gt;-&lt;325.0,2.0&gt;-&lt;325.0,15.0&gt;&gt; = 7.277361548169348 [code: found-jaggy-segments]
+</code></pre>
+</span></li></ul></div></details>
+<h3>Do outlines contain any semi-vertical or semi-horizontal lines?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_semi_vertical&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Jaro-Jaro72pt.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<pre><code>* AE (U+00C6): L&lt;&lt;766.0,1.0&gt;--&lt;334.0,0.0&gt;&gt;
+
+* AE (U+00E6): L&lt;&lt;766.0,1.0&gt;--&lt;334.0,0.0&gt;&gt;
+
+* AEacute (U+01FC): L&lt;&lt;766.0,1.0&gt;--&lt;334.0,0.0&gt;&gt;
+
+* AEacute (U+01FD): L&lt;&lt;766.0,1.0&gt;--&lt;334.0,0.0&gt;&gt;
+
+* OE (U+0152): L&lt;&lt;771.0,1.0&gt;--&lt;161.0,0.0&gt;&gt;
+
+* OE (U+0153): L&lt;&lt;771.0,1.0&gt;--&lt;161.0,0.0&gt;&gt;
+
+* comma (U+002C): L&lt;&lt;18.0,57.0&gt;--&lt;19.0,202.0&gt;&gt;
+
+* five (U+0035): L&lt;&lt;25.0,305.0&gt;--&lt;26.0,785.0&gt;&gt;
+
+* percent (U+0025): L&lt;&lt;342.0,367.0&gt;--&lt;541.0,368.0&gt;&gt;
+
+* percent (U+0025): L&lt;&lt;39.0,800.0&gt;--&lt;238.0,801.0&gt;&gt;
+
+* quotedblbase (U+201E): L&lt;&lt;25.0,57.0&gt;--&lt;26.0,202.0&gt;&gt;
+
+* quotedblbase (U+201E): L&lt;&lt;25.0,57.0&gt;--&lt;26.0,202.0&gt;&gt;
+
+* quotedblbase (U+201E): L&lt;&lt;285.0,57.0&gt;--&lt;286.0,202.0&gt;&gt;
+
+* quotedblleft (U+201C): L&lt;&lt;230.0,720.0&gt;--&lt;229.0,575.0&gt;&gt;
+
+* quotedblleft (U+201C): L&lt;&lt;490.0,720.0&gt;--&lt;489.0,575.0&gt;&gt;
+
+* quotedblleft (U+201C): L&lt;&lt;490.0,720.0&gt;--&lt;489.0,575.0&gt;&gt;
+
+* quotedblright (U+201D): L&lt;&lt;25.0,717.0&gt;--&lt;26.0,862.0&gt;&gt;
+
+* quotedblright (U+201D): L&lt;&lt;25.0,717.0&gt;--&lt;26.0,862.0&gt;&gt;
+
+* quotedblright (U+201D): L&lt;&lt;285.0,717.0&gt;--&lt;286.0,862.0&gt;&gt;
+
+* quoteleft (U+2018): L&lt;&lt;237.0,720.0&gt;--&lt;236.0,575.0&gt;&gt;
+
+* quoteright (U+2019): L&lt;&lt;25.0,717.0&gt;--&lt;26.0,862.0&gt;&gt;
+
+* quotesinglbase (U+201A): L&lt;&lt;25.0,57.0&gt;--&lt;26.0,202.0&gt;&gt;
+
+* semicolon (U+003B): L&lt;&lt;18.0,57.0&gt;--&lt;19.0,202.0&gt;&gt;
+
+* two (U+0032): L&lt;&lt;26.0,15.0&gt;--&lt;25.0,354.0&gt;&gt;
+
+* uni018B (U+018B): L&lt;&lt;10.0,799.0&gt;--&lt;507.0,801.0&gt;&gt;
+
+* uni018B (U+018C): L&lt;&lt;10.0,799.0&gt;--&lt;507.0,801.0&gt;&gt;
+
+* uni0193 (U+0193): L&lt;&lt;167.0,800.0&gt;--&lt;404.0,799.0&gt;&gt;
+
+* uni0193 (U+0193): L&lt;&lt;304.0,507.0&gt;--&lt;556.0,506.0&gt;&gt;
+
+* uni0193 (U+0193): L&lt;&lt;440.0,-1.0&gt;--&lt;147.0,0.0&gt;&gt;
+
+* uni0193 (U+0193): L&lt;&lt;536.0,549.0&gt;--&lt;269.0,550.0&gt;&gt;
+
+* uni0193 (U+0193): L&lt;&lt;571.0,491.0&gt;--&lt;569.0,121.0&gt;&gt;
+
+* uni0193 (U+0260): L&lt;&lt;167.0,800.0&gt;--&lt;404.0,799.0&gt;&gt;
+
+* uni0193 (U+0260): L&lt;&lt;304.0,507.0&gt;--&lt;556.0,506.0&gt;&gt;
+
+* uni0193 (U+0260): L&lt;&lt;440.0,-1.0&gt;--&lt;147.0,0.0&gt;&gt;
+
+* uni0193 (U+0260): L&lt;&lt;536.0,549.0&gt;--&lt;269.0,550.0&gt;&gt;
+
+* uni0193 (U+0260): L&lt;&lt;571.0,491.0&gt;--&lt;569.0,121.0&gt;&gt;
+
+* uni01C7 (U+01C7): L&lt;&lt;341.0,1.0&gt;--&lt;36.0,0.0&gt;&gt;
+
+* uni01C7 (U+01C9): L&lt;&lt;341.0,1.0&gt;--&lt;36.0,0.0&gt;&gt;
+
+* uni01C8 (U+01C8): L&lt;&lt;352.0,1.0&gt;--&lt;36.0,0.0&gt;&gt;
+
+* uni01E2 (U+01E2): L&lt;&lt;766.0,1.0&gt;--&lt;334.0,0.0&gt;&gt;
+
+* uni01E2 (U+01E3): L&lt;&lt;766.0,1.0&gt;--&lt;334.0,0.0&gt;&gt;
+
+* uni01E4 (U+01E4): L&lt;&lt;167.0,800.0&gt;--&lt;536.0,799.0&gt;&gt;
+
+* uni01E4 (U+01E4): L&lt;&lt;430.0,-1.0&gt;--&lt;147.0,0.0&gt;&gt;
+
+* uni01E4 (U+01E4): L&lt;&lt;536.0,559.0&gt;--&lt;259.0,560.0&gt;&gt;
+
+* uni01E4 (U+01E4): L&lt;&lt;560.0,286.0&gt;--&lt;559.0,121.0&gt;&gt;
+
+* uni01E4 (U+01E5): L&lt;&lt;167.0,800.0&gt;--&lt;536.0,799.0&gt;&gt;
+
+* uni01E4 (U+01E5): L&lt;&lt;430.0,-1.0&gt;--&lt;147.0,0.0&gt;&gt;
+
+* uni01E4 (U+01E5): L&lt;&lt;536.0,559.0&gt;--&lt;259.0,560.0&gt;&gt;
+
+* uni01E4 (U+01E5): L&lt;&lt;560.0,286.0&gt;--&lt;559.0,121.0&gt;&gt;
+
+* uni0241 (U+0241): L&lt;&lt;26.0,15.0&gt;--&lt;25.0,344.0&gt;&gt;
+
+* uni0242 (U+0242): L&lt;&lt;26.0,13.0&gt;--&lt;25.0,205.0&gt;&gt;
+
+* uni0294 (U+0294): L&lt;&lt;26.0,15.0&gt;--&lt;25.0,344.0&gt;&gt;
+
+* uni0295 (U+0295): L&lt;&lt;434.0,344.0&gt;--&lt;433.0,15.0&gt;&gt;
+
+* uni0312 (U+0312): L&lt;&lt;218.0,1011.0&gt;--&lt;217.0,866.0&gt;&gt;
+
+* uni2C64 (U+027D): L&lt;&lt;269.0,223.0&gt;--&lt;266.0,-146.0&gt;&gt;
+
+* uni2C64 (U+2C64): L&lt;&lt;269.0,223.0&gt;--&lt;266.0,-146.0&gt;&gt;
+
+* uni2C72 (U+2C72): L&lt;&lt;12.0,171.0&gt;--&lt;13.0,785.0&gt;&gt;
+
+* uni2C72 (U+2C72): L&lt;&lt;843.0,679.0&gt;--&lt;844.0,171.0&gt;&gt;
+
+* uni2C72 (U+2C73): L&lt;&lt;12.0,171.0&gt;--&lt;13.0,785.0&gt;&gt;
+
+* uni2C72 (U+2C73): L&lt;&lt;843.0,679.0&gt;--&lt;844.0,171.0&gt;&gt;
+
+* zero (U+0030): L&lt;&lt;40.0,799.0&gt;--&lt;540.0,801.0&gt;&gt; [code: found-semi-vertical]
+</code></pre>
+</span></li></ul></div></details>
+<h2>&lt;Section: Shaping Checks&gt; 💥⚠️⏩⏩⏩</h2>
+<h3>Ensure dotted circle glyph is present and can attach marks.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/dotted_circle&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Jaro-Jaro72pt.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>No dotted circle glyph present [code: missing-dotted-circle]</p>
+</span></li></ul></div></details>
+<h3>Ensure soft_dotted characters lose their dot when combined with marks that replace the dot.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/soft_dotted&gt;</div>
+
+<details><summary>💥 <strong>fonts/ttf/Jaro-Jaro72pt.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>Failed with ModuleNotFoundError: No module named 'shaperglot'</p>
+</span></li></ul></div></details>
+                    </body>
+                </html>
