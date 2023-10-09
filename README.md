@@ -37,6 +37,9 @@ The proof files and QA tests are also available automatically via GitHub Actions
 **14 Sep 2023. Version 1.00**
 - MAJOR Font source file added to repo with GF African Latin glyphs
 
+**09 Oct 2023. Version 1.00**
+- MAJOR Lowercase glyphs w language support added
+
 ## License
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
