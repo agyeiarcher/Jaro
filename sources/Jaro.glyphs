@@ -3,7 +3,7 @@
 DisplayStrings = (
 "abcdefgh/dotaccentcomb ijklmnopqrstuvwxyz",
 "ABCDEFGHOIJKLMNOPQRSTUVWXYZ\012CZECHOSLOVAKIA\012NHOVOGRADSKI\012ABPR/space \012HHBHH/space OOBBOO/space \012BOONDOGGLE\012\012VWXYZ",
-"/Alpha-latin/Chi-latin/Ezh/Ezhreversed/Glottalstop/Iota-latin/Jcrossedtail/strokeshortcomb/Jstroke/Khook/Kstroke/Lbelt/Ldoublebar/Lmiddletilde/Mturned/Nlongrightleg/OU/Omega-latin/Qhooktail/Sobliquestroke/beta-latin/bilabialclick/chi-latin/etildebelow/ezhreversed/glottalstop/glottalstopreversed/glottalstopsmall/hdieresis/hdotaccent/heng/idotaccent/jcrossedtail/jstroke/khook/kstroke/lambdastroke/lbelt/ldoublebar/lmiddletilde/mturned/nlegrightlong/omega-latin/ou/qhooktail/rfishhook/sobliquestroke/ucircumflexbelow/udieresisbelow/e.ss02/glottalstop */periodcentered.loclCAT/periodcentered.loclCAT.case/endash/emdash _/florin ®°¦/dagger/daggerdbl/kip £~^%/rightArrow/upArrow/northEastArrow/rightArrow/southEastArrow/downArrow/southWestArrow/leftArrow/northWestArrow/leftRightArrow/upDownArrow/rbelowcomb/dotbelowcomb",
+"/Alpha-latin/Chi-latin/Ezh/Ezhreversed/Glottalstop/Iota-latin/Jcrossedtail/strokeshortcomb/Jstroke/Khook/Kstroke/Lbelt/Ldoublebar/Lmiddletilde/Mturned/Nlongrightleg/OU/Omega-latin/Qhooktail/Sobliquestroke/beta-latin/bilabialclick/chi-latin/etildebelow/ezhreversed/glottalstop/glottalstopreversed/glottalstopsmall/hdieresis/hdotaccent/heng/idotaccent/jcrossedtail/jstroke/khook/kstroke/lambdastroke/lbelt/ldoublebar/lmiddletilde/mturned/nlegrightlong/omega-latin/ou/qhooktail/rfishhook/sobliquestroke/ucircumflexbelow/udieresisbelow/e.ss02/glottalstop */periodcentered.loclCAT/periodcentered.loclCAT.case/endash/emdash _/florin ®°¦/dagger/daggerdbl/kip £~^%/rightArrow/upArrow/northEastArrow/rightArrow/southEastArrow/downArrow/southWestArrow/leftArrow/northWestArrow/leftRightArrow/upDownArrow/rbelowcomb/heng/Heng",
 "MUSHROOMING/space COADJACENCIES/space SKADET/space POLIB/space GODSPEED/space LIGG/space TARDIVE/space INIMICAL/space HYPERVITAMINOSIS/space LEBENDIG/space KOMTESSE/space COMPLEXUSES/space SEGUIDME/space TWIGGIEST/space NEUROHYPOPHYSES/space AMORTISE/space VERWERKEN/space VIR/space JUGGLES/space MELIACEAE/space CHOLAEMIC/space GRIMMD/space CONNY/space URGE/space VALPER/space VEDUTISTI/space HATCHMENTS/space POLYSYLLABICALLY/space AIGUABELLA/space ECCRITICS/space HABLARA/space DISLOAD/space PRELEVATO/space ARCHITYPES/space ESCUCHAR/space INCURVASSE/space MENJUSSAT/space BIS/space EXISTENTIALIST/space ARMA/space DANDLES/space DAKLOOS/space MAISEMISSA/space EZELS/space CATTLEMAN/space KLEIFT/space ONCLE/space GLADJES"
 );
 customParameters = (
@@ -5972,7 +5972,7 @@ unicode = "018B,018C";
 },
 {
 glyphname = Eth;
-lastChange = "2023-10-24 21:36:58 +0000";
+lastChange = "2023-10-24 21:44:04 +0000";
 layers = (
 {
 components = (
@@ -9725,11 +9725,66 @@ unicode = "1E24,1E25";
 },
 {
 glyphname = Heng;
-lastChange = "2023-10-24 21:36:58 +0000";
+lastChange = "2023-10-24 21:44:04 +0000";
 layers = (
 {
 layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
-width = 23400;
+paths = (
+{
+closed = 1;
+nodes = (
+"476 -250 LINE SMOOTH",
+"483 -250 OFFCURVE",
+"488 -247 OFFCURVE",
+"494 -241 CURVE SMOOTH",
+"618 -117 LINE SMOOTH",
+"624 -111 OFFCURVE",
+"625 -105 OFFCURVE",
+"625 -98 CURVE SMOOTH",
+"625 785 LINE SMOOTH",
+"625 794 OFFCURVE",
+"619 800 OFFCURVE",
+"610 800 CURVE SMOOTH",
+"390 800 LINE SMOOTH",
+"381 800 OFFCURVE",
+"375 794 OFFCURVE",
+"375 785 CURVE SMOOTH",
+"375 520 LINE",
+"325 520 LINE",
+"325 785 LINE SMOOTH",
+"325 794 OFFCURVE",
+"319 800 OFFCURVE",
+"310 800 CURVE SMOOTH",
+"90 800 LINE SMOOTH",
+"81 800 OFFCURVE",
+"75 794 OFFCURVE",
+"75 785 CURVE SMOOTH",
+"75 15 LINE SMOOTH",
+"75 6 OFFCURVE",
+"81 0 OFFCURVE",
+"90 0 CURVE SMOOTH",
+"310 0 LINE SMOOTH",
+"319 0 OFFCURVE",
+"325 6 OFFCURVE",
+"325 15 CURVE SMOOTH",
+"325 280 LINE",
+"375 280 LINE",
+"375 36 LINE SMOOTH",
+"375 29 OFFCURVE",
+"373 22 OFFCURVE",
+"368 17 CURVE SMOOTH",
+"279 -72 LINE SMOOTH",
+"274 -77 OFFCURVE",
+"273 -83 OFFCURVE",
+"273 -90 CURVE SMOOTH",
+"273 -235 LINE SMOOTH",
+"273 -244 OFFCURVE",
+"279 -250 OFFCURVE",
+"288 -250 CURVE SMOOTH"
+);
+}
+);
+width = 700;
 },
 {
 layerId = m002;
