@@ -123,7 +123,7 @@ alignmentZones = (
 );
 ascender = 800;
 capHeight = 800;
-custom = "Jaro 6pt";
+custom = "6pt";
 descender = -250;
 guideLines = (
 {
@@ -156,7 +156,7 @@ alignmentZones = (
 );
 ascender = 800;
 capHeight = 800;
-custom = "Jaro 72pt";
+custom = "72pt";
 descender = -250;
 guideLines = (
 {
@@ -56483,7 +56483,7 @@ interpolationWeight = 6;
 instanceInterpolations = {
 "462F72A0-0500-4E69-A49B-6C2F2580580D" = 1;
 };
-name = "Jaro 6pt";
+name = "6pt";
 },
 {
 interpolationWeight = 48;
@@ -56491,7 +56491,7 @@ instanceInterpolations = {
 "462F72A0-0500-4E69-A49B-6C2F2580580D" = 0.36364;
 m002 = 0.63636;
 };
-name = "Jaro 48pt";
+name = "48pt";
 },
 {
 interpolationWeight = 72;
