@@ -56498,16 +56498,9 @@ interpolationWeight = 72;
 instanceInterpolations = {
 m002 = 1;
 };
-name = "Jaro 72pt";
+name = "72pt";
 }
 );
-kerning = {
-m002 = {
-L = {
-L = 1;
-};
-};
-};
 unitsPerEm = 1000;
 userData = {
 GSDimensionPlugin.Dimensions = {
