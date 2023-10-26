@@ -2,38 +2,7 @@
 .appVersion = "3223";
 .formatVersion = 3;
 DisplayStrings = (
-"abcdefgḣijklmnopqrstuvwxyz",
-"ABCDEFGHOIJKLMNOPQRSTUVWXYZ
-CZECHOSLOVAKIA
-NHOVOGRADSKI
-ABPR 
-HHBHH OOBBOO 
-BOONDOGGLE
-
-VWXYZ",
-"ⱭꞳƷƸɁƖꞲ̵ɈƘꝀꞭⱠⱢƜȠȢꞶɊꞨꞵʘꭓḛƹʔʕɂḧḣꜧ/idotaccent ʝɉƙꝁƛɬⱡɫɯƞꞷȣɋɾꞩṷṳ/e.ss02 ʔ*/periodcentered.loclCAT/periodcentered.loclCAT.case –—_ƒ®°¦†‡₭£~^%→↑↗→↘↓↙←↖↔↕᷊ꜧꜦ",
-"MUSHROOMING COADJACENCIES SKADET POLIB GODSPEED LIGG TARDIVE INIMICAL HYPERVITAMINOSIS LEBENDIG KOMTESSE COMPLEXUSES SEGUIDME TWIGGIEST NEUROHYPOPHYSES AMORTISE VERWERKEN VIR JUGGLES MELIACEAE CHOLAEMIC GRIMMD CONNY URGE VALPER VEDUTISTI HATCHMENTS POLYSYLLABICALLY AIGUABELLA ECCRITICS HABLARA DISLOAD PRELEVATO ARCHITYPES ESCUCHAR INCURVASSE MENJUSSAT BIS EXISTENTIALIST ARMA DANDLES DAKLOOS MAISEMISSA EZELS CATTLEMAN KLEIFT ONCLE GLADJES",
-"/strokelongcomb_part HĦ",
-"̵ǂǀǁ!ǃ",
-"Ƙ",
-"/Uslash_part UꞸꞹ",
-"ƱΩ",
-"˗−",
-"→↑◊",
-"꞉ˮ˗꞊",
-"ŰŰ",
-"ṴUṴ",
-"Ⱳ",
-"ẲẨẢBƁƇƊỂẺƑƓꞪỈƘƝỔỎỞƤɊƬƮỦỬƲⱲƳỶ/Phook.001/Phook.002/Phook.003/Phook.004/Phook.005/Bhook.alt ƙɋɾ̉/brevecomb_hookabovecomb/circumflexcomb_hookabovecomb 
-
-FƑƝ",
-"ĄĄ",
-"BḆḆ",
-"Ꞵ",
-"Ᵽ",
-"Ƭ",
-"Ŧ",
-"oȣop"
+"/.notdef"
 );
 axes = (
 {
@@ -45033,16 +45002,102 @@ metricWidth = space;
 unicode = 160;
 },
 {
-color = 0;
+color = 5;
 glyphname = .notdef;
-lastChange = "2023-10-25 14:05:06 +0000";
+lastChange = "2023-10-26 19:38:58 +0000";
 layers = (
 {
 layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(634,-200,l),
+(634,800,l),
+(0,800,l),
+(0,-200,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(318,216,l),
+(495.01,-119,l),
+(139.99,-119,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(99,629,l),
+(273,301,l),
+(99,-28,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(362,301,l),
+(535,627,l),
+(535,-26,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(141,719,l),
+(494,719,l),
+(318,385,l)
+);
+}
+);
+width = 634;
 },
 {
 layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(634,-200,l),
+(634,800,l),
+(0,800,l),
+(0,-200,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(318,216,l),
+(495.01,-119,l),
+(139.99,-119,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(99,629,l),
+(273,301,l),
+(99,-28,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(362,301,l),
+(535,627,l),
+(535,-26,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(141,719,l),
+(494,719,l),
+(318,385,l)
+);
+}
+);
 width = 600;
 }
 );
