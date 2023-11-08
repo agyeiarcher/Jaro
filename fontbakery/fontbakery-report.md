@@ -27,10 +27,23 @@ fontbakery version: 0.9.0
 | Poscript Name | Jaro-6ptRegular | Jaro6pt-Regular |
 | Typographic Family Name | Jaro | N/A |
 | Typographic Subfamily Name | 6pt Regular | N/A | [code: bad-names]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1271, but got 1200 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 410, but got 300 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
 * 🔥 **FAIL** Current FontBakery version is 0.9.0, while a newer 0.10.3 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
+
+
+* 🔥 **FAIL** name id 256 missing from name table
+* 🔥 **FAIL** name id 257 missing from name table
+* 🔥 **FAIL** name id 258 missing from name table
+* 🔥 **FAIL** name id 259 missing from name table
+* 🔥 **FAIL** name id 260 missing from name table
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -123,6 +136,14 @@ fontbakery version: 0.9.0
 
 	- 0x1D3A (MODIFIER LETTER CAPITAL N)
  [code: missing-codepoints]
+* ⚠ **WARN** GF_Latin_African is almost fulfilled. Missing codepoints:
+
+	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
+ [code: missing-codepoints]
+* ⚠ **WARN** GF_Latin_Beyond is almost fulfilled. Missing codepoints:
+
+	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
+ [code: missing-codepoints]
 * ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
 
 	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
@@ -133,19 +154,6 @@ fontbakery version: 0.9.0
 
 	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
  [code: missing-codepoints]
-* ⚠ **WARN** GF_Phonetics_APA is almost fulfilled. Missing codepoints:
-
-	- 0x03C6 (GREEK SMALL LETTER PHI)
-
-
-	- 0x1D05 (LATIN LETTER SMALL CAPITAL D)
-
-
-	- 0x1D7B (LATIN SMALL CAPITAL LETTER I WITH STROKE)
-
-
-	- 0x1D4D (MODIFIER LETTER SMALL G)
- [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
 
 
@@ -154,18 +162,6 @@ fontbakery version: 0.9.0
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* ⚠ **WARN** We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.69x (1690) [code: bad-hhea-range]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure Stylistic Sets have description. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/stylisticset_description">com.google.fonts/check/stylisticset_description</a>)</summary><div>
-
-
-* ⚠ **WARN** The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss02 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss03 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss06 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss08 lacks a description string on the 'name' table. [code: missing-description]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -191,77 +187,15 @@ fontbakery version: 0.9.0
 
 	- dotlessi_ogonek
 
-	- eight.dnom
-
-	- eight.numr
-
-	- eight.tf
-
-	- five.dnom
-
-	- five.numr
-
-	- five.tf
-
-	- four.dnom
-
-	- four.numr
-
-	- four.tf
-
 	- nine.ALT
 
-	- nine.dnom
-
-	- nine.numr
-
-	- nine.tf
-
-	- one.dnom
-
-	- one.numr
-
-	- one.tf
-
-	- seven.dnom
-
-	- seven.numr
-
-	- seven.tf
-
 	- six.ALT
-
-	- six.dnom
-
-	- six.numr
-
-	- six.tf
-
-	- three.dnom
-
-	- three.numr
-
-	- three.tf
-
-	- two.dnom
-
-	- two.numr
-
-	- two.tf
 
 	- uni006A0301
 
 	- uni03010304.001
 
 	- uni03060303.case.001
-
-	- zero.dnom
-
-	- zero.numr
-
-	- zero.tf
-
-	- zero.zero
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -771,7 +705,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-minus, plus, equal, divide, multiply
+multiply, divide, minus, equal, plus
 
 Width = 406:
 greater, less
@@ -1030,9 +964,9 @@ greater, less
 
 	* uni0242 (U+0242): L<<26.0,13.0>--<25.0,205.0>>
 
-	* uni0294 (U+0294): L<<26.0,15.0>--<25.0,344.0>>
+	* uni0294 (U+0294): L<<73.0,15.0>--<72.0,344.0>>
 
-	* uni0295 (U+0295): L<<575.0,344.0>--<574.0,15.0>>
+	* uni0295 (U+0295): L<<481.0,344.0>--<480.0,15.0>>
 
 	* uni02EE (U+02EE): L<<25.0,717.0>--<26.0,862.0>>
 
@@ -1090,10 +1024,23 @@ greater, less
 | Poscript Name | Jaro-24ptRegular | Jaro24pt-Regular |
 | Typographic Family Name | Jaro | N/A |
 | Typographic Subfamily Name | 24pt Regular | N/A | [code: bad-names]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1271, but got 1200 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 410, but got 300 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
 * 🔥 **FAIL** Current FontBakery version is 0.9.0, while a newer 0.10.3 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
+
+
+* 🔥 **FAIL** name id 256 missing from name table
+* 🔥 **FAIL** name id 257 missing from name table
+* 🔥 **FAIL** name id 258 missing from name table
+* 🔥 **FAIL** name id 259 missing from name table
+* 🔥 **FAIL** name id 260 missing from name table
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -1186,6 +1133,14 @@ greater, less
 
 	- 0x1D3A (MODIFIER LETTER CAPITAL N)
  [code: missing-codepoints]
+* ⚠ **WARN** GF_Latin_African is almost fulfilled. Missing codepoints:
+
+	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
+ [code: missing-codepoints]
+* ⚠ **WARN** GF_Latin_Beyond is almost fulfilled. Missing codepoints:
+
+	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
+ [code: missing-codepoints]
 * ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
 
 	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
@@ -1196,19 +1151,6 @@ greater, less
 
 	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
  [code: missing-codepoints]
-* ⚠ **WARN** GF_Phonetics_APA is almost fulfilled. Missing codepoints:
-
-	- 0x03C6 (GREEK SMALL LETTER PHI)
-
-
-	- 0x1D05 (LATIN LETTER SMALL CAPITAL D)
-
-
-	- 0x1D7B (LATIN SMALL CAPITAL LETTER I WITH STROKE)
-
-
-	- 0x1D4D (MODIFIER LETTER SMALL G)
- [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
 
 
@@ -1217,18 +1159,6 @@ greater, less
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* ⚠ **WARN** We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.69x (1690) [code: bad-hhea-range]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure Stylistic Sets have description. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/stylisticset_description">com.google.fonts/check/stylisticset_description</a>)</summary><div>
-
-
-* ⚠ **WARN** The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss02 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss03 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss06 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss08 lacks a description string on the 'name' table. [code: missing-description]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -1254,77 +1184,15 @@ greater, less
 
 	- dotlessi_ogonek
 
-	- eight.dnom
-
-	- eight.numr
-
-	- eight.tf
-
-	- five.dnom
-
-	- five.numr
-
-	- five.tf
-
-	- four.dnom
-
-	- four.numr
-
-	- four.tf
-
 	- nine.ALT
 
-	- nine.dnom
-
-	- nine.numr
-
-	- nine.tf
-
-	- one.dnom
-
-	- one.numr
-
-	- one.tf
-
-	- seven.dnom
-
-	- seven.numr
-
-	- seven.tf
-
 	- six.ALT
-
-	- six.dnom
-
-	- six.numr
-
-	- six.tf
-
-	- three.dnom
-
-	- three.numr
-
-	- three.tf
-
-	- two.dnom
-
-	- two.numr
-
-	- two.tf
 
 	- uni006A0301
 
 	- uni03010304.001
 
 	- uni03060303.case.001
-
-	- zero.dnom
-
-	- zero.numr
-
-	- zero.tf
-
-	- zero.zero
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1834,7 +1702,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-minus, plus, equal, divide, multiply
+multiply, divide, minus, equal, plus
 
 Width = 398:
 less
@@ -2096,9 +1964,9 @@ greater
 
 	* uni0242 (U+0242): L<<26.0,13.0>--<25.0,205.0>>
 
-	* uni0294 (U+0294): L<<26.0,15.0>--<25.0,344.0>>
+	* uni0294 (U+0294): L<<60.0,15.0>--<59.0,344.0>>
 
-	* uni0295 (U+0295): L<<537.0,344.0>--<536.0,15.0>>
+	* uni0295 (U+0295): L<<468.0,344.0>--<467.0,15.0>>
 
 	* uni02C0 (U+02C0): L<<16.0,320.0>--<15.0,525.0>>
 
@@ -2158,10 +2026,23 @@ greater
 | Poscript Name | Jaro-48ptRegular | Jaro48pt-Regular |
 | Typographic Family Name | Jaro | N/A |
 | Typographic Subfamily Name | 48pt Regular | N/A | [code: bad-names]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1271, but got 1200 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 410, but got 300 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
 * 🔥 **FAIL** Current FontBakery version is 0.9.0, while a newer 0.10.3 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
+
+
+* 🔥 **FAIL** name id 256 missing from name table
+* 🔥 **FAIL** name id 257 missing from name table
+* 🔥 **FAIL** name id 258 missing from name table
+* 🔥 **FAIL** name id 259 missing from name table
+* 🔥 **FAIL** name id 260 missing from name table
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -2254,6 +2135,14 @@ greater
 
 	- 0x1D3A (MODIFIER LETTER CAPITAL N)
  [code: missing-codepoints]
+* ⚠ **WARN** GF_Latin_African is almost fulfilled. Missing codepoints:
+
+	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
+ [code: missing-codepoints]
+* ⚠ **WARN** GF_Latin_Beyond is almost fulfilled. Missing codepoints:
+
+	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
+ [code: missing-codepoints]
 * ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
 
 	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
@@ -2264,19 +2153,6 @@ greater
 
 	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
  [code: missing-codepoints]
-* ⚠ **WARN** GF_Phonetics_APA is almost fulfilled. Missing codepoints:
-
-	- 0x03C6 (GREEK SMALL LETTER PHI)
-
-
-	- 0x1D05 (LATIN LETTER SMALL CAPITAL D)
-
-
-	- 0x1D7B (LATIN SMALL CAPITAL LETTER I WITH STROKE)
-
-
-	- 0x1D4D (MODIFIER LETTER SMALL G)
- [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
 
 
@@ -2285,18 +2161,6 @@ greater
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* ⚠ **WARN** We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.69x (1690) [code: bad-hhea-range]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure Stylistic Sets have description. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/stylisticset_description">com.google.fonts/check/stylisticset_description</a>)</summary><div>
-
-
-* ⚠ **WARN** The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss02 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss03 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss06 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss08 lacks a description string on the 'name' table. [code: missing-description]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -2322,77 +2186,15 @@ greater
 
 	- dotlessi_ogonek
 
-	- eight.dnom
-
-	- eight.numr
-
-	- eight.tf
-
-	- five.dnom
-
-	- five.numr
-
-	- five.tf
-
-	- four.dnom
-
-	- four.numr
-
-	- four.tf
-
 	- nine.ALT
 
-	- nine.dnom
-
-	- nine.numr
-
-	- nine.tf
-
-	- one.dnom
-
-	- one.numr
-
-	- one.tf
-
-	- seven.dnom
-
-	- seven.numr
-
-	- seven.tf
-
 	- six.ALT
-
-	- six.dnom
-
-	- six.numr
-
-	- six.tf
-
-	- three.dnom
-
-	- three.numr
-
-	- three.tf
-
-	- two.dnom
-
-	- two.numr
-
-	- two.tf
 
 	- uni006A0301
 
 	- uni03010304.001
 
 	- uni03060303.case.001
-
-	- zero.dnom
-
-	- zero.numr
-
-	- zero.tf
-
-	- zero.zero
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -2902,7 +2704,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-minus, plus, equal, divide, multiply
+multiply, divide, minus, equal, plus
 
 Width = 388:
 less
@@ -3002,9 +2804,9 @@ greater
 
 	* uni0242 (U+0242): L<<26.0,13.0>--<25.0,205.0>>
 
-	* uni0294 (U+0294): L<<26.0,15.0>--<25.0,344.0>>
+	* uni0294 (U+0294): L<<43.0,15.0>--<42.0,344.0>>
 
-	* uni0295 (U+0295): L<<485.0,344.0>--<484.0,15.0>>
+	* uni0295 (U+0295): L<<451.0,344.0>--<450.0,15.0>>
 
 	* uni02EE (U+02EE): L<<25.0,717.0>--<26.0,862.0>>
 
@@ -3062,10 +2864,23 @@ greater
 | Poscript Name | Jaro-72ptRegular | Jaro72pt-Regular |
 | Typographic Family Name | Jaro | N/A |
 | Typographic Subfamily Name | 72pt Regular | N/A | [code: bad-names]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1271, but got 1200 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 410, but got 300 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
 * 🔥 **FAIL** Current FontBakery version is 0.9.0, while a newer 0.10.3 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
+
+
+* 🔥 **FAIL** name id 256 missing from name table
+* 🔥 **FAIL** name id 257 missing from name table
+* 🔥 **FAIL** name id 258 missing from name table
+* 🔥 **FAIL** name id 259 missing from name table
+* 🔥 **FAIL** name id 260 missing from name table
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -3158,6 +2973,14 @@ greater
 
 	- 0x1D3A (MODIFIER LETTER CAPITAL N)
  [code: missing-codepoints]
+* ⚠ **WARN** GF_Latin_African is almost fulfilled. Missing codepoints:
+
+	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
+ [code: missing-codepoints]
+* ⚠ **WARN** GF_Latin_Beyond is almost fulfilled. Missing codepoints:
+
+	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
+ [code: missing-codepoints]
 * ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
 
 	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
@@ -3168,19 +2991,6 @@ greater
 
 	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
  [code: missing-codepoints]
-* ⚠ **WARN** GF_Phonetics_APA is almost fulfilled. Missing codepoints:
-
-	- 0x03C6 (GREEK SMALL LETTER PHI)
-
-
-	- 0x1D05 (LATIN LETTER SMALL CAPITAL D)
-
-
-	- 0x1D7B (LATIN SMALL CAPITAL LETTER I WITH STROKE)
-
-
-	- 0x1D4D (MODIFIER LETTER SMALL G)
- [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
 
 
@@ -3189,18 +2999,6 @@ greater
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* ⚠ **WARN** We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.69x (1690) [code: bad-hhea-range]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure Stylistic Sets have description. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/stylisticset_description">com.google.fonts/check/stylisticset_description</a>)</summary><div>
-
-
-* ⚠ **WARN** The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss02 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss03 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss06 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss08 lacks a description string on the 'name' table. [code: missing-description]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -3226,77 +3024,15 @@ greater
 
 	- dotlessi_ogonek
 
-	- eight.dnom
-
-	- eight.numr
-
-	- eight.tf
-
-	- five.dnom
-
-	- five.numr
-
-	- five.tf
-
-	- four.dnom
-
-	- four.numr
-
-	- four.tf
-
 	- nine.ALT
 
-	- nine.dnom
-
-	- nine.numr
-
-	- nine.tf
-
-	- one.dnom
-
-	- one.numr
-
-	- one.tf
-
-	- seven.dnom
-
-	- seven.numr
-
-	- seven.tf
-
 	- six.ALT
-
-	- six.dnom
-
-	- six.numr
-
-	- six.tf
-
-	- three.dnom
-
-	- three.numr
-
-	- three.tf
-
-	- two.dnom
-
-	- two.numr
-
-	- two.tf
 
 	- uni006A0301
 
 	- uni03010304.001
 
 	- uni03060303.case.001
-
-	- zero.dnom
-
-	- zero.numr
-
-	- zero.tf
-
-	- zero.zero
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -3806,7 +3542,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-minus, plus, equal, divide, multiply
+multiply, divide, minus, equal, plus
 
 Width = 377:
 less
@@ -4088,10 +3824,23 @@ greater
 | Poscript Name | Jaro-12ptRegular | Jaro12pt-Regular |
 | Typographic Family Name | Jaro | N/A |
 | Typographic Subfamily Name | 12pt Regular | N/A | [code: bad-names]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1271, but got 1200 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 410, but got 300 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
 * 🔥 **FAIL** Current FontBakery version is 0.9.0, while a newer 0.10.3 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
+
+
+* 🔥 **FAIL** name id 256 missing from name table
+* 🔥 **FAIL** name id 257 missing from name table
+* 🔥 **FAIL** name id 258 missing from name table
+* 🔥 **FAIL** name id 259 missing from name table
+* 🔥 **FAIL** name id 260 missing from name table
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -4184,6 +3933,14 @@ greater
 
 	- 0x1D3A (MODIFIER LETTER CAPITAL N)
  [code: missing-codepoints]
+* ⚠ **WARN** GF_Latin_African is almost fulfilled. Missing codepoints:
+
+	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
+ [code: missing-codepoints]
+* ⚠ **WARN** GF_Latin_Beyond is almost fulfilled. Missing codepoints:
+
+	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
+ [code: missing-codepoints]
 * ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
 
 	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
@@ -4194,19 +3951,6 @@ greater
 
 	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
  [code: missing-codepoints]
-* ⚠ **WARN** GF_Phonetics_APA is almost fulfilled. Missing codepoints:
-
-	- 0x03C6 (GREEK SMALL LETTER PHI)
-
-
-	- 0x1D05 (LATIN LETTER SMALL CAPITAL D)
-
-
-	- 0x1D7B (LATIN SMALL CAPITAL LETTER I WITH STROKE)
-
-
-	- 0x1D4D (MODIFIER LETTER SMALL G)
- [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
 
 
@@ -4215,18 +3959,6 @@ greater
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* ⚠ **WARN** We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.69x (1690) [code: bad-hhea-range]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure Stylistic Sets have description. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/stylisticset_description">com.google.fonts/check/stylisticset_description</a>)</summary><div>
-
-
-* ⚠ **WARN** The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss02 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss03 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss06 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss08 lacks a description string on the 'name' table. [code: missing-description]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -4252,77 +3984,15 @@ greater
 
 	- dotlessi_ogonek
 
-	- eight.dnom
-
-	- eight.numr
-
-	- eight.tf
-
-	- five.dnom
-
-	- five.numr
-
-	- five.tf
-
-	- four.dnom
-
-	- four.numr
-
-	- four.tf
-
 	- nine.ALT
 
-	- nine.dnom
-
-	- nine.numr
-
-	- nine.tf
-
-	- one.dnom
-
-	- one.numr
-
-	- one.tf
-
-	- seven.dnom
-
-	- seven.numr
-
-	- seven.tf
-
 	- six.ALT
-
-	- six.dnom
-
-	- six.numr
-
-	- six.tf
-
-	- three.dnom
-
-	- three.numr
-
-	- three.tf
-
-	- two.dnom
-
-	- two.numr
-
-	- two.tf
 
 	- uni006A0301
 
 	- uni03010304.001
 
 	- uni03060303.case.001
-
-	- zero.dnom
-
-	- zero.numr
-
-	- zero.tf
-
-	- zero.zero
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -4832,7 +4502,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-minus, plus, equal, divide, multiply
+multiply, divide, minus, equal, plus
 
 Width = 403:
 less
@@ -5078,9 +4748,9 @@ greater
 
 	* uni0242 (U+0242): L<<26.0,13.0>--<25.0,205.0>>
 
-	* uni0294 (U+0294): L<<26.0,15.0>--<25.0,344.0>>
+	* uni0294 (U+0294): L<<69.0,15.0>--<68.0,344.0>>
 
-	* uni0295 (U+0295): L<<562.0,344.0>--<561.0,15.0>>
+	* uni0295 (U+0295): L<<477.0,344.0>--<476.0,15.0>>
 
 	* uni02EE (U+02EE): L<<25.0,717.0>--<26.0,862.0>>
 
@@ -5119,8 +4789,8 @@ greater
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 15 | 15 | 75 | 629 | 26 | 422 | 0 |
-| 1% | 1% | 6% | 53% | 2% | 36% | 0% |
+| 15 | 25 | 65 | 629 | 26 | 422 | 0 |
+| 1% | 2% | 5% | 53% | 2% | 36% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
