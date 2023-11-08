@@ -2,7 +2,7 @@
 
 fontbakery version: 0.9.0
 
-<details><summary><b>[25] Jaro-6ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+<details><summary><b>[21] Jaro-6ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -27,32 +27,10 @@ fontbakery version: 0.9.0
 | Poscript Name | Jaro-6ptRegular | Jaro6pt-Regular |
 | Typographic Family Name | Jaro | N/A |
 | Typographic Subfamily Name | 6pt Regular | N/A | [code: bad-names]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.sTypoLineGap is "300" it should be 0 [code: bad-OS/2.sTypoLineGap]
-* ⚠ **WARN** We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.61x (1610) [code: bad-hhea-range]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1271, but got 1210 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 410, but got 400 instead [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2 sTypoLineGap (300) and hhea lineGap (0) must be equal. [code: lineGap]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
 * 🔥 **FAIL** Current FontBakery version is 0.9.0, while a newer 0.10.3 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
-	* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0}
-	* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0}
-	* {'glyph': 'quotedblbase', 'component': 'comma', 'x': 7, 'y': 0}
-	* {'glyph': 'quotedblright', 'component': 'comma', 'x': 7, 'y': 660} and {'glyph': 'uni02EE', 'component': 'comma', 'x': 7, 'y': 660} [code: found-duplicates]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -134,6 +112,13 @@ fontbakery version: 0.9.0
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
+* ⚠ **WARN** GF_Latin_Plus is almost fulfilled. Missing codepoints:
+
+	- 0x27E8 (MATHEMATICAL LEFT ANGLE BRACKET)
+
+
+	- 0x27E9 (MATHEMATICAL RIGHT ANGLE BRACKET)
+ [code: missing-codepoints]
 * ⚠ **WARN** GF_TransLatin_Pinyin is almost fulfilled. Missing codepoints:
 
 	- 0x1D3A (MODIFIER LETTER CAPITAL N)
@@ -169,6 +154,10 @@ fontbakery version: 0.9.0
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+
+
+* ⚠ **WARN** We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.69x (1690) [code: bad-hhea-range]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure Stylistic Sets have description. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/stylisticset_description">com.google.fonts/check/stylisticset_description</a>)</summary><div>
 
 
@@ -485,12 +474,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni2016	Contours detected: 0	Expected: 2
 
-	- Glyph name: quotedblleft	Contours detected: 3	Expected: 2
-
-	- Glyph name: quotedblright	Contours detected: 3	Expected: 2
-
-	- Glyph name: quotedblbase	Contours detected: 3	Expected: 2
-
 	- Glyph name: perthousand	Contours detected: 0	Expected: 6or7
 
 	- Glyph name: minute	Contours detected: 0	Expected: 1
@@ -589,10 +572,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
 
-	- Glyph name: uni27E8	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni27E9	Contours detected: 0	Expected: 1
-
 	- Glyph name: Euro	Contours detected: 4	Expected: 1or2
 
 	- Glyph name: Oslashacute	Contours detected: 3	Expected: 4
@@ -658,12 +637,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: plusminus	Contours detected: 0	Expected: 1or2
 
 	- Glyph name: product	Contours detected: 0	Expected: 1
-
-	- Glyph name: quotedblbase	Contours detected: 3	Expected: 2
-
-	- Glyph name: quotedblleft	Contours detected: 3	Expected: 2
-
-	- Glyph name: quotedblright	Contours detected: 3	Expected: 2
 
 	- Glyph name: radical	Contours detected: 0	Expected: 1
 
@@ -785,10 +758,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
 
-	- Glyph name: uni27E8	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni27E9	Contours detected: 0	Expected: 1
-
 	- Glyph name: yen	Contours detected: 4	Expected: 1or2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
@@ -802,15 +771,11 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-equal, multiply, plus, minus, divide
+minus, plus, equal, divide, multiply
 
 Width = 406:
 greater, less
  [code: width-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 sTypoLineGap is not equal to 0. [code: OS/2]
 </div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
 
 
@@ -1009,17 +974,11 @@ greater, less
 
 	* quotedblbase (U+201E): L<<25.0,57.0>--<26.0,202.0>>
 
-	* quotedblbase (U+201E): L<<25.0,57.0>--<26.0,202.0>>
-
 	* quotedblbase (U+201E): L<<285.0,57.0>--<286.0,202.0>>
 
 	* quotedblleft (U+201C): L<<230.0,720.0>--<229.0,575.0>>
 
 	* quotedblleft (U+201C): L<<490.0,720.0>--<489.0,575.0>>
-
-	* quotedblleft (U+201C): L<<490.0,720.0>--<489.0,575.0>>
-
-	* quotedblright (U+201D): L<<25.0,717.0>--<26.0,862.0>>
 
 	* quotedblright (U+201D): L<<25.0,717.0>--<26.0,862.0>>
 
@@ -1077,8 +1036,6 @@ greater, less
 
 	* uni02EE (U+02EE): L<<25.0,717.0>--<26.0,862.0>>
 
-	* uni02EE (U+02EE): L<<25.0,717.0>--<26.0,862.0>>
-
 	* uni02EE (U+02EE): L<<285.0,717.0>--<286.0,862.0>>
 
 	* uni0312 (U+0312): L<<218.0,1011.0>--<217.0,866.0>>
@@ -1108,7 +1065,7 @@ greater, less
 	* uni2C72 (U+2C73): L<<843.0,679.0>--<844.0,171.0>>
 
 	* zero (U+0030): L<<83.0,799.0>--<583.0,801.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[25] Jaro-24ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[21] Jaro-24ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -1133,32 +1090,10 @@ greater, less
 | Poscript Name | Jaro-24ptRegular | Jaro24pt-Regular |
 | Typographic Family Name | Jaro | N/A |
 | Typographic Subfamily Name | 24pt Regular | N/A | [code: bad-names]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.sTypoLineGap is "300" it should be 0 [code: bad-OS/2.sTypoLineGap]
-* ⚠ **WARN** We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.61x (1610) [code: bad-hhea-range]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1271, but got 1210 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 410, but got 400 instead [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2 sTypoLineGap (300) and hhea lineGap (0) must be equal. [code: lineGap]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
 * 🔥 **FAIL** Current FontBakery version is 0.9.0, while a newer 0.10.3 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
-	* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0}
-	* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0}
-	* {'glyph': 'quotedblbase', 'component': 'comma', 'x': 7, 'y': 0}
-	* {'glyph': 'quotedblright', 'component': 'comma', 'x': 7, 'y': 660} and {'glyph': 'uni02EE', 'component': 'comma', 'x': 7, 'y': 660} [code: found-duplicates]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -1240,6 +1175,13 @@ greater, less
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
+* ⚠ **WARN** GF_Latin_Plus is almost fulfilled. Missing codepoints:
+
+	- 0x27E8 (MATHEMATICAL LEFT ANGLE BRACKET)
+
+
+	- 0x27E9 (MATHEMATICAL RIGHT ANGLE BRACKET)
+ [code: missing-codepoints]
 * ⚠ **WARN** GF_TransLatin_Pinyin is almost fulfilled. Missing codepoints:
 
 	- 0x1D3A (MODIFIER LETTER CAPITAL N)
@@ -1275,6 +1217,10 @@ greater, less
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+
+
+* ⚠ **WARN** We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.69x (1690) [code: bad-hhea-range]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure Stylistic Sets have description. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/stylisticset_description">com.google.fonts/check/stylisticset_description</a>)</summary><div>
 
 
@@ -1591,12 +1537,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni2016	Contours detected: 0	Expected: 2
 
-	- Glyph name: quotedblleft	Contours detected: 3	Expected: 2
-
-	- Glyph name: quotedblright	Contours detected: 3	Expected: 2
-
-	- Glyph name: quotedblbase	Contours detected: 3	Expected: 2
-
 	- Glyph name: perthousand	Contours detected: 0	Expected: 6or7
 
 	- Glyph name: minute	Contours detected: 0	Expected: 1
@@ -1695,10 +1635,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
 
-	- Glyph name: uni27E8	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni27E9	Contours detected: 0	Expected: 1
-
 	- Glyph name: Euro	Contours detected: 4	Expected: 1or2
 
 	- Glyph name: Oslashacute	Contours detected: 3	Expected: 4
@@ -1764,12 +1700,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: plusminus	Contours detected: 0	Expected: 1or2
 
 	- Glyph name: product	Contours detected: 0	Expected: 1
-
-	- Glyph name: quotedblbase	Contours detected: 3	Expected: 2
-
-	- Glyph name: quotedblleft	Contours detected: 3	Expected: 2
-
-	- Glyph name: quotedblright	Contours detected: 3	Expected: 2
 
 	- Glyph name: radical	Contours detected: 0	Expected: 1
 
@@ -1891,10 +1821,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
 
-	- Glyph name: uni27E8	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni27E9	Contours detected: 0	Expected: 1
-
 	- Glyph name: yen	Contours detected: 4	Expected: 1or2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
@@ -1908,7 +1834,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-equal, multiply, plus, minus, divide
+minus, plus, equal, divide, multiply
 
 Width = 398:
 less
@@ -1916,10 +1842,6 @@ less
 Width = 406:
 greater
  [code: width-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 sTypoLineGap is not equal to 0. [code: OS/2]
 </div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
 
 
@@ -2118,17 +2040,11 @@ greater
 
 	* quotedblbase (U+201E): L<<25.0,57.0>--<26.0,202.0>>
 
-	* quotedblbase (U+201E): L<<25.0,57.0>--<26.0,202.0>>
-
 	* quotedblbase (U+201E): L<<285.0,57.0>--<286.0,202.0>>
 
 	* quotedblleft (U+201C): L<<230.0,720.0>--<229.0,575.0>>
 
 	* quotedblleft (U+201C): L<<490.0,720.0>--<489.0,575.0>>
-
-	* quotedblleft (U+201C): L<<490.0,720.0>--<489.0,575.0>>
-
-	* quotedblright (U+201D): L<<25.0,717.0>--<26.0,862.0>>
 
 	* quotedblright (U+201D): L<<25.0,717.0>--<26.0,862.0>>
 
@@ -2188,8 +2104,6 @@ greater
 
 	* uni02EE (U+02EE): L<<25.0,717.0>--<26.0,862.0>>
 
-	* uni02EE (U+02EE): L<<25.0,717.0>--<26.0,862.0>>
-
 	* uni02EE (U+02EE): L<<285.0,717.0>--<286.0,862.0>>
 
 	* uni0312 (U+0312): L<<218.0,1011.0>--<217.0,866.0>>
@@ -2219,7 +2133,7 @@ greater
 	* uni2C72 (U+2C73): L<<843.0,679.0>--<844.0,171.0>>
 
 	* zero (U+0030): L<<71.0,799.0>--<571.0,801.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[24] Jaro-48ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[20] Jaro-48ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -2244,32 +2158,10 @@ greater
 | Poscript Name | Jaro-48ptRegular | Jaro48pt-Regular |
 | Typographic Family Name | Jaro | N/A |
 | Typographic Subfamily Name | 48pt Regular | N/A | [code: bad-names]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.sTypoLineGap is "300" it should be 0 [code: bad-OS/2.sTypoLineGap]
-* ⚠ **WARN** We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.61x (1610) [code: bad-hhea-range]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1271, but got 1210 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 410, but got 400 instead [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2 sTypoLineGap (300) and hhea lineGap (0) must be equal. [code: lineGap]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
 * 🔥 **FAIL** Current FontBakery version is 0.9.0, while a newer 0.10.3 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
-	* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0}
-	* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0}
-	* {'glyph': 'quotedblbase', 'component': 'comma', 'x': 7, 'y': 0}
-	* {'glyph': 'quotedblright', 'component': 'comma', 'x': 7, 'y': 660} and {'glyph': 'uni02EE', 'component': 'comma', 'x': 7, 'y': 660} [code: found-duplicates]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -2351,6 +2243,13 @@ greater
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
+* ⚠ **WARN** GF_Latin_Plus is almost fulfilled. Missing codepoints:
+
+	- 0x27E8 (MATHEMATICAL LEFT ANGLE BRACKET)
+
+
+	- 0x27E9 (MATHEMATICAL RIGHT ANGLE BRACKET)
+ [code: missing-codepoints]
 * ⚠ **WARN** GF_TransLatin_Pinyin is almost fulfilled. Missing codepoints:
 
 	- 0x1D3A (MODIFIER LETTER CAPITAL N)
@@ -2386,6 +2285,10 @@ greater
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+
+
+* ⚠ **WARN** We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.69x (1690) [code: bad-hhea-range]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure Stylistic Sets have description. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/stylisticset_description">com.google.fonts/check/stylisticset_description</a>)</summary><div>
 
 
@@ -2702,12 +2605,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni2016	Contours detected: 0	Expected: 2
 
-	- Glyph name: quotedblleft	Contours detected: 3	Expected: 2
-
-	- Glyph name: quotedblright	Contours detected: 3	Expected: 2
-
-	- Glyph name: quotedblbase	Contours detected: 3	Expected: 2
-
 	- Glyph name: perthousand	Contours detected: 0	Expected: 6or7
 
 	- Glyph name: minute	Contours detected: 0	Expected: 1
@@ -2806,10 +2703,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
 
-	- Glyph name: uni27E8	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni27E9	Contours detected: 0	Expected: 1
-
 	- Glyph name: Euro	Contours detected: 4	Expected: 1or2
 
 	- Glyph name: Oslashacute	Contours detected: 3	Expected: 4
@@ -2875,12 +2768,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: plusminus	Contours detected: 0	Expected: 1or2
 
 	- Glyph name: product	Contours detected: 0	Expected: 1
-
-	- Glyph name: quotedblbase	Contours detected: 3	Expected: 2
-
-	- Glyph name: quotedblleft	Contours detected: 3	Expected: 2
-
-	- Glyph name: quotedblright	Contours detected: 3	Expected: 2
 
 	- Glyph name: radical	Contours detected: 0	Expected: 1
 
@@ -3002,10 +2889,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
 
-	- Glyph name: uni27E8	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni27E9	Contours detected: 0	Expected: 1
-
 	- Glyph name: yen	Contours detected: 4	Expected: 1or2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
@@ -3019,7 +2902,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-equal, multiply, plus, minus, divide
+minus, plus, equal, divide, multiply
 
 Width = 388:
 less
@@ -3027,10 +2910,6 @@ less
 Width = 406:
 greater
  [code: width-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 sTypoLineGap is not equal to 0. [code: OS/2]
 </div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
 
 
@@ -3067,17 +2946,11 @@ greater
 
 	* quotedblbase (U+201E): L<<25.0,57.0>--<26.0,202.0>>
 
-	* quotedblbase (U+201E): L<<25.0,57.0>--<26.0,202.0>>
-
 	* quotedblbase (U+201E): L<<285.0,57.0>--<286.0,202.0>>
 
 	* quotedblleft (U+201C): L<<230.0,720.0>--<229.0,575.0>>
 
 	* quotedblleft (U+201C): L<<490.0,720.0>--<489.0,575.0>>
-
-	* quotedblleft (U+201C): L<<490.0,720.0>--<489.0,575.0>>
-
-	* quotedblright (U+201D): L<<25.0,717.0>--<26.0,862.0>>
 
 	* quotedblright (U+201D): L<<25.0,717.0>--<26.0,862.0>>
 
@@ -3135,8 +3008,6 @@ greater
 
 	* uni02EE (U+02EE): L<<25.0,717.0>--<26.0,862.0>>
 
-	* uni02EE (U+02EE): L<<25.0,717.0>--<26.0,862.0>>
-
 	* uni02EE (U+02EE): L<<285.0,717.0>--<286.0,862.0>>
 
 	* uni0312 (U+0312): L<<218.0,1011.0>--<217.0,866.0>>
@@ -3166,7 +3037,7 @@ greater
 	* uni2C72 (U+2C73): L<<843.0,679.0>--<844.0,171.0>>
 
 	* zero (U+0030): L<<56.0,799.0>--<556.0,801.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[26] Jaro-72ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[22] Jaro-72ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -3191,32 +3062,10 @@ greater
 | Poscript Name | Jaro-72ptRegular | Jaro72pt-Regular |
 | Typographic Family Name | Jaro | N/A |
 | Typographic Subfamily Name | 72pt Regular | N/A | [code: bad-names]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.sTypoLineGap is "300" it should be 0 [code: bad-OS/2.sTypoLineGap]
-* ⚠ **WARN** We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.61x (1610) [code: bad-hhea-range]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1271, but got 1210 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 410, but got 400 instead [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2 sTypoLineGap (300) and hhea lineGap (0) must be equal. [code: lineGap]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
 * 🔥 **FAIL** Current FontBakery version is 0.9.0, while a newer 0.10.3 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
-	* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0}
-	* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0}
-	* {'glyph': 'quotedblbase', 'component': 'comma', 'x': 7, 'y': 0}
-	* {'glyph': 'quotedblright', 'component': 'comma', 'x': 7, 'y': 660} and {'glyph': 'uni02EE', 'component': 'comma', 'x': 7, 'y': 660} [code: found-duplicates]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -3298,6 +3147,13 @@ greater
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
+* ⚠ **WARN** GF_Latin_Plus is almost fulfilled. Missing codepoints:
+
+	- 0x27E8 (MATHEMATICAL LEFT ANGLE BRACKET)
+
+
+	- 0x27E9 (MATHEMATICAL RIGHT ANGLE BRACKET)
+ [code: missing-codepoints]
 * ⚠ **WARN** GF_TransLatin_Pinyin is almost fulfilled. Missing codepoints:
 
 	- 0x1D3A (MODIFIER LETTER CAPITAL N)
@@ -3333,6 +3189,10 @@ greater
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+
+
+* ⚠ **WARN** We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.69x (1690) [code: bad-hhea-range]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure Stylistic Sets have description. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/stylisticset_description">com.google.fonts/check/stylisticset_description</a>)</summary><div>
 
 
@@ -3649,12 +3509,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni2016	Contours detected: 0	Expected: 2
 
-	- Glyph name: quotedblleft	Contours detected: 3	Expected: 2
-
-	- Glyph name: quotedblright	Contours detected: 3	Expected: 2
-
-	- Glyph name: quotedblbase	Contours detected: 3	Expected: 2
-
 	- Glyph name: perthousand	Contours detected: 0	Expected: 6or7
 
 	- Glyph name: minute	Contours detected: 0	Expected: 1
@@ -3753,10 +3607,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
 
-	- Glyph name: uni27E8	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni27E9	Contours detected: 0	Expected: 1
-
 	- Glyph name: Euro	Contours detected: 4	Expected: 1or2
 
 	- Glyph name: Oslashacute	Contours detected: 3	Expected: 4
@@ -3822,12 +3672,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: plusminus	Contours detected: 0	Expected: 1or2
 
 	- Glyph name: product	Contours detected: 0	Expected: 1
-
-	- Glyph name: quotedblbase	Contours detected: 3	Expected: 2
-
-	- Glyph name: quotedblleft	Contours detected: 3	Expected: 2
-
-	- Glyph name: quotedblright	Contours detected: 3	Expected: 2
 
 	- Glyph name: radical	Contours detected: 0	Expected: 1
 
@@ -3949,10 +3793,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
 
-	- Glyph name: uni27E8	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni27E9	Contours detected: 0	Expected: 1
-
 	- Glyph name: yen	Contours detected: 4	Expected: 1or2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
@@ -3966,7 +3806,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-equal, multiply, plus, minus, divide
+minus, plus, equal, divide, multiply
 
 Width = 377:
 less
@@ -3974,10 +3814,6 @@ less
 Width = 406:
 greater
  [code: width-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 sTypoLineGap is not equal to 0. [code: OS/2]
 </div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
 
 
@@ -4136,17 +3972,11 @@ greater
 
 	* quotedblbase (U+201E): L<<25.0,57.0>--<26.0,202.0>>
 
-	* quotedblbase (U+201E): L<<25.0,57.0>--<26.0,202.0>>
-
 	* quotedblbase (U+201E): L<<285.0,57.0>--<286.0,202.0>>
 
 	* quotedblleft (U+201C): L<<230.0,720.0>--<229.0,575.0>>
 
 	* quotedblleft (U+201C): L<<490.0,720.0>--<489.0,575.0>>
-
-	* quotedblleft (U+201C): L<<490.0,720.0>--<489.0,575.0>>
-
-	* quotedblright (U+201D): L<<25.0,717.0>--<26.0,862.0>>
 
 	* quotedblright (U+201D): L<<25.0,717.0>--<26.0,862.0>>
 
@@ -4204,8 +4034,6 @@ greater
 
 	* uni02EE (U+02EE): L<<25.0,717.0>--<26.0,862.0>>
 
-	* uni02EE (U+02EE): L<<25.0,717.0>--<26.0,862.0>>
-
 	* uni02EE (U+02EE): L<<285.0,717.0>--<286.0,862.0>>
 
 	* uni0312 (U+0312): L<<218.0,1011.0>--<217.0,866.0>>
@@ -4235,7 +4063,7 @@ greater
 	* uni2C72 (U+2C73): L<<843.0,679.0>--<844.0,171.0>>
 
 	* zero (U+0030): L<<40.0,799.0>--<540.0,801.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[25] Jaro-12ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[21] Jaro-12ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -4260,32 +4088,10 @@ greater
 | Poscript Name | Jaro-12ptRegular | Jaro12pt-Regular |
 | Typographic Family Name | Jaro | N/A |
 | Typographic Subfamily Name | 12pt Regular | N/A | [code: bad-names]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.sTypoLineGap is "300" it should be 0 [code: bad-OS/2.sTypoLineGap]
-* ⚠ **WARN** We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.61x (1610) [code: bad-hhea-range]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1271, but got 1210 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 410, but got 400 instead [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2 sTypoLineGap (300) and hhea lineGap (0) must be equal. [code: lineGap]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
 * 🔥 **FAIL** Current FontBakery version is 0.9.0, while a newer 0.10.3 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
-	* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0}
-	* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0}
-	* {'glyph': 'quotedblbase', 'component': 'comma', 'x': 7, 'y': 0}
-	* {'glyph': 'quotedblright', 'component': 'comma', 'x': 7, 'y': 660} and {'glyph': 'uni02EE', 'component': 'comma', 'x': 7, 'y': 660} [code: found-duplicates]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -4367,6 +4173,13 @@ greater
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
+* ⚠ **WARN** GF_Latin_Plus is almost fulfilled. Missing codepoints:
+
+	- 0x27E8 (MATHEMATICAL LEFT ANGLE BRACKET)
+
+
+	- 0x27E9 (MATHEMATICAL RIGHT ANGLE BRACKET)
+ [code: missing-codepoints]
 * ⚠ **WARN** GF_TransLatin_Pinyin is almost fulfilled. Missing codepoints:
 
 	- 0x1D3A (MODIFIER LETTER CAPITAL N)
@@ -4402,6 +4215,10 @@ greater
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+
+
+* ⚠ **WARN** We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.69x (1690) [code: bad-hhea-range]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure Stylistic Sets have description. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/stylisticset_description">com.google.fonts/check/stylisticset_description</a>)</summary><div>
 
 
@@ -4718,12 +4535,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni2016	Contours detected: 0	Expected: 2
 
-	- Glyph name: quotedblleft	Contours detected: 3	Expected: 2
-
-	- Glyph name: quotedblright	Contours detected: 3	Expected: 2
-
-	- Glyph name: quotedblbase	Contours detected: 3	Expected: 2
-
 	- Glyph name: perthousand	Contours detected: 0	Expected: 6or7
 
 	- Glyph name: minute	Contours detected: 0	Expected: 1
@@ -4822,10 +4633,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
 
-	- Glyph name: uni27E8	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni27E9	Contours detected: 0	Expected: 1
-
 	- Glyph name: Euro	Contours detected: 4	Expected: 1or2
 
 	- Glyph name: Oslashacute	Contours detected: 3	Expected: 4
@@ -4891,12 +4698,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: plusminus	Contours detected: 0	Expected: 1or2
 
 	- Glyph name: product	Contours detected: 0	Expected: 1
-
-	- Glyph name: quotedblbase	Contours detected: 3	Expected: 2
-
-	- Glyph name: quotedblleft	Contours detected: 3	Expected: 2
-
-	- Glyph name: quotedblright	Contours detected: 3	Expected: 2
 
 	- Glyph name: radical	Contours detected: 0	Expected: 1
 
@@ -5018,10 +4819,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
 
-	- Glyph name: uni27E8	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni27E9	Contours detected: 0	Expected: 1
-
 	- Glyph name: yen	Contours detected: 4	Expected: 1or2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
@@ -5035,7 +4832,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-equal, multiply, plus, minus, divide
+minus, plus, equal, divide, multiply
 
 Width = 403:
 less
@@ -5043,10 +4840,6 @@ less
 Width = 406:
 greater
  [code: width-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 sTypoLineGap is not equal to 0. [code: OS/2]
 </div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
 
 
@@ -5229,17 +5022,11 @@ greater
 
 	* quotedblbase (U+201E): L<<25.0,57.0>--<26.0,202.0>>
 
-	* quotedblbase (U+201E): L<<25.0,57.0>--<26.0,202.0>>
-
 	* quotedblbase (U+201E): L<<285.0,57.0>--<286.0,202.0>>
 
 	* quotedblleft (U+201C): L<<230.0,720.0>--<229.0,575.0>>
 
 	* quotedblleft (U+201C): L<<490.0,720.0>--<489.0,575.0>>
-
-	* quotedblleft (U+201C): L<<490.0,720.0>--<489.0,575.0>>
-
-	* quotedblright (U+201D): L<<25.0,717.0>--<26.0,862.0>>
 
 	* quotedblright (U+201D): L<<25.0,717.0>--<26.0,862.0>>
 
@@ -5297,8 +5084,6 @@ greater
 
 	* uni02EE (U+02EE): L<<25.0,717.0>--<26.0,862.0>>
 
-	* uni02EE (U+02EE): L<<25.0,717.0>--<26.0,862.0>>
-
 	* uni02EE (U+02EE): L<<285.0,717.0>--<286.0,862.0>>
 
 	* uni0312 (U+0312): L<<218.0,1011.0>--<217.0,866.0>>
@@ -5334,8 +5119,8 @@ greater
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 15 | 35 | 75 | 629 | 26 | 402 | 0 |
-| 1% | 3% | 6% | 53% | 2% | 34% | 0% |
+| 15 | 15 | 75 | 629 | 26 | 422 | 0 |
+| 1% | 1% | 6% | 53% | 2% | 36% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
