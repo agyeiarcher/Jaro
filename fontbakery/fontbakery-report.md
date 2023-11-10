@@ -705,7 +705,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-plus, equal, minus, divide, multiply
+multiply, minus, plus, divide, equal
 
 Width = 406:
 greater, less
@@ -900,7 +900,7 @@ greater, less
 
 	* comma (U+002C): L<<18.0,57.0>--<19.0,202.0>>
 
-	* five (U+0035): L<<25.0,305.0>--<26.0,785.0>>
+	* five (U+0035): L<<25.0,335.0>--<26.0,785.0>>
 
 	* percent (U+0025): L<<342.0,367.0>--<541.0,368.0>>
 
@@ -926,9 +926,9 @@ greater, less
 
 	* semicolon (U+003B): L<<18.0,57.0>--<19.0,202.0>>
 
-	* two (U+0032): L<<26.0,15.0>--<25.0,354.0>>
+	* two (U+0032): L<<44.0,15.0>--<43.0,210.0>>
 
-	* uni00B2 (U+00B2): L<<26.0,15.0>--<25.0,354.0>>
+	* uni00B2 (U+00B2): L<<44.0,15.0>--<43.0,210.0>>
 
 	* uni018B (U+018B): L<<10.0,799.0>--<507.0,801.0>>
 
@@ -978,13 +978,13 @@ greater, less
 
 	* uni0315 (U+0315): L<<58.0,637.0>--<59.0,782.0>>
 
-	* uni2075 (U+2075): L<<25.0,305.0>--<26.0,785.0>>
+	* uni2075 (U+2075): L<<25.0,335.0>--<26.0,785.0>>
 
-	* uni2082 (U+2082): L<<26.0,15.0>--<25.0,354.0>>
+	* uni2082 (U+2082): L<<44.0,15.0>--<43.0,210.0>>
 
-	* uni2085 (U+2085): L<<25.0,305.0>--<26.0,785.0>>
+	* uni2085 (U+2085): L<<25.0,335.0>--<26.0,785.0>>
 
-	* uni2154 (U+2154): L<<26.0,15.0>--<25.0,354.0>>
+	* uni2154 (U+2154): L<<44.0,15.0>--<43.0,210.0>>
 
 	* uni2C64 (U+027D): L<<269.0,223.0>--<266.0,-146.0>>
 
@@ -998,7 +998,7 @@ greater, less
 
 	* uni2C72 (U+2C73): L<<843.0,679.0>--<844.0,171.0>>
 
-	* zero (U+0030): L<<83.0,799.0>--<583.0,801.0>> [code: found-semi-vertical]
+	* zero (U+0030): L<<127.0,799.0>--<539.0,801.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[21] Jaro-24ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1702,7 +1702,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-plus, equal, minus, divide, multiply
+multiply, minus, plus, divide, equal
 
 Width = 398:
 less
@@ -1900,7 +1900,7 @@ greater
 
 	* comma (U+002C): L<<18.0,57.0>--<19.0,202.0>>
 
-	* five (U+0035): L<<25.0,305.0>--<26.0,785.0>>
+	* five (U+0035): L<<25.0,327.0>--<26.0,785.0>>
 
 	* percent (U+0025): L<<342.0,367.0>--<541.0,368.0>>
 
@@ -1926,9 +1926,9 @@ greater
 
 	* semicolon (U+003B): L<<18.0,57.0>--<19.0,202.0>>
 
-	* two (U+0032): L<<26.0,15.0>--<25.0,354.0>>
+	* two (U+0032): L<<39.0,15.0>--<38.0,249.0>>
 
-	* uni00B2 (U+00B2): L<<26.0,15.0>--<25.0,354.0>>
+	* uni00B2 (U+00B2): L<<39.0,15.0>--<38.0,249.0>>
 
 	* uni018B (U+018B): L<<10.0,799.0>--<507.0,801.0>>
 
@@ -1980,13 +1980,13 @@ greater
 
 	* uni0315 (U+0315): L<<58.0,637.0>--<59.0,782.0>>
 
-	* uni2075 (U+2075): L<<25.0,305.0>--<26.0,785.0>>
+	* uni2075 (U+2075): L<<25.0,327.0>--<26.0,785.0>>
 
-	* uni2082 (U+2082): L<<26.0,15.0>--<25.0,354.0>>
+	* uni2082 (U+2082): L<<39.0,15.0>--<38.0,249.0>>
 
-	* uni2085 (U+2085): L<<25.0,305.0>--<26.0,785.0>>
+	* uni2085 (U+2085): L<<25.0,327.0>--<26.0,785.0>>
 
-	* uni2154 (U+2154): L<<26.0,15.0>--<25.0,354.0>>
+	* uni2154 (U+2154): L<<39.0,15.0>--<38.0,249.0>>
 
 	* uni2C64 (U+027D): L<<269.0,223.0>--<266.0,-146.0>>
 
@@ -2000,7 +2000,7 @@ greater
 
 	* uni2C72 (U+2C73): L<<843.0,679.0>--<844.0,171.0>>
 
-	* zero (U+0030): L<<71.0,799.0>--<571.0,801.0>> [code: found-semi-vertical]
+	* zero (U+0030): L<<103.0,799.0>--<539.0,801.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[20] Jaro-48ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -2704,7 +2704,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-plus, equal, minus, divide, multiply
+multiply, minus, plus, divide, equal
 
 Width = 388:
 less
@@ -2740,7 +2740,7 @@ greater
 
 	* comma (U+002C): L<<18.0,57.0>--<19.0,202.0>>
 
-	* five (U+0035): L<<25.0,305.0>--<26.0,785.0>>
+	* five (U+0035): L<<25.0,316.0>--<26.0,785.0>>
 
 	* percent (U+0025): L<<342.0,367.0>--<541.0,368.0>>
 
@@ -2766,9 +2766,9 @@ greater
 
 	* semicolon (U+003B): L<<18.0,57.0>--<19.0,202.0>>
 
-	* two (U+0032): L<<26.0,15.0>--<25.0,354.0>>
+	* two (U+0032): L<<33.0,15.0>--<32.0,302.0>>
 
-	* uni00B2 (U+00B2): L<<26.0,15.0>--<25.0,354.0>>
+	* uni00B2 (U+00B2): L<<33.0,15.0>--<32.0,302.0>>
 
 	* uni018B (U+018B): L<<10.0,799.0>--<507.0,801.0>>
 
@@ -2818,13 +2818,13 @@ greater
 
 	* uni0315 (U+0315): L<<58.0,637.0>--<59.0,782.0>>
 
-	* uni2075 (U+2075): L<<25.0,305.0>--<26.0,785.0>>
+	* uni2075 (U+2075): L<<25.0,316.0>--<26.0,785.0>>
 
-	* uni2082 (U+2082): L<<26.0,15.0>--<25.0,354.0>>
+	* uni2082 (U+2082): L<<33.0,15.0>--<32.0,302.0>>
 
-	* uni2085 (U+2085): L<<25.0,305.0>--<26.0,785.0>>
+	* uni2085 (U+2085): L<<25.0,316.0>--<26.0,785.0>>
 
-	* uni2154 (U+2154): L<<26.0,15.0>--<25.0,354.0>>
+	* uni2154 (U+2154): L<<33.0,15.0>--<32.0,302.0>>
 
 	* uni2C64 (U+027D): L<<269.0,223.0>--<266.0,-146.0>>
 
@@ -2838,7 +2838,7 @@ greater
 
 	* uni2C72 (U+2C73): L<<843.0,679.0>--<844.0,171.0>>
 
-	* zero (U+0030): L<<56.0,799.0>--<556.0,801.0>> [code: found-semi-vertical]
+	* zero (U+0030): L<<72.0,799.0>--<540.0,801.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[22] Jaro-72ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -3542,7 +3542,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-plus, equal, minus, divide, multiply
+multiply, minus, plus, divide, equal
 
 Width = 377:
 less
@@ -4502,7 +4502,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-plus, equal, minus, divide, multiply
+multiply, minus, plus, divide, equal
 
 Width = 403:
 less
@@ -4684,7 +4684,7 @@ greater
 
 	* comma (U+002C): L<<18.0,57.0>--<19.0,202.0>>
 
-	* five (U+0035): L<<25.0,305.0>--<26.0,785.0>>
+	* five (U+0035): L<<25.0,332.0>--<26.0,785.0>>
 
 	* percent (U+0025): L<<342.0,367.0>--<541.0,368.0>>
 
@@ -4710,9 +4710,9 @@ greater
 
 	* semicolon (U+003B): L<<18.0,57.0>--<19.0,202.0>>
 
-	* two (U+0032): L<<26.0,15.0>--<25.0,354.0>>
+	* two (U+0032): L<<42.0,15.0>--<41.0,223.0>>
 
-	* uni00B2 (U+00B2): L<<26.0,15.0>--<25.0,354.0>>
+	* uni00B2 (U+00B2): L<<42.0,15.0>--<41.0,223.0>>
 
 	* uni018B (U+018B): L<<10.0,799.0>--<507.0,801.0>>
 
@@ -4762,13 +4762,13 @@ greater
 
 	* uni0315 (U+0315): L<<58.0,637.0>--<59.0,782.0>>
 
-	* uni2075 (U+2075): L<<25.0,305.0>--<26.0,785.0>>
+	* uni2075 (U+2075): L<<25.0,332.0>--<26.0,785.0>>
 
-	* uni2082 (U+2082): L<<26.0,15.0>--<25.0,354.0>>
+	* uni2082 (U+2082): L<<42.0,15.0>--<41.0,223.0>>
 
-	* uni2085 (U+2085): L<<25.0,305.0>--<26.0,785.0>>
+	* uni2085 (U+2085): L<<25.0,332.0>--<26.0,785.0>>
 
-	* uni2154 (U+2154): L<<26.0,15.0>--<25.0,354.0>>
+	* uni2154 (U+2154): L<<42.0,15.0>--<41.0,223.0>>
 
 	* uni2C64 (U+027D): L<<269.0,223.0>--<266.0,-146.0>>
 
@@ -4782,7 +4782,7 @@ greater
 
 	* uni2C72 (U+2C73): L<<843.0,679.0>--<844.0,171.0>>
 
-	* zero (U+0030): L<<79.0,799.0>--<579.0,801.0>> [code: found-semi-vertical]
+	* zero (U+0030): L<<119.0,799.0>--<539.0,801.0>> [code: found-semi-vertical]
 </div></details><br></div></details>
 
 ### Summary
