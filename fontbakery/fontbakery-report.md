@@ -31,7 +31,7 @@ fontbakery version: 0.9.0
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1270, but got 1200 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 410, but got 300 instead [code: descent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 400, but got 300 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
@@ -132,6 +132,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: yen	Contours detected: 4	Expected: 1or2
 
 	- Glyph name: logicalnot	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 	- Glyph name: plusminus	Contours detected: 0	Expected: 1or2
 
@@ -307,14 +309,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni2016	Contours detected: 0	Expected: 2
-
-	- Glyph name: perthousand	Contours detected: 0	Expected: 6or7
-
-	- Glyph name: minute	Contours detected: 0	Expected: 1
-
-	- Glyph name: second	Contours detected: 0	Expected: 2
-
 	- Glyph name: fraction	Contours detected: 0	Expected: 1
 
 	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1or3
@@ -459,8 +453,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
 
-	- Glyph name: perthousand	Contours detected: 0	Expected: 6or7
-
 	- Glyph name: plusminus	Contours detected: 0	Expected: 1or2
 
 	- Glyph name: product	Contours detected: 0	Expected: 1
@@ -472,6 +464,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: summation	Contours detected: 0	Expected: 1
 
 	- Glyph name: threequarters	Contours detected: 0	Expected: 3or4
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 	- Glyph name: uni00B5	Contours detected: 0	Expected: 1
 
@@ -529,8 +523,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni2016	Contours detected: 0	Expected: 2
-
 	- Glyph name: uni20A6	Contours detected: 0	Expected: 1, 3or5
 
 	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4or7
@@ -586,10 +578,10 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-plus, equal, multiply, divide, minus
+minus, plus, divide, equal, multiply
 
 Width = 406:
-greater, less
+less, greater
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
 
@@ -793,7 +785,7 @@ greater, less
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* comma (U+002C): L<<18.0,57.0>--<19.0,202.0>>
+	* comma (U+002C): L<<48.0,57.0>--<49.0,209.0>>
 
 	* five (U+0035): L<<25.0,335.0>--<26.0,785.0>>
 
@@ -801,27 +793,33 @@ greater, less
 
 	* percent (U+0025): L<<39.0,800.0>--<238.0,801.0>>
 
+	* perthousand (U+2030): L<<343.0,367.0>--<542.0,368.0>>
+
+	* perthousand (U+2030): L<<40.0,800.0>--<239.0,801.0>>
+
+	* perthousand (U+2030): L<<612.0,367.0>--<811.0,368.0>>
+
 	* pi (U+03C0): L<<672.0,510.0>--<673.0,141.0>>
 
-	* quotedblbase (U+201E): L<<25.0,57.0>--<26.0,202.0>>
+	* quotedblbase (U+201E): L<<308.0,57.0>--<309.0,209.0>>
 
-	* quotedblbase (U+201E): L<<285.0,57.0>--<286.0,202.0>>
+	* quotedblbase (U+201E): L<<48.0,57.0>--<49.0,209.0>>
 
-	* quotedblleft (U+201C): L<<230.0,720.0>--<229.0,575.0>>
+	* quotedblleft (U+201C): L<<270.0,720.0>--<269.0,568.0>>
 
-	* quotedblleft (U+201C): L<<490.0,720.0>--<489.0,575.0>>
+	* quotedblleft (U+201C): L<<530.0,720.0>--<529.0,568.0>>
 
-	* quotedblright (U+201D): L<<25.0,717.0>--<26.0,862.0>>
+	* quotedblright (U+201D): L<<308.0,717.0>--<309.0,869.0>>
 
-	* quotedblright (U+201D): L<<285.0,717.0>--<286.0,862.0>>
+	* quotedblright (U+201D): L<<48.0,717.0>--<49.0,869.0>>
 
-	* quoteleft (U+2018): L<<237.0,720.0>--<236.0,575.0>>
+	* quoteleft (U+2018): L<<270.0,720.0>--<269.0,568.0>>
 
-	* quoteright (U+2019): L<<25.0,717.0>--<26.0,862.0>>
+	* quoteright (U+2019): L<<48.0,717.0>--<49.0,869.0>>
 
-	* quotesinglbase (U+201A): L<<25.0,57.0>--<26.0,202.0>>
+	* quotesinglbase (U+201A): L<<48.0,57.0>--<49.0,209.0>>
 
-	* semicolon (U+003B): L<<18.0,57.0>--<19.0,202.0>>
+	* semicolon (U+003B): L<<48.0,57.0>--<49.0,209.0>>
 
 	* two (U+0032): L<<44.0,15.0>--<43.0,210.0>>
 
@@ -835,15 +833,15 @@ greater, less
 
 	* uni0295 (U+0295): L<<423.0,284.0>--<422.0,15.0>>
 
-	* uni02EE (U+02EE): L<<25.0,717.0>--<26.0,862.0>>
+	* uni02EE (U+02EE): L<<308.0,717.0>--<309.0,869.0>>
 
-	* uni02EE (U+02EE): L<<285.0,717.0>--<286.0,862.0>>
+	* uni02EE (U+02EE): L<<48.0,717.0>--<49.0,869.0>>
 
-	* uni0312 (U+0312): L<<218.0,1011.0>--<217.0,866.0>>
+	* uni0312 (U+0312): L<<188.0,1011.0>--<187.0,859.0>>
 
-	* uni0313 (U+0313): L<<18.0,1004.0>--<19.0,1149.0>>
+	* uni0313 (U+0313): L<<48.0,1004.0>--<49.0,1156.0>>
 
-	* uni0315 (U+0315): L<<58.0,637.0>--<59.0,782.0>>
+	* uni0315 (U+0315): L<<88.0,637.0>--<89.0,789.0>>
 
 	* uni0E3F (U+0E3F): L<<440.0,665.0>--<439.0,800.0>>
 
@@ -889,7 +887,7 @@ greater, less
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1270, but got 1200 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 410, but got 300 instead [code: descent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 400, but got 300 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
@@ -990,6 +988,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: yen	Contours detected: 4	Expected: 1or2
 
 	- Glyph name: logicalnot	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 	- Glyph name: plusminus	Contours detected: 0	Expected: 1or2
 
@@ -1165,14 +1165,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni2016	Contours detected: 0	Expected: 2
-
-	- Glyph name: perthousand	Contours detected: 0	Expected: 6or7
-
-	- Glyph name: minute	Contours detected: 0	Expected: 1
-
-	- Glyph name: second	Contours detected: 0	Expected: 2
-
 	- Glyph name: fraction	Contours detected: 0	Expected: 1
 
 	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1or3
@@ -1317,8 +1309,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
 
-	- Glyph name: perthousand	Contours detected: 0	Expected: 6or7
-
 	- Glyph name: plusminus	Contours detected: 0	Expected: 1or2
 
 	- Glyph name: product	Contours detected: 0	Expected: 1
@@ -1330,6 +1320,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: summation	Contours detected: 0	Expected: 1
 
 	- Glyph name: threequarters	Contours detected: 0	Expected: 3or4
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 	- Glyph name: uni00B5	Contours detected: 0	Expected: 1
 
@@ -1387,8 +1379,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni2016	Contours detected: 0	Expected: 2
-
 	- Glyph name: uni20A6	Contours detected: 0	Expected: 1, 3or5
 
 	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4or7
@@ -1444,7 +1434,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-plus, equal, multiply, divide, minus
+minus, plus, divide, equal, multiply
 
 Width = 398:
 less
@@ -1630,7 +1620,7 @@ greater
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* comma (U+002C): L<<18.0,57.0>--<19.0,202.0>>
+	* comma (U+002C): L<<40.0,57.0>--<41.0,207.0>>
 
 	* five (U+0035): L<<25.0,327.0>--<26.0,785.0>>
 
@@ -1638,27 +1628,33 @@ greater
 
 	* percent (U+0025): L<<39.0,800.0>--<238.0,801.0>>
 
+	* perthousand (U+2030): L<<343.0,367.0>--<542.0,368.0>>
+
+	* perthousand (U+2030): L<<40.0,800.0>--<239.0,801.0>>
+
+	* perthousand (U+2030): L<<612.0,367.0>--<811.0,368.0>>
+
 	* pi (U+03C0): L<<651.0,496.0>--<652.0,155.0>>
 
-	* quotedblbase (U+201E): L<<25.0,57.0>--<26.0,202.0>>
+	* quotedblbase (U+201E): L<<302.0,57.0>--<303.0,207.0>>
 
-	* quotedblbase (U+201E): L<<285.0,57.0>--<286.0,202.0>>
+	* quotedblbase (U+201E): L<<42.0,57.0>--<43.0,207.0>>
 
-	* quotedblleft (U+201C): L<<230.0,720.0>--<229.0,575.0>>
+	* quotedblleft (U+201C): L<<259.0,720.0>--<258.0,570.0>>
 
-	* quotedblleft (U+201C): L<<490.0,720.0>--<489.0,575.0>>
+	* quotedblleft (U+201C): L<<519.0,720.0>--<518.0,570.0>>
 
-	* quotedblright (U+201D): L<<25.0,717.0>--<26.0,862.0>>
+	* quotedblright (U+201D): L<<302.0,717.0>--<303.0,867.0>>
 
-	* quotedblright (U+201D): L<<285.0,717.0>--<286.0,862.0>>
+	* quotedblright (U+201D): L<<42.0,717.0>--<43.0,867.0>>
 
-	* quoteleft (U+2018): L<<237.0,720.0>--<236.0,575.0>>
+	* quoteleft (U+2018): L<<261.0,720.0>--<260.0,570.0>>
 
-	* quoteright (U+2019): L<<25.0,717.0>--<26.0,862.0>>
+	* quoteright (U+2019): L<<42.0,717.0>--<43.0,867.0>>
 
-	* quotesinglbase (U+201A): L<<25.0,57.0>--<26.0,202.0>>
+	* quotesinglbase (U+201A): L<<42.0,57.0>--<43.0,207.0>>
 
-	* semicolon (U+003B): L<<18.0,57.0>--<19.0,202.0>>
+	* semicolon (U+003B): L<<40.0,57.0>--<41.0,207.0>>
 
 	* two (U+0032): L<<39.0,15.0>--<38.0,249.0>>
 
@@ -1674,15 +1670,15 @@ greater
 
 	* uni02C0 (U+02C0): L<<16.0,320.0>--<15.0,497.0>>
 
-	* uni02EE (U+02EE): L<<25.0,717.0>--<26.0,862.0>>
+	* uni02EE (U+02EE): L<<302.0,717.0>--<303.0,867.0>>
 
-	* uni02EE (U+02EE): L<<285.0,717.0>--<286.0,862.0>>
+	* uni02EE (U+02EE): L<<42.0,717.0>--<43.0,867.0>>
 
-	* uni0312 (U+0312): L<<218.0,1011.0>--<217.0,866.0>>
+	* uni0312 (U+0312): L<<196.0,1011.0>--<195.0,861.0>>
 
-	* uni0313 (U+0313): L<<18.0,1004.0>--<19.0,1149.0>>
+	* uni0313 (U+0313): L<<40.0,1004.0>--<41.0,1154.0>>
 
-	* uni0315 (U+0315): L<<58.0,637.0>--<59.0,782.0>>
+	* uni0315 (U+0315): L<<80.0,637.0>--<81.0,787.0>>
 
 	* uni0E3F (U+0E3F): L<<437.0,647.0>--<436.0,800.0>>
 
@@ -1736,7 +1732,7 @@ greater
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1270, but got 1200 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 410, but got 300 instead [code: descent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 400, but got 300 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
@@ -1837,6 +1833,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: yen	Contours detected: 4	Expected: 1or2
 
 	- Glyph name: logicalnot	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 	- Glyph name: plusminus	Contours detected: 0	Expected: 1or2
 
@@ -2012,14 +2010,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni2016	Contours detected: 0	Expected: 2
-
-	- Glyph name: perthousand	Contours detected: 0	Expected: 6or7
-
-	- Glyph name: minute	Contours detected: 0	Expected: 1
-
-	- Glyph name: second	Contours detected: 0	Expected: 2
-
 	- Glyph name: fraction	Contours detected: 0	Expected: 1
 
 	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1or3
@@ -2164,8 +2154,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
 
-	- Glyph name: perthousand	Contours detected: 0	Expected: 6or7
-
 	- Glyph name: plusminus	Contours detected: 0	Expected: 1or2
 
 	- Glyph name: product	Contours detected: 0	Expected: 1
@@ -2177,6 +2165,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: summation	Contours detected: 0	Expected: 1
 
 	- Glyph name: threequarters	Contours detected: 0	Expected: 3or4
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 	- Glyph name: uni00B5	Contours detected: 0	Expected: 1
 
@@ -2234,8 +2224,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni2016	Contours detected: 0	Expected: 2
-
 	- Glyph name: uni20A6	Contours detected: 0	Expected: 1, 3or5
 
 	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4or7
@@ -2291,7 +2279,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-plus, equal, multiply, divide, minus
+minus, plus, divide, equal, multiply
 
 Width = 388:
 less
@@ -2325,7 +2313,7 @@ greater
 
 	* OE (U+0153): L<<798.0,1.0>--<183.0,0.0>>
 
-	* comma (U+002C): L<<18.0,57.0>--<19.0,202.0>>
+	* comma (U+002C): L<<29.0,57.0>--<30.0,205.0>>
 
 	* five (U+0035): L<<25.0,316.0>--<26.0,785.0>>
 
@@ -2333,27 +2321,33 @@ greater
 
 	* percent (U+0025): L<<39.0,800.0>--<238.0,801.0>>
 
+	* perthousand (U+2030): L<<343.0,367.0>--<542.0,368.0>>
+
+	* perthousand (U+2030): L<<40.0,800.0>--<239.0,801.0>>
+
+	* perthousand (U+2030): L<<612.0,367.0>--<811.0,368.0>>
+
 	* pi (U+03C0): L<<623.0,476.0>--<624.0,173.0>>
 
-	* quotedblbase (U+201E): L<<25.0,57.0>--<26.0,202.0>>
+	* quotedblbase (U+201E): L<<293.0,57.0>--<294.0,205.0>>
 
-	* quotedblbase (U+201E): L<<285.0,57.0>--<286.0,202.0>>
+	* quotedblbase (U+201E): L<<33.0,57.0>--<34.0,205.0>>
 
-	* quotedblleft (U+201C): L<<230.0,720.0>--<229.0,575.0>>
+	* quotedblleft (U+201C): L<<245.0,720.0>--<244.0,572.0>>
 
-	* quotedblleft (U+201C): L<<490.0,720.0>--<489.0,575.0>>
+	* quotedblleft (U+201C): L<<505.0,720.0>--<504.0,572.0>>
 
-	* quotedblright (U+201D): L<<25.0,717.0>--<26.0,862.0>>
+	* quotedblright (U+201D): L<<293.0,717.0>--<294.0,865.0>>
 
-	* quotedblright (U+201D): L<<285.0,717.0>--<286.0,862.0>>
+	* quotedblright (U+201D): L<<33.0,717.0>--<34.0,865.0>>
 
-	* quoteleft (U+2018): L<<237.0,720.0>--<236.0,575.0>>
+	* quoteleft (U+2018): L<<249.0,720.0>--<248.0,572.0>>
 
-	* quoteright (U+2019): L<<25.0,717.0>--<26.0,862.0>>
+	* quoteright (U+2019): L<<33.0,717.0>--<34.0,865.0>>
 
-	* quotesinglbase (U+201A): L<<25.0,57.0>--<26.0,202.0>>
+	* quotesinglbase (U+201A): L<<33.0,57.0>--<34.0,205.0>>
 
-	* semicolon (U+003B): L<<18.0,57.0>--<19.0,202.0>>
+	* semicolon (U+003B): L<<29.0,57.0>--<30.0,205.0>>
 
 	* two (U+0032): L<<33.0,15.0>--<32.0,302.0>>
 
@@ -2375,15 +2369,15 @@ greater
 
 	* uni0295 (U+0295): L<<430.0,322.0>--<429.0,15.0>>
 
-	* uni02EE (U+02EE): L<<25.0,717.0>--<26.0,862.0>>
+	* uni02EE (U+02EE): L<<293.0,717.0>--<294.0,865.0>>
 
-	* uni02EE (U+02EE): L<<285.0,717.0>--<286.0,862.0>>
+	* uni02EE (U+02EE): L<<33.0,717.0>--<34.0,865.0>>
 
-	* uni0312 (U+0312): L<<218.0,1011.0>--<217.0,866.0>>
+	* uni0312 (U+0312): L<<207.0,1011.0>--<206.0,863.0>>
 
-	* uni0313 (U+0313): L<<18.0,1004.0>--<19.0,1149.0>>
+	* uni0313 (U+0313): L<<29.0,1004.0>--<30.0,1152.0>>
 
-	* uni0315 (U+0315): L<<58.0,637.0>--<59.0,782.0>>
+	* uni0315 (U+0315): L<<69.0,637.0>--<70.0,785.0>>
 
 	* uni0E3F (U+0E3F): L<<434.0,622.0>--<433.0,800.0>>
 
@@ -2437,7 +2431,7 @@ greater
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1270, but got 1200 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 410, but got 300 instead [code: descent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 400, but got 300 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
@@ -2538,6 +2532,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: yen	Contours detected: 4	Expected: 1or2
 
 	- Glyph name: logicalnot	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 	- Glyph name: plusminus	Contours detected: 0	Expected: 1or2
 
@@ -2713,14 +2709,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni2016	Contours detected: 0	Expected: 2
-
-	- Glyph name: perthousand	Contours detected: 0	Expected: 6or7
-
-	- Glyph name: minute	Contours detected: 0	Expected: 1
-
-	- Glyph name: second	Contours detected: 0	Expected: 2
-
 	- Glyph name: fraction	Contours detected: 0	Expected: 1
 
 	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1or3
@@ -2865,8 +2853,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
 
-	- Glyph name: perthousand	Contours detected: 0	Expected: 6or7
-
 	- Glyph name: plusminus	Contours detected: 0	Expected: 1or2
 
 	- Glyph name: product	Contours detected: 0	Expected: 1
@@ -2878,6 +2864,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: summation	Contours detected: 0	Expected: 1
 
 	- Glyph name: threequarters	Contours detected: 0	Expected: 3or4
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 	- Glyph name: uni00B5	Contours detected: 0	Expected: 1
 
@@ -2935,8 +2923,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni2016	Contours detected: 0	Expected: 2
-
 	- Glyph name: uni20A6	Contours detected: 0	Expected: 1, 3or5
 
 	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4or7
@@ -2992,7 +2978,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-plus, equal, multiply, divide, minus
+minus, plus, divide, equal, multiply
 
 Width = 377:
 less
@@ -3150,6 +3136,12 @@ greater
 
 	* percent (U+0025): L<<39.0,800.0>--<238.0,801.0>>
 
+	* perthousand (U+2030): L<<343.0,367.0>--<542.0,368.0>>
+
+	* perthousand (U+2030): L<<40.0,800.0>--<239.0,801.0>>
+
+	* perthousand (U+2030): L<<612.0,367.0>--<811.0,368.0>>
+
 	* pi (U+03C0): L<<595.0,457.0>--<596.0,191.0>>
 
 	* quotedblbase (U+201E): L<<25.0,57.0>--<26.0,202.0>>
@@ -3258,7 +3250,7 @@ greater
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1270, but got 1200 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 410, but got 300 instead [code: descent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 400, but got 300 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
@@ -3359,6 +3351,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: yen	Contours detected: 4	Expected: 1or2
 
 	- Glyph name: logicalnot	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 	- Glyph name: plusminus	Contours detected: 0	Expected: 1or2
 
@@ -3534,14 +3528,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni2016	Contours detected: 0	Expected: 2
-
-	- Glyph name: perthousand	Contours detected: 0	Expected: 6or7
-
-	- Glyph name: minute	Contours detected: 0	Expected: 1
-
-	- Glyph name: second	Contours detected: 0	Expected: 2
-
 	- Glyph name: fraction	Contours detected: 0	Expected: 1
 
 	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1or3
@@ -3686,8 +3672,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
 
-	- Glyph name: perthousand	Contours detected: 0	Expected: 6or7
-
 	- Glyph name: plusminus	Contours detected: 0	Expected: 1or2
 
 	- Glyph name: product	Contours detected: 0	Expected: 1
@@ -3699,6 +3683,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: summation	Contours detected: 0	Expected: 1
 
 	- Glyph name: threequarters	Contours detected: 0	Expected: 3or4
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 	- Glyph name: uni00B5	Contours detected: 0	Expected: 1
 
@@ -3756,8 +3742,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni2016	Contours detected: 0	Expected: 2
-
 	- Glyph name: uni20A6	Contours detected: 0	Expected: 1, 3or5
 
 	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4or7
@@ -3813,7 +3797,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-plus, equal, multiply, divide, minus
+minus, plus, divide, equal, multiply
 
 Width = 403:
 less
@@ -3993,7 +3977,7 @@ greater
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* comma (U+002C): L<<18.0,57.0>--<19.0,202.0>>
+	* comma (U+002C): L<<45.0,57.0>--<46.0,208.0>>
 
 	* five (U+0035): L<<25.0,332.0>--<26.0,785.0>>
 
@@ -4001,27 +3985,33 @@ greater
 
 	* percent (U+0025): L<<39.0,800.0>--<238.0,801.0>>
 
+	* perthousand (U+2030): L<<343.0,367.0>--<542.0,368.0>>
+
+	* perthousand (U+2030): L<<40.0,800.0>--<239.0,801.0>>
+
+	* perthousand (U+2030): L<<612.0,367.0>--<811.0,368.0>>
+
 	* pi (U+03C0): L<<665.0,505.0>--<666.0,146.0>>
 
-	* quotedblbase (U+201E): L<<25.0,57.0>--<26.0,202.0>>
+	* quotedblbase (U+201E): L<<306.0,57.0>--<307.0,208.0>>
 
-	* quotedblbase (U+201E): L<<285.0,57.0>--<286.0,202.0>>
+	* quotedblbase (U+201E): L<<46.0,57.0>--<47.0,208.0>>
 
-	* quotedblleft (U+201C): L<<230.0,720.0>--<229.0,575.0>>
+	* quotedblleft (U+201C): L<<266.0,720.0>--<265.0,569.0>>
 
-	* quotedblleft (U+201C): L<<490.0,720.0>--<489.0,575.0>>
+	* quotedblleft (U+201C): L<<526.0,720.0>--<525.0,569.0>>
 
-	* quotedblright (U+201D): L<<25.0,717.0>--<26.0,862.0>>
+	* quotedblright (U+201D): L<<306.0,717.0>--<307.0,868.0>>
 
-	* quotedblright (U+201D): L<<285.0,717.0>--<286.0,862.0>>
+	* quotedblright (U+201D): L<<46.0,717.0>--<47.0,868.0>>
 
-	* quoteleft (U+2018): L<<237.0,720.0>--<236.0,575.0>>
+	* quoteleft (U+2018): L<<267.0,720.0>--<266.0,569.0>>
 
-	* quoteright (U+2019): L<<25.0,717.0>--<26.0,862.0>>
+	* quoteright (U+2019): L<<46.0,717.0>--<47.0,868.0>>
 
-	* quotesinglbase (U+201A): L<<25.0,57.0>--<26.0,202.0>>
+	* quotesinglbase (U+201A): L<<46.0,57.0>--<47.0,208.0>>
 
-	* semicolon (U+003B): L<<18.0,57.0>--<19.0,202.0>>
+	* semicolon (U+003B): L<<45.0,57.0>--<46.0,208.0>>
 
 	* two (U+0032): L<<42.0,15.0>--<41.0,223.0>>
 
@@ -4035,15 +4025,15 @@ greater
 
 	* uni0295 (U+0295): L<<424.0,289.0>--<423.0,15.0>>
 
-	* uni02EE (U+02EE): L<<25.0,717.0>--<26.0,862.0>>
+	* uni02EE (U+02EE): L<<306.0,717.0>--<307.0,868.0>>
 
-	* uni02EE (U+02EE): L<<285.0,717.0>--<286.0,862.0>>
+	* uni02EE (U+02EE): L<<46.0,717.0>--<47.0,868.0>>
 
-	* uni0312 (U+0312): L<<218.0,1011.0>--<217.0,866.0>>
+	* uni0312 (U+0312): L<<191.0,1011.0>--<190.0,860.0>>
 
-	* uni0313 (U+0313): L<<18.0,1004.0>--<19.0,1149.0>>
+	* uni0313 (U+0313): L<<45.0,1004.0>--<46.0,1155.0>>
 
-	* uni0315 (U+0315): L<<58.0,637.0>--<59.0,782.0>>
+	* uni0315 (U+0315): L<<85.0,637.0>--<86.0,788.0>>
 
 	* uni0E3F (U+0E3F): L<<439.0,659.0>--<438.0,800.0>>
 
