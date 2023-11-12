@@ -229,6 +229,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0212	Contours detected: 3	Expected: 2
 
+	- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 	- Glyph name: uni0246	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0248	Contours detected: 2	Expected: 1
@@ -479,6 +481,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00B5	Contours detected: 0	Expected: 1
 
+	- Glyph name: uni0197	Contours detected: 2	Expected: 1
+
 	- Glyph name: uni019F	Contours detected: 2	Expected: 3
 
 	- Glyph name: uni01B5	Contours detected: 2	Expected: 1
@@ -492,6 +496,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0228	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni023A	Contours detected: 2	Expected: 3
+
+	- Glyph name: uni023D	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni023E	Contours detected: 1	Expected: 2
 
@@ -590,7 +596,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-equal, minus, multiply, divide, plus
+divide, plus, equal, multiply, minus
 
 Width = 406:
 greater, less
@@ -783,15 +789,19 @@ greater, less
 
 	* uni2C72 (U+2C73): L<<921.0,850.0>--<922.0,850.0>> -> L<<922.0,850.0>--<922.0,850.0>>
 
-	* uni2C72 (U+2C73): L<<922.0,850.0>--<922.0,850.0>> -> L<<922.0,850.0>--<1091.0,850.0>> [code: found-colinear-vectors]
+	* uni2C72 (U+2C73): L<<922.0,850.0>--<922.0,850.0>> -> L<<922.0,850.0>--<1091.0,850.0>>
+
+	* uniA740 (U+A740): L<<418.0,467.0>--<458.0,616.0>> -> L<<458.0,616.0>--<494.0,792.0>>
+
+	* uniA740 (U+A740): L<<505.0,9.0>--<461.0,199.0>> -> L<<461.0,199.0>--<428.0,308.0>>
+
+	* uniA740 (U+A740): L<<572.0,414.0>--<624.0,319.0>> -> L<<624.0,319.0>--<712.0,119.0>>
+
+	* uniA740 (U+A740): L<<696.0,686.0>--<623.0,510.0>> -> L<<623.0,510.0>--<572.0,414.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
-
-	* OE (U+0152): L<<814.0,1.0>--<204.0,0.0>>
-
-	* OE (U+0153): L<<814.0,1.0>--<204.0,0.0>>
 
 	* comma (U+002C): L<<18.0,57.0>--<19.0,202.0>>
 
@@ -824,22 +834,6 @@ greater, less
 	* two (U+0032): L<<44.0,15.0>--<43.0,210.0>>
 
 	* uni00B2 (U+00B2): L<<44.0,15.0>--<43.0,210.0>>
-
-	* uni01E4 (U+01E4): L<<167.0,800.0>--<536.0,799.0>>
-
-	* uni01E4 (U+01E4): L<<430.0,-1.0>--<147.0,0.0>>
-
-	* uni01E4 (U+01E4): L<<536.0,559.0>--<259.0,560.0>>
-
-	* uni01E4 (U+01E4): L<<560.0,286.0>--<559.0,121.0>>
-
-	* uni01E4 (U+01E5): L<<167.0,800.0>--<536.0,799.0>>
-
-	* uni01E4 (U+01E5): L<<430.0,-1.0>--<147.0,0.0>>
-
-	* uni01E4 (U+01E5): L<<536.0,559.0>--<259.0,560.0>>
-
-	* uni01E4 (U+01E5): L<<560.0,286.0>--<559.0,121.0>>
 
 	* uni0241 (U+0241): L<<73.0,15.0>--<72.0,284.0>>
 
@@ -1101,6 +1095,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0212	Contours detected: 3	Expected: 2
 
+	- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 	- Glyph name: uni0246	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0248	Contours detected: 2	Expected: 1
@@ -1351,6 +1347,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00B5	Contours detected: 0	Expected: 1
 
+	- Glyph name: uni0197	Contours detected: 2	Expected: 1
+
 	- Glyph name: uni019F	Contours detected: 2	Expected: 3
 
 	- Glyph name: uni01B5	Contours detected: 2	Expected: 1
@@ -1364,6 +1362,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0228	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni023A	Contours detected: 2	Expected: 3
+
+	- Glyph name: uni023D	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni023E	Contours detected: 1	Expected: 2
 
@@ -1462,7 +1462,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-equal, minus, multiply, divide, plus
+divide, plus, equal, multiply, minus
 
 Width = 398:
 less
@@ -1634,15 +1634,19 @@ greater
 
 	* uni2C64 (U+027D): L<<571.0,456.0>--<500.0,388.0>> -> L<<500.0,388.0>--<458.0,350.0>>
 
-	* uni2C64 (U+2C64): L<<571.0,456.0>--<500.0,388.0>> -> L<<500.0,388.0>--<458.0,350.0>> [code: found-colinear-vectors]
+	* uni2C64 (U+2C64): L<<571.0,456.0>--<500.0,388.0>> -> L<<500.0,388.0>--<458.0,350.0>>
+
+	* uniA740 (U+A740): L<<404.0,490.0>--<444.0,639.0>> -> L<<444.0,639.0>--<476.0,792.0>>
+
+	* uniA740 (U+A740): L<<487.0,9.0>--<445.0,177.0>> -> L<<445.0,177.0>--<411.0,285.0>>
+
+	* uniA740 (U+A740): L<<569.0,410.0>--<610.0,336.0>> -> L<<610.0,336.0>--<701.0,135.0>>
+
+	* uniA740 (U+A740): L<<686.0,666.0>--<609.0,484.0>> -> L<<609.0,484.0>--<569.0,410.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
-
-	* OE (U+0152): L<<802.0,1.0>--<192.0,0.0>>
-
-	* OE (U+0153): L<<802.0,1.0>--<192.0,0.0>>
 
 	* comma (U+002C): L<<18.0,57.0>--<19.0,202.0>>
 
@@ -1675,22 +1679,6 @@ greater
 	* two (U+0032): L<<39.0,15.0>--<38.0,249.0>>
 
 	* uni00B2 (U+00B2): L<<39.0,15.0>--<38.0,249.0>>
-
-	* uni01E4 (U+01E4): L<<167.0,800.0>--<536.0,799.0>>
-
-	* uni01E4 (U+01E4): L<<430.0,-1.0>--<147.0,0.0>>
-
-	* uni01E4 (U+01E4): L<<536.0,559.0>--<259.0,560.0>>
-
-	* uni01E4 (U+01E4): L<<560.0,286.0>--<559.0,121.0>>
-
-	* uni01E4 (U+01E5): L<<167.0,800.0>--<536.0,799.0>>
-
-	* uni01E4 (U+01E5): L<<430.0,-1.0>--<147.0,0.0>>
-
-	* uni01E4 (U+01E5): L<<536.0,559.0>--<259.0,560.0>>
-
-	* uni01E4 (U+01E5): L<<560.0,286.0>--<559.0,121.0>>
 
 	* uni0241 (U+0241): L<<60.0,15.0>--<59.0,300.0>>
 
@@ -1962,6 +1950,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0212	Contours detected: 3	Expected: 2
 
+	- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 	- Glyph name: uni0246	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0248	Contours detected: 2	Expected: 1
@@ -2212,6 +2202,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00B5	Contours detected: 0	Expected: 1
 
+	- Glyph name: uni0197	Contours detected: 2	Expected: 1
+
 	- Glyph name: uni019F	Contours detected: 2	Expected: 3
 
 	- Glyph name: uni01B5	Contours detected: 2	Expected: 1
@@ -2225,6 +2217,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0228	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni023A	Contours detected: 2	Expected: 3
+
+	- Glyph name: uni023D	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni023E	Contours detected: 1	Expected: 2
 
@@ -2323,7 +2317,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-equal, minus, multiply, divide, plus
+divide, plus, equal, multiply, minus
 
 Width = 388:
 less
@@ -2353,9 +2347,9 @@ greater
 
 	* AEacute (U+01FD): L<<791.0,1.0>--<364.0,0.0>>
 
-	* OE (U+0152): L<<787.0,1.0>--<177.0,0.0>>
+	* OE (U+0152): L<<798.0,1.0>--<183.0,0.0>>
 
-	* OE (U+0153): L<<787.0,1.0>--<177.0,0.0>>
+	* OE (U+0153): L<<798.0,1.0>--<183.0,0.0>>
 
 	* comma (U+002C): L<<18.0,57.0>--<19.0,202.0>>
 
@@ -2396,22 +2390,6 @@ greater
 	* uni01E2 (U+01E2): L<<791.0,1.0>--<364.0,0.0>>
 
 	* uni01E2 (U+01E3): L<<791.0,1.0>--<364.0,0.0>>
-
-	* uni01E4 (U+01E4): L<<167.0,800.0>--<536.0,799.0>>
-
-	* uni01E4 (U+01E4): L<<430.0,-1.0>--<147.0,0.0>>
-
-	* uni01E4 (U+01E4): L<<536.0,559.0>--<259.0,560.0>>
-
-	* uni01E4 (U+01E4): L<<560.0,286.0>--<559.0,121.0>>
-
-	* uni01E4 (U+01E5): L<<167.0,800.0>--<536.0,799.0>>
-
-	* uni01E4 (U+01E5): L<<430.0,-1.0>--<147.0,0.0>>
-
-	* uni01E4 (U+01E5): L<<536.0,559.0>--<259.0,560.0>>
-
-	* uni01E4 (U+01E5): L<<560.0,286.0>--<559.0,121.0>>
 
 	* uni0241 (U+0241): L<<43.0,15.0>--<42.0,322.0>>
 
@@ -2681,6 +2659,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0212	Contours detected: 3	Expected: 2
 
+	- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 	- Glyph name: uni0246	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0248	Contours detected: 2	Expected: 1
@@ -2931,6 +2911,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00B5	Contours detected: 0	Expected: 1
 
+	- Glyph name: uni0197	Contours detected: 2	Expected: 1
+
 	- Glyph name: uni019F	Contours detected: 2	Expected: 3
 
 	- Glyph name: uni01B5	Contours detected: 2	Expected: 1
@@ -2944,6 +2926,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0228	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni023A	Contours detected: 2	Expected: 3
+
+	- Glyph name: uni023D	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni023E	Contours detected: 1	Expected: 2
 
@@ -3042,7 +3026,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-equal, minus, multiply, divide, plus
+divide, plus, equal, multiply, minus
 
 Width = 377:
 less
@@ -3168,7 +3152,11 @@ greater
 
 	* uni2C64 (U+027D): L<<474.0,374.0>--<502.0,322.0>> -> L<<502.0,322.0>--<579.0,154.0>>
 
-	* uni2C64 (U+2C64): L<<474.0,374.0>--<502.0,322.0>> -> L<<502.0,322.0>--<579.0,154.0>> [code: found-colinear-vectors]
+	* uni2C64 (U+2C64): L<<474.0,374.0>--<502.0,322.0>> -> L<<502.0,322.0>--<579.0,154.0>>
+
+	* uniA740 (U+A740): L<<366.0,550.0>--<404.0,700.0>> -> L<<404.0,700.0>--<427.0,792.0>>
+
+	* uniA740 (U+A740): L<<560.0,399.0>--<570.0,380.0>> -> L<<570.0,380.0>--<671.0,179.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -3225,22 +3213,6 @@ greater
 	* uni01E2 (U+01E2): L<<766.0,1.0>--<334.0,0.0>>
 
 	* uni01E2 (U+01E3): L<<766.0,1.0>--<334.0,0.0>>
-
-	* uni01E4 (U+01E4): L<<167.0,800.0>--<536.0,799.0>>
-
-	* uni01E4 (U+01E4): L<<430.0,-1.0>--<147.0,0.0>>
-
-	* uni01E4 (U+01E4): L<<536.0,559.0>--<259.0,560.0>>
-
-	* uni01E4 (U+01E4): L<<560.0,286.0>--<559.0,121.0>>
-
-	* uni01E4 (U+01E5): L<<167.0,800.0>--<536.0,799.0>>
-
-	* uni01E4 (U+01E5): L<<430.0,-1.0>--<147.0,0.0>>
-
-	* uni01E4 (U+01E5): L<<536.0,559.0>--<259.0,560.0>>
-
-	* uni01E4 (U+01E5): L<<560.0,286.0>--<559.0,121.0>>
 
 	* uni0241 (U+0241): L<<26.0,15.0>--<25.0,344.0>>
 
@@ -3514,6 +3486,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0212	Contours detected: 3	Expected: 2
 
+	- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 	- Glyph name: uni0246	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0248	Contours detected: 2	Expected: 1
@@ -3764,6 +3738,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00B5	Contours detected: 0	Expected: 1
 
+	- Glyph name: uni0197	Contours detected: 2	Expected: 1
+
 	- Glyph name: uni019F	Contours detected: 2	Expected: 3
 
 	- Glyph name: uni01B5	Contours detected: 2	Expected: 1
@@ -3777,6 +3753,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0228	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni023A	Contours detected: 2	Expected: 3
+
+	- Glyph name: uni023D	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni023E	Contours detected: 1	Expected: 2
 
@@ -3875,7 +3853,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-equal, minus, multiply, divide, plus
+divide, plus, equal, multiply, minus
 
 Width = 403:
 less
@@ -4043,15 +4021,17 @@ greater
 
 	* uni2C72 (U+2C73): L<<914.0,850.0>--<914.0,850.0>> -> L<<914.0,850.0>--<1078.0,850.0>>
 
-	* uni2C72 (U+2C73): L<<914.0,850.0>--<914.0,850.0>> -> L<<914.0,850.0>--<914.0,850.0>> [code: found-colinear-vectors]
+	* uni2C72 (U+2C73): L<<914.0,850.0>--<914.0,850.0>> -> L<<914.0,850.0>--<914.0,850.0>>
+
+	* uniA740 (U+A740): L<<414.0,475.0>--<454.0,624.0>> -> L<<454.0,624.0>--<488.0,792.0>>
+
+	* uniA740 (U+A740): L<<499.0,9.0>--<456.0,192.0>> -> L<<456.0,192.0>--<423.0,300.0>>
+
+	* uniA740 (U+A740): L<<571.0,413.0>--<620.0,325.0>> -> L<<620.0,325.0>--<709.0,124.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
-
-	* OE (U+0152): L<<810.0,1.0>--<200.0,0.0>>
-
-	* OE (U+0153): L<<810.0,1.0>--<200.0,0.0>>
 
 	* comma (U+002C): L<<18.0,57.0>--<19.0,202.0>>
 
@@ -4084,22 +4064,6 @@ greater
 	* two (U+0032): L<<42.0,15.0>--<41.0,223.0>>
 
 	* uni00B2 (U+00B2): L<<42.0,15.0>--<41.0,223.0>>
-
-	* uni01E4 (U+01E4): L<<167.0,800.0>--<536.0,799.0>>
-
-	* uni01E4 (U+01E4): L<<430.0,-1.0>--<147.0,0.0>>
-
-	* uni01E4 (U+01E4): L<<536.0,559.0>--<259.0,560.0>>
-
-	* uni01E4 (U+01E4): L<<560.0,286.0>--<559.0,121.0>>
-
-	* uni01E4 (U+01E5): L<<167.0,800.0>--<536.0,799.0>>
-
-	* uni01E4 (U+01E5): L<<430.0,-1.0>--<147.0,0.0>>
-
-	* uni01E4 (U+01E5): L<<536.0,559.0>--<259.0,560.0>>
-
-	* uni01E4 (U+01E5): L<<560.0,286.0>--<559.0,121.0>>
 
 	* uni0241 (U+0241): L<<69.0,15.0>--<68.0,289.0>>
 
