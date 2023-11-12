@@ -838,6 +838,15 @@ _bottomhook.part,
 _hook.part,
 _hookright.part
 );
+},
+{
+name = "Axis Mappings";
+value = {
+opsz = {
+6 = 6;
+72 = 72;
+};
+};
 }
 );
 date = "2023-10-26 19:26:02 +0000";
