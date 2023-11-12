@@ -239,8 +239,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni024C	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni024E	Contours detected: 1	Expected: 2
-
 	- Glyph name: uni02B9	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni02BB	Contours detected: 0	Expected: 1
@@ -501,13 +499,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni023E	Contours detected: 1	Expected: 2
 
-	- Glyph name: uni0244	Contours detected: 1	Expected: 2
-
 	- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni0249	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni024E	Contours detected: 1	Expected: 2
 
 	- Glyph name: uni02B9	Contours detected: 0	Expected: 1
 
@@ -596,7 +590,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-divide, plus, equal, multiply, minus
+plus, equal, minus, divide, multiply
 
 Width = 406:
 greater, less
@@ -725,9 +719,9 @@ greater, less
 
 	* uni024C (U+024D): L<<630.0,453.0>--<564.0,389.0>> -> L<<564.0,389.0>--<508.0,341.0>>
 
-	* uni029D (U+029D): L<<222.0,-250.0>--<118.0,-250.0>> -> L<<118.0,-250.0>--<114.0,-250.0>>
+	* uni029D (U+029D): L<<222.0,-194.0>--<118.0,-194.0>> -> L<<118.0,-194.0>--<114.0,-194.0>>
 
-	* uni029D (U+029D): L<<70.0,-202.0>--<113.0,-202.0>> -> L<<113.0,-202.0>--<151.0,-201.0>>
+	* uni029D (U+029D): L<<70.0,-146.0>--<113.0,-146.0>> -> L<<113.0,-146.0>--<181.0,-145.0>>
 
 	* uni1E1B (U+1E1B): L<<319.0,5.0>--<212.0,31.0>> -> L<<212.0,31.0>--<90.0,72.0>>
 
@@ -1105,8 +1099,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni024C	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni024E	Contours detected: 1	Expected: 2
-
 	- Glyph name: uni02B9	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni02BB	Contours detected: 0	Expected: 1
@@ -1367,13 +1359,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni023E	Contours detected: 1	Expected: 2
 
-	- Glyph name: uni0244	Contours detected: 1	Expected: 2
-
 	- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni0249	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni024E	Contours detected: 1	Expected: 2
 
 	- Glyph name: uni02B9	Contours detected: 0	Expected: 1
 
@@ -1462,7 +1450,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-divide, plus, equal, multiply, minus
+plus, equal, minus, divide, multiply
 
 Width = 398:
 less
@@ -1582,9 +1570,9 @@ greater
 
 	* uni024C (U+024D): L<<628.0,452.0>--<557.0,383.0>> -> L<<557.0,383.0>--<513.0,345.0>>
 
-	* uni029D (U+029D): L<<222.0,-250.0>--<118.0,-250.0>> -> L<<118.0,-250.0>--<114.0,-250.0>>
+	* uni029D (U+029D): L<<222.0,-209.0>--<118.0,-209.0>> -> L<<118.0,-209.0>--<114.0,-209.0>>
 
-	* uni029D (U+029D): L<<70.0,-202.0>--<113.0,-202.0>> -> L<<113.0,-202.0>--<151.0,-201.0>>
+	* uni029D (U+029D): L<<70.0,-161.0>--<113.0,-161.0>> -> L<<113.0,-161.0>--<173.0,-160.0>>
 
 	* uni1E1B (U+1E1B): L<<301.0,5.0>--<193.0,38.0>> -> L<<193.0,38.0>--<75.0,82.0>>
 
@@ -1960,8 +1948,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni024C	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni024E	Contours detected: 1	Expected: 2
-
 	- Glyph name: uni02B9	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni02BB	Contours detected: 0	Expected: 1
@@ -2222,13 +2208,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni023E	Contours detected: 1	Expected: 2
 
-	- Glyph name: uni0244	Contours detected: 1	Expected: 2
-
 	- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni0249	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni024E	Contours detected: 1	Expected: 2
 
 	- Glyph name: uni02B9	Contours detected: 0	Expected: 1
 
@@ -2317,7 +2299,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-divide, plus, equal, multiply, minus
+plus, equal, minus, divide, multiply
 
 Width = 388:
 less
@@ -2669,8 +2651,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni024C	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni024E	Contours detected: 1	Expected: 2
-
 	- Glyph name: uni02B9	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni02BB	Contours detected: 0	Expected: 1
@@ -2931,13 +2911,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni023E	Contours detected: 1	Expected: 2
 
-	- Glyph name: uni0244	Contours detected: 1	Expected: 2
-
 	- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni0249	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni024E	Contours detected: 1	Expected: 2
 
 	- Glyph name: uni02B9	Contours detected: 0	Expected: 1
 
@@ -3026,7 +3002,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-divide, plus, equal, multiply, minus
+plus, equal, minus, divide, multiply
 
 Width = 377:
 less
@@ -3496,8 +3472,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni024C	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni024E	Contours detected: 1	Expected: 2
-
 	- Glyph name: uni02B9	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni02BB	Contours detected: 0	Expected: 1
@@ -3758,13 +3732,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni023E	Contours detected: 1	Expected: 2
 
-	- Glyph name: uni0244	Contours detected: 1	Expected: 2
-
 	- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni0249	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni024E	Contours detected: 1	Expected: 2
 
 	- Glyph name: uni02B9	Contours detected: 0	Expected: 1
 
@@ -3853,7 +3823,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-divide, plus, equal, multiply, minus
+plus, equal, minus, divide, multiply
 
 Width = 403:
 less
@@ -3965,9 +3935,9 @@ greater
 
 	* uni024C (U+024D): L<<629.0,453.0>--<562.0,387.0>> -> L<<562.0,387.0>--<510.0,342.0>>
 
-	* uni029D (U+029D): L<<222.0,-250.0>--<118.0,-250.0>> -> L<<118.0,-250.0>--<114.0,-250.0>>
+	* uni029D (U+029D): L<<222.0,-199.0>--<118.0,-199.0>> -> L<<118.0,-199.0>--<114.0,-199.0>>
 
-	* uni029D (U+029D): L<<70.0,-202.0>--<113.0,-202.0>> -> L<<113.0,-202.0>--<151.0,-201.0>>
+	* uni029D (U+029D): L<<70.0,-151.0>--<113.0,-151.0>> -> L<<113.0,-151.0>--<178.0,-150.0>>
 
 	* uni1E1B (U+1E1B): L<<313.0,5.0>--<206.0,33.0>> -> L<<206.0,33.0>--<85.0,75.0>>
 
