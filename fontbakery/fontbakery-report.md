@@ -255,8 +255,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni02CB	Contours detected: 0	Expected: 1
 
-	- Glyph name: pi	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni1E02	Contours detected: 4	Expected: 3
 
 	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
@@ -463,8 +461,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: perthousand	Contours detected: 0	Expected: 6or7
 
-	- Glyph name: pi	Contours detected: 0	Expected: 1
-
 	- Glyph name: plusminus	Contours detected: 0	Expected: 1or2
 
 	- Glyph name: product	Contours detected: 0	Expected: 1
@@ -590,7 +586,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-minus, equal, multiply, plus, divide
+plus, equal, multiply, divide, minus
 
 Width = 406:
 greater, less
@@ -805,6 +801,8 @@ greater, less
 
 	* percent (U+0025): L<<39.0,800.0>--<238.0,801.0>>
 
+	* pi (U+03C0): L<<672.0,510.0>--<673.0,141.0>>
+
 	* quotedblbase (U+201E): L<<25.0,57.0>--<26.0,202.0>>
 
 	* quotedblbase (U+201E): L<<285.0,57.0>--<286.0,202.0>>
@@ -831,11 +829,11 @@ greater, less
 
 	* uni0241 (U+0241): L<<73.0,15.0>--<72.0,284.0>>
 
-	* uni0242 (U+0242): L<<26.0,13.0>--<25.0,205.0>>
+	* uni0242 (U+0242): L<<73.0,15.0>--<72.0,174.0>>
 
-	* uni0294 (U+0294): L<<73.0,15.0>--<72.0,344.0>>
+	* uni0294 (U+0294): L<<73.0,15.0>--<72.0,284.0>>
 
-	* uni0295 (U+0295): L<<481.0,344.0>--<480.0,15.0>>
+	* uni0295 (U+0295): L<<423.0,284.0>--<422.0,15.0>>
 
 	* uni02EE (U+02EE): L<<25.0,717.0>--<26.0,862.0>>
 
@@ -1115,8 +1113,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni02CB	Contours detected: 0	Expected: 1
 
-	- Glyph name: pi	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni1E02	Contours detected: 4	Expected: 3
 
 	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
@@ -1323,8 +1319,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: perthousand	Contours detected: 0	Expected: 6or7
 
-	- Glyph name: pi	Contours detected: 0	Expected: 1
-
 	- Glyph name: plusminus	Contours detected: 0	Expected: 1or2
 
 	- Glyph name: product	Contours detected: 0	Expected: 1
@@ -1450,7 +1444,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-minus, equal, multiply, plus, divide
+plus, equal, multiply, divide, minus
 
 Width = 398:
 less
@@ -1644,6 +1638,8 @@ greater
 
 	* percent (U+0025): L<<39.0,800.0>--<238.0,801.0>>
 
+	* pi (U+03C0): L<<651.0,496.0>--<652.0,155.0>>
+
 	* quotedblbase (U+201E): L<<25.0,57.0>--<26.0,202.0>>
 
 	* quotedblbase (U+201E): L<<285.0,57.0>--<286.0,202.0>>
@@ -1670,13 +1666,13 @@ greater
 
 	* uni0241 (U+0241): L<<60.0,15.0>--<59.0,300.0>>
 
-	* uni0242 (U+0242): L<<26.0,13.0>--<25.0,205.0>>
+	* uni0242 (U+0242): L<<60.0,14.0>--<59.0,182.0>>
 
-	* uni0294 (U+0294): L<<60.0,15.0>--<59.0,344.0>>
+	* uni0294 (U+0294): L<<60.0,15.0>--<59.0,300.0>>
 
-	* uni0295 (U+0295): L<<468.0,344.0>--<467.0,15.0>>
+	* uni0295 (U+0295): L<<426.0,300.0>--<425.0,15.0>>
 
-	* uni02C0 (U+02C0): L<<16.0,320.0>--<15.0,525.0>>
+	* uni02C0 (U+02C0): L<<16.0,320.0>--<15.0,497.0>>
 
 	* uni02EE (U+02EE): L<<25.0,717.0>--<26.0,862.0>>
 
@@ -1964,8 +1960,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni02CB	Contours detected: 0	Expected: 1
 
-	- Glyph name: pi	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni1E02	Contours detected: 4	Expected: 3
 
 	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
@@ -2172,8 +2166,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: perthousand	Contours detected: 0	Expected: 6or7
 
-	- Glyph name: pi	Contours detected: 0	Expected: 1
-
 	- Glyph name: plusminus	Contours detected: 0	Expected: 1or2
 
 	- Glyph name: product	Contours detected: 0	Expected: 1
@@ -2299,7 +2291,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-minus, equal, multiply, plus, divide
+plus, equal, multiply, divide, minus
 
 Width = 388:
 less
@@ -2341,6 +2333,8 @@ greater
 
 	* percent (U+0025): L<<39.0,800.0>--<238.0,801.0>>
 
+	* pi (U+03C0): L<<623.0,476.0>--<624.0,173.0>>
+
 	* quotedblbase (U+201E): L<<25.0,57.0>--<26.0,202.0>>
 
 	* quotedblbase (U+201E): L<<285.0,57.0>--<286.0,202.0>>
@@ -2375,11 +2369,11 @@ greater
 
 	* uni0241 (U+0241): L<<43.0,15.0>--<42.0,322.0>>
 
-	* uni0242 (U+0242): L<<26.0,13.0>--<25.0,205.0>>
+	* uni0242 (U+0242): L<<43.0,14.0>--<42.0,194.0>>
 
-	* uni0294 (U+0294): L<<43.0,15.0>--<42.0,344.0>>
+	* uni0294 (U+0294): L<<43.0,15.0>--<42.0,322.0>>
 
-	* uni0295 (U+0295): L<<451.0,344.0>--<450.0,15.0>>
+	* uni0295 (U+0295): L<<430.0,322.0>--<429.0,15.0>>
 
 	* uni02EE (U+02EE): L<<25.0,717.0>--<26.0,862.0>>
 
@@ -2667,8 +2661,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni02CB	Contours detected: 0	Expected: 1
 
-	- Glyph name: pi	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni1E02	Contours detected: 4	Expected: 3
 
 	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
@@ -2875,8 +2867,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: perthousand	Contours detected: 0	Expected: 6or7
 
-	- Glyph name: pi	Contours detected: 0	Expected: 1
-
 	- Glyph name: plusminus	Contours detected: 0	Expected: 1or2
 
 	- Glyph name: product	Contours detected: 0	Expected: 1
@@ -3002,7 +2992,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-minus, equal, multiply, plus, divide
+plus, equal, multiply, divide, minus
 
 Width = 377:
 less
@@ -3096,6 +3086,8 @@ greater
 
 	* uni029D (U+029D): L<<70.0,-202.0>--<113.0,-202.0>> -> L<<113.0,-202.0>--<151.0,-201.0>>
 
+	* uni02B8 (U+02B8): L<<385.0,118.0>--<334.0,66.0>> -> L<<334.0,66.0>--<288.0,20.0>>
+
 	* uni1E1B (U+1E1B): L<<252.0,5.0>--<141.0,58.0>> -> L<<141.0,58.0>--<36.0,108.0>>
 
 	* uni1E30 (U+1E30): L<<284.0,550.0>--<322.0,700.0>> -> L<<322.0,700.0>--<345.0,792.0>>
@@ -3157,6 +3149,8 @@ greater
 	* percent (U+0025): L<<342.0,367.0>--<541.0,368.0>>
 
 	* percent (U+0025): L<<39.0,800.0>--<238.0,801.0>>
+
+	* pi (U+03C0): L<<595.0,457.0>--<596.0,191.0>>
 
 	* quotedblbase (U+201E): L<<25.0,57.0>--<26.0,202.0>>
 
@@ -3488,8 +3482,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni02CB	Contours detected: 0	Expected: 1
 
-	- Glyph name: pi	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni1E02	Contours detected: 4	Expected: 3
 
 	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
@@ -3696,8 +3688,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: perthousand	Contours detected: 0	Expected: 6or7
 
-	- Glyph name: pi	Contours detected: 0	Expected: 1
-
 	- Glyph name: plusminus	Contours detected: 0	Expected: 1or2
 
 	- Glyph name: product	Contours detected: 0	Expected: 1
@@ -3823,7 +3813,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-minus, equal, multiply, plus, divide
+plus, equal, multiply, divide, minus
 
 Width = 403:
 less
@@ -4011,6 +4001,8 @@ greater
 
 	* percent (U+0025): L<<39.0,800.0>--<238.0,801.0>>
 
+	* pi (U+03C0): L<<665.0,505.0>--<666.0,146.0>>
+
 	* quotedblbase (U+201E): L<<25.0,57.0>--<26.0,202.0>>
 
 	* quotedblbase (U+201E): L<<285.0,57.0>--<286.0,202.0>>
@@ -4037,11 +4029,11 @@ greater
 
 	* uni0241 (U+0241): L<<69.0,15.0>--<68.0,289.0>>
 
-	* uni0242 (U+0242): L<<26.0,13.0>--<25.0,205.0>>
+	* uni0242 (U+0242): L<<69.0,15.0>--<68.0,177.0>>
 
-	* uni0294 (U+0294): L<<69.0,15.0>--<68.0,344.0>>
+	* uni0294 (U+0294): L<<69.0,15.0>--<68.0,289.0>>
 
-	* uni0295 (U+0295): L<<477.0,344.0>--<476.0,15.0>>
+	* uni0295 (U+0295): L<<424.0,289.0>--<423.0,15.0>>
 
 	* uni02EE (U+02EE): L<<25.0,717.0>--<26.0,862.0>>
 
