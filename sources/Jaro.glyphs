@@ -863,22 +863,20 @@ features = (
 {
 automatic = 1;
 code = "feature locl;
+feature subs;
+feature sinf;
 feature sups;
+feature numr;
+feature dnom;
 feature frac;
 feature ordn;
 feature case;
+feature zero;
 feature ss01;
 feature ss02;
 feature ss03;
 feature ss06;
 feature ss08;
-feature subs;
-feature sinf;
-feature numr;
-feature dnom;
-feature pnum;
-feature tnum;
-feature zero;
 ";
 tag = aalt;
 },
@@ -909,6 +907,7 @@ lookup ccmp_Other_1 {
 } ccmp_Other_1;
 
 lookup ccmp_latn_1 {
+	lookupflag 0;
 	sub fi by f i;
 	sub fl by f l;
 	sub Ldot by L periodcentered.loclCAT.case;
@@ -1070,36 +1069,6 @@ sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
 sub N o period by numero;
 ";
 tag = ordn;
-},
-{
-automatic = 1;
-code = "sub zero.tf by zero;
-sub one.tf by one;
-sub two.tf by two;
-sub three.tf by three;
-sub four.tf by four;
-sub five.tf by five;
-sub six.tf by six;
-sub seven.tf by seven;
-sub eight.tf by eight;
-sub nine.tf by nine;
-";
-tag = pnum;
-},
-{
-automatic = 1;
-code = "sub zero by zero.tf;
-sub one by one.tf;
-sub two by two.tf;
-sub three by three.tf;
-sub four by four.tf;
-sub five by five.tf;
-sub six by six.tf;
-sub seven by seven.tf;
-sub eight by eight.tf;
-sub nine by nine.tf;
-";
-tag = tnum;
 },
 {
 automatic = 1;
@@ -6736,23 +6705,23 @@ unicode = (7692,7693);
 {
 color = 4;
 glyphname = Dhook;
-lastChange = "2023-11-12 15:43:29 +0000";
+lastChange = "2023-11-12 17:55:22 +0000";
 layers = (
 {
 layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
 shapes = (
 {
 alignment = -1;
-pos = (228,0);
+pos = (241,0);
 ref = D;
 },
 {
 alignment = -1;
-pos = (43,0);
+pos = (56,0);
 ref = _hook.part;
 }
 );
-width = 899;
+width = 912;
 },
 {
 layerId = m002;
@@ -6944,7 +6913,7 @@ unicode = (395,396);
 {
 color = 1;
 glyphname = Eth;
-lastChange = "2023-11-12 17:47:53 +0000";
+lastChange = "2023-11-12 17:55:23 +0000";
 layers = (
 {
 layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
@@ -10282,7 +10251,7 @@ unicode = 72;
 {
 color = 0;
 glyphname = Hbar;
-lastChange = "2023-11-12 17:47:53 +0000";
+lastChange = "2023-11-12 17:55:23 +0000";
 layers = (
 {
 layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
@@ -10684,23 +10653,23 @@ unicode = 42790;
 {
 color = 4;
 glyphname = Hhook;
-lastChange = "2023-11-12 15:46:33 +0000";
+lastChange = "2023-11-12 17:55:22 +0000";
 layers = (
 {
 layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
 shapes = (
 {
 alignment = -1;
-pos = (235,0);
+pos = (248,0);
 ref = H;
 },
 {
 alignment = -1;
-pos = (43,0);
+pos = (56,0);
 ref = _hook.part;
 }
 );
-width = 919;
+width = 932;
 },
 {
 associatedMasterId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
