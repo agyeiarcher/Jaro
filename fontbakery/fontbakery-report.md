@@ -44,94 +44,9 @@ fontbakery version: 0.9.0
 * 🔥 **FAIL** name id 258 missing from name table
 * 🔥 **FAIL** name id 259 missing from name table
 * 🔥 **FAIL** name id 260 missing from name table
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- acutecomb
-
-	- dotbelowcomb
-
-	- gravecomb
-
-	- hookabovecomb
-
-	- tildecomb
-
-	- uni0302
-
-	- uni0304
-
-	- uni0306
-
-	- uni0307
-
-	- uni0308
-
-	- uni030A
-
-	- uni030B
-
-	- uni030C
-
-	- uni030D
-
-	- uni030F
-
-	- uni0310
-
-	- uni0311
-
-	- uni0312
-
-	- uni0313
-
-	- uni031B
-
-	- uni0320
-
-	- uni0324
-
-	- uni0325
-
-	- uni0326
-
-	- uni0327
-
-	- uni0328
-
-	- uni0329
-
-	- uni032D
-
-	- uni032E
-
-	- uni032F
-
-	- uni0330
-
-	- uni0331
-
-	- uni0332
-
-	- uni0334
-
-	- uni0335
-
-	- uni1DC7
-
-	- uni1DCA [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* ⚠ **WARN** GF_Latin_Plus is almost fulfilled. Missing codepoints:
-
-	- 0x27E8 (MATHEMATICAL LEFT ANGLE BRACKET)
-
-
-	- 0x27E9 (MATHEMATICAL RIGHT ANGLE BRACKET)
- [code: missing-codepoints]
 * ⚠ **WARN** GF_TransLatin_Pinyin is almost fulfilled. Missing codepoints:
 
 	- 0x1D3A (MODIFIER LETTER CAPITAL N)
@@ -504,8 +419,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: greaterequal	Contours detected: 0	Expected: 2
 
-	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
-
 	- Glyph name: Euro	Contours detected: 4	Expected: 1or2
 
 	- Glyph name: Oslashacute	Contours detected: 3	Expected: 4
@@ -690,8 +603,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni2206	Contours detected: 0	Expected: 2
 
-	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
-
 	- Glyph name: yen	Contours detected: 4	Expected: 1or2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
@@ -705,7 +616,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-multiply, plus, minus, equal, divide
+minus, multiply, plus, divide, equal
 
 Width = 406:
 greater, less
@@ -763,14 +674,6 @@ greater, less
 	* Rmacronbelow (U+1E5F): L<<574.0,453.0>--<508.0,389.0>> -> L<<508.0,389.0>--<452.0,341.0>>
 
 	* e (U+0065): L<<319.0,5.0>--<212.0,31.0>> -> L<<212.0,31.0>--<90.0,72.0>>
-
-	* lozenge (U+25CA): L<<105.0,377.0>--<121.0,353.0>> -> L<<121.0,353.0>--<287.0,109.0>>
-
-	* lozenge (U+25CA): L<<287.0,109.0>--<303.0,131.0>> -> L<<303.0,131.0>--<469.0,376.0>>
-
-	* lozenge (U+25CA): L<<288.0,632.0>--<271.0,611.0>> -> L<<271.0,611.0>--<105.0,377.0>>
-
-	* lozenge (U+25CA): L<<469.0,376.0>--<453.0,399.0>> -> L<<453.0,399.0>--<288.0,632.0>>
 
 	* uni0136 (U+0136): L<<342.0,467.0>--<382.0,616.0>> -> L<<382.0,616.0>--<418.0,792.0>>
 
@@ -1015,6 +918,10 @@ greater, less
 	* uni2C64 (U+2C64): L<<269.0,223.0>--<266.0,-146.0>>
 
 	* zero (U+0030): L<<127.0,799.0>--<539.0,801.0>> [code: found-semi-vertical]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+
+
+* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
 </div></details><br></div></details><details><summary><b>[21] Jaro-24ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1057,94 +964,9 @@ greater, less
 * 🔥 **FAIL** name id 258 missing from name table
 * 🔥 **FAIL** name id 259 missing from name table
 * 🔥 **FAIL** name id 260 missing from name table
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- acutecomb
-
-	- dotbelowcomb
-
-	- gravecomb
-
-	- hookabovecomb
-
-	- tildecomb
-
-	- uni0302
-
-	- uni0304
-
-	- uni0306
-
-	- uni0307
-
-	- uni0308
-
-	- uni030A
-
-	- uni030B
-
-	- uni030C
-
-	- uni030D
-
-	- uni030F
-
-	- uni0310
-
-	- uni0311
-
-	- uni0312
-
-	- uni0313
-
-	- uni031B
-
-	- uni0320
-
-	- uni0324
-
-	- uni0325
-
-	- uni0326
-
-	- uni0327
-
-	- uni0328
-
-	- uni0329
-
-	- uni032D
-
-	- uni032E
-
-	- uni032F
-
-	- uni0330
-
-	- uni0331
-
-	- uni0332
-
-	- uni0334
-
-	- uni0335
-
-	- uni1DC7
-
-	- uni1DCA [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* ⚠ **WARN** GF_Latin_Plus is almost fulfilled. Missing codepoints:
-
-	- 0x27E8 (MATHEMATICAL LEFT ANGLE BRACKET)
-
-
-	- 0x27E9 (MATHEMATICAL RIGHT ANGLE BRACKET)
- [code: missing-codepoints]
 * ⚠ **WARN** GF_TransLatin_Pinyin is almost fulfilled. Missing codepoints:
 
 	- 0x1D3A (MODIFIER LETTER CAPITAL N)
@@ -1517,8 +1339,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: greaterequal	Contours detected: 0	Expected: 2
 
-	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
-
 	- Glyph name: Euro	Contours detected: 4	Expected: 1or2
 
 	- Glyph name: Oslashacute	Contours detected: 3	Expected: 4
@@ -1703,8 +1523,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni2206	Contours detected: 0	Expected: 2
 
-	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
-
 	- Glyph name: yen	Contours detected: 4	Expected: 1or2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
@@ -1718,7 +1536,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-multiply, plus, minus, equal, divide
+minus, multiply, plus, divide, equal
 
 Width = 398:
 less
@@ -1779,14 +1597,6 @@ greater
 	* Rmacronbelow (U+1E5F): L<<573.0,452.0>--<502.0,383.0>> -> L<<502.0,383.0>--<458.0,345.0>>
 
 	* e (U+0065): L<<301.0,5.0>--<193.0,38.0>> -> L<<193.0,38.0>--<75.0,82.0>>
-
-	* lozenge (U+25CA): L<<118.0,377.0>--<132.0,355.0>> -> L<<132.0,355.0>--<287.0,128.0>>
-
-	* lozenge (U+25CA): L<<287.0,128.0>--<301.0,148.0>> -> L<<301.0,148.0>--<456.0,376.0>>
-
-	* lozenge (U+25CA): L<<288.0,613.0>--<273.0,595.0>> -> L<<273.0,595.0>--<118.0,377.0>>
-
-	* lozenge (U+25CA): L<<456.0,376.0>--<442.0,396.0>> -> L<<442.0,396.0>--<288.0,613.0>>
 
 	* uni0136 (U+0136): L<<326.0,490.0>--<366.0,639.0>> -> L<<366.0,639.0>--<398.0,792.0>>
 
@@ -2013,6 +1823,10 @@ greater
 	* uni2C72 (U+2C73): L<<56.0,159.0>--<57.0,785.0>>
 
 	* zero (U+0030): L<<103.0,799.0>--<539.0,801.0>> [code: found-semi-vertical]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+
+
+* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
 </div></details><br></div></details><details><summary><b>[20] Jaro-48ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -2055,94 +1869,9 @@ greater
 * 🔥 **FAIL** name id 258 missing from name table
 * 🔥 **FAIL** name id 259 missing from name table
 * 🔥 **FAIL** name id 260 missing from name table
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- acutecomb
-
-	- dotbelowcomb
-
-	- gravecomb
-
-	- hookabovecomb
-
-	- tildecomb
-
-	- uni0302
-
-	- uni0304
-
-	- uni0306
-
-	- uni0307
-
-	- uni0308
-
-	- uni030A
-
-	- uni030B
-
-	- uni030C
-
-	- uni030D
-
-	- uni030F
-
-	- uni0310
-
-	- uni0311
-
-	- uni0312
-
-	- uni0313
-
-	- uni031B
-
-	- uni0320
-
-	- uni0324
-
-	- uni0325
-
-	- uni0326
-
-	- uni0327
-
-	- uni0328
-
-	- uni0329
-
-	- uni032D
-
-	- uni032E
-
-	- uni032F
-
-	- uni0330
-
-	- uni0331
-
-	- uni0332
-
-	- uni0334
-
-	- uni0335
-
-	- uni1DC7
-
-	- uni1DCA [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* ⚠ **WARN** GF_Latin_Plus is almost fulfilled. Missing codepoints:
-
-	- 0x27E8 (MATHEMATICAL LEFT ANGLE BRACKET)
-
-
-	- 0x27E9 (MATHEMATICAL RIGHT ANGLE BRACKET)
- [code: missing-codepoints]
 * ⚠ **WARN** GF_TransLatin_Pinyin is almost fulfilled. Missing codepoints:
 
 	- 0x1D3A (MODIFIER LETTER CAPITAL N)
@@ -2515,8 +2244,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: greaterequal	Contours detected: 0	Expected: 2
 
-	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
-
 	- Glyph name: Euro	Contours detected: 4	Expected: 1or2
 
 	- Glyph name: Oslashacute	Contours detected: 3	Expected: 4
@@ -2701,8 +2428,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni2206	Contours detected: 0	Expected: 2
 
-	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
-
 	- Glyph name: yen	Contours detected: 4	Expected: 1or2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
@@ -2716,7 +2441,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-multiply, plus, minus, equal, divide
+minus, multiply, plus, divide, equal
 
 Width = 388:
 less
@@ -2847,7 +2572,11 @@ greater
 	* uni2C72 (U+2C73): L<<885.0,686.0>--<886.0,165.0>>
 
 	* zero (U+0030): L<<72.0,799.0>--<540.0,801.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[22] Jaro-72ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+
+
+* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
+</div></details><br></div></details><details><summary><b>[21] Jaro-72ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -2889,94 +2618,9 @@ greater
 * 🔥 **FAIL** name id 258 missing from name table
 * 🔥 **FAIL** name id 259 missing from name table
 * 🔥 **FAIL** name id 260 missing from name table
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- acutecomb
-
-	- dotbelowcomb
-
-	- gravecomb
-
-	- hookabovecomb
-
-	- tildecomb
-
-	- uni0302
-
-	- uni0304
-
-	- uni0306
-
-	- uni0307
-
-	- uni0308
-
-	- uni030A
-
-	- uni030B
-
-	- uni030C
-
-	- uni030D
-
-	- uni030F
-
-	- uni0310
-
-	- uni0311
-
-	- uni0312
-
-	- uni0313
-
-	- uni031B
-
-	- uni0320
-
-	- uni0324
-
-	- uni0325
-
-	- uni0326
-
-	- uni0327
-
-	- uni0328
-
-	- uni0329
-
-	- uni032D
-
-	- uni032E
-
-	- uni032F
-
-	- uni0330
-
-	- uni0331
-
-	- uni0332
-
-	- uni0334
-
-	- uni0335
-
-	- uni1DC7
-
-	- uni1DCA [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* ⚠ **WARN** GF_Latin_Plus is almost fulfilled. Missing codepoints:
-
-	- 0x27E8 (MATHEMATICAL LEFT ANGLE BRACKET)
-
-
-	- 0x27E9 (MATHEMATICAL RIGHT ANGLE BRACKET)
- [code: missing-codepoints]
 * ⚠ **WARN** GF_TransLatin_Pinyin is almost fulfilled. Missing codepoints:
 
 	- 0x1D3A (MODIFIER LETTER CAPITAL N)
@@ -3349,8 +2993,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: greaterequal	Contours detected: 0	Expected: 2
 
-	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
-
 	- Glyph name: Euro	Contours detected: 4	Expected: 1or2
 
 	- Glyph name: Oslashacute	Contours detected: 3	Expected: 4
@@ -3535,8 +3177,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni2206	Contours detected: 0	Expected: 2
 
-	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
-
 	- Glyph name: yen	Contours detected: 4	Expected: 1or2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
@@ -3550,7 +3190,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-multiply, plus, minus, equal, divide
+minus, multiply, plus, divide, equal
 
 Width = 377:
 less
@@ -3599,14 +3239,6 @@ greater
 	* Rmacronbelow (U+1E5F): L<<569.0,449.0>--<486.0,366.0>> -> L<<486.0,366.0>--<473.0,354.0>>
 
 	* e (U+0065): L<<252.0,5.0>--<141.0,58.0>> -> L<<141.0,58.0>--<36.0,108.0>>
-
-	* lozenge (U+25CA): L<<154.0,376.0>--<163.0,362.0>> -> L<<163.0,362.0>--<287.0,180.0>>
-
-	* lozenge (U+25CA): L<<287.0,180.0>--<296.0,192.0>> -> L<<296.0,192.0>--<420.0,376.0>>
-
-	* lozenge (U+25CA): L<<288.0,562.0>--<279.0,551.0>> -> L<<279.0,551.0>--<154.0,376.0>>
-
-	* lozenge (U+25CA): L<<420.0,376.0>--<412.0,387.0>> -> L<<412.0,387.0>--<288.0,562.0>>
 
 	* uni0136 (U+0136): L<<284.0,550.0>--<322.0,700.0>> -> L<<322.0,700.0>--<345.0,792.0>>
 
@@ -3681,14 +3313,6 @@ greater
 	* uni1E5C (U+1E5C): L<<569.0,449.0>--<486.0,366.0>> -> L<<486.0,366.0>--<473.0,354.0>>
 
 	* uni20A8 (U+20A8): L<<569.0,449.0>--<486.0,366.0>> -> L<<486.0,366.0>--<473.0,354.0>> [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* Eng (U+014A): L<<299.0,1.0>--<338.0,0.0>>/B<<338.0,0.0>-<325.0,2.0>-<325.0,15.0>> = 7.277361548169348
-
-	* Eng (U+014B): L<<299.0,1.0>--<338.0,0.0>>/B<<338.0,0.0>-<325.0,2.0>-<325.0,15.0>> = 7.277361548169348 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -3807,6 +3431,10 @@ greater
 	* uni2C72 (U+2C73): L<<856.0,679.0>--<857.0,171.0>>
 
 	* zero (U+0030): L<<40.0,799.0>--<540.0,801.0>> [code: found-semi-vertical]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+
+
+* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
 </div></details><br></div></details><details><summary><b>[21] Jaro-12ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -3849,94 +3477,9 @@ greater
 * 🔥 **FAIL** name id 258 missing from name table
 * 🔥 **FAIL** name id 259 missing from name table
 * 🔥 **FAIL** name id 260 missing from name table
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- acutecomb
-
-	- dotbelowcomb
-
-	- gravecomb
-
-	- hookabovecomb
-
-	- tildecomb
-
-	- uni0302
-
-	- uni0304
-
-	- uni0306
-
-	- uni0307
-
-	- uni0308
-
-	- uni030A
-
-	- uni030B
-
-	- uni030C
-
-	- uni030D
-
-	- uni030F
-
-	- uni0310
-
-	- uni0311
-
-	- uni0312
-
-	- uni0313
-
-	- uni031B
-
-	- uni0320
-
-	- uni0324
-
-	- uni0325
-
-	- uni0326
-
-	- uni0327
-
-	- uni0328
-
-	- uni0329
-
-	- uni032D
-
-	- uni032E
-
-	- uni032F
-
-	- uni0330
-
-	- uni0331
-
-	- uni0332
-
-	- uni0334
-
-	- uni0335
-
-	- uni1DC7
-
-	- uni1DCA [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* ⚠ **WARN** GF_Latin_Plus is almost fulfilled. Missing codepoints:
-
-	- 0x27E8 (MATHEMATICAL LEFT ANGLE BRACKET)
-
-
-	- 0x27E9 (MATHEMATICAL RIGHT ANGLE BRACKET)
- [code: missing-codepoints]
 * ⚠ **WARN** GF_TransLatin_Pinyin is almost fulfilled. Missing codepoints:
 
 	- 0x1D3A (MODIFIER LETTER CAPITAL N)
@@ -4309,8 +3852,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: greaterequal	Contours detected: 0	Expected: 2
 
-	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
-
 	- Glyph name: Euro	Contours detected: 4	Expected: 1or2
 
 	- Glyph name: Oslashacute	Contours detected: 3	Expected: 4
@@ -4495,8 +4036,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni2206	Contours detected: 0	Expected: 2
 
-	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
-
 	- Glyph name: yen	Contours detected: 4	Expected: 1or2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
@@ -4510,7 +4049,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-multiply, plus, minus, equal, divide
+minus, multiply, plus, divide, equal
 
 Width = 403:
 less
@@ -4565,14 +4104,6 @@ greater
 	* Rmacronbelow (U+1E5F): L<<574.0,453.0>--<506.0,387.0>> -> L<<506.0,387.0>--<454.0,342.0>>
 
 	* e (U+0065): L<<313.0,5.0>--<206.0,33.0>> -> L<<206.0,33.0>--<85.0,75.0>>
-
-	* lozenge (U+25CA): L<<109.0,377.0>--<125.0,354.0>> -> L<<125.0,354.0>--<287.0,115.0>>
-
-	* lozenge (U+25CA): L<<287.0,115.0>--<302.0,137.0>> -> L<<302.0,137.0>--<465.0,376.0>>
-
-	* lozenge (U+25CA): L<<288.0,626.0>--<272.0,606.0>> -> L<<272.0,606.0>--<109.0,377.0>>
-
-	* lozenge (U+25CA): L<<465.0,376.0>--<449.0,398.0>> -> L<<449.0,398.0>--<288.0,626.0>>
 
 	* uni0136 (U+0136): L<<337.0,475.0>--<377.0,624.0>> -> L<<377.0,624.0>--<411.0,792.0>>
 
@@ -4795,14 +4326,18 @@ greater
 	* uni2C64 (U+2C64): L<<269.0,223.0>--<266.0,-146.0>>
 
 	* zero (U+0030): L<<119.0,799.0>--<539.0,801.0>> [code: found-semi-vertical]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+
+
+* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 15 | 25 | 65 | 629 | 26 | 422 | 0 |
-| 1% | 2% | 5% | 53% | 2% | 36% | 0% |
+| 15 | 20 | 69 | 629 | 26 | 423 | 0 |
+| 1% | 2% | 6% | 53% | 2% | 36% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
