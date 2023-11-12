@@ -51,6 +51,14 @@ fontbakery version: 0.9.0
 
 	- 0x1D3A (MODIFIER LETTER CAPITAL N)
  [code: missing-codepoints]
+* ⚠ **WARN** GF_Latin_African is almost fulfilled. Missing codepoints:
+
+	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
+ [code: missing-codepoints]
+* ⚠ **WARN** GF_Latin_Beyond is almost fulfilled. Missing codepoints:
+
+	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
+ [code: missing-codepoints]
 * ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
 
 	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
@@ -60,19 +68,6 @@ fontbakery version: 0.9.0
 
 
 	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
- [code: missing-codepoints]
-* ⚠ **WARN** GF_Phonetics_APA is almost fulfilled. Missing codepoints:
-
-	- 0x03C6 (GREEK SMALL LETTER PHI)
-
-
-	- 0x1D05 (LATIN LETTER SMALL CAPITAL D)
-
-
-	- 0x1D7B (LATIN SMALL CAPITAL LETTER I WITH STROKE)
-
-
-	- 0x1D4D (MODIFIER LETTER SMALL G)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
 
@@ -235,8 +230,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0210	Contours detected: 4	Expected: 3
 
 	- Glyph name: uni0212	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni023B	Contours detected: 1	Expected: 2
 
 	- Glyph name: uni0246	Contours detected: 1	Expected: 4
 
@@ -506,8 +499,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni023A	Contours detected: 2	Expected: 3
 
-	- Glyph name: uni023B	Contours detected: 1	Expected: 2
-
 	- Glyph name: uni023E	Contours detected: 1	Expected: 2
 
 	- Glyph name: uni0244	Contours detected: 1	Expected: 2
@@ -609,10 +600,10 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-equal, divide, plus, multiply, minus
+multiply, divide, plus, equal, minus
 
 Width = 406:
-greater, less
+less, greater
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
 
@@ -687,10 +678,6 @@ greater, less
 	* uni0156 (U+0156): L<<574.0,453.0>--<508.0,389.0>> -> L<<508.0,389.0>--<452.0,341.0>>
 
 	* uni0156 (U+0157): L<<574.0,453.0>--<508.0,389.0>> -> L<<508.0,389.0>--<452.0,341.0>>
-
-	* uni018F (U+018F): L<<72.0,728.0>--<199.0,730.0>> -> L<<199.0,730.0>--<443.0,730.0>>
-
-	* uni018F (U+0259): L<<72.0,728.0>--<199.0,730.0>> -> L<<199.0,730.0>--<443.0,730.0>>
 
 	* uni0198 (U+0198): L<<342.0,467.0>--<382.0,616.0>> -> L<<382.0,616.0>--<418.0,792.0>>
 
@@ -810,14 +797,6 @@ greater, less
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* AE (U+00C6): L<<809.0,1.0>--<377.0,0.0>>
-
-	* AE (U+00E6): L<<809.0,1.0>--<377.0,0.0>>
-
-	* AEacute (U+01FC): L<<809.0,1.0>--<377.0,0.0>>
-
-	* AEacute (U+01FD): L<<809.0,1.0>--<377.0,0.0>>
-
 	* OE (U+0152): L<<814.0,1.0>--<204.0,0.0>>
 
 	* OE (U+0153): L<<814.0,1.0>--<204.0,0.0>>
@@ -853,14 +832,6 @@ greater, less
 	* two (U+0032): L<<44.0,15.0>--<43.0,210.0>>
 
 	* uni00B2 (U+00B2): L<<44.0,15.0>--<43.0,210.0>>
-
-	* uni018B (U+018B): L<<10.0,799.0>--<507.0,801.0>>
-
-	* uni018B (U+018C): L<<10.0,799.0>--<507.0,801.0>>
-
-	* uni01E2 (U+01E2): L<<809.0,1.0>--<377.0,0.0>>
-
-	* uni01E2 (U+01E3): L<<809.0,1.0>--<377.0,0.0>>
 
 	* uni01E4 (U+01E4): L<<167.0,800.0>--<536.0,799.0>>
 
@@ -958,6 +929,14 @@ greater, less
 
 	- 0x1D3A (MODIFIER LETTER CAPITAL N)
  [code: missing-codepoints]
+* ⚠ **WARN** GF_Latin_African is almost fulfilled. Missing codepoints:
+
+	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
+ [code: missing-codepoints]
+* ⚠ **WARN** GF_Latin_Beyond is almost fulfilled. Missing codepoints:
+
+	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
+ [code: missing-codepoints]
 * ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
 
 	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
@@ -967,19 +946,6 @@ greater, less
 
 
 	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
- [code: missing-codepoints]
-* ⚠ **WARN** GF_Phonetics_APA is almost fulfilled. Missing codepoints:
-
-	- 0x03C6 (GREEK SMALL LETTER PHI)
-
-
-	- 0x1D05 (LATIN LETTER SMALL CAPITAL D)
-
-
-	- 0x1D7B (LATIN SMALL CAPITAL LETTER I WITH STROKE)
-
-
-	- 0x1D4D (MODIFIER LETTER SMALL G)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
 
@@ -1142,8 +1108,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0210	Contours detected: 4	Expected: 3
 
 	- Glyph name: uni0212	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni023B	Contours detected: 1	Expected: 2
 
 	- Glyph name: uni0246	Contours detected: 1	Expected: 4
 
@@ -1413,8 +1377,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni023A	Contours detected: 2	Expected: 3
 
-	- Glyph name: uni023B	Contours detected: 1	Expected: 2
-
 	- Glyph name: uni023E	Contours detected: 1	Expected: 2
 
 	- Glyph name: uni0244	Contours detected: 1	Expected: 2
@@ -1516,7 +1478,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-equal, divide, plus, multiply, minus
+multiply, divide, plus, equal, minus
 
 Width = 398:
 less
@@ -1597,10 +1559,6 @@ greater
 	* uni0156 (U+0156): L<<573.0,452.0>--<502.0,383.0>> -> L<<502.0,383.0>--<458.0,345.0>>
 
 	* uni0156 (U+0157): L<<573.0,452.0>--<502.0,383.0>> -> L<<502.0,383.0>--<458.0,345.0>>
-
-	* uni018F (U+018F): L<<60.0,728.0>--<187.0,730.0>> -> L<<187.0,730.0>--<431.0,730.0>>
-
-	* uni018F (U+0259): L<<60.0,728.0>--<187.0,730.0>> -> L<<187.0,730.0>--<431.0,730.0>>
 
 	* uni0198 (U+0198): L<<326.0,490.0>--<366.0,639.0>> -> L<<366.0,639.0>--<398.0,792.0>>
 
@@ -1696,14 +1654,6 @@ greater
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* AE (U+00C6): L<<797.0,1.0>--<365.0,0.0>>
-
-	* AE (U+00E6): L<<797.0,1.0>--<365.0,0.0>>
-
-	* AEacute (U+01FC): L<<797.0,1.0>--<365.0,0.0>>
-
-	* AEacute (U+01FD): L<<797.0,1.0>--<365.0,0.0>>
-
 	* OE (U+0152): L<<802.0,1.0>--<192.0,0.0>>
 
 	* OE (U+0153): L<<802.0,1.0>--<192.0,0.0>>
@@ -1739,14 +1689,6 @@ greater
 	* two (U+0032): L<<39.0,15.0>--<38.0,249.0>>
 
 	* uni00B2 (U+00B2): L<<39.0,15.0>--<38.0,249.0>>
-
-	* uni018B (U+018B): L<<10.0,799.0>--<507.0,801.0>>
-
-	* uni018B (U+018C): L<<10.0,799.0>--<507.0,801.0>>
-
-	* uni01E2 (U+01E2): L<<797.0,1.0>--<365.0,0.0>>
-
-	* uni01E2 (U+01E3): L<<797.0,1.0>--<365.0,0.0>>
 
 	* uni01E4 (U+01E4): L<<167.0,800.0>--<536.0,799.0>>
 
@@ -1854,6 +1796,14 @@ greater
 
 	- 0x1D3A (MODIFIER LETTER CAPITAL N)
  [code: missing-codepoints]
+* ⚠ **WARN** GF_Latin_African is almost fulfilled. Missing codepoints:
+
+	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
+ [code: missing-codepoints]
+* ⚠ **WARN** GF_Latin_Beyond is almost fulfilled. Missing codepoints:
+
+	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
+ [code: missing-codepoints]
 * ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
 
 	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
@@ -1863,19 +1813,6 @@ greater
 
 
 	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
- [code: missing-codepoints]
-* ⚠ **WARN** GF_Phonetics_APA is almost fulfilled. Missing codepoints:
-
-	- 0x03C6 (GREEK SMALL LETTER PHI)
-
-
-	- 0x1D05 (LATIN LETTER SMALL CAPITAL D)
-
-
-	- 0x1D7B (LATIN SMALL CAPITAL LETTER I WITH STROKE)
-
-
-	- 0x1D4D (MODIFIER LETTER SMALL G)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
 
@@ -2038,8 +1975,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0210	Contours detected: 4	Expected: 3
 
 	- Glyph name: uni0212	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni023B	Contours detected: 1	Expected: 2
 
 	- Glyph name: uni0246	Contours detected: 1	Expected: 4
 
@@ -2309,8 +2244,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni023A	Contours detected: 2	Expected: 3
 
-	- Glyph name: uni023B	Contours detected: 1	Expected: 2
-
 	- Glyph name: uni023E	Contours detected: 1	Expected: 2
 
 	- Glyph name: uni0244	Contours detected: 1	Expected: 2
@@ -2412,7 +2345,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-equal, divide, plus, multiply, minus
+multiply, divide, plus, equal, minus
 
 Width = 388:
 less
@@ -2434,13 +2367,13 @@ greater
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* AE (U+00C6): L<<782.0,1.0>--<350.0,0.0>>
+	* AE (U+00C6): L<<791.0,1.0>--<364.0,0.0>>
 
-	* AE (U+00E6): L<<782.0,1.0>--<350.0,0.0>>
+	* AE (U+00E6): L<<791.0,1.0>--<364.0,0.0>>
 
-	* AEacute (U+01FC): L<<782.0,1.0>--<350.0,0.0>>
+	* AEacute (U+01FC): L<<791.0,1.0>--<364.0,0.0>>
 
-	* AEacute (U+01FD): L<<782.0,1.0>--<350.0,0.0>>
+	* AEacute (U+01FD): L<<791.0,1.0>--<364.0,0.0>>
 
 	* OE (U+0152): L<<787.0,1.0>--<177.0,0.0>>
 
@@ -2478,13 +2411,13 @@ greater
 
 	* uni00B2 (U+00B2): L<<33.0,15.0>--<32.0,302.0>>
 
-	* uni018B (U+018B): L<<10.0,799.0>--<507.0,801.0>>
+	* uni018B (U+018B): L<<51.0,799.0>--<552.0,801.0>>
 
-	* uni018B (U+018C): L<<10.0,799.0>--<507.0,801.0>>
+	* uni018B (U+018C): L<<51.0,799.0>--<552.0,801.0>>
 
-	* uni01E2 (U+01E2): L<<782.0,1.0>--<350.0,0.0>>
+	* uni01E2 (U+01E2): L<<791.0,1.0>--<364.0,0.0>>
 
-	* uni01E2 (U+01E3): L<<782.0,1.0>--<350.0,0.0>>
+	* uni01E2 (U+01E3): L<<791.0,1.0>--<364.0,0.0>>
 
 	* uni01E4 (U+01E4): L<<167.0,800.0>--<536.0,799.0>>
 
@@ -2590,6 +2523,14 @@ greater
 
 	- 0x1D3A (MODIFIER LETTER CAPITAL N)
  [code: missing-codepoints]
+* ⚠ **WARN** GF_Latin_African is almost fulfilled. Missing codepoints:
+
+	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
+ [code: missing-codepoints]
+* ⚠ **WARN** GF_Latin_Beyond is almost fulfilled. Missing codepoints:
+
+	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
+ [code: missing-codepoints]
 * ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
 
 	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
@@ -2599,19 +2540,6 @@ greater
 
 
 	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
- [code: missing-codepoints]
-* ⚠ **WARN** GF_Phonetics_APA is almost fulfilled. Missing codepoints:
-
-	- 0x03C6 (GREEK SMALL LETTER PHI)
-
-
-	- 0x1D05 (LATIN LETTER SMALL CAPITAL D)
-
-
-	- 0x1D7B (LATIN SMALL CAPITAL LETTER I WITH STROKE)
-
-
-	- 0x1D4D (MODIFIER LETTER SMALL G)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
 
@@ -2774,8 +2702,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0210	Contours detected: 4	Expected: 3
 
 	- Glyph name: uni0212	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni023B	Contours detected: 1	Expected: 2
 
 	- Glyph name: uni0246	Contours detected: 1	Expected: 4
 
@@ -3045,8 +2971,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni023A	Contours detected: 2	Expected: 3
 
-	- Glyph name: uni023B	Contours detected: 1	Expected: 2
-
 	- Glyph name: uni023E	Contours detected: 1	Expected: 2
 
 	- Glyph name: uni0244	Contours detected: 1	Expected: 2
@@ -3148,7 +3072,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-equal, divide, plus, multiply, minus
+multiply, divide, plus, equal, minus
 
 Width = 377:
 less
@@ -3209,10 +3133,6 @@ greater
 	* uni0156 (U+0156): L<<569.0,449.0>--<486.0,366.0>> -> L<<486.0,366.0>--<473.0,354.0>>
 
 	* uni0156 (U+0157): L<<569.0,449.0>--<486.0,366.0>> -> L<<486.0,366.0>--<473.0,354.0>>
-
-	* uni018F (U+018F): L<<29.0,728.0>--<156.0,730.0>> -> L<<156.0,730.0>--<400.0,730.0>>
-
-	* uni018F (U+0259): L<<29.0,728.0>--<156.0,730.0>> -> L<<156.0,730.0>--<400.0,730.0>>
 
 	* uni0198 (U+0198): L<<284.0,550.0>--<322.0,700.0>> -> L<<322.0,700.0>--<345.0,792.0>>
 
@@ -3324,9 +3244,9 @@ greater
 
 	* uni00B2 (U+00B2): L<<26.0,15.0>--<25.0,354.0>>
 
-	* uni018B (U+018B): L<<10.0,799.0>--<507.0,801.0>>
+	* uni018B (U+018B): L<<34.0,799.0>--<531.0,801.0>>
 
-	* uni018B (U+018C): L<<10.0,799.0>--<507.0,801.0>>
+	* uni018B (U+018C): L<<34.0,799.0>--<531.0,801.0>>
 
 	* uni01E2 (U+01E2): L<<766.0,1.0>--<334.0,0.0>>
 
@@ -3440,6 +3360,14 @@ greater
 
 	- 0x1D3A (MODIFIER LETTER CAPITAL N)
  [code: missing-codepoints]
+* ⚠ **WARN** GF_Latin_African is almost fulfilled. Missing codepoints:
+
+	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
+ [code: missing-codepoints]
+* ⚠ **WARN** GF_Latin_Beyond is almost fulfilled. Missing codepoints:
+
+	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
+ [code: missing-codepoints]
 * ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
 
 	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
@@ -3449,19 +3377,6 @@ greater
 
 
 	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
- [code: missing-codepoints]
-* ⚠ **WARN** GF_Phonetics_APA is almost fulfilled. Missing codepoints:
-
-	- 0x03C6 (GREEK SMALL LETTER PHI)
-
-
-	- 0x1D05 (LATIN LETTER SMALL CAPITAL D)
-
-
-	- 0x1D7B (LATIN SMALL CAPITAL LETTER I WITH STROKE)
-
-
-	- 0x1D4D (MODIFIER LETTER SMALL G)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
 
@@ -3624,8 +3539,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0210	Contours detected: 4	Expected: 3
 
 	- Glyph name: uni0212	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni023B	Contours detected: 1	Expected: 2
 
 	- Glyph name: uni0246	Contours detected: 1	Expected: 4
 
@@ -3895,8 +3808,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni023A	Contours detected: 2	Expected: 3
 
-	- Glyph name: uni023B	Contours detected: 1	Expected: 2
-
 	- Glyph name: uni023E	Contours detected: 1	Expected: 2
 
 	- Glyph name: uni0244	Contours detected: 1	Expected: 2
@@ -3998,7 +3909,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-equal, divide, plus, multiply, minus
+multiply, divide, plus, equal, minus
 
 Width = 403:
 less
@@ -4069,10 +3980,6 @@ greater
 	* uni0156 (U+0156): L<<574.0,453.0>--<506.0,387.0>> -> L<<506.0,387.0>--<454.0,342.0>>
 
 	* uni0156 (U+0157): L<<574.0,453.0>--<506.0,387.0>> -> L<<506.0,387.0>--<454.0,342.0>>
-
-	* uni018F (U+018F): L<<68.0,728.0>--<195.0,730.0>> -> L<<195.0,730.0>--<439.0,730.0>>
-
-	* uni018F (U+0259): L<<68.0,728.0>--<195.0,730.0>> -> L<<195.0,730.0>--<439.0,730.0>>
 
 	* uni0198 (U+0198): L<<337.0,475.0>--<377.0,624.0>> -> L<<377.0,624.0>--<411.0,792.0>>
 
@@ -4174,14 +4081,6 @@ greater
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* AE (U+00C6): L<<805.0,1.0>--<373.0,0.0>>
-
-	* AE (U+00E6): L<<805.0,1.0>--<373.0,0.0>>
-
-	* AEacute (U+01FC): L<<805.0,1.0>--<373.0,0.0>>
-
-	* AEacute (U+01FD): L<<805.0,1.0>--<373.0,0.0>>
-
 	* OE (U+0152): L<<810.0,1.0>--<200.0,0.0>>
 
 	* OE (U+0153): L<<810.0,1.0>--<200.0,0.0>>
@@ -4217,14 +4116,6 @@ greater
 	* two (U+0032): L<<42.0,15.0>--<41.0,223.0>>
 
 	* uni00B2 (U+00B2): L<<42.0,15.0>--<41.0,223.0>>
-
-	* uni018B (U+018B): L<<10.0,799.0>--<507.0,801.0>>
-
-	* uni018B (U+018C): L<<10.0,799.0>--<507.0,801.0>>
-
-	* uni01E2 (U+01E2): L<<805.0,1.0>--<373.0,0.0>>
-
-	* uni01E2 (U+01E3): L<<805.0,1.0>--<373.0,0.0>>
 
 	* uni01E4 (U+01E4): L<<167.0,800.0>--<536.0,799.0>>
 
