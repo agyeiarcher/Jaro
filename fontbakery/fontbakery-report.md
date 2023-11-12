@@ -30,7 +30,7 @@ fontbakery version: 0.9.0
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1271, but got 1200 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1270, but got 1200 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 410, but got 300 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
@@ -51,14 +51,6 @@ fontbakery version: 0.9.0
 
 	- 0x1D3A (MODIFIER LETTER CAPITAL N)
  [code: missing-codepoints]
-* ⚠ **WARN** GF_Latin_African is almost fulfilled. Missing codepoints:
-
-	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
- [code: missing-codepoints]
-* ⚠ **WARN** GF_Latin_Beyond is almost fulfilled. Missing codepoints:
-
-	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
- [code: missing-codepoints]
 * ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
 
 	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
@@ -68,6 +60,19 @@ fontbakery version: 0.9.0
 
 
 	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
+ [code: missing-codepoints]
+* ⚠ **WARN** GF_Phonetics_APA is almost fulfilled. Missing codepoints:
+
+	- 0x03C6 (GREEK SMALL LETTER PHI)
+
+
+	- 0x1D05 (LATIN LETTER SMALL CAPITAL D)
+
+
+	- 0x1D7B (LATIN SMALL CAPITAL LETTER I WITH STROKE)
+
+
+	- 0x1D4D (MODIFIER LETTER SMALL G)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
 
@@ -118,8 +123,6 @@ fontbakery version: 0.9.0
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: Q	Contours detected: 3	Expected: 2
 
 	- Glyph name: braceleft	Contours detected: 3	Expected: 1
 
@@ -201,11 +204,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01C2	Contours detected: 3	Expected: 1
 
-	- Glyph name: uni01C8	Contours detected: 1	Expected: 3
-
 	- Glyph name: uni01C7	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni01CB	Contours detected: 1	Expected: 3
 
 	- Glyph name: uni01CA	Contours detected: 2	Expected: 3
 
@@ -423,8 +422,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Oslashacute	Contours detected: 3	Expected: 4
 
-	- Glyph name: Q	Contours detected: 3	Expected: 2
-
 	- Glyph name: Uhorn	Contours detected: 2	Expected: 1
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
@@ -500,10 +497,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni01B5	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni01C2	Contours detected: 3	Expected: 1
-
-	- Glyph name: uni01C8	Contours detected: 1	Expected: 3
-
-	- Glyph name: uni01CB	Contours detected: 1	Expected: 3
 
 	- Glyph name: uni01EC	Contours detected: 4	Expected: 3
 
@@ -616,7 +609,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-minus, multiply, plus, divide, equal
+equal, divide, plus, multiply, minus
 
 Width = 406:
 greater, less
@@ -743,9 +736,9 @@ greater, less
 
 	* uni0212 (U+0213): L<<574.0,453.0>--<508.0,389.0>> -> L<<508.0,389.0>--<452.0,341.0>>
 
-	* uni024C (U+024C): L<<564.0,453.0>--<498.0,389.0>> -> L<<498.0,389.0>--<442.0,341.0>>
+	* uni024C (U+024C): L<<630.0,453.0>--<564.0,389.0>> -> L<<564.0,389.0>--<508.0,341.0>>
 
-	* uni024C (U+024D): L<<564.0,453.0>--<498.0,389.0>> -> L<<498.0,389.0>--<442.0,341.0>>
+	* uni024C (U+024D): L<<630.0,453.0>--<564.0,389.0>> -> L<<564.0,389.0>--<508.0,341.0>>
 
 	* uni029D (U+029D): L<<222.0,-250.0>--<118.0,-250.0>> -> L<<118.0,-250.0>--<114.0,-250.0>>
 
@@ -796,6 +789,10 @@ greater, less
 	* uni1E5C (U+1E5C): L<<574.0,453.0>--<508.0,389.0>> -> L<<508.0,389.0>--<452.0,341.0>>
 
 	* uni20A8 (U+20A8): L<<574.0,453.0>--<508.0,389.0>> -> L<<508.0,389.0>--<452.0,341.0>>
+
+	* uni2C64 (U+027D): L<<574.0,453.0>--<508.0,389.0>> -> L<<508.0,389.0>--<452.0,341.0>>
+
+	* uni2C64 (U+2C64): L<<574.0,453.0>--<508.0,389.0>> -> L<<508.0,389.0>--<452.0,341.0>>
 
 	* uni2C72 (U+2C72): L<<796.0,850.0>--<921.0,850.0>> -> L<<921.0,850.0>--<922.0,850.0>>
 
@@ -861,12 +858,6 @@ greater, less
 
 	* uni018B (U+018C): L<<10.0,799.0>--<507.0,801.0>>
 
-	* uni01C7 (U+01C7): L<<341.0,1.0>--<36.0,0.0>>
-
-	* uni01C7 (U+01C9): L<<341.0,1.0>--<36.0,0.0>>
-
-	* uni01C8 (U+01C8): L<<352.0,1.0>--<36.0,0.0>>
-
 	* uni01E2 (U+01E2): L<<809.0,1.0>--<377.0,0.0>>
 
 	* uni01E2 (U+01E3): L<<809.0,1.0>--<377.0,0.0>>
@@ -913,10 +904,6 @@ greater, less
 
 	* uni2154 (U+2154): L<<44.0,15.0>--<43.0,210.0>>
 
-	* uni2C64 (U+027D): L<<269.0,223.0>--<266.0,-146.0>>
-
-	* uni2C64 (U+2C64): L<<269.0,223.0>--<266.0,-146.0>>
-
 	* zero (U+0030): L<<127.0,799.0>--<539.0,801.0>> [code: found-semi-vertical]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
@@ -950,7 +937,7 @@ greater, less
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1271, but got 1200 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1270, but got 1200 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 410, but got 300 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
@@ -971,14 +958,6 @@ greater, less
 
 	- 0x1D3A (MODIFIER LETTER CAPITAL N)
  [code: missing-codepoints]
-* ⚠ **WARN** GF_Latin_African is almost fulfilled. Missing codepoints:
-
-	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
- [code: missing-codepoints]
-* ⚠ **WARN** GF_Latin_Beyond is almost fulfilled. Missing codepoints:
-
-	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
- [code: missing-codepoints]
 * ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
 
 	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
@@ -988,6 +967,19 @@ greater, less
 
 
 	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
+ [code: missing-codepoints]
+* ⚠ **WARN** GF_Phonetics_APA is almost fulfilled. Missing codepoints:
+
+	- 0x03C6 (GREEK SMALL LETTER PHI)
+
+
+	- 0x1D05 (LATIN LETTER SMALL CAPITAL D)
+
+
+	- 0x1D7B (LATIN SMALL CAPITAL LETTER I WITH STROKE)
+
+
+	- 0x1D4D (MODIFIER LETTER SMALL G)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
 
@@ -1038,8 +1030,6 @@ greater, less
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: Q	Contours detected: 3	Expected: 2
 
 	- Glyph name: braceleft	Contours detected: 3	Expected: 1
 
@@ -1121,11 +1111,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01C2	Contours detected: 3	Expected: 1
 
-	- Glyph name: uni01C8	Contours detected: 1	Expected: 3
-
 	- Glyph name: uni01C7	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni01CB	Contours detected: 1	Expected: 3
 
 	- Glyph name: uni01CA	Contours detected: 2	Expected: 3
 
@@ -1343,8 +1329,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Oslashacute	Contours detected: 3	Expected: 4
 
-	- Glyph name: Q	Contours detected: 3	Expected: 2
-
 	- Glyph name: Uhorn	Contours detected: 2	Expected: 1
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
@@ -1420,10 +1404,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni01B5	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni01C2	Contours detected: 3	Expected: 1
-
-	- Glyph name: uni01C8	Contours detected: 1	Expected: 3
-
-	- Glyph name: uni01CB	Contours detected: 1	Expected: 3
 
 	- Glyph name: uni01EC	Contours detected: 4	Expected: 3
 
@@ -1536,7 +1516,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-minus, multiply, plus, divide, equal
+equal, divide, plus, multiply, minus
 
 Width = 398:
 less
@@ -1654,9 +1634,9 @@ greater
 
 	* uni0212 (U+0213): L<<573.0,452.0>--<502.0,383.0>> -> L<<502.0,383.0>--<458.0,345.0>>
 
-	* uni024C (U+024C): L<<563.0,452.0>--<492.0,383.0>> -> L<<492.0,383.0>--<448.0,345.0>>
+	* uni024C (U+024C): L<<628.0,452.0>--<557.0,383.0>> -> L<<557.0,383.0>--<513.0,345.0>>
 
-	* uni024C (U+024D): L<<563.0,452.0>--<492.0,383.0>> -> L<<492.0,383.0>--<448.0,345.0>>
+	* uni024C (U+024D): L<<628.0,452.0>--<557.0,383.0>> -> L<<557.0,383.0>--<513.0,345.0>>
 
 	* uni029D (U+029D): L<<222.0,-250.0>--<118.0,-250.0>> -> L<<118.0,-250.0>--<114.0,-250.0>>
 
@@ -1706,7 +1686,11 @@ greater
 
 	* uni1E5C (U+1E5C): L<<573.0,452.0>--<502.0,383.0>> -> L<<502.0,383.0>--<458.0,345.0>>
 
-	* uni20A8 (U+20A8): L<<573.0,452.0>--<502.0,383.0>> -> L<<502.0,383.0>--<458.0,345.0>> [code: found-colinear-vectors]
+	* uni20A8 (U+20A8): L<<573.0,452.0>--<502.0,383.0>> -> L<<502.0,383.0>--<458.0,345.0>>
+
+	* uni2C64 (U+027D): L<<571.0,456.0>--<500.0,388.0>> -> L<<500.0,388.0>--<458.0,350.0>>
+
+	* uni2C64 (U+2C64): L<<571.0,456.0>--<500.0,388.0>> -> L<<500.0,388.0>--<458.0,350.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -1760,12 +1744,6 @@ greater
 
 	* uni018B (U+018C): L<<10.0,799.0>--<507.0,801.0>>
 
-	* uni01C7 (U+01C7): L<<341.0,1.0>--<36.0,0.0>>
-
-	* uni01C7 (U+01C9): L<<341.0,1.0>--<36.0,0.0>>
-
-	* uni01C8 (U+01C8): L<<352.0,1.0>--<36.0,0.0>>
-
 	* uni01E2 (U+01E2): L<<797.0,1.0>--<365.0,0.0>>
 
 	* uni01E2 (U+01E3): L<<797.0,1.0>--<365.0,0.0>>
@@ -1814,9 +1792,9 @@ greater
 
 	* uni2154 (U+2154): L<<39.0,15.0>--<38.0,249.0>>
 
-	* uni2C64 (U+027D): L<<269.0,223.0>--<266.0,-146.0>>
+	* uni2C64 (U+027D): L<<267.0,274.0>--<266.0,-139.0>>
 
-	* uni2C64 (U+2C64): L<<269.0,223.0>--<266.0,-146.0>>
+	* uni2C64 (U+2C64): L<<267.0,274.0>--<266.0,-139.0>>
 
 	* uni2C72 (U+2C72): L<<56.0,159.0>--<57.0,785.0>>
 
@@ -1855,7 +1833,7 @@ greater
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1271, but got 1200 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1270, but got 1200 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 410, but got 300 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
@@ -1876,14 +1854,6 @@ greater
 
 	- 0x1D3A (MODIFIER LETTER CAPITAL N)
  [code: missing-codepoints]
-* ⚠ **WARN** GF_Latin_African is almost fulfilled. Missing codepoints:
-
-	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
- [code: missing-codepoints]
-* ⚠ **WARN** GF_Latin_Beyond is almost fulfilled. Missing codepoints:
-
-	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
- [code: missing-codepoints]
 * ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
 
 	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
@@ -1893,6 +1863,19 @@ greater
 
 
 	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
+ [code: missing-codepoints]
+* ⚠ **WARN** GF_Phonetics_APA is almost fulfilled. Missing codepoints:
+
+	- 0x03C6 (GREEK SMALL LETTER PHI)
+
+
+	- 0x1D05 (LATIN LETTER SMALL CAPITAL D)
+
+
+	- 0x1D7B (LATIN SMALL CAPITAL LETTER I WITH STROKE)
+
+
+	- 0x1D4D (MODIFIER LETTER SMALL G)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
 
@@ -1943,8 +1926,6 @@ greater
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: Q	Contours detected: 3	Expected: 2
 
 	- Glyph name: braceleft	Contours detected: 3	Expected: 1
 
@@ -2026,11 +2007,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01C2	Contours detected: 3	Expected: 1
 
-	- Glyph name: uni01C8	Contours detected: 1	Expected: 3
-
 	- Glyph name: uni01C7	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni01CB	Contours detected: 1	Expected: 3
 
 	- Glyph name: uni01CA	Contours detected: 2	Expected: 3
 
@@ -2248,8 +2225,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Oslashacute	Contours detected: 3	Expected: 4
 
-	- Glyph name: Q	Contours detected: 3	Expected: 2
-
 	- Glyph name: Uhorn	Contours detected: 2	Expected: 1
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
@@ -2325,10 +2300,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni01B5	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni01C2	Contours detected: 3	Expected: 1
-
-	- Glyph name: uni01C8	Contours detected: 1	Expected: 3
-
-	- Glyph name: uni01CB	Contours detected: 1	Expected: 3
 
 	- Glyph name: uni01EC	Contours detected: 4	Expected: 3
 
@@ -2441,7 +2412,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-minus, multiply, plus, divide, equal
+equal, divide, plus, multiply, minus
 
 Width = 388:
 less
@@ -2511,12 +2482,6 @@ greater
 
 	* uni018B (U+018C): L<<10.0,799.0>--<507.0,801.0>>
 
-	* uni01C7 (U+01C7): L<<341.0,1.0>--<36.0,0.0>>
-
-	* uni01C7 (U+01C9): L<<341.0,1.0>--<36.0,0.0>>
-
-	* uni01C8 (U+01C8): L<<352.0,1.0>--<36.0,0.0>>
-
 	* uni01E2 (U+01E2): L<<782.0,1.0>--<350.0,0.0>>
 
 	* uni01E2 (U+01E3): L<<782.0,1.0>--<350.0,0.0>>
@@ -2563,9 +2528,9 @@ greater
 
 	* uni2154 (U+2154): L<<33.0,15.0>--<32.0,302.0>>
 
-	* uni2C64 (U+027D): L<<269.0,223.0>--<266.0,-146.0>>
+	* uni2C64 (U+027D): L<<265.0,248.0>--<264.0,-142.0>>
 
-	* uni2C64 (U+2C64): L<<269.0,223.0>--<266.0,-146.0>>
+	* uni2C64 (U+2C64): L<<265.0,248.0>--<264.0,-142.0>>
 
 	* uni2C72 (U+2C72): L<<885.0,686.0>--<886.0,165.0>>
 
@@ -2604,7 +2569,7 @@ greater
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1271, but got 1200 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1270, but got 1200 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 410, but got 300 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
@@ -2625,14 +2590,6 @@ greater
 
 	- 0x1D3A (MODIFIER LETTER CAPITAL N)
  [code: missing-codepoints]
-* ⚠ **WARN** GF_Latin_African is almost fulfilled. Missing codepoints:
-
-	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
- [code: missing-codepoints]
-* ⚠ **WARN** GF_Latin_Beyond is almost fulfilled. Missing codepoints:
-
-	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
- [code: missing-codepoints]
 * ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
 
 	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
@@ -2642,6 +2599,19 @@ greater
 
 
 	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
+ [code: missing-codepoints]
+* ⚠ **WARN** GF_Phonetics_APA is almost fulfilled. Missing codepoints:
+
+	- 0x03C6 (GREEK SMALL LETTER PHI)
+
+
+	- 0x1D05 (LATIN LETTER SMALL CAPITAL D)
+
+
+	- 0x1D7B (LATIN SMALL CAPITAL LETTER I WITH STROKE)
+
+
+	- 0x1D4D (MODIFIER LETTER SMALL G)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
 
@@ -2692,8 +2662,6 @@ greater
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: Q	Contours detected: 3	Expected: 2
 
 	- Glyph name: braceleft	Contours detected: 3	Expected: 1
 
@@ -2775,11 +2743,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01C2	Contours detected: 3	Expected: 1
 
-	- Glyph name: uni01C8	Contours detected: 1	Expected: 3
-
 	- Glyph name: uni01C7	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni01CB	Contours detected: 1	Expected: 3
 
 	- Glyph name: uni01CA	Contours detected: 2	Expected: 3
 
@@ -2997,8 +2961,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Oslashacute	Contours detected: 3	Expected: 4
 
-	- Glyph name: Q	Contours detected: 3	Expected: 2
-
 	- Glyph name: Uhorn	Contours detected: 2	Expected: 1
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
@@ -3074,10 +3036,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni01B5	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni01C2	Contours detected: 3	Expected: 1
-
-	- Glyph name: uni01C8	Contours detected: 1	Expected: 3
-
-	- Glyph name: uni01CB	Contours detected: 1	Expected: 3
 
 	- Glyph name: uni01EC	Contours detected: 4	Expected: 3
 
@@ -3190,7 +3148,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-minus, multiply, plus, divide, equal
+equal, divide, plus, multiply, minus
 
 Width = 377:
 less
@@ -3276,9 +3234,9 @@ greater
 
 	* uni0212 (U+0213): L<<569.0,449.0>--<486.0,366.0>> -> L<<486.0,366.0>--<473.0,354.0>>
 
-	* uni024C (U+024C): L<<559.0,449.0>--<476.0,366.0>> -> L<<476.0,366.0>--<463.0,354.0>>
+	* uni024C (U+024C): L<<622.0,449.0>--<539.0,366.0>> -> L<<539.0,366.0>--<526.0,354.0>>
 
-	* uni024C (U+024D): L<<559.0,449.0>--<476.0,366.0>> -> L<<476.0,366.0>--<463.0,354.0>>
+	* uni024C (U+024D): L<<622.0,449.0>--<539.0,366.0>> -> L<<539.0,366.0>--<526.0,354.0>>
 
 	* uni029D (U+029D): L<<222.0,-250.0>--<118.0,-250.0>> -> L<<118.0,-250.0>--<114.0,-250.0>>
 
@@ -3312,7 +3270,11 @@ greater
 
 	* uni1E5C (U+1E5C): L<<569.0,449.0>--<486.0,366.0>> -> L<<486.0,366.0>--<473.0,354.0>>
 
-	* uni20A8 (U+20A8): L<<569.0,449.0>--<486.0,366.0>> -> L<<486.0,366.0>--<473.0,354.0>> [code: found-colinear-vectors]
+	* uni20A8 (U+20A8): L<<569.0,449.0>--<486.0,366.0>> -> L<<486.0,366.0>--<473.0,354.0>>
+
+	* uni2C64 (U+027D): L<<474.0,374.0>--<502.0,322.0>> -> L<<502.0,322.0>--<579.0,154.0>>
+
+	* uni2C64 (U+2C64): L<<474.0,374.0>--<502.0,322.0>> -> L<<502.0,322.0>--<579.0,154.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -3366,12 +3328,6 @@ greater
 
 	* uni018B (U+018C): L<<10.0,799.0>--<507.0,801.0>>
 
-	* uni01C7 (U+01C7): L<<341.0,1.0>--<36.0,0.0>>
-
-	* uni01C7 (U+01C9): L<<341.0,1.0>--<36.0,0.0>>
-
-	* uni01C8 (U+01C8): L<<352.0,1.0>--<36.0,0.0>>
-
 	* uni01E2 (U+01E2): L<<766.0,1.0>--<334.0,0.0>>
 
 	* uni01E2 (U+01E3): L<<766.0,1.0>--<334.0,0.0>>
@@ -3418,9 +3374,9 @@ greater
 
 	* uni2154 (U+2154): L<<26.0,15.0>--<25.0,354.0>>
 
-	* uni2C64 (U+027D): L<<269.0,223.0>--<266.0,-146.0>>
+	* uni2C64 (U+027D): L<<264.0,223.0>--<261.0,-146.0>>
 
-	* uni2C64 (U+2C64): L<<269.0,223.0>--<266.0,-146.0>>
+	* uni2C64 (U+2C64): L<<264.0,223.0>--<261.0,-146.0>>
 
 	* uni2C72 (U+2C72): L<<25.0,171.0>--<26.0,785.0>>
 
@@ -3463,7 +3419,7 @@ greater
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1271, but got 1200 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1270, but got 1200 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 410, but got 300 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
@@ -3484,14 +3440,6 @@ greater
 
 	- 0x1D3A (MODIFIER LETTER CAPITAL N)
  [code: missing-codepoints]
-* ⚠ **WARN** GF_Latin_African is almost fulfilled. Missing codepoints:
-
-	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
- [code: missing-codepoints]
-* ⚠ **WARN** GF_Latin_Beyond is almost fulfilled. Missing codepoints:
-
-	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
- [code: missing-codepoints]
 * ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
 
 	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
@@ -3501,6 +3449,19 @@ greater
 
 
 	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
+ [code: missing-codepoints]
+* ⚠ **WARN** GF_Phonetics_APA is almost fulfilled. Missing codepoints:
+
+	- 0x03C6 (GREEK SMALL LETTER PHI)
+
+
+	- 0x1D05 (LATIN LETTER SMALL CAPITAL D)
+
+
+	- 0x1D7B (LATIN SMALL CAPITAL LETTER I WITH STROKE)
+
+
+	- 0x1D4D (MODIFIER LETTER SMALL G)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
 
@@ -3551,8 +3512,6 @@ greater
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: Q	Contours detected: 3	Expected: 2
 
 	- Glyph name: braceleft	Contours detected: 3	Expected: 1
 
@@ -3634,11 +3593,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01C2	Contours detected: 3	Expected: 1
 
-	- Glyph name: uni01C8	Contours detected: 1	Expected: 3
-
 	- Glyph name: uni01C7	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni01CB	Contours detected: 1	Expected: 3
 
 	- Glyph name: uni01CA	Contours detected: 2	Expected: 3
 
@@ -3856,8 +3811,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Oslashacute	Contours detected: 3	Expected: 4
 
-	- Glyph name: Q	Contours detected: 3	Expected: 2
-
 	- Glyph name: Uhorn	Contours detected: 2	Expected: 1
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
@@ -3933,10 +3886,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni01B5	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni01C2	Contours detected: 3	Expected: 1
-
-	- Glyph name: uni01C8	Contours detected: 1	Expected: 3
-
-	- Glyph name: uni01CB	Contours detected: 1	Expected: 3
 
 	- Glyph name: uni01EC	Contours detected: 4	Expected: 3
 
@@ -4049,7 +3998,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-minus, multiply, plus, divide, equal
+equal, divide, plus, multiply, minus
 
 Width = 403:
 less
@@ -4159,9 +4108,9 @@ greater
 
 	* uni0212 (U+0213): L<<574.0,453.0>--<506.0,387.0>> -> L<<506.0,387.0>--<454.0,342.0>>
 
-	* uni024C (U+024C): L<<564.0,453.0>--<496.0,387.0>> -> L<<496.0,387.0>--<444.0,342.0>>
+	* uni024C (U+024C): L<<629.0,453.0>--<562.0,387.0>> -> L<<562.0,387.0>--<510.0,342.0>>
 
-	* uni024C (U+024D): L<<564.0,453.0>--<496.0,387.0>> -> L<<496.0,387.0>--<444.0,342.0>>
+	* uni024C (U+024D): L<<629.0,453.0>--<562.0,387.0>> -> L<<562.0,387.0>--<510.0,342.0>>
 
 	* uni029D (U+029D): L<<222.0,-250.0>--<118.0,-250.0>> -> L<<118.0,-250.0>--<114.0,-250.0>>
 
@@ -4204,6 +4153,10 @@ greater
 	* uni1E5C (U+1E5C): L<<574.0,453.0>--<506.0,387.0>> -> L<<506.0,387.0>--<454.0,342.0>>
 
 	* uni20A8 (U+20A8): L<<574.0,453.0>--<506.0,387.0>> -> L<<506.0,387.0>--<454.0,342.0>>
+
+	* uni2C64 (U+027D): L<<573.0,454.0>--<505.0,389.0>> -> L<<505.0,389.0>--<454.0,344.0>>
+
+	* uni2C64 (U+2C64): L<<573.0,454.0>--<505.0,389.0>> -> L<<505.0,389.0>--<454.0,344.0>>
 
 	* uni2C72 (U+2C72): L<<786.0,850.0>--<914.0,850.0>> -> L<<914.0,850.0>--<914.0,850.0>>
 
@@ -4269,12 +4222,6 @@ greater
 
 	* uni018B (U+018C): L<<10.0,799.0>--<507.0,801.0>>
 
-	* uni01C7 (U+01C7): L<<341.0,1.0>--<36.0,0.0>>
-
-	* uni01C7 (U+01C9): L<<341.0,1.0>--<36.0,0.0>>
-
-	* uni01C8 (U+01C8): L<<352.0,1.0>--<36.0,0.0>>
-
 	* uni01E2 (U+01E2): L<<805.0,1.0>--<373.0,0.0>>
 
 	* uni01E2 (U+01E3): L<<805.0,1.0>--<373.0,0.0>>
@@ -4321,9 +4268,9 @@ greater
 
 	* uni2154 (U+2154): L<<42.0,15.0>--<41.0,223.0>>
 
-	* uni2C64 (U+027D): L<<269.0,223.0>--<266.0,-146.0>>
+	* uni2C64 (U+027D): L<<268.0,287.0>--<267.0,-137.0>>
 
-	* uni2C64 (U+2C64): L<<269.0,223.0>--<266.0,-146.0>>
+	* uni2C64 (U+2C64): L<<268.0,287.0>--<267.0,-137.0>>
 
 	* zero (U+0030): L<<119.0,799.0>--<539.0,801.0>> [code: found-semi-vertical]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
