@@ -2,7 +2,7 @@
 
 fontbakery version: 0.9.0
 
-<details><summary><b>[21] Jaro-6ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+<details><summary><b>[22] Jaro-6ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -10,6 +10,20 @@ fontbakery version: 0.9.0
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:hinting_stats> had an error: ModuleNotFoundError: No module named 'dehinter'
+</div></details><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
+		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
+
+		You can exclude this check with the command line option:
+		-x com.google.fonts/check/fontdata_namecheck
+
+		Or you can wait until the service is available again.
+		If the problem persists please report this issue at: https://github.com/fonttools/fontbakery/issues
+
+		Original error message:
+		<class 'requests.exceptions.ReadTimeout'> [code: namecheck-service]
 </div></details><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -177,8 +191,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: IJ	Contours detected: 2	Expected: 3or4
 
-	- Glyph name: kgreenlandic	Contours detected: 0	Expected: 1or2
-
 	- Glyph name: OE	Contours detected: 2	Expected: 3
 
 	- Glyph name: Racute	Contours detected: 3	Expected: 2
@@ -231,7 +243,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0212	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni0246	Contours detected: 1	Expected: 4
+	- Glyph name: uni0246	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
@@ -258,8 +270,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni02CB	Contours detected: 0	Expected: 1
 
 	- Glyph name: pi	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3or5
 
 	- Glyph name: uni1E02	Contours detected: 4	Expected: 3
 
@@ -453,8 +463,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: integral	Contours detected: 0	Expected: 1
 
-	- Glyph name: kgreenlandic	Contours detected: 0	Expected: 1or2
-
 	- Glyph name: lessequal	Contours detected: 0	Expected: 2
 
 	- Glyph name: logicalnot	Contours detected: 0	Expected: 1
@@ -503,8 +511,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0244	Contours detected: 1	Expected: 2
 
-	- Glyph name: uni0246	Contours detected: 1	Expected: 3
-
 	- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni0249	Contours detected: 3	Expected: 2
@@ -526,8 +532,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni02CA	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni02CB	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3or5
 
 	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
 
@@ -600,7 +604,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-multiply, divide, plus, equal, minus
+divide, plus, multiply, minus, equal
 
 Width = 406:
 less, greater
@@ -658,6 +662,8 @@ less, greater
 	* Rmacronbelow (U+1E5F): L<<574.0,453.0>--<508.0,389.0>> -> L<<508.0,389.0>--<452.0,341.0>>
 
 	* e (U+0065): L<<319.0,5.0>--<212.0,31.0>> -> L<<212.0,31.0>--<90.0,72.0>>
+
+	* kgreenlandic (U+0138): L<<620.0,546.0>--<547.0,417.0>> -> L<<547.0,417.0>--<496.0,344.0>>
 
 	* uni0136 (U+0136): L<<342.0,467.0>--<382.0,616.0>> -> L<<382.0,616.0>--<418.0,792.0>>
 
@@ -849,7 +855,7 @@ less, greater
 
 	* uni01E4 (U+01E5): L<<560.0,286.0>--<559.0,121.0>>
 
-	* uni0241 (U+0241): L<<73.0,15.0>--<72.0,344.0>>
+	* uni0241 (U+0241): L<<73.0,15.0>--<72.0,284.0>>
 
 	* uni0242 (U+0242): L<<26.0,13.0>--<25.0,205.0>>
 
@@ -866,6 +872,8 @@ less, greater
 	* uni0313 (U+0313): L<<18.0,1004.0>--<19.0,1149.0>>
 
 	* uni0315 (U+0315): L<<58.0,637.0>--<59.0,782.0>>
+
+	* uni0E3F (U+0E3F): L<<440.0,665.0>--<439.0,800.0>>
 
 	* uni2075 (U+2075): L<<25.0,335.0>--<26.0,785.0>>
 
@@ -1055,8 +1063,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: IJ	Contours detected: 2	Expected: 3or4
 
-	- Glyph name: kgreenlandic	Contours detected: 0	Expected: 1or2
-
 	- Glyph name: OE	Contours detected: 2	Expected: 3
 
 	- Glyph name: Racute	Contours detected: 3	Expected: 2
@@ -1109,7 +1115,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0212	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni0246	Contours detected: 1	Expected: 4
+	- Glyph name: uni0246	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
@@ -1136,8 +1142,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni02CB	Contours detected: 0	Expected: 1
 
 	- Glyph name: pi	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3or5
 
 	- Glyph name: uni1E02	Contours detected: 4	Expected: 3
 
@@ -1331,8 +1335,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: integral	Contours detected: 0	Expected: 1
 
-	- Glyph name: kgreenlandic	Contours detected: 0	Expected: 1or2
-
 	- Glyph name: lessequal	Contours detected: 0	Expected: 2
 
 	- Glyph name: logicalnot	Contours detected: 0	Expected: 1
@@ -1381,8 +1383,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0244	Contours detected: 1	Expected: 2
 
-	- Glyph name: uni0246	Contours detected: 1	Expected: 3
-
 	- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni0249	Contours detected: 3	Expected: 2
@@ -1404,8 +1404,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni02CA	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni02CB	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3or5
 
 	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
 
@@ -1478,7 +1476,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-multiply, divide, plus, equal, minus
+divide, plus, multiply, minus, equal
 
 Width = 398:
 less
@@ -1539,6 +1537,8 @@ greater
 	* Rmacronbelow (U+1E5F): L<<573.0,452.0>--<502.0,383.0>> -> L<<502.0,383.0>--<458.0,345.0>>
 
 	* e (U+0065): L<<301.0,5.0>--<193.0,38.0>> -> L<<193.0,38.0>--<75.0,82.0>>
+
+	* kgreenlandic (U+0138): L<<608.0,526.0>--<531.0,398.0>> -> L<<531.0,398.0>--<491.0,340.0>>
 
 	* uni0136 (U+0136): L<<326.0,490.0>--<366.0,639.0>> -> L<<366.0,639.0>--<398.0,792.0>>
 
@@ -1706,7 +1706,7 @@ greater
 
 	* uni01E4 (U+01E5): L<<560.0,286.0>--<559.0,121.0>>
 
-	* uni0241 (U+0241): L<<60.0,15.0>--<59.0,344.0>>
+	* uni0241 (U+0241): L<<60.0,15.0>--<59.0,300.0>>
 
 	* uni0242 (U+0242): L<<26.0,13.0>--<25.0,205.0>>
 
@@ -1725,6 +1725,8 @@ greater
 	* uni0313 (U+0313): L<<18.0,1004.0>--<19.0,1149.0>>
 
 	* uni0315 (U+0315): L<<58.0,637.0>--<59.0,782.0>>
+
+	* uni0E3F (U+0E3F): L<<437.0,647.0>--<436.0,800.0>>
 
 	* uni2075 (U+2075): L<<25.0,327.0>--<26.0,785.0>>
 
@@ -1922,8 +1924,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: IJ	Contours detected: 2	Expected: 3or4
 
-	- Glyph name: kgreenlandic	Contours detected: 0	Expected: 1or2
-
 	- Glyph name: OE	Contours detected: 2	Expected: 3
 
 	- Glyph name: Racute	Contours detected: 3	Expected: 2
@@ -1976,7 +1976,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0212	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni0246	Contours detected: 1	Expected: 4
+	- Glyph name: uni0246	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
@@ -2003,8 +2003,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni02CB	Contours detected: 0	Expected: 1
 
 	- Glyph name: pi	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3or5
 
 	- Glyph name: uni1E02	Contours detected: 4	Expected: 3
 
@@ -2198,8 +2196,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: integral	Contours detected: 0	Expected: 1
 
-	- Glyph name: kgreenlandic	Contours detected: 0	Expected: 1or2
-
 	- Glyph name: lessequal	Contours detected: 0	Expected: 2
 
 	- Glyph name: logicalnot	Contours detected: 0	Expected: 1
@@ -2248,8 +2244,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0244	Contours detected: 1	Expected: 2
 
-	- Glyph name: uni0246	Contours detected: 1	Expected: 3
-
 	- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni0249	Contours detected: 3	Expected: 2
@@ -2271,8 +2265,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni02CA	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni02CB	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3or5
 
 	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
 
@@ -2345,7 +2337,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-multiply, divide, plus, equal, minus
+divide, plus, multiply, minus, equal
 
 Width = 388:
 less
@@ -2435,7 +2427,7 @@ greater
 
 	* uni01E4 (U+01E5): L<<560.0,286.0>--<559.0,121.0>>
 
-	* uni0241 (U+0241): L<<43.0,15.0>--<42.0,344.0>>
+	* uni0241 (U+0241): L<<43.0,15.0>--<42.0,322.0>>
 
 	* uni0242 (U+0242): L<<26.0,13.0>--<25.0,205.0>>
 
@@ -2452,6 +2444,8 @@ greater
 	* uni0313 (U+0313): L<<18.0,1004.0>--<19.0,1149.0>>
 
 	* uni0315 (U+0315): L<<58.0,637.0>--<59.0,782.0>>
+
+	* uni0E3F (U+0E3F): L<<434.0,622.0>--<433.0,800.0>>
 
 	* uni2075 (U+2075): L<<25.0,316.0>--<26.0,785.0>>
 
@@ -2649,8 +2643,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: IJ	Contours detected: 2	Expected: 3or4
 
-	- Glyph name: kgreenlandic	Contours detected: 0	Expected: 1or2
-
 	- Glyph name: OE	Contours detected: 2	Expected: 3
 
 	- Glyph name: Racute	Contours detected: 3	Expected: 2
@@ -2703,7 +2695,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0212	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni0246	Contours detected: 1	Expected: 4
+	- Glyph name: uni0246	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
@@ -2730,8 +2722,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni02CB	Contours detected: 0	Expected: 1
 
 	- Glyph name: pi	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3or5
 
 	- Glyph name: uni1E02	Contours detected: 4	Expected: 3
 
@@ -2925,8 +2915,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: integral	Contours detected: 0	Expected: 1
 
-	- Glyph name: kgreenlandic	Contours detected: 0	Expected: 1or2
-
 	- Glyph name: lessequal	Contours detected: 0	Expected: 2
 
 	- Glyph name: logicalnot	Contours detected: 0	Expected: 1
@@ -2975,8 +2963,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0244	Contours detected: 1	Expected: 2
 
-	- Glyph name: uni0246	Contours detected: 1	Expected: 3
-
 	- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni0249	Contours detected: 3	Expected: 2
@@ -2998,8 +2984,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni02CA	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni02CB	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3or5
 
 	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
 
@@ -3072,7 +3056,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-multiply, divide, plus, equal, minus
+divide, plus, multiply, minus, equal
 
 Width = 377:
 less
@@ -3121,6 +3105,10 @@ greater
 	* Rmacronbelow (U+1E5F): L<<569.0,449.0>--<486.0,366.0>> -> L<<486.0,366.0>--<473.0,354.0>>
 
 	* e (U+0065): L<<252.0,5.0>--<141.0,58.0>> -> L<<141.0,58.0>--<36.0,108.0>>
+
+	* kgreenlandic (U+0138): L<<284.0,410.0>--<322.0,560.0>> -> L<<322.0,560.0>--<345.0,652.0>>
+
+	* kgreenlandic (U+0138): L<<575.0,471.0>--<488.0,346.0>> -> L<<488.0,346.0>--<478.0,329.0>>
 
 	* uni0136 (U+0136): L<<284.0,550.0>--<322.0,700.0>> -> L<<322.0,700.0>--<345.0,792.0>>
 
@@ -3285,6 +3273,8 @@ greater
 	* uni0313 (U+0313): L<<18.0,1004.0>--<19.0,1149.0>>
 
 	* uni0315 (U+0315): L<<58.0,637.0>--<59.0,782.0>>
+
+	* uni0E3F (U+0E3F): L<<430.0,598.0>--<429.0,800.0>>
 
 	* uni2075 (U+2075): L<<25.0,305.0>--<26.0,785.0>>
 
@@ -3486,8 +3476,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: IJ	Contours detected: 2	Expected: 3or4
 
-	- Glyph name: kgreenlandic	Contours detected: 0	Expected: 1or2
-
 	- Glyph name: OE	Contours detected: 2	Expected: 3
 
 	- Glyph name: Racute	Contours detected: 3	Expected: 2
@@ -3540,7 +3528,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0212	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni0246	Contours detected: 1	Expected: 4
+	- Glyph name: uni0246	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
@@ -3567,8 +3555,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni02CB	Contours detected: 0	Expected: 1
 
 	- Glyph name: pi	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3or5
 
 	- Glyph name: uni1E02	Contours detected: 4	Expected: 3
 
@@ -3762,8 +3748,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: integral	Contours detected: 0	Expected: 1
 
-	- Glyph name: kgreenlandic	Contours detected: 0	Expected: 1or2
-
 	- Glyph name: lessequal	Contours detected: 0	Expected: 2
 
 	- Glyph name: logicalnot	Contours detected: 0	Expected: 1
@@ -3812,8 +3796,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0244	Contours detected: 1	Expected: 2
 
-	- Glyph name: uni0246	Contours detected: 1	Expected: 3
-
 	- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni0249	Contours detected: 3	Expected: 2
@@ -3835,8 +3817,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni02CA	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni02CB	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3or5
 
 	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
 
@@ -3909,7 +3889,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-multiply, divide, plus, equal, minus
+divide, plus, multiply, minus, equal
 
 Width = 403:
 less
@@ -3964,6 +3944,8 @@ greater
 	* Rmacronbelow (U+1E5F): L<<574.0,453.0>--<506.0,387.0>> -> L<<506.0,387.0>--<454.0,342.0>>
 
 	* e (U+0065): L<<313.0,5.0>--<206.0,33.0>> -> L<<206.0,33.0>--<85.0,75.0>>
+
+	* kgreenlandic (U+0138): L<<616.0,539.0>--<542.0,411.0>> -> L<<542.0,411.0>--<494.0,343.0>>
 
 	* uni0136 (U+0136): L<<337.0,475.0>--<377.0,624.0>> -> L<<377.0,624.0>--<411.0,792.0>>
 
@@ -4133,7 +4115,7 @@ greater
 
 	* uni01E4 (U+01E5): L<<560.0,286.0>--<559.0,121.0>>
 
-	* uni0241 (U+0241): L<<69.0,15.0>--<68.0,344.0>>
+	* uni0241 (U+0241): L<<69.0,15.0>--<68.0,289.0>>
 
 	* uni0242 (U+0242): L<<26.0,13.0>--<25.0,205.0>>
 
@@ -4150,6 +4132,8 @@ greater
 	* uni0313 (U+0313): L<<18.0,1004.0>--<19.0,1149.0>>
 
 	* uni0315 (U+0315): L<<58.0,637.0>--<59.0,782.0>>
+
+	* uni0E3F (U+0E3F): L<<439.0,659.0>--<438.0,800.0>>
 
 	* uni2075 (U+2075): L<<25.0,332.0>--<26.0,785.0>>
 
@@ -4174,7 +4158,7 @@ greater
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 15 | 20 | 69 | 629 | 26 | 423 | 0 |
+| 16 | 20 | 69 | 629 | 26 | 422 | 0 |
 | 1% | 2% | 6% | 53% | 2% | 36% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
