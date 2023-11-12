@@ -705,7 +705,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-multiply, minus, plus, divide, equal
+multiply, plus, minus, equal, divide
 
 Width = 406:
 greater, less
@@ -804,6 +804,18 @@ greater, less
 
 	* uni0198 (U+0198): L<<597.0,630.0>--<547.0,510.0>> -> L<<547.0,510.0>--<496.0,414.0>>
 
+	* uni01B3 (U+01B3): L<<445.0,850.0>--<587.0,850.0>> -> L<<587.0,850.0>--<588.0,850.0>>
+
+	* uni01B3 (U+01B3): L<<587.0,850.0>--<588.0,850.0>> -> L<<588.0,850.0>--<588.0,850.0>>
+
+	* uni01B3 (U+01B3): L<<588.0,850.0>--<588.0,850.0>> -> L<<588.0,850.0>--<757.0,850.0>>
+
+	* uni01B3 (U+01B4): L<<445.0,850.0>--<587.0,850.0>> -> L<<587.0,850.0>--<588.0,850.0>>
+
+	* uni01B3 (U+01B4): L<<587.0,850.0>--<588.0,850.0>> -> L<<588.0,850.0>--<588.0,850.0>>
+
+	* uni01B3 (U+01B4): L<<588.0,850.0>--<588.0,850.0>> -> L<<588.0,850.0>--<757.0,850.0>>
+
 	* uni01E8 (U+01E8): L<<342.0,467.0>--<382.0,616.0>> -> L<<382.0,616.0>--<418.0,792.0>>
 
 	* uni01E8 (U+01E8): L<<429.0,9.0>--<385.0,199.0>> -> L<<385.0,199.0>--<352.0,308.0>>
@@ -880,7 +892,19 @@ greater, less
 
 	* uni1E5C (U+1E5C): L<<574.0,453.0>--<508.0,389.0>> -> L<<508.0,389.0>--<452.0,341.0>>
 
-	* uni20A8 (U+20A8): L<<574.0,453.0>--<508.0,389.0>> -> L<<508.0,389.0>--<452.0,341.0>> [code: found-colinear-vectors]
+	* uni20A8 (U+20A8): L<<574.0,453.0>--<508.0,389.0>> -> L<<508.0,389.0>--<452.0,341.0>>
+
+	* uni2C72 (U+2C72): L<<796.0,850.0>--<921.0,850.0>> -> L<<921.0,850.0>--<922.0,850.0>>
+
+	* uni2C72 (U+2C72): L<<921.0,850.0>--<922.0,850.0>> -> L<<922.0,850.0>--<922.0,850.0>>
+
+	* uni2C72 (U+2C72): L<<922.0,850.0>--<922.0,850.0>> -> L<<922.0,850.0>--<1091.0,850.0>>
+
+	* uni2C72 (U+2C73): L<<796.0,850.0>--<921.0,850.0>> -> L<<921.0,850.0>--<922.0,850.0>>
+
+	* uni2C72 (U+2C73): L<<921.0,850.0>--<922.0,850.0>> -> L<<922.0,850.0>--<922.0,850.0>>
+
+	* uni2C72 (U+2C73): L<<922.0,850.0>--<922.0,850.0>> -> L<<922.0,850.0>--<1091.0,850.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -989,14 +1013,6 @@ greater, less
 	* uni2C64 (U+027D): L<<269.0,223.0>--<266.0,-146.0>>
 
 	* uni2C64 (U+2C64): L<<269.0,223.0>--<266.0,-146.0>>
-
-	* uni2C72 (U+2C72): L<<12.0,171.0>--<13.0,785.0>>
-
-	* uni2C72 (U+2C72): L<<843.0,679.0>--<844.0,171.0>>
-
-	* uni2C72 (U+2C73): L<<12.0,171.0>--<13.0,785.0>>
-
-	* uni2C72 (U+2C73): L<<843.0,679.0>--<844.0,171.0>>
 
 	* zero (U+0030): L<<127.0,799.0>--<539.0,801.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[21] Jaro-24ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
@@ -1702,7 +1718,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-multiply, minus, plus, divide, equal
+multiply, plus, minus, equal, divide
 
 Width = 398:
 less
@@ -1992,13 +2008,9 @@ greater
 
 	* uni2C64 (U+2C64): L<<269.0,223.0>--<266.0,-146.0>>
 
-	* uni2C72 (U+2C72): L<<12.0,171.0>--<13.0,785.0>>
+	* uni2C72 (U+2C72): L<<56.0,159.0>--<57.0,785.0>>
 
-	* uni2C72 (U+2C72): L<<843.0,679.0>--<844.0,171.0>>
-
-	* uni2C72 (U+2C73): L<<12.0,171.0>--<13.0,785.0>>
-
-	* uni2C72 (U+2C73): L<<843.0,679.0>--<844.0,171.0>>
+	* uni2C72 (U+2C73): L<<56.0,159.0>--<57.0,785.0>>
 
 	* zero (U+0030): L<<103.0,799.0>--<539.0,801.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[20] Jaro-48ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
@@ -2704,7 +2716,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-multiply, minus, plus, divide, equal
+multiply, plus, minus, equal, divide
 
 Width = 388:
 less
@@ -2830,13 +2842,9 @@ greater
 
 	* uni2C64 (U+2C64): L<<269.0,223.0>--<266.0,-146.0>>
 
-	* uni2C72 (U+2C72): L<<12.0,171.0>--<13.0,785.0>>
+	* uni2C72 (U+2C72): L<<885.0,686.0>--<886.0,165.0>>
 
-	* uni2C72 (U+2C72): L<<843.0,679.0>--<844.0,171.0>>
-
-	* uni2C72 (U+2C73): L<<12.0,171.0>--<13.0,785.0>>
-
-	* uni2C72 (U+2C73): L<<843.0,679.0>--<844.0,171.0>>
+	* uni2C72 (U+2C73): L<<885.0,686.0>--<886.0,165.0>>
 
 	* zero (U+0030): L<<72.0,799.0>--<540.0,801.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[22] Jaro-72ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
@@ -3542,7 +3550,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-multiply, minus, plus, divide, equal
+multiply, plus, minus, equal, divide
 
 Width = 377:
 less
@@ -3790,13 +3798,13 @@ greater
 
 	* uni2C64 (U+2C64): L<<269.0,223.0>--<266.0,-146.0>>
 
-	* uni2C72 (U+2C72): L<<12.0,171.0>--<13.0,785.0>>
+	* uni2C72 (U+2C72): L<<25.0,171.0>--<26.0,785.0>>
 
-	* uni2C72 (U+2C72): L<<843.0,679.0>--<844.0,171.0>>
+	* uni2C72 (U+2C72): L<<856.0,679.0>--<857.0,171.0>>
 
-	* uni2C72 (U+2C73): L<<12.0,171.0>--<13.0,785.0>>
+	* uni2C72 (U+2C73): L<<25.0,171.0>--<26.0,785.0>>
 
-	* uni2C72 (U+2C73): L<<843.0,679.0>--<844.0,171.0>>
+	* uni2C72 (U+2C73): L<<856.0,679.0>--<857.0,171.0>>
 
 	* zero (U+0030): L<<40.0,799.0>--<540.0,801.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[21] Jaro-12ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
@@ -4502,7 +4510,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-multiply, minus, plus, divide, equal
+multiply, plus, minus, equal, divide
 
 Width = 403:
 less
@@ -4592,13 +4600,13 @@ greater
 
 	* uni0198 (U+0198): L<<494.0,413.0>--<543.0,325.0>> -> L<<543.0,325.0>--<632.0,124.0>>
 
-	* uni01AC (U+01AC): L<<179.0,633.0>--<178.0,633.0>> -> L<<178.0,633.0>--<43.0,633.0>>
+	* uni01AC (U+01AC): L<<336.0,633.0>--<335.0,633.0>> -> L<<335.0,633.0>--<200.0,633.0>>
 
-	* uni01AC (U+01AC): L<<181.0,633.0>--<179.0,633.0>> -> L<<179.0,633.0>--<178.0,633.0>>
+	* uni01AC (U+01AC): L<<338.0,633.0>--<336.0,633.0>> -> L<<336.0,633.0>--<335.0,633.0>>
 
-	* uni01AC (U+01AD): L<<179.0,633.0>--<178.0,633.0>> -> L<<178.0,633.0>--<43.0,633.0>>
+	* uni01AC (U+01AD): L<<336.0,633.0>--<335.0,633.0>> -> L<<335.0,633.0>--<200.0,633.0>>
 
-	* uni01AC (U+01AD): L<<181.0,633.0>--<179.0,633.0>> -> L<<179.0,633.0>--<178.0,633.0>>
+	* uni01AC (U+01AD): L<<338.0,633.0>--<336.0,633.0>> -> L<<336.0,633.0>--<335.0,633.0>>
 
 	* uni01E8 (U+01E8): L<<337.0,475.0>--<377.0,624.0>> -> L<<377.0,624.0>--<411.0,792.0>>
 
@@ -4664,7 +4672,19 @@ greater
 
 	* uni1E5C (U+1E5C): L<<574.0,453.0>--<506.0,387.0>> -> L<<506.0,387.0>--<454.0,342.0>>
 
-	* uni20A8 (U+20A8): L<<574.0,453.0>--<506.0,387.0>> -> L<<506.0,387.0>--<454.0,342.0>> [code: found-colinear-vectors]
+	* uni20A8 (U+20A8): L<<574.0,453.0>--<506.0,387.0>> -> L<<506.0,387.0>--<454.0,342.0>>
+
+	* uni2C72 (U+2C72): L<<786.0,850.0>--<914.0,850.0>> -> L<<914.0,850.0>--<914.0,850.0>>
+
+	* uni2C72 (U+2C72): L<<914.0,850.0>--<914.0,850.0>> -> L<<914.0,850.0>--<1078.0,850.0>>
+
+	* uni2C72 (U+2C72): L<<914.0,850.0>--<914.0,850.0>> -> L<<914.0,850.0>--<914.0,850.0>>
+
+	* uni2C72 (U+2C73): L<<786.0,850.0>--<914.0,850.0>> -> L<<914.0,850.0>--<914.0,850.0>>
+
+	* uni2C72 (U+2C73): L<<914.0,850.0>--<914.0,850.0>> -> L<<914.0,850.0>--<1078.0,850.0>>
+
+	* uni2C72 (U+2C73): L<<914.0,850.0>--<914.0,850.0>> -> L<<914.0,850.0>--<914.0,850.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -4773,14 +4793,6 @@ greater
 	* uni2C64 (U+027D): L<<269.0,223.0>--<266.0,-146.0>>
 
 	* uni2C64 (U+2C64): L<<269.0,223.0>--<266.0,-146.0>>
-
-	* uni2C72 (U+2C72): L<<12.0,171.0>--<13.0,785.0>>
-
-	* uni2C72 (U+2C72): L<<843.0,679.0>--<844.0,171.0>>
-
-	* uni2C72 (U+2C73): L<<12.0,171.0>--<13.0,785.0>>
-
-	* uni2C72 (U+2C73): L<<843.0,679.0>--<844.0,171.0>>
 
 	* zero (U+0030): L<<119.0,799.0>--<539.0,801.0>> [code: found-semi-vertical]
 </div></details><br></div></details>
