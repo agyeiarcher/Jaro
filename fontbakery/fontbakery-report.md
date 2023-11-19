@@ -30,7 +30,7 @@ fontbakery version: 0.9.0
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1285, but got 1200 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1285, but got 900 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 400, but got 300 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
@@ -578,10 +578,10 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-equal, minus, multiply, plus, divide
+plus, multiply, equal, minus, divide
 
 Width = 406:
-greater, less
+less, greater
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
 
@@ -886,7 +886,7 @@ greater, less
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1285, but got 1200 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1285, but got 900 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 400, but got 300 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
@@ -1434,7 +1434,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-equal, minus, multiply, plus, divide
+plus, multiply, equal, minus, divide
 
 Width = 398:
 less
@@ -1731,7 +1731,7 @@ greater
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1285, but got 1200 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1285, but got 900 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 400, but got 300 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
@@ -2279,7 +2279,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-equal, minus, multiply, plus, divide
+plus, multiply, equal, minus, divide
 
 Width = 388:
 less
@@ -2430,7 +2430,7 @@ greater
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1285, but got 1200 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1285, but got 900 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 400, but got 300 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
@@ -2978,7 +2978,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-equal, minus, multiply, plus, divide
+plus, multiply, equal, minus, divide
 
 Width = 377:
 less
@@ -3221,7 +3221,7 @@ greater
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><br></div></details><details><summary><b>[21] Jaro-12ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[22] Jaro-12ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -3249,7 +3249,7 @@ greater
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1285, but got 1200 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1285, but got 900 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 400, but got 300 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
@@ -3797,7 +3797,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 426:
-equal, minus, multiply, plus, divide
+plus, multiply, equal, minus, divide
 
 Width = 403:
 less
@@ -3814,6 +3814,198 @@ greater
 
 
 * ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+
+	* dollar (U+0024): X=184.5,Y=798.0 (should be at cap-height 800?)
+
+	* percent (U+0025): X=238.0,Y=801.0 (should be at cap-height 800?)
+
+	* zero (U+0030): X=119.0,Y=799.0 (should be at cap-height 800?)
+
+	* zero (U+0030): X=539.0,Y=801.0 (should be at cap-height 800?)
+
+	* colon (U+003A): X=60.0,Y=1.0 (should be at baseline 0?)
+
+	* colon (U+003A): X=251.0,Y=1.0 (should be at baseline 0?)
+
+	* K (U+004B): X=430.0,Y=1.5 (should be at baseline 0?)
+
+	* S (U+0053): X=230.0,Y=798.0 (should be at cap-height 800?)
+
+	* asciicircum (U+005E): X=197.0,Y=798.5 (should be at cap-height 800?)
+
+	* asciicircum (U+005E): X=283.5,Y=798.0 (should be at cap-height 800?)
+
+	* c (U+0063): X=251.5,Y=1.5 (should be at baseline 0?)
+
+	* c (U+0063): X=251.0,Y=658.0 (should be at x-height 660?)
+
+	* e (U+0065): X=325.5,Y=1.5 (should be at baseline 0?)
+
+	* k (U+006B): X=399.0,Y=659.0 (should be at x-height 660?)
+
+	* k (U+006B): X=554.0,Y=659.0 (should be at x-height 660?)
+
+	* sterling (U+00A3): X=225.5,Y=799.0 (should be at cap-height 800?)
+
+	* registered (U+00AE): X=204.0,Y=-1.0 (should be at baseline 0?)
+
+	* registered (U+00AE): X=189.0,Y=2.0 (should be at baseline 0?)
+
+	* registered (U+00AE): X=511.0,Y=2.0 (should be at baseline 0?)
+
+	* registered (U+00AE): X=496.0,Y=-1.0 (should be at baseline 0?)
+
+	* Atilde (U+00C3): X=278.0,Y=899.0 (should be at ascender 900?)
+
+	* Atilde (U+00E3): X=278.0,Y=899.0 (should be at ascender 900?)
+
+	* Aogonek (U+0104): X=529.0,Y=-1.0 (should be at baseline 0?)
+
+	* Aogonek (U+0105): X=529.0,Y=-1.0 (should be at baseline 0?)
+
+	* Eogonek (U+0118): X=448.0,Y=1.0 (should be at baseline 0?)
+
+	* Eogonek (U+0118): X=497.0,Y=1.0 (should be at baseline 0?)
+
+	* Eogonek (U+0119): X=448.0,Y=1.0 (should be at baseline 0?)
+
+	* Eogonek (U+0119): X=497.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0136 (U+0136): X=430.0,Y=1.5 (should be at baseline 0?)
+
+	* uni0136 (U+0137): X=430.0,Y=1.5 (should be at baseline 0?)
+
+	* kgreenlandic (U+0138): X=430.0,Y=1.5 (should be at baseline 0?)
+
+	* Lcaron (U+013D): X=326.0,Y=799.0 (should be at cap-height 800?)
+
+	* Lcaron (U+013D): X=446.0,Y=799.0 (should be at cap-height 800?)
+
+	* Lcaron (U+013E): X=326.0,Y=799.0 (should be at cap-height 800?)
+
+	* Lcaron (U+013E): X=446.0,Y=799.0 (should be at cap-height 800?)
+
+	* Sacute (U+015A): X=230.0,Y=798.0 (should be at cap-height 800?)
+
+	* Sacute (U+015B): X=230.0,Y=798.0 (should be at cap-height 800?)
+
+	* Scircumflex (U+015C): X=230.0,Y=798.0 (should be at cap-height 800?)
+
+	* Scircumflex (U+015D): X=230.0,Y=798.0 (should be at cap-height 800?)
+
+	* Scedilla (U+015E): X=230.0,Y=798.0 (should be at cap-height 800?)
+
+	* Scedilla (U+015F): X=230.0,Y=798.0 (should be at cap-height 800?)
+
+	* Scaron (U+0160): X=230.0,Y=798.0 (should be at cap-height 800?)
+
+	* Scaron (U+0161): X=230.0,Y=798.0 (should be at cap-height 800?)
+
+	* uni018A (U+018A): X=316.0,Y=799.0 (should be at cap-height 800?)
+
+	* uni0198 (U+0198): X=430.0,Y=1.5 (should be at baseline 0?)
+
+	* uni01B2 (U+01B2): X=557.0,Y=799.0 (should be at cap-height 800?)
+
+	* uni01B3 (U+01B3): X=393.0,Y=801.0 (should be at cap-height 800?)
+
+	* uni01B3 (U+01B4): X=393.0,Y=801.0 (should be at cap-height 800?)
+
+	* uni01E8 (U+01E8): X=430.0,Y=1.5 (should be at baseline 0?)
+
+	* uni01E8 (U+01E9): X=430.0,Y=1.5 (should be at baseline 0?)
+
+	* uni01EA (U+01EA): X=399.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni01EA (U+01EB): X=399.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni01EC (U+01EC): X=399.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni01F0 (U+01F0): X=153.0,Y=802.0 (should be at cap-height 800?)
+
+	* uni01F0 (U+01F0): X=157.0,Y=802.0 (should be at cap-height 800?)
+
+	* uni0218 (U+0218): X=230.0,Y=798.0 (should be at cap-height 800?)
+
+	* uni0218 (U+0219): X=230.0,Y=798.0 (should be at cap-height 800?)
+
+	* uni018A (U+0257): X=316.0,Y=799.0 (should be at cap-height 800?)
+
+	* uni01B2 (U+028B): X=557.0,Y=799.0 (should be at cap-height 800?)
+
+	* uni02C0 (U+02C0): X=13.0,Y=798.0 (should be at cap-height 800?)
+
+	* ogonek (U+02DB): X=39.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni0328 (U+0328): X=39.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni0329 (U+0329): X=13.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0329 (U+0329): X=105.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0358 (U+0358): X=114.0,Y=799.0 (should be at cap-height 800?)
+
+	* uni0358 (U+0358): X=268.0,Y=799.0 (should be at cap-height 800?)
+
+	* uni1E1B (U+1E1B): X=325.5,Y=1.5 (should be at baseline 0?)
+
+	* uni1E30 (U+1E30): X=430.0,Y=1.5 (should be at baseline 0?)
+
+	* uni1E30 (U+1E31): X=430.0,Y=1.5 (should be at baseline 0?)
+
+	* uni1E32 (U+1E32): X=430.0,Y=1.5 (should be at baseline 0?)
+
+	* uni1E32 (U+1E33): X=430.0,Y=1.5 (should be at baseline 0?)
+
+	* Kmacronbelow (U+1E34): X=430.0,Y=1.5 (should be at baseline 0?)
+
+	* Kmacronbelow (U+1E35): X=430.0,Y=1.5 (should be at baseline 0?)
+
+	* uni1E60 (U+1E60): X=230.0,Y=798.0 (should be at cap-height 800?)
+
+	* uni1E60 (U+1E61): X=230.0,Y=798.0 (should be at cap-height 800?)
+
+	* uni1E62 (U+1E62): X=230.0,Y=798.0 (should be at cap-height 800?)
+
+	* uni1E62 (U+1E63): X=230.0,Y=798.0 (should be at cap-height 800?)
+
+	* uni1E64 (U+1E64): X=230.0,Y=798.0 (should be at cap-height 800?)
+
+	* uni1E64 (U+1E65): X=230.0,Y=798.0 (should be at cap-height 800?)
+
+	* uni1E66 (U+1E66): X=230.0,Y=798.0 (should be at cap-height 800?)
+
+	* uni1E66 (U+1E67): X=230.0,Y=798.0 (should be at cap-height 800?)
+
+	* uni1E68 (U+1E68): X=230.0,Y=798.0 (should be at cap-height 800?)
+
+	* uni1E68 (U+1E69): X=230.0,Y=798.0 (should be at cap-height 800?)
+
+	* perthousand (U+2030): X=239.0,Y=801.0 (should be at cap-height 800?)
+
+	* uni20AD (U+20AD): X=363.0,Y=798.5 (should be at cap-height 800?)
+
+	* uni20AD (U+20AD): X=373.5,Y=2.0 (should be at baseline 0?)
+
+	* arrowupdn (U+2195): X=217.0,Y=798.0 (should be at cap-height 800?)
+
+	* arrowupdn (U+2195): X=303.5,Y=798.0 (should be at cap-height 800?)
+
+	* arrowupdn (U+2195): X=303.5,Y=2.0 (should be at baseline 0?)
+
+	* arrowupdn (U+2195): X=217.0,Y=2.0 (should be at baseline 0?)
+
+	* uniA740 (U+A740): X=507.0,Y=1.5 (should be at baseline 0?)
+
+	* uniA789 (U+A789): X=60.0,Y=1.0 (should be at baseline 0?)
+
+	* uniA789 (U+A789): X=251.0,Y=1.0 (should be at baseline 0?)
+
+	* uniA7A8 (U+A7A8): X=256.0,Y=798.0 (should be at cap-height 800?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -4060,7 +4252,7 @@ greater
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 15 | 20 | 69 | 629 | 26 | 423 | 0 |
+| 15 | 20 | 70 | 629 | 26 | 422 | 0 |
 | 1% | 2% | 6% | 53% | 2% | 36% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
