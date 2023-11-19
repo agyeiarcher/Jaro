@@ -30,7 +30,7 @@ fontbakery version: 0.9.0
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1270, but got 1200 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1244, but got 1200 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 400, but got 300 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
@@ -51,14 +51,6 @@ fontbakery version: 0.9.0
 
 	- 0x1D3A (MODIFIER LETTER CAPITAL N)
  [code: missing-codepoints]
-* ⚠ **WARN** GF_Latin_African is almost fulfilled. Missing codepoints:
-
-	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
- [code: missing-codepoints]
-* ⚠ **WARN** GF_Latin_Beyond is almost fulfilled. Missing codepoints:
-
-	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
- [code: missing-codepoints]
 * ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
 
 	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
@@ -68,6 +60,19 @@ fontbakery version: 0.9.0
 
 
 	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
+ [code: missing-codepoints]
+* ⚠ **WARN** GF_Phonetics_APA is almost fulfilled. Missing codepoints:
+
+	- 0x03C6 (GREEK SMALL LETTER PHI)
+
+
+	- 0x1D05 (LATIN LETTER SMALL CAPITAL D)
+
+
+	- 0x1D7B (LATIN SMALL CAPITAL LETTER I WITH STROKE)
+
+
+	- 0x1D4D (MODIFIER LETTER SMALL G)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
 
@@ -102,11 +107,11 @@ fontbakery version: 0.9.0
 
 	- dotlessi_ogonek
 
-	- nine.ALT
-
-	- six.ALT
-
 	- uni006A0301
+
+	- uni013C.loclMAH
+
+	- uni0146.loclMAH
 
 	- uni03010304.001
 
@@ -127,8 +132,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: sterling	Contours detected: 3	Expected: 1or2
 
-	- Glyph name: currency	Contours detected: 0	Expected: 2
-
 	- Glyph name: yen	Contours detected: 4	Expected: 1or2
 
 	- Glyph name: logicalnot	Contours detected: 0	Expected: 1
@@ -138,12 +141,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: plusminus	Contours detected: 0	Expected: 1or2
 
 	- Glyph name: uni00B5	Contours detected: 0	Expected: 1
-
-	- Glyph name: onequarter	Contours detected: 0	Expected: 3or4
-
-	- Glyph name: onehalf	Contours detected: 0	Expected: 3
-
-	- Glyph name: threequarters	Contours detected: 0	Expected: 3or4
 
 	- Glyph name: AE	Contours detected: 2	Expected: 3
 
@@ -158,6 +155,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: Oslash	Contours detected: 2	Expected: 3
 
 	- Glyph name: Aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: Emacron	Contours detected: 2	Expected: 3
 
@@ -293,10 +292,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: fraction	Contours detected: 0	Expected: 1
-
-	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1or3
-
 	- Glyph name: uni20A6	Contours detected: 0	Expected: 1, 3or5
 
 	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4or7
@@ -317,8 +312,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20B4	Contours detected: 0	Expected: 1or2
 
-	- Glyph name: uni20B5	Contours detected: 0	Expected: 1or2
-
 	- Glyph name: uni20B8	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni20B9	Contours detected: 0	Expected: 1
@@ -328,16 +321,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni20BC	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni20BF	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2113	Contours detected: 0	Expected: 2
-
-	- Glyph name: estimated	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2153	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni2154	Contours detected: 2	Expected: 1or3
 
 	- Glyph name: arrowleft	Contours detected: 2	Expected: 1
 
@@ -363,8 +346,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: emptyset	Contours detected: 0	Expected: 3
 
-	- Glyph name: uni2206	Contours detected: 0	Expected: 2
-
 	- Glyph name: product	Contours detected: 0	Expected: 1
 
 	- Glyph name: summation	Contours detected: 0	Expected: 1
@@ -376,8 +357,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: integral	Contours detected: 0	Expected: 1
 
 	- Glyph name: approxequal	Contours detected: 0	Expected: 2
-
-	- Glyph name: notequal	Contours detected: 0	Expected: 1
 
 	- Glyph name: lessequal	Contours detected: 0	Expected: 2
 
@@ -407,17 +386,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: cent	Contours detected: 4	Expected: 1or2
 
-	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1or3
-
-	- Glyph name: currency	Contours detected: 0	Expected: 2
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: dong	Contours detected: 0	Expected: 3or4
 
 	- Glyph name: emptyset	Contours detected: 0	Expected: 3
-
-	- Glyph name: estimated	Contours detected: 0	Expected: 2
-
-	- Glyph name: fraction	Contours detected: 0	Expected: 1
 
 	- Glyph name: greaterequal	Contours detected: 0	Expected: 2
 
@@ -428,12 +401,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: lessequal	Contours detected: 0	Expected: 2
 
 	- Glyph name: logicalnot	Contours detected: 0	Expected: 1
-
-	- Glyph name: notequal	Contours detected: 0	Expected: 1
-
-	- Glyph name: onehalf	Contours detected: 0	Expected: 3
-
-	- Glyph name: onequarter	Contours detected: 0	Expected: 3or4
 
 	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
 
@@ -446,8 +413,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: sterling	Contours detected: 3	Expected: 1or2
 
 	- Glyph name: summation	Contours detected: 0	Expected: 1
-
-	- Glyph name: threequarters	Contours detected: 0	Expected: 3or4
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
@@ -507,8 +472,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20B4	Contours detected: 0	Expected: 1or2
 
-	- Glyph name: uni20B5	Contours detected: 0	Expected: 1or2
-
 	- Glyph name: uni20B8	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni20B9	Contours detected: 0	Expected: 1
@@ -519,10 +482,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
 
-	- Glyph name: uni20BF	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2113	Contours detected: 0	Expected: 2
-
 	- Glyph name: uni2196	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni2197	Contours detected: 2	Expected: 1
@@ -530,8 +489,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni2198	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni2199	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni2206	Contours detected: 0	Expected: 2
 
 	- Glyph name: yen	Contours detected: 4	Expected: 1or2
  [code: contour-count]
@@ -542,14 +499,14 @@ The following glyphs do not have the recommended number of contours:
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
-* ⚠ **WARN** The most common width is 600 among a set of 6 math glyphs.
+* ⚠ **WARN** The most common width is 426 among a set of 6 math glyphs.
 The following math glyphs have a different width, though:
-
-Width = 426:
-multiply, plus, divide, equal, minus
 
 Width = 406:
 less, greater
+
+Width = 600:
+lessequal, approxequal, plusminus, logicalnot, greaterequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
 
@@ -606,6 +563,14 @@ less, greater
 	* e (U+0065): L<<319.0,5.0>--<212.0,31.0>> -> L<<212.0,31.0>--<90.0,72.0>>
 
 	* kgreenlandic (U+0138): L<<620.0,546.0>--<547.0,417.0>> -> L<<547.0,417.0>--<496.0,344.0>>
+
+	* lozenge (U+25CA): L<<168.0,362.0>--<176.0,349.0>> -> L<<176.0,349.0>--<301.0,167.0>>
+
+	* lozenge (U+25CA): L<<301.0,167.0>--<309.0,178.0>> -> L<<309.0,178.0>--<434.0,362.0>>
+
+	* lozenge (U+25CA): L<<302.0,549.0>--<292.0,537.0>> -> L<<292.0,537.0>--<168.0,362.0>>
+
+	* lozenge (U+25CA): L<<434.0,362.0>--<425.0,374.0>> -> L<<425.0,374.0>--<302.0,549.0>>
 
 	* uni0136 (U+0136): L<<342.0,467.0>--<382.0,616.0>> -> L<<382.0,616.0>--<418.0,792.0>>
 
@@ -725,6 +690,10 @@ less, greater
 
 	* uni20A8 (U+20A8): L<<574.0,453.0>--<508.0,389.0>> -> L<<508.0,389.0>--<452.0,341.0>>
 
+	* uni2206 (U+2206): L<<324.0,622.0>--<314.0,593.0>> -> L<<314.0,593.0>--<106.0,43.0>>
+
+	* uni2206 (U+2206): L<<545.0,43.0>--<335.0,596.0>> -> L<<335.0,596.0>--<324.0,622.0>>
+
 	* uni2C64 (U+027D): L<<574.0,453.0>--<508.0,389.0>> -> L<<508.0,389.0>--<452.0,341.0>>
 
 	* uni2C64 (U+2C64): L<<574.0,453.0>--<508.0,389.0>> -> L<<508.0,389.0>--<452.0,341.0>>
@@ -756,6 +725,10 @@ less, greater
 	* comma (U+002C): L<<48.0,57.0>--<49.0,209.0>>
 
 	* five (U+0035): L<<25.0,335.0>--<26.0,785.0>>
+
+	* fiveeighths (U+215D): L<<25.0,621.0>--<26.0,918.0>>
+
+	* onehalf (U+00BD): L<<364.0,10.0>--<363.0,139.0>>
 
 	* percent (U+0025): L<<342.0,367.0>--<541.0,368.0>>
 
@@ -817,13 +790,7 @@ less, greater
 
 	* uni0E3F (U+0E3F): L<<440.0,665.0>--<439.0,800.0>>
 
-	* uni2075 (U+2075): L<<25.0,335.0>--<26.0,785.0>>
-
-	* uni2082 (U+2082): L<<44.0,15.0>--<43.0,210.0>>
-
-	* uni2085 (U+2085): L<<25.0,335.0>--<26.0,785.0>>
-
-	* uni2154 (U+2154): L<<44.0,15.0>--<43.0,210.0>>
+	* uni2154 (U+2154): L<<26.0,410.0>--<25.0,539.0>>
 
 	* zero (U+0030): L<<127.0,799.0>--<539.0,801.0>> [code: found-semi-vertical]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
@@ -858,7 +825,7 @@ less, greater
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1270, but got 1200 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1244, but got 1200 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 400, but got 300 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
@@ -879,14 +846,6 @@ less, greater
 
 	- 0x1D3A (MODIFIER LETTER CAPITAL N)
  [code: missing-codepoints]
-* ⚠ **WARN** GF_Latin_African is almost fulfilled. Missing codepoints:
-
-	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
- [code: missing-codepoints]
-* ⚠ **WARN** GF_Latin_Beyond is almost fulfilled. Missing codepoints:
-
-	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
- [code: missing-codepoints]
 * ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
 
 	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
@@ -896,6 +855,19 @@ less, greater
 
 
 	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
+ [code: missing-codepoints]
+* ⚠ **WARN** GF_Phonetics_APA is almost fulfilled. Missing codepoints:
+
+	- 0x03C6 (GREEK SMALL LETTER PHI)
+
+
+	- 0x1D05 (LATIN LETTER SMALL CAPITAL D)
+
+
+	- 0x1D7B (LATIN SMALL CAPITAL LETTER I WITH STROKE)
+
+
+	- 0x1D4D (MODIFIER LETTER SMALL G)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
 
@@ -930,11 +902,11 @@ less, greater
 
 	- dotlessi_ogonek
 
-	- nine.ALT
-
-	- six.ALT
-
 	- uni006A0301
+
+	- uni013C.loclMAH
+
+	- uni0146.loclMAH
 
 	- uni03010304.001
 
@@ -955,8 +927,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: sterling	Contours detected: 3	Expected: 1or2
 
-	- Glyph name: currency	Contours detected: 0	Expected: 2
-
 	- Glyph name: yen	Contours detected: 4	Expected: 1or2
 
 	- Glyph name: logicalnot	Contours detected: 0	Expected: 1
@@ -966,12 +936,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: plusminus	Contours detected: 0	Expected: 1or2
 
 	- Glyph name: uni00B5	Contours detected: 0	Expected: 1
-
-	- Glyph name: onequarter	Contours detected: 0	Expected: 3or4
-
-	- Glyph name: onehalf	Contours detected: 0	Expected: 3
-
-	- Glyph name: threequarters	Contours detected: 0	Expected: 3or4
 
 	- Glyph name: AE	Contours detected: 2	Expected: 3
 
@@ -986,6 +950,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: Oslash	Contours detected: 2	Expected: 3
 
 	- Glyph name: Aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: Emacron	Contours detected: 2	Expected: 3
 
@@ -1121,10 +1087,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: fraction	Contours detected: 0	Expected: 1
-
-	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1or3
-
 	- Glyph name: uni20A6	Contours detected: 0	Expected: 1, 3or5
 
 	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4or7
@@ -1145,8 +1107,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20B4	Contours detected: 0	Expected: 1or2
 
-	- Glyph name: uni20B5	Contours detected: 0	Expected: 1or2
-
 	- Glyph name: uni20B8	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni20B9	Contours detected: 0	Expected: 1
@@ -1156,16 +1116,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni20BC	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni20BF	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2113	Contours detected: 0	Expected: 2
-
-	- Glyph name: estimated	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2153	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni2154	Contours detected: 2	Expected: 1or3
 
 	- Glyph name: arrowleft	Contours detected: 2	Expected: 1
 
@@ -1191,8 +1141,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: emptyset	Contours detected: 0	Expected: 3
 
-	- Glyph name: uni2206	Contours detected: 0	Expected: 2
-
 	- Glyph name: product	Contours detected: 0	Expected: 1
 
 	- Glyph name: summation	Contours detected: 0	Expected: 1
@@ -1204,8 +1152,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: integral	Contours detected: 0	Expected: 1
 
 	- Glyph name: approxequal	Contours detected: 0	Expected: 2
-
-	- Glyph name: notequal	Contours detected: 0	Expected: 1
 
 	- Glyph name: lessequal	Contours detected: 0	Expected: 2
 
@@ -1235,17 +1181,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: cent	Contours detected: 4	Expected: 1or2
 
-	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1or3
-
-	- Glyph name: currency	Contours detected: 0	Expected: 2
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: dong	Contours detected: 0	Expected: 3or4
 
 	- Glyph name: emptyset	Contours detected: 0	Expected: 3
-
-	- Glyph name: estimated	Contours detected: 0	Expected: 2
-
-	- Glyph name: fraction	Contours detected: 0	Expected: 1
 
 	- Glyph name: greaterequal	Contours detected: 0	Expected: 2
 
@@ -1256,12 +1196,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: lessequal	Contours detected: 0	Expected: 2
 
 	- Glyph name: logicalnot	Contours detected: 0	Expected: 1
-
-	- Glyph name: notequal	Contours detected: 0	Expected: 1
-
-	- Glyph name: onehalf	Contours detected: 0	Expected: 3
-
-	- Glyph name: onequarter	Contours detected: 0	Expected: 3or4
 
 	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
 
@@ -1274,8 +1208,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: sterling	Contours detected: 3	Expected: 1or2
 
 	- Glyph name: summation	Contours detected: 0	Expected: 1
-
-	- Glyph name: threequarters	Contours detected: 0	Expected: 3or4
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
@@ -1335,8 +1267,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20B4	Contours detected: 0	Expected: 1or2
 
-	- Glyph name: uni20B5	Contours detected: 0	Expected: 1or2
-
 	- Glyph name: uni20B8	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni20B9	Contours detected: 0	Expected: 1
@@ -1347,10 +1277,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
 
-	- Glyph name: uni20BF	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2113	Contours detected: 0	Expected: 2
-
 	- Glyph name: uni2196	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni2197	Contours detected: 2	Expected: 1
@@ -1358,8 +1284,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni2198	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni2199	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni2206	Contours detected: 0	Expected: 2
 
 	- Glyph name: yen	Contours detected: 4	Expected: 1or2
  [code: contour-count]
@@ -1370,17 +1294,17 @@ The following glyphs do not have the recommended number of contours:
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
-* ⚠ **WARN** The most common width is 600 among a set of 6 math glyphs.
+* ⚠ **WARN** The most common width is 426 among a set of 6 math glyphs.
 The following math glyphs have a different width, though:
-
-Width = 426:
-multiply, plus, divide, equal, minus
 
 Width = 398:
 less
 
 Width = 406:
 greater
+
+Width = 600:
+lessequal, approxequal, plusminus, logicalnot, greaterequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
 
@@ -1437,6 +1361,14 @@ greater
 	* e (U+0065): L<<301.0,5.0>--<193.0,38.0>> -> L<<193.0,38.0>--<75.0,82.0>>
 
 	* kgreenlandic (U+0138): L<<608.0,526.0>--<531.0,398.0>> -> L<<531.0,398.0>--<491.0,340.0>>
+
+	* lozenge (U+25CA): L<<168.0,362.0>--<176.0,349.0>> -> L<<176.0,349.0>--<301.0,167.0>>
+
+	* lozenge (U+25CA): L<<301.0,167.0>--<309.0,178.0>> -> L<<309.0,178.0>--<434.0,362.0>>
+
+	* lozenge (U+25CA): L<<302.0,549.0>--<292.0,537.0>> -> L<<292.0,537.0>--<168.0,362.0>>
+
+	* lozenge (U+25CA): L<<434.0,362.0>--<425.0,374.0>> -> L<<425.0,374.0>--<302.0,549.0>>
 
 	* uni0136 (U+0136): L<<326.0,490.0>--<366.0,639.0>> -> L<<366.0,639.0>--<398.0,792.0>>
 
@@ -1544,6 +1476,10 @@ greater
 
 	* uni20A8 (U+20A8): L<<573.0,452.0>--<502.0,383.0>> -> L<<502.0,383.0>--<458.0,345.0>>
 
+	* uni2206 (U+2206): L<<324.0,622.0>--<314.0,593.0>> -> L<<314.0,593.0>--<106.0,43.0>>
+
+	* uni2206 (U+2206): L<<545.0,43.0>--<335.0,596.0>> -> L<<335.0,596.0>--<324.0,622.0>>
+
 	* uni2C64 (U+027D): L<<571.0,456.0>--<500.0,388.0>> -> L<<500.0,388.0>--<458.0,350.0>>
 
 	* uni2C64 (U+2C64): L<<571.0,456.0>--<500.0,388.0>> -> L<<500.0,388.0>--<458.0,350.0>>
@@ -1563,6 +1499,10 @@ greater
 	* comma (U+002C): L<<40.0,57.0>--<41.0,207.0>>
 
 	* five (U+0035): L<<25.0,327.0>--<26.0,785.0>>
+
+	* fiveeighths (U+215D): L<<25.0,616.0>--<26.0,918.0>>
+
+	* onehalf (U+00BD): L<<367.0,10.0>--<366.0,165.0>>
 
 	* percent (U+0025): L<<342.0,367.0>--<541.0,368.0>>
 
@@ -1626,13 +1566,7 @@ greater
 
 	* uni0E3F (U+0E3F): L<<437.0,647.0>--<436.0,800.0>>
 
-	* uni2075 (U+2075): L<<25.0,327.0>--<26.0,785.0>>
-
-	* uni2082 (U+2082): L<<39.0,15.0>--<38.0,249.0>>
-
-	* uni2085 (U+2085): L<<25.0,327.0>--<26.0,785.0>>
-
-	* uni2154 (U+2154): L<<39.0,15.0>--<38.0,249.0>>
+	* uni2154 (U+2154): L<<26.0,410.0>--<25.0,565.0>>
 
 	* uni2C64 (U+027D): L<<267.0,274.0>--<266.0,-139.0>>
 
@@ -1675,7 +1609,7 @@ greater
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1270, but got 1200 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1244, but got 1200 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 400, but got 300 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
@@ -1696,14 +1630,6 @@ greater
 
 	- 0x1D3A (MODIFIER LETTER CAPITAL N)
  [code: missing-codepoints]
-* ⚠ **WARN** GF_Latin_African is almost fulfilled. Missing codepoints:
-
-	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
- [code: missing-codepoints]
-* ⚠ **WARN** GF_Latin_Beyond is almost fulfilled. Missing codepoints:
-
-	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
- [code: missing-codepoints]
 * ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
 
 	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
@@ -1713,6 +1639,19 @@ greater
 
 
 	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
+ [code: missing-codepoints]
+* ⚠ **WARN** GF_Phonetics_APA is almost fulfilled. Missing codepoints:
+
+	- 0x03C6 (GREEK SMALL LETTER PHI)
+
+
+	- 0x1D05 (LATIN LETTER SMALL CAPITAL D)
+
+
+	- 0x1D7B (LATIN SMALL CAPITAL LETTER I WITH STROKE)
+
+
+	- 0x1D4D (MODIFIER LETTER SMALL G)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
 
@@ -1747,11 +1686,11 @@ greater
 
 	- dotlessi_ogonek
 
-	- nine.ALT
-
-	- six.ALT
-
 	- uni006A0301
+
+	- uni013C.loclMAH
+
+	- uni0146.loclMAH
 
 	- uni03010304.001
 
@@ -1772,8 +1711,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: sterling	Contours detected: 3	Expected: 1or2
 
-	- Glyph name: currency	Contours detected: 0	Expected: 2
-
 	- Glyph name: yen	Contours detected: 4	Expected: 1or2
 
 	- Glyph name: logicalnot	Contours detected: 0	Expected: 1
@@ -1783,12 +1720,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: plusminus	Contours detected: 0	Expected: 1or2
 
 	- Glyph name: uni00B5	Contours detected: 0	Expected: 1
-
-	- Glyph name: onequarter	Contours detected: 0	Expected: 3or4
-
-	- Glyph name: onehalf	Contours detected: 0	Expected: 3
-
-	- Glyph name: threequarters	Contours detected: 0	Expected: 3or4
 
 	- Glyph name: AE	Contours detected: 2	Expected: 3
 
@@ -1803,6 +1734,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: Oslash	Contours detected: 2	Expected: 3
 
 	- Glyph name: Aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: Emacron	Contours detected: 2	Expected: 3
 
@@ -1938,10 +1871,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: fraction	Contours detected: 0	Expected: 1
-
-	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1or3
-
 	- Glyph name: uni20A6	Contours detected: 0	Expected: 1, 3or5
 
 	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4or7
@@ -1962,8 +1891,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20B4	Contours detected: 0	Expected: 1or2
 
-	- Glyph name: uni20B5	Contours detected: 0	Expected: 1or2
-
 	- Glyph name: uni20B8	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni20B9	Contours detected: 0	Expected: 1
@@ -1973,16 +1900,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni20BC	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni20BF	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2113	Contours detected: 0	Expected: 2
-
-	- Glyph name: estimated	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2153	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni2154	Contours detected: 2	Expected: 1or3
 
 	- Glyph name: arrowleft	Contours detected: 2	Expected: 1
 
@@ -2008,8 +1925,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: emptyset	Contours detected: 0	Expected: 3
 
-	- Glyph name: uni2206	Contours detected: 0	Expected: 2
-
 	- Glyph name: product	Contours detected: 0	Expected: 1
 
 	- Glyph name: summation	Contours detected: 0	Expected: 1
@@ -2021,8 +1936,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: integral	Contours detected: 0	Expected: 1
 
 	- Glyph name: approxequal	Contours detected: 0	Expected: 2
-
-	- Glyph name: notequal	Contours detected: 0	Expected: 1
 
 	- Glyph name: lessequal	Contours detected: 0	Expected: 2
 
@@ -2052,17 +1965,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: cent	Contours detected: 4	Expected: 1or2
 
-	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1or3
-
-	- Glyph name: currency	Contours detected: 0	Expected: 2
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: dong	Contours detected: 0	Expected: 3or4
 
 	- Glyph name: emptyset	Contours detected: 0	Expected: 3
-
-	- Glyph name: estimated	Contours detected: 0	Expected: 2
-
-	- Glyph name: fraction	Contours detected: 0	Expected: 1
 
 	- Glyph name: greaterequal	Contours detected: 0	Expected: 2
 
@@ -2073,12 +1980,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: lessequal	Contours detected: 0	Expected: 2
 
 	- Glyph name: logicalnot	Contours detected: 0	Expected: 1
-
-	- Glyph name: notequal	Contours detected: 0	Expected: 1
-
-	- Glyph name: onehalf	Contours detected: 0	Expected: 3
-
-	- Glyph name: onequarter	Contours detected: 0	Expected: 3or4
 
 	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
 
@@ -2091,8 +1992,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: sterling	Contours detected: 3	Expected: 1or2
 
 	- Glyph name: summation	Contours detected: 0	Expected: 1
-
-	- Glyph name: threequarters	Contours detected: 0	Expected: 3or4
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
@@ -2152,8 +2051,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20B4	Contours detected: 0	Expected: 1or2
 
-	- Glyph name: uni20B5	Contours detected: 0	Expected: 1or2
-
 	- Glyph name: uni20B8	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni20B9	Contours detected: 0	Expected: 1
@@ -2164,10 +2061,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
 
-	- Glyph name: uni20BF	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2113	Contours detected: 0	Expected: 2
-
 	- Glyph name: uni2196	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni2197	Contours detected: 2	Expected: 1
@@ -2175,8 +2068,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni2198	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni2199	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni2206	Contours detected: 0	Expected: 2
 
 	- Glyph name: yen	Contours detected: 4	Expected: 1or2
  [code: contour-count]
@@ -2187,17 +2078,17 @@ The following glyphs do not have the recommended number of contours:
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
-* ⚠ **WARN** The most common width is 600 among a set of 6 math glyphs.
+* ⚠ **WARN** The most common width is 426 among a set of 6 math glyphs.
 The following math glyphs have a different width, though:
-
-Width = 426:
-multiply, plus, divide, equal, minus
 
 Width = 388:
 less
 
 Width = 406:
 greater
+
+Width = 600:
+lessequal, approxequal, plusminus, logicalnot, greaterequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
 
@@ -2228,6 +2119,10 @@ greater
 	* comma (U+002C): L<<29.0,57.0>--<30.0,205.0>>
 
 	* five (U+0035): L<<25.0,316.0>--<26.0,785.0>>
+
+	* fiveeighths (U+215D): L<<25.0,608.0>--<26.0,918.0>>
+
+	* onehalf (U+00BD): L<<372.0,10.0>--<371.0,199.0>>
 
 	* percent (U+0025): L<<342.0,367.0>--<541.0,368.0>>
 
@@ -2297,13 +2192,7 @@ greater
 
 	* uni0E3F (U+0E3F): L<<434.0,622.0>--<433.0,800.0>>
 
-	* uni2075 (U+2075): L<<25.0,316.0>--<26.0,785.0>>
-
-	* uni2082 (U+2082): L<<33.0,15.0>--<32.0,302.0>>
-
-	* uni2085 (U+2085): L<<25.0,316.0>--<26.0,785.0>>
-
-	* uni2154 (U+2154): L<<33.0,15.0>--<32.0,302.0>>
+	* uni2154 (U+2154): L<<26.0,410.0>--<25.0,599.0>>
 
 	* uni2C64 (U+027D): L<<265.0,248.0>--<264.0,-142.0>>
 
@@ -2346,7 +2235,7 @@ greater
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1270, but got 1200 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1244, but got 1200 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 400, but got 300 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
@@ -2367,14 +2256,6 @@ greater
 
 	- 0x1D3A (MODIFIER LETTER CAPITAL N)
  [code: missing-codepoints]
-* ⚠ **WARN** GF_Latin_African is almost fulfilled. Missing codepoints:
-
-	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
- [code: missing-codepoints]
-* ⚠ **WARN** GF_Latin_Beyond is almost fulfilled. Missing codepoints:
-
-	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
- [code: missing-codepoints]
 * ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
 
 	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
@@ -2384,6 +2265,19 @@ greater
 
 
 	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
+ [code: missing-codepoints]
+* ⚠ **WARN** GF_Phonetics_APA is almost fulfilled. Missing codepoints:
+
+	- 0x03C6 (GREEK SMALL LETTER PHI)
+
+
+	- 0x1D05 (LATIN LETTER SMALL CAPITAL D)
+
+
+	- 0x1D7B (LATIN SMALL CAPITAL LETTER I WITH STROKE)
+
+
+	- 0x1D4D (MODIFIER LETTER SMALL G)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
 
@@ -2418,11 +2312,11 @@ greater
 
 	- dotlessi_ogonek
 
-	- nine.ALT
-
-	- six.ALT
-
 	- uni006A0301
+
+	- uni013C.loclMAH
+
+	- uni0146.loclMAH
 
 	- uni03010304.001
 
@@ -2443,8 +2337,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: sterling	Contours detected: 3	Expected: 1or2
 
-	- Glyph name: currency	Contours detected: 0	Expected: 2
-
 	- Glyph name: yen	Contours detected: 4	Expected: 1or2
 
 	- Glyph name: logicalnot	Contours detected: 0	Expected: 1
@@ -2454,12 +2346,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: plusminus	Contours detected: 0	Expected: 1or2
 
 	- Glyph name: uni00B5	Contours detected: 0	Expected: 1
-
-	- Glyph name: onequarter	Contours detected: 0	Expected: 3or4
-
-	- Glyph name: onehalf	Contours detected: 0	Expected: 3
-
-	- Glyph name: threequarters	Contours detected: 0	Expected: 3or4
 
 	- Glyph name: AE	Contours detected: 2	Expected: 3
 
@@ -2474,6 +2360,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: Oslash	Contours detected: 2	Expected: 3
 
 	- Glyph name: Aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: Emacron	Contours detected: 2	Expected: 3
 
@@ -2609,10 +2497,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: fraction	Contours detected: 0	Expected: 1
-
-	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1or3
-
 	- Glyph name: uni20A6	Contours detected: 0	Expected: 1, 3or5
 
 	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4or7
@@ -2633,8 +2517,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20B4	Contours detected: 0	Expected: 1or2
 
-	- Glyph name: uni20B5	Contours detected: 0	Expected: 1or2
-
 	- Glyph name: uni20B8	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni20B9	Contours detected: 0	Expected: 1
@@ -2644,16 +2526,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni20BC	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni20BF	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2113	Contours detected: 0	Expected: 2
-
-	- Glyph name: estimated	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2153	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni2154	Contours detected: 2	Expected: 1or3
 
 	- Glyph name: arrowleft	Contours detected: 2	Expected: 1
 
@@ -2679,8 +2551,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: emptyset	Contours detected: 0	Expected: 3
 
-	- Glyph name: uni2206	Contours detected: 0	Expected: 2
-
 	- Glyph name: product	Contours detected: 0	Expected: 1
 
 	- Glyph name: summation	Contours detected: 0	Expected: 1
@@ -2692,8 +2562,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: integral	Contours detected: 0	Expected: 1
 
 	- Glyph name: approxequal	Contours detected: 0	Expected: 2
-
-	- Glyph name: notequal	Contours detected: 0	Expected: 1
 
 	- Glyph name: lessequal	Contours detected: 0	Expected: 2
 
@@ -2723,17 +2591,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: cent	Contours detected: 4	Expected: 1or2
 
-	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1or3
-
-	- Glyph name: currency	Contours detected: 0	Expected: 2
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: dong	Contours detected: 0	Expected: 3or4
 
 	- Glyph name: emptyset	Contours detected: 0	Expected: 3
-
-	- Glyph name: estimated	Contours detected: 0	Expected: 2
-
-	- Glyph name: fraction	Contours detected: 0	Expected: 1
 
 	- Glyph name: greaterequal	Contours detected: 0	Expected: 2
 
@@ -2744,12 +2606,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: lessequal	Contours detected: 0	Expected: 2
 
 	- Glyph name: logicalnot	Contours detected: 0	Expected: 1
-
-	- Glyph name: notequal	Contours detected: 0	Expected: 1
-
-	- Glyph name: onehalf	Contours detected: 0	Expected: 3
-
-	- Glyph name: onequarter	Contours detected: 0	Expected: 3or4
 
 	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
 
@@ -2762,8 +2618,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: sterling	Contours detected: 3	Expected: 1or2
 
 	- Glyph name: summation	Contours detected: 0	Expected: 1
-
-	- Glyph name: threequarters	Contours detected: 0	Expected: 3or4
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
@@ -2823,8 +2677,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20B4	Contours detected: 0	Expected: 1or2
 
-	- Glyph name: uni20B5	Contours detected: 0	Expected: 1or2
-
 	- Glyph name: uni20B8	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni20B9	Contours detected: 0	Expected: 1
@@ -2835,10 +2687,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
 
-	- Glyph name: uni20BF	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2113	Contours detected: 0	Expected: 2
-
 	- Glyph name: uni2196	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni2197	Contours detected: 2	Expected: 1
@@ -2846,8 +2694,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni2198	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni2199	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni2206	Contours detected: 0	Expected: 2
 
 	- Glyph name: yen	Contours detected: 4	Expected: 1or2
  [code: contour-count]
@@ -2858,17 +2704,17 @@ The following glyphs do not have the recommended number of contours:
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
-* ⚠ **WARN** The most common width is 600 among a set of 6 math glyphs.
+* ⚠ **WARN** The most common width is 426 among a set of 6 math glyphs.
 The following math glyphs have a different width, though:
-
-Width = 426:
-multiply, plus, divide, equal, minus
 
 Width = 377:
 less
 
 Width = 406:
 greater
+
+Width = 600:
+lessequal, approxequal, plusminus, logicalnot, greaterequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
 
@@ -2915,6 +2761,14 @@ greater
 	* kgreenlandic (U+0138): L<<284.0,410.0>--<322.0,560.0>> -> L<<322.0,560.0>--<345.0,652.0>>
 
 	* kgreenlandic (U+0138): L<<575.0,471.0>--<488.0,346.0>> -> L<<488.0,346.0>--<478.0,329.0>>
+
+	* lozenge (U+25CA): L<<168.0,362.0>--<176.0,349.0>> -> L<<176.0,349.0>--<301.0,167.0>>
+
+	* lozenge (U+25CA): L<<301.0,167.0>--<309.0,178.0>> -> L<<309.0,178.0>--<434.0,362.0>>
+
+	* lozenge (U+25CA): L<<302.0,549.0>--<292.0,537.0>> -> L<<292.0,537.0>--<168.0,362.0>>
+
+	* lozenge (U+25CA): L<<434.0,362.0>--<425.0,374.0>> -> L<<425.0,374.0>--<302.0,549.0>>
 
 	* uni0136 (U+0136): L<<284.0,550.0>--<322.0,700.0>> -> L<<322.0,700.0>--<345.0,792.0>>
 
@@ -2988,6 +2842,10 @@ greater
 
 	* uni20A8 (U+20A8): L<<569.0,449.0>--<486.0,366.0>> -> L<<486.0,366.0>--<473.0,354.0>>
 
+	* uni2206 (U+2206): L<<324.0,622.0>--<314.0,593.0>> -> L<<314.0,593.0>--<106.0,43.0>>
+
+	* uni2206 (U+2206): L<<545.0,43.0>--<335.0,596.0>> -> L<<335.0,596.0>--<324.0,622.0>>
+
 	* uni2C64 (U+027D): L<<474.0,374.0>--<502.0,322.0>> -> L<<502.0,322.0>--<579.0,154.0>>
 
 	* uni2C64 (U+2C64): L<<474.0,374.0>--<502.0,322.0>> -> L<<502.0,322.0>--<579.0,154.0>>
@@ -3015,6 +2873,10 @@ greater
 	* comma (U+002C): L<<18.0,57.0>--<19.0,202.0>>
 
 	* five (U+0035): L<<25.0,305.0>--<26.0,785.0>>
+
+	* fiveeighths (U+215D): L<<25.0,601.0>--<26.0,918.0>>
+
+	* onehalf (U+00BD): L<<376.0,10.0>--<375.0,234.0>>
 
 	* percent (U+0025): L<<342.0,367.0>--<541.0,368.0>>
 
@@ -3084,13 +2946,7 @@ greater
 
 	* uni0E3F (U+0E3F): L<<430.0,598.0>--<429.0,800.0>>
 
-	* uni2075 (U+2075): L<<25.0,305.0>--<26.0,785.0>>
-
-	* uni2082 (U+2082): L<<26.0,15.0>--<25.0,354.0>>
-
-	* uni2085 (U+2085): L<<25.0,305.0>--<26.0,785.0>>
-
-	* uni2154 (U+2154): L<<26.0,15.0>--<25.0,354.0>>
+	* uni2154 (U+2154): L<<26.0,410.0>--<25.0,634.0>>
 
 	* uni2C64 (U+027D): L<<264.0,223.0>--<261.0,-146.0>>
 
@@ -3109,7 +2965,7 @@ greater
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><br></div></details><details><summary><b>[22] Jaro-12ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[21] Jaro-12ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -3137,7 +2993,7 @@ greater
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1270, but got 1200 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1244, but got 1200 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 400, but got 300 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
@@ -3158,14 +3014,6 @@ greater
 
 	- 0x1D3A (MODIFIER LETTER CAPITAL N)
  [code: missing-codepoints]
-* ⚠ **WARN** GF_Latin_African is almost fulfilled. Missing codepoints:
-
-	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
- [code: missing-codepoints]
-* ⚠ **WARN** GF_Latin_Beyond is almost fulfilled. Missing codepoints:
-
-	- 0x01EF (LATIN SMALL LETTER EZH WITH CARON)
- [code: missing-codepoints]
 * ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
 
 	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
@@ -3175,6 +3023,19 @@ greater
 
 
 	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
+ [code: missing-codepoints]
+* ⚠ **WARN** GF_Phonetics_APA is almost fulfilled. Missing codepoints:
+
+	- 0x03C6 (GREEK SMALL LETTER PHI)
+
+
+	- 0x1D05 (LATIN LETTER SMALL CAPITAL D)
+
+
+	- 0x1D7B (LATIN SMALL CAPITAL LETTER I WITH STROKE)
+
+
+	- 0x1D4D (MODIFIER LETTER SMALL G)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
 
@@ -3209,11 +3070,11 @@ greater
 
 	- dotlessi_ogonek
 
-	- nine.ALT
-
-	- six.ALT
-
 	- uni006A0301
+
+	- uni013C.loclMAH
+
+	- uni0146.loclMAH
 
 	- uni03010304.001
 
@@ -3234,8 +3095,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: sterling	Contours detected: 3	Expected: 1or2
 
-	- Glyph name: currency	Contours detected: 0	Expected: 2
-
 	- Glyph name: yen	Contours detected: 4	Expected: 1or2
 
 	- Glyph name: logicalnot	Contours detected: 0	Expected: 1
@@ -3245,12 +3104,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: plusminus	Contours detected: 0	Expected: 1or2
 
 	- Glyph name: uni00B5	Contours detected: 0	Expected: 1
-
-	- Glyph name: onequarter	Contours detected: 0	Expected: 3or4
-
-	- Glyph name: onehalf	Contours detected: 0	Expected: 3
-
-	- Glyph name: threequarters	Contours detected: 0	Expected: 3or4
 
 	- Glyph name: AE	Contours detected: 2	Expected: 3
 
@@ -3265,6 +3118,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: Oslash	Contours detected: 2	Expected: 3
 
 	- Glyph name: Aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: Emacron	Contours detected: 2	Expected: 3
 
@@ -3400,10 +3255,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: fraction	Contours detected: 0	Expected: 1
-
-	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1or3
-
 	- Glyph name: uni20A6	Contours detected: 0	Expected: 1, 3or5
 
 	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4or7
@@ -3424,8 +3275,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20B4	Contours detected: 0	Expected: 1or2
 
-	- Glyph name: uni20B5	Contours detected: 0	Expected: 1or2
-
 	- Glyph name: uni20B8	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni20B9	Contours detected: 0	Expected: 1
@@ -3435,16 +3284,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni20BC	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni20BF	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2113	Contours detected: 0	Expected: 2
-
-	- Glyph name: estimated	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2153	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni2154	Contours detected: 2	Expected: 1or3
 
 	- Glyph name: arrowleft	Contours detected: 2	Expected: 1
 
@@ -3470,8 +3309,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: emptyset	Contours detected: 0	Expected: 3
 
-	- Glyph name: uni2206	Contours detected: 0	Expected: 2
-
 	- Glyph name: product	Contours detected: 0	Expected: 1
 
 	- Glyph name: summation	Contours detected: 0	Expected: 1
@@ -3483,8 +3320,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: integral	Contours detected: 0	Expected: 1
 
 	- Glyph name: approxequal	Contours detected: 0	Expected: 2
-
-	- Glyph name: notequal	Contours detected: 0	Expected: 1
 
 	- Glyph name: lessequal	Contours detected: 0	Expected: 2
 
@@ -3514,17 +3349,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: cent	Contours detected: 4	Expected: 1or2
 
-	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1or3
-
-	- Glyph name: currency	Contours detected: 0	Expected: 2
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: dong	Contours detected: 0	Expected: 3or4
 
 	- Glyph name: emptyset	Contours detected: 0	Expected: 3
-
-	- Glyph name: estimated	Contours detected: 0	Expected: 2
-
-	- Glyph name: fraction	Contours detected: 0	Expected: 1
 
 	- Glyph name: greaterequal	Contours detected: 0	Expected: 2
 
@@ -3535,12 +3364,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: lessequal	Contours detected: 0	Expected: 2
 
 	- Glyph name: logicalnot	Contours detected: 0	Expected: 1
-
-	- Glyph name: notequal	Contours detected: 0	Expected: 1
-
-	- Glyph name: onehalf	Contours detected: 0	Expected: 3
-
-	- Glyph name: onequarter	Contours detected: 0	Expected: 3or4
 
 	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
 
@@ -3553,8 +3376,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: sterling	Contours detected: 3	Expected: 1or2
 
 	- Glyph name: summation	Contours detected: 0	Expected: 1
-
-	- Glyph name: threequarters	Contours detected: 0	Expected: 3or4
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
@@ -3614,8 +3435,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20B4	Contours detected: 0	Expected: 1or2
 
-	- Glyph name: uni20B5	Contours detected: 0	Expected: 1or2
-
 	- Glyph name: uni20B8	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni20B9	Contours detected: 0	Expected: 1
@@ -3626,10 +3445,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
 
-	- Glyph name: uni20BF	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2113	Contours detected: 0	Expected: 2
-
 	- Glyph name: uni2196	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni2197	Contours detected: 2	Expected: 1
@@ -3637,8 +3452,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni2198	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni2199	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni2206	Contours detected: 0	Expected: 2
 
 	- Glyph name: yen	Contours detected: 4	Expected: 1or2
  [code: contour-count]
@@ -3649,17 +3462,17 @@ The following glyphs do not have the recommended number of contours:
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
-* ⚠ **WARN** The most common width is 600 among a set of 6 math glyphs.
+* ⚠ **WARN** The most common width is 426 among a set of 6 math glyphs.
 The following math glyphs have a different width, though:
-
-Width = 426:
-multiply, plus, divide, equal, minus
 
 Width = 403:
 less
 
 Width = 406:
 greater
+
+Width = 600:
+lessequal, approxequal, plusminus, logicalnot, greaterequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
 
@@ -3670,210 +3483,6 @@ greater
 
 
 * ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-
-	* dollar (U+0024): X=184.5,Y=798.0 (should be at cap-height 800?)
-
-	* percent (U+0025): X=238.0,Y=801.0 (should be at cap-height 800?)
-
-	* zero (U+0030): X=119.0,Y=799.0 (should be at cap-height 800?)
-
-	* zero (U+0030): X=539.0,Y=801.0 (should be at cap-height 800?)
-
-	* colon (U+003A): X=60.0,Y=1.0 (should be at baseline 0?)
-
-	* colon (U+003A): X=251.0,Y=1.0 (should be at baseline 0?)
-
-	* K (U+004B): X=430.0,Y=1.5 (should be at baseline 0?)
-
-	* S (U+0053): X=230.0,Y=798.0 (should be at cap-height 800?)
-
-	* asciicircum (U+005E): X=197.0,Y=798.5 (should be at cap-height 800?)
-
-	* asciicircum (U+005E): X=283.5,Y=798.0 (should be at cap-height 800?)
-
-	* c (U+0063): X=251.5,Y=1.5 (should be at baseline 0?)
-
-	* c (U+0063): X=251.0,Y=658.0 (should be at x-height 660?)
-
-	* e (U+0065): X=325.5,Y=1.5 (should be at baseline 0?)
-
-	* k (U+006B): X=399.0,Y=659.0 (should be at x-height 660?)
-
-	* k (U+006B): X=554.0,Y=659.0 (should be at x-height 660?)
-
-	* sterling (U+00A3): X=225.5,Y=799.0 (should be at cap-height 800?)
-
-	* registered (U+00AE): X=204.0,Y=-1.0 (should be at baseline 0?)
-
-	* registered (U+00AE): X=189.0,Y=2.0 (should be at baseline 0?)
-
-	* registered (U+00AE): X=511.0,Y=2.0 (should be at baseline 0?)
-
-	* registered (U+00AE): X=496.0,Y=-1.0 (should be at baseline 0?)
-
-	* Aogonek (U+0104): X=529.0,Y=-1.0 (should be at baseline 0?)
-
-	* Aogonek (U+0105): X=529.0,Y=-1.0 (should be at baseline 0?)
-
-	* Eogonek (U+0118): X=448.0,Y=1.0 (should be at baseline 0?)
-
-	* Eogonek (U+0118): X=497.0,Y=1.0 (should be at baseline 0?)
-
-	* Eogonek (U+0119): X=448.0,Y=1.0 (should be at baseline 0?)
-
-	* Eogonek (U+0119): X=497.0,Y=1.0 (should be at baseline 0?)
-
-	* uni0136 (U+0136): X=430.0,Y=1.5 (should be at baseline 0?)
-
-	* uni0136 (U+0137): X=430.0,Y=1.5 (should be at baseline 0?)
-
-	* kgreenlandic (U+0138): X=430.0,Y=1.5 (should be at baseline 0?)
-
-	* Lcaron (U+013D): X=326.0,Y=799.0 (should be at cap-height 800?)
-
-	* Lcaron (U+013D): X=446.0,Y=799.0 (should be at cap-height 800?)
-
-	* Lcaron (U+013E): X=326.0,Y=799.0 (should be at cap-height 800?)
-
-	* Lcaron (U+013E): X=446.0,Y=799.0 (should be at cap-height 800?)
-
-	* Sacute (U+015A): X=230.0,Y=798.0 (should be at cap-height 800?)
-
-	* Sacute (U+015B): X=230.0,Y=798.0 (should be at cap-height 800?)
-
-	* Scircumflex (U+015C): X=230.0,Y=798.0 (should be at cap-height 800?)
-
-	* Scircumflex (U+015D): X=230.0,Y=798.0 (should be at cap-height 800?)
-
-	* Scedilla (U+015E): X=230.0,Y=798.0 (should be at cap-height 800?)
-
-	* Scedilla (U+015F): X=230.0,Y=798.0 (should be at cap-height 800?)
-
-	* Scaron (U+0160): X=230.0,Y=798.0 (should be at cap-height 800?)
-
-	* Scaron (U+0161): X=230.0,Y=798.0 (should be at cap-height 800?)
-
-	* uni018A (U+018A): X=316.0,Y=799.0 (should be at cap-height 800?)
-
-	* uni0198 (U+0198): X=430.0,Y=1.5 (should be at baseline 0?)
-
-	* uni01B2 (U+01B2): X=557.0,Y=799.0 (should be at cap-height 800?)
-
-	* uni01B3 (U+01B3): X=393.0,Y=801.0 (should be at cap-height 800?)
-
-	* uni01B3 (U+01B4): X=393.0,Y=801.0 (should be at cap-height 800?)
-
-	* uni01E8 (U+01E8): X=430.0,Y=1.5 (should be at baseline 0?)
-
-	* uni01E8 (U+01E9): X=430.0,Y=1.5 (should be at baseline 0?)
-
-	* uni01EA (U+01EA): X=399.0,Y=-1.0 (should be at baseline 0?)
-
-	* uni01EA (U+01EB): X=399.0,Y=-1.0 (should be at baseline 0?)
-
-	* uni01EC (U+01EC): X=399.0,Y=-1.0 (should be at baseline 0?)
-
-	* uni01F0 (U+01F0): X=153.0,Y=802.0 (should be at cap-height 800?)
-
-	* uni01F0 (U+01F0): X=157.0,Y=802.0 (should be at cap-height 800?)
-
-	* uni0218 (U+0218): X=230.0,Y=798.0 (should be at cap-height 800?)
-
-	* uni0218 (U+0219): X=230.0,Y=798.0 (should be at cap-height 800?)
-
-	* uni018A (U+0257): X=316.0,Y=799.0 (should be at cap-height 800?)
-
-	* uni01B2 (U+028B): X=557.0,Y=799.0 (should be at cap-height 800?)
-
-	* uni02C0 (U+02C0): X=13.0,Y=798.0 (should be at cap-height 800?)
-
-	* ogonek (U+02DB): X=39.0,Y=-1.0 (should be at baseline 0?)
-
-	* uni0328 (U+0328): X=39.0,Y=-1.0 (should be at baseline 0?)
-
-	* uni0329 (U+0329): X=13.0,Y=1.0 (should be at baseline 0?)
-
-	* uni0329 (U+0329): X=105.0,Y=1.0 (should be at baseline 0?)
-
-	* uni0358 (U+0358): X=114.0,Y=799.0 (should be at cap-height 800?)
-
-	* uni0358 (U+0358): X=268.0,Y=799.0 (should be at cap-height 800?)
-
-	* uni1E1B (U+1E1B): X=325.5,Y=1.5 (should be at baseline 0?)
-
-	* uni1E30 (U+1E30): X=430.0,Y=1.5 (should be at baseline 0?)
-
-	* uni1E30 (U+1E31): X=430.0,Y=1.5 (should be at baseline 0?)
-
-	* uni1E32 (U+1E32): X=430.0,Y=1.5 (should be at baseline 0?)
-
-	* uni1E32 (U+1E33): X=430.0,Y=1.5 (should be at baseline 0?)
-
-	* Kmacronbelow (U+1E34): X=430.0,Y=1.5 (should be at baseline 0?)
-
-	* Kmacronbelow (U+1E35): X=430.0,Y=1.5 (should be at baseline 0?)
-
-	* uni1E60 (U+1E60): X=230.0,Y=798.0 (should be at cap-height 800?)
-
-	* uni1E60 (U+1E61): X=230.0,Y=798.0 (should be at cap-height 800?)
-
-	* uni1E62 (U+1E62): X=230.0,Y=798.0 (should be at cap-height 800?)
-
-	* uni1E62 (U+1E63): X=230.0,Y=798.0 (should be at cap-height 800?)
-
-	* uni1E64 (U+1E64): X=230.0,Y=798.0 (should be at cap-height 800?)
-
-	* uni1E64 (U+1E65): X=230.0,Y=798.0 (should be at cap-height 800?)
-
-	* uni1E66 (U+1E66): X=230.0,Y=798.0 (should be at cap-height 800?)
-
-	* uni1E66 (U+1E67): X=230.0,Y=798.0 (should be at cap-height 800?)
-
-	* uni1E68 (U+1E68): X=230.0,Y=798.0 (should be at cap-height 800?)
-
-	* uni1E68 (U+1E69): X=230.0,Y=798.0 (should be at cap-height 800?)
-
-	* uni1E7A (U+1E7A): X=143.0,Y=1198.0 (should be at ascender 1200?)
-
-	* uni1E7A (U+1E7A): X=293.0,Y=1198.0 (should be at ascender 1200?)
-
-	* uni1E7A (U+1E7A): X=350.0,Y=1198.0 (should be at ascender 1200?)
-
-	* uni1E7A (U+1E7A): X=500.0,Y=1198.0 (should be at ascender 1200?)
-
-	* uni1E7A (U+1E7B): X=143.0,Y=1198.0 (should be at ascender 1200?)
-
-	* uni1E7A (U+1E7B): X=293.0,Y=1198.0 (should be at ascender 1200?)
-
-	* uni1E7A (U+1E7B): X=350.0,Y=1198.0 (should be at ascender 1200?)
-
-	* uni1E7A (U+1E7B): X=500.0,Y=1198.0 (should be at ascender 1200?)
-
-	* perthousand (U+2030): X=239.0,Y=801.0 (should be at cap-height 800?)
-
-	* uni20AD (U+20AD): X=363.0,Y=798.5 (should be at cap-height 800?)
-
-	* uni20AD (U+20AD): X=373.5,Y=2.0 (should be at baseline 0?)
-
-	* arrowupdn (U+2195): X=217.0,Y=798.0 (should be at cap-height 800?)
-
-	* arrowupdn (U+2195): X=303.5,Y=798.0 (should be at cap-height 800?)
-
-	* arrowupdn (U+2195): X=303.5,Y=2.0 (should be at baseline 0?)
-
-	* arrowupdn (U+2195): X=217.0,Y=2.0 (should be at baseline 0?)
-
-	* uniA740 (U+A740): X=507.0,Y=1.5 (should be at baseline 0?)
-
-	* uniA789 (U+A789): X=60.0,Y=1.0 (should be at baseline 0?)
-
-	* uniA789 (U+A789): X=251.0,Y=1.0 (should be at baseline 0?)
-
-	* uniA7A8 (U+A7A8): X=256.0,Y=798.0 (should be at cap-height 800?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -3914,6 +3523,14 @@ greater
 	* e (U+0065): L<<313.0,5.0>--<206.0,33.0>> -> L<<206.0,33.0>--<85.0,75.0>>
 
 	* kgreenlandic (U+0138): L<<616.0,539.0>--<542.0,411.0>> -> L<<542.0,411.0>--<494.0,343.0>>
+
+	* lozenge (U+25CA): L<<168.0,362.0>--<176.0,349.0>> -> L<<176.0,349.0>--<301.0,167.0>>
+
+	* lozenge (U+25CA): L<<301.0,167.0>--<309.0,178.0>> -> L<<309.0,178.0>--<434.0,362.0>>
+
+	* lozenge (U+25CA): L<<302.0,549.0>--<292.0,537.0>> -> L<<292.0,537.0>--<168.0,362.0>>
+
+	* lozenge (U+25CA): L<<434.0,362.0>--<425.0,374.0>> -> L<<425.0,374.0>--<302.0,549.0>>
 
 	* uni0136 (U+0136): L<<337.0,475.0>--<377.0,624.0>> -> L<<377.0,624.0>--<411.0,792.0>>
 
@@ -4011,6 +3628,10 @@ greater
 
 	* uni20A8 (U+20A8): L<<574.0,453.0>--<506.0,387.0>> -> L<<506.0,387.0>--<454.0,342.0>>
 
+	* uni2206 (U+2206): L<<324.0,622.0>--<314.0,593.0>> -> L<<314.0,593.0>--<106.0,43.0>>
+
+	* uni2206 (U+2206): L<<545.0,43.0>--<335.0,596.0>> -> L<<335.0,596.0>--<324.0,622.0>>
+
 	* uni2C64 (U+027D): L<<573.0,454.0>--<505.0,389.0>> -> L<<505.0,389.0>--<454.0,344.0>>
 
 	* uni2C64 (U+2C64): L<<573.0,454.0>--<505.0,389.0>> -> L<<505.0,389.0>--<454.0,344.0>>
@@ -4040,6 +3661,10 @@ greater
 	* comma (U+002C): L<<45.0,57.0>--<46.0,208.0>>
 
 	* five (U+0035): L<<25.0,332.0>--<26.0,785.0>>
+
+	* fiveeighths (U+215D): L<<25.0,619.0>--<26.0,918.0>>
+
+	* onehalf (U+00BD): L<<365.0,10.0>--<364.0,148.0>>
 
 	* percent (U+0025): L<<342.0,367.0>--<541.0,368.0>>
 
@@ -4101,13 +3726,7 @@ greater
 
 	* uni0E3F (U+0E3F): L<<439.0,659.0>--<438.0,800.0>>
 
-	* uni2075 (U+2075): L<<25.0,332.0>--<26.0,785.0>>
-
-	* uni2082 (U+2082): L<<42.0,15.0>--<41.0,223.0>>
-
-	* uni2085 (U+2085): L<<25.0,332.0>--<26.0,785.0>>
-
-	* uni2154 (U+2154): L<<42.0,15.0>--<41.0,223.0>>
+	* uni2154 (U+2154): L<<26.0,410.0>--<25.0,548.0>>
 
 	* uni2C64 (U+027D): L<<268.0,287.0>--<267.0,-137.0>>
 
@@ -4124,7 +3743,7 @@ greater
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 15 | 20 | 70 | 629 | 26 | 422 | 0 |
+| 15 | 20 | 69 | 629 | 26 | 423 | 0 |
 | 1% | 2% | 6% | 53% | 2% | 36% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
