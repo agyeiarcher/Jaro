@@ -1196,7 +1196,7 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 1200;
+value = 900;
 },
 {
 name = typoDescender;
@@ -1204,15 +1204,15 @@ value = -300;
 },
 {
 name = winAscent;
-value = 1200;
+value = 900;
 },
 {
 name = winDescent;
-value = -300;
+value = 300;
 },
 {
 name = vheaVertAscender;
-value = 1200;
+value = 900;
 },
 {
 name = vheaVertDescender;
@@ -1224,7 +1224,7 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 1200;
+value = 900;
 },
 {
 name = hheaDescender;
@@ -1240,13 +1240,13 @@ value = 50;
 },
 {
 name = underlinePosition;
-value = -200;
+value = -100;
 }
 );
 id = "462F72A0-0500-4E69-A49B-6C2F2580580D";
 metricValues = (
 {
-pos = 1200;
+pos = 900;
 },
 {
 pos = 800;
@@ -1285,7 +1285,7 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 1200;
+value = 900;
 },
 {
 name = typoDescender;
@@ -1293,15 +1293,15 @@ value = -300;
 },
 {
 name = winAscent;
-value = 1200;
+value = 900;
 },
 {
 name = winDescent;
-value = -300;
+value = 300;
 },
 {
 name = vheaVertAscender;
-value = 1200;
+value = 900;
 },
 {
 name = vheaVertDescender;
@@ -1313,7 +1313,7 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 1200;
+value = 900;
 },
 {
 name = hheaDescender;
@@ -1329,7 +1329,7 @@ value = 50;
 },
 {
 name = underlinePosition;
-value = -200;
+value = -100;
 }
 );
 guides = (
