@@ -2,7 +2,7 @@
 
 fontbakery version: 0.9.0
 
-<details><summary><b>[21] Jaro-6ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+<details><summary><b>[23] Jaro-6ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -14,6 +14,10 @@ fontbakery version: 0.9.0
 
 
 * 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
+</div></details><details><summary>🔥 <b>FAIL:</b> Stricter unitsPerEm criteria for Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/unitsperem_strict">com.google.fonts/check/unitsperem_strict</a>)</summary><div>
+
+
+* 🔥 **FAIL** Font em size (unitsPerEm) is 1400. If possible, please consider using 1000. Good values for unitsPerEm, though, are typically these: [16, 32, 64, 128, 256, 500, 512, 1000, 1024, 2000, 2048]. [code: bad-value]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -27,6 +31,10 @@ fontbakery version: 0.9.0
 | Poscript Name | Jaro-6ptRegular | Jaro6pt-Regular |
 | Typographic Family Name | Jaro | N/A |
 | Typographic Subfamily Name | 6pt Regular | N/A | [code: bad-names]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+
+
+* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1500 when it should be at least 1680 [code: bad-hhea-range]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -298,7 +306,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20AA	Contours detected: 0	Expected: 2
 
-	- Glyph name: dong	Contours detected: 0	Expected: 3or4
+	- Glyph name: dong	Contours detected: 5	Expected: 3or4
 
 	- Glyph name: Euro	Contours detected: 4	Expected: 1or2
 
@@ -307,8 +315,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni20AE	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2or4
-
-	- Glyph name: uni20B2	Contours detected: 0	Expected: 1, 2or3
 
 	- Glyph name: uni20B4	Contours detected: 0	Expected: 1or2
 
@@ -388,7 +394,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: dong	Contours detected: 0	Expected: 3or4
+	- Glyph name: dong	Contours detected: 5	Expected: 3or4
 
 	- Glyph name: emptyset	Contours detected: 0	Expected: 3
 
@@ -468,8 +474,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2or4
 
-	- Glyph name: uni20B2	Contours detected: 0	Expected: 1, 2or3
-
 	- Glyph name: uni20B4	Contours detected: 0	Expected: 1or2
 
 	- Glyph name: uni20B8	Contours detected: 0	Expected: 2
@@ -506,7 +510,7 @@ Width = 406:
 less, greater
 
 Width = 600:
-lessequal, approxequal, plusminus, logicalnot, greaterequal
+approxequal, logicalnot, greaterequal, plusminus, lessequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
 
@@ -690,10 +694,6 @@ lessequal, approxequal, plusminus, logicalnot, greaterequal
 
 	* uni20A8 (U+20A8): L<<574.0,453.0>--<508.0,389.0>> -> L<<508.0,389.0>--<452.0,341.0>>
 
-	* uni2206 (U+2206): L<<324.0,622.0>--<314.0,593.0>> -> L<<314.0,593.0>--<106.0,43.0>>
-
-	* uni2206 (U+2206): L<<545.0,43.0>--<335.0,596.0>> -> L<<335.0,596.0>--<324.0,622.0>>
-
 	* uni2C64 (U+027D): L<<574.0,453.0>--<508.0,389.0>> -> L<<508.0,389.0>--<452.0,341.0>>
 
 	* uni2C64 (U+2C64): L<<574.0,453.0>--<508.0,389.0>> -> L<<508.0,389.0>--<452.0,341.0>>
@@ -797,7 +797,7 @@ lessequal, approxequal, plusminus, logicalnot, greaterequal
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><br></div></details><details><summary><b>[21] Jaro-24ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[23] Jaro-24ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -809,6 +809,10 @@ lessequal, approxequal, plusminus, logicalnot, greaterequal
 
 
 * 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
+</div></details><details><summary>🔥 <b>FAIL:</b> Stricter unitsPerEm criteria for Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/unitsperem_strict">com.google.fonts/check/unitsperem_strict</a>)</summary><div>
+
+
+* 🔥 **FAIL** Font em size (unitsPerEm) is 1400. If possible, please consider using 1000. Good values for unitsPerEm, though, are typically these: [16, 32, 64, 128, 256, 500, 512, 1000, 1024, 2000, 2048]. [code: bad-value]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -822,6 +826,10 @@ lessequal, approxequal, plusminus, logicalnot, greaterequal
 | Poscript Name | Jaro-24ptRegular | Jaro24pt-Regular |
 | Typographic Family Name | Jaro | N/A |
 | Typographic Subfamily Name | 24pt Regular | N/A | [code: bad-names]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+
+
+* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1500 when it should be at least 1680 [code: bad-hhea-range]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -1093,7 +1101,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20AA	Contours detected: 0	Expected: 2
 
-	- Glyph name: dong	Contours detected: 0	Expected: 3or4
+	- Glyph name: dong	Contours detected: 5	Expected: 3or4
 
 	- Glyph name: Euro	Contours detected: 4	Expected: 1or2
 
@@ -1102,8 +1110,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni20AE	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2or4
-
-	- Glyph name: uni20B2	Contours detected: 0	Expected: 1, 2or3
 
 	- Glyph name: uni20B4	Contours detected: 0	Expected: 1or2
 
@@ -1183,7 +1189,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: dong	Contours detected: 0	Expected: 3or4
+	- Glyph name: dong	Contours detected: 5	Expected: 3or4
 
 	- Glyph name: emptyset	Contours detected: 0	Expected: 3
 
@@ -1263,8 +1269,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2or4
 
-	- Glyph name: uni20B2	Contours detected: 0	Expected: 1, 2or3
-
 	- Glyph name: uni20B4	Contours detected: 0	Expected: 1or2
 
 	- Glyph name: uni20B8	Contours detected: 0	Expected: 2
@@ -1304,7 +1308,7 @@ Width = 406:
 greater
 
 Width = 600:
-lessequal, approxequal, plusminus, logicalnot, greaterequal
+approxequal, logicalnot, greaterequal, plusminus, lessequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
 
@@ -1476,10 +1480,6 @@ lessequal, approxequal, plusminus, logicalnot, greaterequal
 
 	* uni20A8 (U+20A8): L<<573.0,452.0>--<502.0,383.0>> -> L<<502.0,383.0>--<458.0,345.0>>
 
-	* uni2206 (U+2206): L<<324.0,622.0>--<314.0,593.0>> -> L<<314.0,593.0>--<106.0,43.0>>
-
-	* uni2206 (U+2206): L<<545.0,43.0>--<335.0,596.0>> -> L<<335.0,596.0>--<324.0,622.0>>
-
 	* uni2C64 (U+027D): L<<571.0,456.0>--<500.0,388.0>> -> L<<500.0,388.0>--<458.0,350.0>>
 
 	* uni2C64 (U+2C64): L<<571.0,456.0>--<500.0,388.0>> -> L<<500.0,388.0>--<458.0,350.0>>
@@ -1581,7 +1581,7 @@ lessequal, approxequal, plusminus, logicalnot, greaterequal
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><br></div></details><details><summary><b>[20] Jaro-48ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[22] Jaro-48ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -1593,6 +1593,10 @@ lessequal, approxequal, plusminus, logicalnot, greaterequal
 
 
 * 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
+</div></details><details><summary>🔥 <b>FAIL:</b> Stricter unitsPerEm criteria for Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/unitsperem_strict">com.google.fonts/check/unitsperem_strict</a>)</summary><div>
+
+
+* 🔥 **FAIL** Font em size (unitsPerEm) is 1400. If possible, please consider using 1000. Good values for unitsPerEm, though, are typically these: [16, 32, 64, 128, 256, 500, 512, 1000, 1024, 2000, 2048]. [code: bad-value]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -1606,6 +1610,10 @@ lessequal, approxequal, plusminus, logicalnot, greaterequal
 | Poscript Name | Jaro-48ptRegular | Jaro48pt-Regular |
 | Typographic Family Name | Jaro | N/A |
 | Typographic Subfamily Name | 48pt Regular | N/A | [code: bad-names]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+
+
+* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1500 when it should be at least 1680 [code: bad-hhea-range]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -1877,7 +1885,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20AA	Contours detected: 0	Expected: 2
 
-	- Glyph name: dong	Contours detected: 0	Expected: 3or4
+	- Glyph name: dong	Contours detected: 5	Expected: 3or4
 
 	- Glyph name: Euro	Contours detected: 4	Expected: 1or2
 
@@ -1886,8 +1894,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni20AE	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2or4
-
-	- Glyph name: uni20B2	Contours detected: 0	Expected: 1, 2or3
 
 	- Glyph name: uni20B4	Contours detected: 0	Expected: 1or2
 
@@ -1967,7 +1973,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: dong	Contours detected: 0	Expected: 3or4
+	- Glyph name: dong	Contours detected: 5	Expected: 3or4
 
 	- Glyph name: emptyset	Contours detected: 0	Expected: 3
 
@@ -2047,8 +2053,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2or4
 
-	- Glyph name: uni20B2	Contours detected: 0	Expected: 1, 2or3
-
 	- Glyph name: uni20B4	Contours detected: 0	Expected: 1or2
 
 	- Glyph name: uni20B8	Contours detected: 0	Expected: 2
@@ -2088,7 +2092,7 @@ Width = 406:
 greater
 
 Width = 600:
-lessequal, approxequal, plusminus, logicalnot, greaterequal
+approxequal, logicalnot, greaterequal, plusminus, lessequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
 
@@ -2207,7 +2211,7 @@ lessequal, approxequal, plusminus, logicalnot, greaterequal
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><br></div></details><details><summary><b>[21] Jaro-72ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[23] Jaro-72ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -2219,6 +2223,10 @@ lessequal, approxequal, plusminus, logicalnot, greaterequal
 
 
 * 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
+</div></details><details><summary>🔥 <b>FAIL:</b> Stricter unitsPerEm criteria for Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/unitsperem_strict">com.google.fonts/check/unitsperem_strict</a>)</summary><div>
+
+
+* 🔥 **FAIL** Font em size (unitsPerEm) is 1400. If possible, please consider using 1000. Good values for unitsPerEm, though, are typically these: [16, 32, 64, 128, 256, 500, 512, 1000, 1024, 2000, 2048]. [code: bad-value]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -2232,6 +2240,10 @@ lessequal, approxequal, plusminus, logicalnot, greaterequal
 | Poscript Name | Jaro-72ptRegular | Jaro72pt-Regular |
 | Typographic Family Name | Jaro | N/A |
 | Typographic Subfamily Name | 72pt Regular | N/A | [code: bad-names]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+
+
+* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1500 when it should be at least 1680 [code: bad-hhea-range]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -2503,7 +2515,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20AA	Contours detected: 0	Expected: 2
 
-	- Glyph name: dong	Contours detected: 0	Expected: 3or4
+	- Glyph name: dong	Contours detected: 5	Expected: 3or4
 
 	- Glyph name: Euro	Contours detected: 4	Expected: 1or2
 
@@ -2512,8 +2524,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni20AE	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2or4
-
-	- Glyph name: uni20B2	Contours detected: 0	Expected: 1, 2or3
 
 	- Glyph name: uni20B4	Contours detected: 0	Expected: 1or2
 
@@ -2593,7 +2603,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: dong	Contours detected: 0	Expected: 3or4
+	- Glyph name: dong	Contours detected: 5	Expected: 3or4
 
 	- Glyph name: emptyset	Contours detected: 0	Expected: 3
 
@@ -2673,8 +2683,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2or4
 
-	- Glyph name: uni20B2	Contours detected: 0	Expected: 1, 2or3
-
 	- Glyph name: uni20B4	Contours detected: 0	Expected: 1or2
 
 	- Glyph name: uni20B8	Contours detected: 0	Expected: 2
@@ -2714,7 +2722,7 @@ Width = 406:
 greater
 
 Width = 600:
-lessequal, approxequal, plusminus, logicalnot, greaterequal
+approxequal, logicalnot, greaterequal, plusminus, lessequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
 
@@ -2842,10 +2850,6 @@ lessequal, approxequal, plusminus, logicalnot, greaterequal
 
 	* uni20A8 (U+20A8): L<<569.0,449.0>--<486.0,366.0>> -> L<<486.0,366.0>--<473.0,354.0>>
 
-	* uni2206 (U+2206): L<<324.0,622.0>--<314.0,593.0>> -> L<<314.0,593.0>--<106.0,43.0>>
-
-	* uni2206 (U+2206): L<<545.0,43.0>--<335.0,596.0>> -> L<<335.0,596.0>--<324.0,622.0>>
-
 	* uni2C64 (U+027D): L<<474.0,374.0>--<502.0,322.0>> -> L<<502.0,322.0>--<579.0,154.0>>
 
 	* uni2C64 (U+2C64): L<<474.0,374.0>--<502.0,322.0>> -> L<<502.0,322.0>--<579.0,154.0>>
@@ -2965,7 +2969,7 @@ lessequal, approxequal, plusminus, logicalnot, greaterequal
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><br></div></details><details><summary><b>[21] Jaro-12ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[23] Jaro-12ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -2977,6 +2981,10 @@ lessequal, approxequal, plusminus, logicalnot, greaterequal
 
 
 * 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
+</div></details><details><summary>🔥 <b>FAIL:</b> Stricter unitsPerEm criteria for Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/unitsperem_strict">com.google.fonts/check/unitsperem_strict</a>)</summary><div>
+
+
+* 🔥 **FAIL** Font em size (unitsPerEm) is 1400. If possible, please consider using 1000. Good values for unitsPerEm, though, are typically these: [16, 32, 64, 128, 256, 500, 512, 1000, 1024, 2000, 2048]. [code: bad-value]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -2990,6 +2998,10 @@ lessequal, approxequal, plusminus, logicalnot, greaterequal
 | Poscript Name | Jaro-12ptRegular | Jaro12pt-Regular |
 | Typographic Family Name | Jaro | N/A |
 | Typographic Subfamily Name | 12pt Regular | N/A | [code: bad-names]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+
+
+* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1500 when it should be at least 1680 [code: bad-hhea-range]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -3261,7 +3273,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20AA	Contours detected: 0	Expected: 2
 
-	- Glyph name: dong	Contours detected: 0	Expected: 3or4
+	- Glyph name: dong	Contours detected: 5	Expected: 3or4
 
 	- Glyph name: Euro	Contours detected: 4	Expected: 1or2
 
@@ -3270,8 +3282,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni20AE	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2or4
-
-	- Glyph name: uni20B2	Contours detected: 0	Expected: 1, 2or3
 
 	- Glyph name: uni20B4	Contours detected: 0	Expected: 1or2
 
@@ -3351,7 +3361,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: dong	Contours detected: 0	Expected: 3or4
+	- Glyph name: dong	Contours detected: 5	Expected: 3or4
 
 	- Glyph name: emptyset	Contours detected: 0	Expected: 3
 
@@ -3431,8 +3441,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2or4
 
-	- Glyph name: uni20B2	Contours detected: 0	Expected: 1, 2or3
-
 	- Glyph name: uni20B4	Contours detected: 0	Expected: 1or2
 
 	- Glyph name: uni20B8	Contours detected: 0	Expected: 2
@@ -3472,7 +3480,7 @@ Width = 406:
 greater
 
 Width = 600:
-lessequal, approxequal, plusminus, logicalnot, greaterequal
+approxequal, logicalnot, greaterequal, plusminus, lessequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
 
@@ -3628,10 +3636,6 @@ lessequal, approxequal, plusminus, logicalnot, greaterequal
 
 	* uni20A8 (U+20A8): L<<574.0,453.0>--<506.0,387.0>> -> L<<506.0,387.0>--<454.0,342.0>>
 
-	* uni2206 (U+2206): L<<324.0,622.0>--<314.0,593.0>> -> L<<314.0,593.0>--<106.0,43.0>>
-
-	* uni2206 (U+2206): L<<545.0,43.0>--<335.0,596.0>> -> L<<335.0,596.0>--<324.0,622.0>>
-
 	* uni2C64 (U+027D): L<<573.0,454.0>--<505.0,389.0>> -> L<<505.0,389.0>--<454.0,344.0>>
 
 	* uni2C64 (U+2C64): L<<573.0,454.0>--<505.0,389.0>> -> L<<505.0,389.0>--<454.0,344.0>>
@@ -3743,8 +3747,8 @@ lessequal, approxequal, plusminus, logicalnot, greaterequal
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 15 | 20 | 69 | 629 | 26 | 423 | 0 |
-| 1% | 2% | 6% | 53% | 2% | 36% | 0% |
+| 15 | 30 | 69 | 629 | 26 | 413 | 0 |
+| 1% | 3% | 6% | 53% | 2% | 35% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
