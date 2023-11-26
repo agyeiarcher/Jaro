@@ -206,12 +206,6 @@ fontbakery version: 0.9.0
 
 	- dotlessi_ogonek
 
-	- uni006A0301
-
-	- uni013C.loclMAH
-
-	- uni0146.loclMAH
-
 	- uni03010304.001
 
 	- uni03060303.case.001
@@ -243,11 +237,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: germandbls	Contours detected: 2	Expected: 1
 
-	- Glyph name: ae	Contours detected: 0	Expected: 3
-
-	- Glyph name: oslash	Contours detected: 0	Expected: 3
-
-	- Glyph name: thorn	Contours detected: 0	Expected: 2
+	- Glyph name: ae	Contours detected: 4	Expected: 3
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -257,11 +247,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
-	- Glyph name: lslash	Contours detected: 0	Expected: 1
+	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: eng	Contours detected: 0	Expected: 1
-
-	- Glyph name: oe	Contours detected: 0	Expected: 3
+	- Glyph name: oe	Contours detected: 4	Expected: 3
 
 	- Glyph name: Rcaron	Contours detected: 3	Expected: 2
 
@@ -271,25 +259,21 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni0180	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0188	Contours detected: 0	Expected: 1
+	- Glyph name: uni0180	Contours detected: 3	Expected: 2
 
 	- Glyph name: florin	Contours detected: 3	Expected: 1
 
 	- Glyph name: uni0197	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni019A	Contours detected: 0	Expected: 1
+	- Glyph name: uni019A	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni019F	Contours detected: 2	Expected: 3
 
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni01A5	Contours detected: 0	Expected: 2
-
 	- Glyph name: Uhorn	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni01B4	Contours detected: 0	Expected: 1
+	- Glyph name: uhorn	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni01B5	Contours detected: 2	Expected: 1
 
@@ -297,11 +281,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01C2	Contours detected: 3	Expected: 1
 
-	- Glyph name: uni01DD	Contours detected: 0	Expected: 2
+	- Glyph name: uni01E3	Contours detected: 5	Expected: 4
 
-	- Glyph name: uni01E3	Contours detected: 0	Expected: 4
-
-	- Glyph name: uni01E5	Contours detected: 0	Expected: 2
+	- Glyph name: uni01E5	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni01EA	Contours detected: 3	Expected: 2
 
@@ -313,35 +295,25 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Oslashacute	Contours detected: 3	Expected: 4
 
-	- Glyph name: oslashacute	Contours detected: 0	Expected: 4
-
 	- Glyph name: uni0228	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni0229	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni023A	Contours detected: 2	Expected: 3
 
-	- Glyph name: uni023C	Contours detected: 0	Expected: 2
+	- Glyph name: uni023C	Contours detected: 1	Expected: 2
 
 	- Glyph name: uni023D	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni023E	Contours detected: 1	Expected: 2
 
-	- Glyph name: uni0247	Contours detected: 0	Expected: 4
+	- Glyph name: uni0247	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni0249	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni024D	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni024F	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0251	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0259	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0272	Contours detected: 0	Expected: 1
+	- Glyph name: uni024D	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
 
@@ -397,7 +369,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EEE	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EEF	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
@@ -471,8 +443,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
 
-	- Glyph name: uniA78C	Contours detected: 0	Expected: 1
-
 	- Glyph name: Euro	Contours detected: 4	Expected: 1or2
 
 	- Glyph name: Oslashacute	Contours detected: 3	Expected: 4
@@ -481,7 +451,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: ae	Contours detected: 0	Expected: 3
+	- Glyph name: ae	Contours detected: 4	Expected: 3
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -507,8 +477,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: emptyset	Contours detected: 0	Expected: 3
 
-	- Glyph name: eng	Contours detected: 0	Expected: 1
-
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: germandbls	Contours detected: 2	Expected: 1
@@ -525,15 +493,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: logicalnot	Contours detected: 0	Expected: 1
 
-	- Glyph name: lslash	Contours detected: 0	Expected: 1
+	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: oe	Contours detected: 0	Expected: 3
+	- Glyph name: oe	Contours detected: 4	Expected: 3
 
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
-
-	- Glyph name: oslash	Contours detected: 0	Expected: 3
-
-	- Glyph name: oslashacute	Contours detected: 0	Expected: 4
 
 	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
 
@@ -549,25 +513,19 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: tbar	Contours detected: 2	Expected: 1
 
-	- Glyph name: thorn	Contours detected: 0	Expected: 2
+	- Glyph name: uhorn	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 	- Glyph name: uni00B5	Contours detected: 0	Expected: 1
 
-	- Glyph name: uni0180	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0188	Contours detected: 0	Expected: 1
+	- Glyph name: uni0180	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni0197	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni019A	Contours detected: 0	Expected: 1
+	- Glyph name: uni019A	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni019F	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni01A5	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni01B4	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni01B5	Contours detected: 2	Expected: 1
 
@@ -575,11 +533,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01C2	Contours detected: 3	Expected: 1
 
-	- Glyph name: uni01DD	Contours detected: 0	Expected: 2
+	- Glyph name: uni01E3	Contours detected: 5	Expected: 4
 
-	- Glyph name: uni01E3	Contours detected: 0	Expected: 4
-
-	- Glyph name: uni01E5	Contours detected: 0	Expected: 2
+	- Glyph name: uni01E5	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni01EC	Contours detected: 4	Expected: 3
 
@@ -591,27 +547,19 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni023A	Contours detected: 2	Expected: 3
 
-	- Glyph name: uni023C	Contours detected: 0	Expected: 2
+	- Glyph name: uni023C	Contours detected: 1	Expected: 2
 
 	- Glyph name: uni023D	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni023E	Contours detected: 1	Expected: 2
 
-	- Glyph name: uni0247	Contours detected: 0	Expected: 4
+	- Glyph name: uni0247	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni0249	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni024D	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni024F	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0251	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0259	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0272	Contours detected: 0	Expected: 1
+	- Glyph name: uni024D	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
 
@@ -667,7 +615,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EEE	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EEF	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
@@ -705,8 +653,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
 
-	- Glyph name: uniA78C	Contours detected: 0	Expected: 1
-
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: yen	Contours detected: 4	Expected: 1or2
@@ -728,7 +674,7 @@ Width = 406:
 greater
 
 Width = 600:
-logicalnot, plusminus, greaterequal, lessequal, approxequal
+lessequal, approxequal, greaterequal, plusminus, logicalnot
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
@@ -1032,12 +978,6 @@ logicalnot, plusminus, greaterequal, lessequal, approxequal
 
 	- dotlessi_ogonek
 
-	- uni006A0301
-
-	- uni013C.loclMAH
-
-	- uni0146.loclMAH
-
 	- uni03010304.001
 
 	- uni03060303.case.001
@@ -1069,11 +1009,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: germandbls	Contours detected: 2	Expected: 1
 
-	- Glyph name: ae	Contours detected: 0	Expected: 3
-
-	- Glyph name: oslash	Contours detected: 0	Expected: 3
-
-	- Glyph name: thorn	Contours detected: 0	Expected: 2
+	- Glyph name: ae	Contours detected: 4	Expected: 3
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -1083,11 +1019,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
-	- Glyph name: lslash	Contours detected: 0	Expected: 1
+	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: eng	Contours detected: 0	Expected: 1
-
-	- Glyph name: oe	Contours detected: 0	Expected: 3
+	- Glyph name: oe	Contours detected: 4	Expected: 3
 
 	- Glyph name: Rcaron	Contours detected: 3	Expected: 2
 
@@ -1097,25 +1031,21 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni0180	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0188	Contours detected: 0	Expected: 1
+	- Glyph name: uni0180	Contours detected: 3	Expected: 2
 
 	- Glyph name: florin	Contours detected: 3	Expected: 1
 
 	- Glyph name: uni0197	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni019A	Contours detected: 0	Expected: 1
+	- Glyph name: uni019A	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni019F	Contours detected: 2	Expected: 3
 
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni01A5	Contours detected: 0	Expected: 2
-
 	- Glyph name: Uhorn	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni01B4	Contours detected: 0	Expected: 1
+	- Glyph name: uhorn	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni01B5	Contours detected: 2	Expected: 1
 
@@ -1123,11 +1053,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01C2	Contours detected: 3	Expected: 1
 
-	- Glyph name: uni01DD	Contours detected: 0	Expected: 2
+	- Glyph name: uni01E3	Contours detected: 5	Expected: 4
 
-	- Glyph name: uni01E3	Contours detected: 0	Expected: 4
-
-	- Glyph name: uni01E5	Contours detected: 0	Expected: 2
+	- Glyph name: uni01E5	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni01EA	Contours detected: 3	Expected: 2
 
@@ -1139,35 +1067,25 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Oslashacute	Contours detected: 3	Expected: 4
 
-	- Glyph name: oslashacute	Contours detected: 0	Expected: 4
-
 	- Glyph name: uni0228	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni0229	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni023A	Contours detected: 2	Expected: 3
 
-	- Glyph name: uni023C	Contours detected: 0	Expected: 2
+	- Glyph name: uni023C	Contours detected: 1	Expected: 2
 
 	- Glyph name: uni023D	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni023E	Contours detected: 1	Expected: 2
 
-	- Glyph name: uni0247	Contours detected: 0	Expected: 4
+	- Glyph name: uni0247	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni0249	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni024D	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni024F	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0251	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0259	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0272	Contours detected: 0	Expected: 1
+	- Glyph name: uni024D	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
 
@@ -1223,7 +1141,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EEE	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EEF	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
@@ -1297,8 +1215,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
 
-	- Glyph name: uniA78C	Contours detected: 0	Expected: 1
-
 	- Glyph name: Euro	Contours detected: 4	Expected: 1or2
 
 	- Glyph name: Oslashacute	Contours detected: 3	Expected: 4
@@ -1307,7 +1223,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: ae	Contours detected: 0	Expected: 3
+	- Glyph name: ae	Contours detected: 4	Expected: 3
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -1333,8 +1249,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: emptyset	Contours detected: 0	Expected: 3
 
-	- Glyph name: eng	Contours detected: 0	Expected: 1
-
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: germandbls	Contours detected: 2	Expected: 1
@@ -1351,15 +1265,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: logicalnot	Contours detected: 0	Expected: 1
 
-	- Glyph name: lslash	Contours detected: 0	Expected: 1
+	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: oe	Contours detected: 0	Expected: 3
+	- Glyph name: oe	Contours detected: 4	Expected: 3
 
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
-
-	- Glyph name: oslash	Contours detected: 0	Expected: 3
-
-	- Glyph name: oslashacute	Contours detected: 0	Expected: 4
 
 	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
 
@@ -1375,25 +1285,19 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: tbar	Contours detected: 2	Expected: 1
 
-	- Glyph name: thorn	Contours detected: 0	Expected: 2
+	- Glyph name: uhorn	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 	- Glyph name: uni00B5	Contours detected: 0	Expected: 1
 
-	- Glyph name: uni0180	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0188	Contours detected: 0	Expected: 1
+	- Glyph name: uni0180	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni0197	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni019A	Contours detected: 0	Expected: 1
+	- Glyph name: uni019A	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni019F	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni01A5	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni01B4	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni01B5	Contours detected: 2	Expected: 1
 
@@ -1401,11 +1305,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01C2	Contours detected: 3	Expected: 1
 
-	- Glyph name: uni01DD	Contours detected: 0	Expected: 2
+	- Glyph name: uni01E3	Contours detected: 5	Expected: 4
 
-	- Glyph name: uni01E3	Contours detected: 0	Expected: 4
-
-	- Glyph name: uni01E5	Contours detected: 0	Expected: 2
+	- Glyph name: uni01E5	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni01EC	Contours detected: 4	Expected: 3
 
@@ -1417,27 +1319,19 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni023A	Contours detected: 2	Expected: 3
 
-	- Glyph name: uni023C	Contours detected: 0	Expected: 2
+	- Glyph name: uni023C	Contours detected: 1	Expected: 2
 
 	- Glyph name: uni023D	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni023E	Contours detected: 1	Expected: 2
 
-	- Glyph name: uni0247	Contours detected: 0	Expected: 4
+	- Glyph name: uni0247	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni0249	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni024D	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni024F	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0251	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0259	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0272	Contours detected: 0	Expected: 1
+	- Glyph name: uni024D	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
 
@@ -1493,7 +1387,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EEE	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EEF	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
@@ -1531,8 +1425,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
 
-	- Glyph name: uniA78C	Contours detected: 0	Expected: 1
-
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: yen	Contours detected: 4	Expected: 1or2
@@ -1554,7 +1446,7 @@ Width = 406:
 greater
 
 Width = 600:
-logicalnot, plusminus, greaterequal, lessequal, approxequal
+lessequal, approxequal, greaterequal, plusminus, logicalnot
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
@@ -1856,12 +1748,6 @@ logicalnot, plusminus, greaterequal, lessequal, approxequal
 
 	- dotlessi_ogonek
 
-	- uni006A0301
-
-	- uni013C.loclMAH
-
-	- uni0146.loclMAH
-
 	- uni03010304.001
 
 	- uni03060303.case.001
@@ -1893,11 +1779,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: germandbls	Contours detected: 2	Expected: 1
 
-	- Glyph name: ae	Contours detected: 0	Expected: 3
-
-	- Glyph name: oslash	Contours detected: 0	Expected: 3
-
-	- Glyph name: thorn	Contours detected: 0	Expected: 2
+	- Glyph name: ae	Contours detected: 4	Expected: 3
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -1907,11 +1789,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
-	- Glyph name: lslash	Contours detected: 0	Expected: 1
+	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: eng	Contours detected: 0	Expected: 1
-
-	- Glyph name: oe	Contours detected: 0	Expected: 3
+	- Glyph name: oe	Contours detected: 4	Expected: 3
 
 	- Glyph name: Rcaron	Contours detected: 3	Expected: 2
 
@@ -1921,25 +1801,21 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni0180	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0188	Contours detected: 0	Expected: 1
+	- Glyph name: uni0180	Contours detected: 3	Expected: 2
 
 	- Glyph name: florin	Contours detected: 3	Expected: 1
 
 	- Glyph name: uni0197	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni019A	Contours detected: 0	Expected: 1
+	- Glyph name: uni019A	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni019F	Contours detected: 2	Expected: 3
 
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni01A5	Contours detected: 0	Expected: 2
-
 	- Glyph name: Uhorn	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni01B4	Contours detected: 0	Expected: 1
+	- Glyph name: uhorn	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni01B5	Contours detected: 2	Expected: 1
 
@@ -1947,11 +1823,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01C2	Contours detected: 3	Expected: 1
 
-	- Glyph name: uni01DD	Contours detected: 0	Expected: 2
+	- Glyph name: uni01E3	Contours detected: 5	Expected: 4
 
-	- Glyph name: uni01E3	Contours detected: 0	Expected: 4
-
-	- Glyph name: uni01E5	Contours detected: 0	Expected: 2
+	- Glyph name: uni01E5	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni01EA	Contours detected: 3	Expected: 2
 
@@ -1963,35 +1837,25 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Oslashacute	Contours detected: 3	Expected: 4
 
-	- Glyph name: oslashacute	Contours detected: 0	Expected: 4
-
 	- Glyph name: uni0228	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni0229	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni023A	Contours detected: 2	Expected: 3
 
-	- Glyph name: uni023C	Contours detected: 0	Expected: 2
+	- Glyph name: uni023C	Contours detected: 1	Expected: 2
 
 	- Glyph name: uni023D	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni023E	Contours detected: 1	Expected: 2
 
-	- Glyph name: uni0247	Contours detected: 0	Expected: 4
+	- Glyph name: uni0247	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni0249	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni024D	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni024F	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0251	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0259	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0272	Contours detected: 0	Expected: 1
+	- Glyph name: uni024D	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
 
@@ -2035,7 +1899,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EEE	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EEF	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
@@ -2109,8 +1973,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
 
-	- Glyph name: uniA78C	Contours detected: 0	Expected: 1
-
 	- Glyph name: Euro	Contours detected: 4	Expected: 1or2
 
 	- Glyph name: Oslashacute	Contours detected: 3	Expected: 4
@@ -2119,7 +1981,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: ae	Contours detected: 0	Expected: 3
+	- Glyph name: ae	Contours detected: 4	Expected: 3
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -2145,8 +2007,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: emptyset	Contours detected: 0	Expected: 3
 
-	- Glyph name: eng	Contours detected: 0	Expected: 1
-
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: germandbls	Contours detected: 2	Expected: 1
@@ -2163,15 +2023,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: logicalnot	Contours detected: 0	Expected: 1
 
-	- Glyph name: lslash	Contours detected: 0	Expected: 1
+	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: oe	Contours detected: 0	Expected: 3
+	- Glyph name: oe	Contours detected: 4	Expected: 3
 
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
-
-	- Glyph name: oslash	Contours detected: 0	Expected: 3
-
-	- Glyph name: oslashacute	Contours detected: 0	Expected: 4
 
 	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
 
@@ -2187,25 +2043,19 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: tbar	Contours detected: 2	Expected: 1
 
-	- Glyph name: thorn	Contours detected: 0	Expected: 2
+	- Glyph name: uhorn	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 	- Glyph name: uni00B5	Contours detected: 0	Expected: 1
 
-	- Glyph name: uni0180	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0188	Contours detected: 0	Expected: 1
+	- Glyph name: uni0180	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni0197	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni019A	Contours detected: 0	Expected: 1
+	- Glyph name: uni019A	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni019F	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni01A5	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni01B4	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni01B5	Contours detected: 2	Expected: 1
 
@@ -2213,11 +2063,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01C2	Contours detected: 3	Expected: 1
 
-	- Glyph name: uni01DD	Contours detected: 0	Expected: 2
+	- Glyph name: uni01E3	Contours detected: 5	Expected: 4
 
-	- Glyph name: uni01E3	Contours detected: 0	Expected: 4
-
-	- Glyph name: uni01E5	Contours detected: 0	Expected: 2
+	- Glyph name: uni01E5	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni01EC	Contours detected: 4	Expected: 3
 
@@ -2229,27 +2077,19 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni023A	Contours detected: 2	Expected: 3
 
-	- Glyph name: uni023C	Contours detected: 0	Expected: 2
+	- Glyph name: uni023C	Contours detected: 1	Expected: 2
 
 	- Glyph name: uni023D	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni023E	Contours detected: 1	Expected: 2
 
-	- Glyph name: uni0247	Contours detected: 0	Expected: 4
+	- Glyph name: uni0247	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni0249	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni024D	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni024F	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0251	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0259	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0272	Contours detected: 0	Expected: 1
+	- Glyph name: uni024D	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
 
@@ -2293,7 +2133,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EEE	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EEF	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
@@ -2331,8 +2171,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
 
-	- Glyph name: uniA78C	Contours detected: 0	Expected: 1
-
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: yen	Contours detected: 4	Expected: 1or2
@@ -2354,7 +2192,7 @@ Width = 406:
 greater
 
 Width = 600:
-logicalnot, plusminus, greaterequal, lessequal, approxequal
+lessequal, approxequal, greaterequal, plusminus, logicalnot
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
@@ -2391,6 +2229,10 @@ logicalnot, plusminus, greaterequal, lessequal, approxequal
 
 	* Rmacronbelow (U+1E5E): L<<577.0,453.0>--<510.0,387.0>> -> L<<510.0,387.0>--<458.0,342.0>>
 
+	* ae (U+00E6): L<<318.0,655.0>--<425.0,627.0>> -> L<<425.0,627.0>--<546.0,585.0>>
+
+	* ae (U+00E6): L<<631.0,5.0>--<524.0,33.0>> -> L<<524.0,33.0>--<403.0,75.0>>
+
 	* e (U+0065): L<<309.0,5.0>--<202.0,33.0>> -> L<<202.0,33.0>--<81.0,75.0>>
 
 	* eacute (U+00E9): L<<309.0,5.0>--<202.0,33.0>> -> L<<202.0,33.0>--<81.0,75.0>>
@@ -2419,6 +2261,8 @@ logicalnot, plusminus, greaterequal, lessequal, approxequal
 
 	* lozenge (U+25CA): L<<434.0,362.0>--<425.0,374.0>> -> L<<425.0,374.0>--<302.0,549.0>>
 
+	* oe (U+0153): L<<622.0,5.0>--<515.0,33.0>> -> L<<515.0,33.0>--<394.0,75.0>>
+
 	* uni0136 (U+0136): L<<340.0,475.0>--<380.0,624.0>> -> L<<380.0,624.0>--<415.0,792.0>>
 
 	* uni0136 (U+0136): L<<426.0,9.0>--<383.0,192.0>> -> L<<383.0,192.0>--<349.0,300.0>>
@@ -2441,6 +2285,12 @@ logicalnot, plusminus, greaterequal, lessequal, approxequal
 
 	* uni01AC (U+01AC): L<<341.0,633.0>--<336.0,633.0>> -> L<<336.0,633.0>--<335.0,633.0>>
 
+	* uni01DD (U+01DD): L<<296.0,655.0>--<404.0,627.0>> -> L<<404.0,627.0>--<524.0,585.0>>
+
+	* uni01E3 (U+01E3): L<<318.0,655.0>--<425.0,627.0>> -> L<<425.0,627.0>--<546.0,585.0>>
+
+	* uni01E3 (U+01E3): L<<631.0,5.0>--<524.0,33.0>> -> L<<524.0,33.0>--<403.0,75.0>>
+
 	* uni01E8 (U+01E8): L<<340.0,475.0>--<380.0,624.0>> -> L<<380.0,624.0>--<415.0,792.0>>
 
 	* uni01E8 (U+01E8): L<<426.0,9.0>--<383.0,192.0>> -> L<<383.0,192.0>--<349.0,300.0>>
@@ -2459,7 +2309,13 @@ logicalnot, plusminus, greaterequal, lessequal, approxequal
 
 	* uni0229 (U+0229): L<<309.0,5.0>--<202.0,33.0>> -> L<<202.0,33.0>--<81.0,75.0>>
 
+	* uni0247 (U+0247): L<<309.0,5.0>--<202.0,33.0>> -> L<<202.0,33.0>--<152.0,51.0>>
+
 	* uni024C (U+024C): L<<637.0,453.0>--<569.0,387.0>> -> L<<569.0,387.0>--<517.0,342.0>>
+
+	* uni0256 (U+0256): L<<554.0,785.0>--<554.0,15.0>> -> L<<554.0,15.0>--<554.0,13.0>>
+
+	* uni0259 (U+0259): L<<296.0,655.0>--<404.0,627.0>> -> L<<404.0,627.0>--<524.0,585.0>>
 
 	* uni029D (U+029D): L<<222.0,-199.0>--<118.0,-199.0>> -> L<<118.0,-199.0>--<114.0,-199.0>>
 
@@ -2516,6 +2372,8 @@ logicalnot, plusminus, greaterequal, lessequal, approxequal
 	* uni20A8 (U+20A8): L<<577.0,453.0>--<510.0,387.0>> -> L<<510.0,387.0>--<458.0,342.0>>
 
 	* uni2C64 (U+2C64): L<<577.0,454.0>--<509.0,389.0>> -> L<<509.0,389.0>--<458.0,344.0>>
+
+	* uni2C66 (U+2C66): L<<88.0,750.0>--<250.0,750.0>> -> L<<250.0,750.0>--<252.0,750.0>>
 
 	* uni2C72 (U+2C72): L<<789.0,850.0>--<917.0,850.0>> -> L<<917.0,850.0>--<918.0,850.0>>
 
@@ -2834,12 +2692,6 @@ logicalnot, plusminus, greaterequal, lessequal, approxequal
 
 	- dotlessi_ogonek
 
-	- uni006A0301
-
-	- uni013C.loclMAH
-
-	- uni0146.loclMAH
-
 	- uni03010304.001
 
 	- uni03060303.case.001
@@ -2871,11 +2723,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: germandbls	Contours detected: 2	Expected: 1
 
-	- Glyph name: ae	Contours detected: 0	Expected: 3
-
-	- Glyph name: oslash	Contours detected: 0	Expected: 3
-
-	- Glyph name: thorn	Contours detected: 0	Expected: 2
+	- Glyph name: ae	Contours detected: 4	Expected: 3
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -2885,11 +2733,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
-	- Glyph name: lslash	Contours detected: 0	Expected: 1
+	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: eng	Contours detected: 0	Expected: 1
-
-	- Glyph name: oe	Contours detected: 0	Expected: 3
+	- Glyph name: oe	Contours detected: 4	Expected: 3
 
 	- Glyph name: Rcaron	Contours detected: 3	Expected: 2
 
@@ -2899,25 +2745,21 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni0180	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0188	Contours detected: 0	Expected: 1
+	- Glyph name: uni0180	Contours detected: 3	Expected: 2
 
 	- Glyph name: florin	Contours detected: 3	Expected: 1
 
 	- Glyph name: uni0197	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni019A	Contours detected: 0	Expected: 1
+	- Glyph name: uni019A	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni019F	Contours detected: 2	Expected: 3
 
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni01A5	Contours detected: 0	Expected: 2
-
 	- Glyph name: Uhorn	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni01B4	Contours detected: 0	Expected: 1
+	- Glyph name: uhorn	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni01B5	Contours detected: 2	Expected: 1
 
@@ -2925,11 +2767,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01C2	Contours detected: 3	Expected: 1
 
-	- Glyph name: uni01DD	Contours detected: 0	Expected: 2
+	- Glyph name: uni01E3	Contours detected: 5	Expected: 4
 
-	- Glyph name: uni01E3	Contours detected: 0	Expected: 4
-
-	- Glyph name: uni01E5	Contours detected: 0	Expected: 2
+	- Glyph name: uni01E5	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni01EA	Contours detected: 3	Expected: 2
 
@@ -2941,35 +2781,25 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Oslashacute	Contours detected: 3	Expected: 4
 
-	- Glyph name: oslashacute	Contours detected: 0	Expected: 4
-
 	- Glyph name: uni0228	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni0229	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni023A	Contours detected: 2	Expected: 3
 
-	- Glyph name: uni023C	Contours detected: 0	Expected: 2
+	- Glyph name: uni023C	Contours detected: 1	Expected: 2
 
 	- Glyph name: uni023D	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni023E	Contours detected: 1	Expected: 2
 
-	- Glyph name: uni0247	Contours detected: 0	Expected: 4
+	- Glyph name: uni0247	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni0249	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni024D	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni024F	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0251	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0259	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0272	Contours detected: 0	Expected: 1
+	- Glyph name: uni024D	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
 
@@ -2997,7 +2827,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EEE	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EEF	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
@@ -3071,8 +2901,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
 
-	- Glyph name: uniA78C	Contours detected: 0	Expected: 1
-
 	- Glyph name: Euro	Contours detected: 4	Expected: 1or2
 
 	- Glyph name: Oslashacute	Contours detected: 3	Expected: 4
@@ -3081,7 +2909,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: ae	Contours detected: 0	Expected: 3
+	- Glyph name: ae	Contours detected: 4	Expected: 3
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -3107,8 +2935,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: emptyset	Contours detected: 0	Expected: 3
 
-	- Glyph name: eng	Contours detected: 0	Expected: 1
-
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: germandbls	Contours detected: 2	Expected: 1
@@ -3125,15 +2951,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: logicalnot	Contours detected: 0	Expected: 1
 
-	- Glyph name: lslash	Contours detected: 0	Expected: 1
+	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: oe	Contours detected: 0	Expected: 3
+	- Glyph name: oe	Contours detected: 4	Expected: 3
 
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
-
-	- Glyph name: oslash	Contours detected: 0	Expected: 3
-
-	- Glyph name: oslashacute	Contours detected: 0	Expected: 4
 
 	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
 
@@ -3149,25 +2971,19 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: tbar	Contours detected: 2	Expected: 1
 
-	- Glyph name: thorn	Contours detected: 0	Expected: 2
+	- Glyph name: uhorn	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 	- Glyph name: uni00B5	Contours detected: 0	Expected: 1
 
-	- Glyph name: uni0180	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0188	Contours detected: 0	Expected: 1
+	- Glyph name: uni0180	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni0197	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni019A	Contours detected: 0	Expected: 1
+	- Glyph name: uni019A	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni019F	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni01A5	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni01B4	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni01B5	Contours detected: 2	Expected: 1
 
@@ -3175,11 +2991,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01C2	Contours detected: 3	Expected: 1
 
-	- Glyph name: uni01DD	Contours detected: 0	Expected: 2
+	- Glyph name: uni01E3	Contours detected: 5	Expected: 4
 
-	- Glyph name: uni01E3	Contours detected: 0	Expected: 4
-
-	- Glyph name: uni01E5	Contours detected: 0	Expected: 2
+	- Glyph name: uni01E5	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni01EC	Contours detected: 4	Expected: 3
 
@@ -3191,27 +3005,19 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni023A	Contours detected: 2	Expected: 3
 
-	- Glyph name: uni023C	Contours detected: 0	Expected: 2
+	- Glyph name: uni023C	Contours detected: 1	Expected: 2
 
 	- Glyph name: uni023D	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni023E	Contours detected: 1	Expected: 2
 
-	- Glyph name: uni0247	Contours detected: 0	Expected: 4
+	- Glyph name: uni0247	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni0249	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni024D	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni024F	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0251	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0259	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0272	Contours detected: 0	Expected: 1
+	- Glyph name: uni024D	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
 
@@ -3239,7 +3045,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EEE	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EEF	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
@@ -3277,8 +3083,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
 
-	- Glyph name: uniA78C	Contours detected: 0	Expected: 1
-
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: yen	Contours detected: 4	Expected: 1or2
@@ -3294,10 +3098,10 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 406:
-less, greater
+greater, less
 
 Width = 600:
-logicalnot, plusminus, greaterequal, lessequal, approxequal
+lessequal, approxequal, greaterequal, plusminus, logicalnot
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
@@ -3334,6 +3138,10 @@ logicalnot, plusminus, greaterequal, lessequal, approxequal
 
 	* Rmacronbelow (U+1E5E): L<<578.0,453.0>--<512.0,389.0>> -> L<<512.0,389.0>--<456.0,341.0>>
 
+	* ae (U+00E6): L<<321.0,655.0>--<428.0,629.0>> -> L<<428.0,629.0>--<550.0,588.0>>
+
+	* ae (U+00E6): L<<641.0,5.0>--<534.0,31.0>> -> L<<534.0,31.0>--<412.0,72.0>>
+
 	* e (U+0065): L<<315.0,5.0>--<208.0,31.0>> -> L<<208.0,31.0>--<86.0,72.0>>
 
 	* eacute (U+00E9): L<<315.0,5.0>--<208.0,31.0>> -> L<<208.0,31.0>--<86.0,72.0>>
@@ -3362,6 +3170,8 @@ logicalnot, plusminus, greaterequal, lessequal, approxequal
 
 	* lozenge (U+25CA): L<<434.0,362.0>--<425.0,374.0>> -> L<<425.0,374.0>--<302.0,549.0>>
 
+	* oe (U+0153): L<<631.0,5.0>--<524.0,31.0>> -> L<<524.0,31.0>--<402.0,72.0>>
+
 	* uni0136 (U+0136): L<<346.0,467.0>--<386.0,616.0>> -> L<<386.0,616.0>--<422.0,792.0>>
 
 	* uni0136 (U+0136): L<<433.0,9.0>--<389.0,199.0>> -> L<<389.0,199.0>--<356.0,308.0>>
@@ -3386,6 +3196,12 @@ logicalnot, plusminus, greaterequal, lessequal, approxequal
 
 	* uni01B3 (U+01B3): L<<568.0,850.0>--<568.0,850.0>> -> L<<568.0,850.0>--<737.0,850.0>>
 
+	* uni01DD (U+01DD): L<<297.0,655.0>--<404.0,629.0>> -> L<<404.0,629.0>--<526.0,588.0>>
+
+	* uni01E3 (U+01E3): L<<321.0,655.0>--<428.0,629.0>> -> L<<428.0,629.0>--<550.0,588.0>>
+
+	* uni01E3 (U+01E3): L<<641.0,5.0>--<534.0,31.0>> -> L<<534.0,31.0>--<412.0,72.0>>
+
 	* uni01E8 (U+01E8): L<<346.0,467.0>--<386.0,616.0>> -> L<<386.0,616.0>--<422.0,792.0>>
 
 	* uni01E8 (U+01E8): L<<433.0,9.0>--<389.0,199.0>> -> L<<389.0,199.0>--<356.0,308.0>>
@@ -3404,7 +3220,13 @@ logicalnot, plusminus, greaterequal, lessequal, approxequal
 
 	* uni0229 (U+0229): L<<315.0,5.0>--<208.0,31.0>> -> L<<208.0,31.0>--<86.0,72.0>>
 
+	* uni0247 (U+0247): L<<315.0,5.0>--<208.0,31.0>> -> L<<208.0,31.0>--<155.0,49.0>>
+
 	* uni024C (U+024C): L<<638.0,453.0>--<572.0,389.0>> -> L<<572.0,389.0>--<516.0,341.0>>
+
+	* uni0256 (U+0256): L<<558.0,785.0>--<558.0,15.0>> -> L<<558.0,15.0>--<558.0,13.0>>
+
+	* uni0259 (U+0259): L<<297.0,655.0>--<404.0,629.0>> -> L<<404.0,629.0>--<526.0,588.0>>
 
 	* uni029D (U+029D): L<<222.0,-194.0>--<118.0,-194.0>> -> L<<118.0,-194.0>--<114.0,-194.0>>
 
@@ -3765,12 +3587,6 @@ logicalnot, plusminus, greaterequal, lessequal, approxequal
 
 	- dotlessi_ogonek
 
-	- uni006A0301
-
-	- uni013C.loclMAH
-
-	- uni0146.loclMAH
-
 	- uni03010304.001
 
 	- uni03060303.case.001
@@ -3802,11 +3618,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: germandbls	Contours detected: 2	Expected: 1
 
-	- Glyph name: ae	Contours detected: 0	Expected: 3
-
-	- Glyph name: oslash	Contours detected: 0	Expected: 3
-
-	- Glyph name: thorn	Contours detected: 0	Expected: 2
+	- Glyph name: ae	Contours detected: 4	Expected: 3
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -3816,11 +3628,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
-	- Glyph name: lslash	Contours detected: 0	Expected: 1
+	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: eng	Contours detected: 0	Expected: 1
-
-	- Glyph name: oe	Contours detected: 0	Expected: 3
+	- Glyph name: oe	Contours detected: 4	Expected: 3
 
 	- Glyph name: Rcaron	Contours detected: 3	Expected: 2
 
@@ -3830,25 +3640,21 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni0180	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0188	Contours detected: 0	Expected: 1
+	- Glyph name: uni0180	Contours detected: 3	Expected: 2
 
 	- Glyph name: florin	Contours detected: 3	Expected: 1
 
 	- Glyph name: uni0197	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni019A	Contours detected: 0	Expected: 1
+	- Glyph name: uni019A	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni019F	Contours detected: 2	Expected: 3
 
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni01A5	Contours detected: 0	Expected: 2
-
 	- Glyph name: Uhorn	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni01B4	Contours detected: 0	Expected: 1
+	- Glyph name: uhorn	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni01B5	Contours detected: 2	Expected: 1
 
@@ -3856,11 +3662,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01C2	Contours detected: 3	Expected: 1
 
-	- Glyph name: uni01DD	Contours detected: 0	Expected: 2
+	- Glyph name: uni01E3	Contours detected: 5	Expected: 4
 
-	- Glyph name: uni01E3	Contours detected: 0	Expected: 4
-
-	- Glyph name: uni01E5	Contours detected: 0	Expected: 2
+	- Glyph name: uni01E5	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni01EA	Contours detected: 3	Expected: 2
 
@@ -3872,35 +3676,25 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Oslashacute	Contours detected: 3	Expected: 4
 
-	- Glyph name: oslashacute	Contours detected: 0	Expected: 4
-
 	- Glyph name: uni0228	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni0229	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni023A	Contours detected: 2	Expected: 3
 
-	- Glyph name: uni023C	Contours detected: 0	Expected: 2
+	- Glyph name: uni023C	Contours detected: 1	Expected: 2
 
 	- Glyph name: uni023D	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni023E	Contours detected: 1	Expected: 2
 
-	- Glyph name: uni0247	Contours detected: 0	Expected: 4
+	- Glyph name: uni0247	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni0249	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni024D	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni024F	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0251	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0259	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0272	Contours detected: 0	Expected: 1
+	- Glyph name: uni024D	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
 
@@ -3944,7 +3738,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EEE	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EEF	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
@@ -4018,8 +3812,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
 
-	- Glyph name: uniA78C	Contours detected: 0	Expected: 1
-
 	- Glyph name: Euro	Contours detected: 4	Expected: 1or2
 
 	- Glyph name: Oslashacute	Contours detected: 3	Expected: 4
@@ -4028,7 +3820,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: ae	Contours detected: 0	Expected: 3
+	- Glyph name: ae	Contours detected: 4	Expected: 3
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -4054,8 +3846,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: emptyset	Contours detected: 0	Expected: 3
 
-	- Glyph name: eng	Contours detected: 0	Expected: 1
-
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: germandbls	Contours detected: 2	Expected: 1
@@ -4072,15 +3862,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: logicalnot	Contours detected: 0	Expected: 1
 
-	- Glyph name: lslash	Contours detected: 0	Expected: 1
+	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: oe	Contours detected: 0	Expected: 3
+	- Glyph name: oe	Contours detected: 4	Expected: 3
 
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
-
-	- Glyph name: oslash	Contours detected: 0	Expected: 3
-
-	- Glyph name: oslashacute	Contours detected: 0	Expected: 4
 
 	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
 
@@ -4096,25 +3882,19 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: tbar	Contours detected: 2	Expected: 1
 
-	- Glyph name: thorn	Contours detected: 0	Expected: 2
+	- Glyph name: uhorn	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 	- Glyph name: uni00B5	Contours detected: 0	Expected: 1
 
-	- Glyph name: uni0180	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0188	Contours detected: 0	Expected: 1
+	- Glyph name: uni0180	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni0197	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni019A	Contours detected: 0	Expected: 1
+	- Glyph name: uni019A	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni019F	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni01A5	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni01B4	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni01B5	Contours detected: 2	Expected: 1
 
@@ -4122,11 +3902,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01C2	Contours detected: 3	Expected: 1
 
-	- Glyph name: uni01DD	Contours detected: 0	Expected: 2
+	- Glyph name: uni01E3	Contours detected: 5	Expected: 4
 
-	- Glyph name: uni01E3	Contours detected: 0	Expected: 4
-
-	- Glyph name: uni01E5	Contours detected: 0	Expected: 2
+	- Glyph name: uni01E5	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni01EC	Contours detected: 4	Expected: 3
 
@@ -4138,27 +3916,19 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni023A	Contours detected: 2	Expected: 3
 
-	- Glyph name: uni023C	Contours detected: 0	Expected: 2
+	- Glyph name: uni023C	Contours detected: 1	Expected: 2
 
 	- Glyph name: uni023D	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni023E	Contours detected: 1	Expected: 2
 
-	- Glyph name: uni0247	Contours detected: 0	Expected: 4
+	- Glyph name: uni0247	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni0249	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni024D	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni024F	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0251	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0259	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0272	Contours detected: 0	Expected: 1
+	- Glyph name: uni024D	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
 
@@ -4202,7 +3972,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EEE	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EEF	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
@@ -4240,8 +4010,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
 
-	- Glyph name: uniA78C	Contours detected: 0	Expected: 1
-
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: yen	Contours detected: 4	Expected: 1or2
@@ -4263,7 +4031,7 @@ Width = 406:
 greater
 
 Width = 600:
-logicalnot, plusminus, greaterequal, lessequal, approxequal
+lessequal, approxequal, greaterequal, plusminus, logicalnot
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
@@ -4300,6 +4068,10 @@ logicalnot, plusminus, greaterequal, lessequal, approxequal
 
 	* Rmacronbelow (U+1E5E): L<<576.0,452.0>--<505.0,383.0>> -> L<<505.0,383.0>--<461.0,345.0>>
 
+	* ae (U+00E6): L<<312.0,655.0>--<420.0,622.0>> -> L<<420.0,622.0>--<537.0,578.0>>
+
+	* ae (U+00E6): L<<612.0,5.0>--<504.0,38.0>> -> L<<504.0,38.0>--<386.0,82.0>>
+
 	* e (U+0065): L<<298.0,5.0>--<190.0,38.0>> -> L<<190.0,38.0>--<72.0,82.0>>
 
 	* eacute (U+00E9): L<<298.0,5.0>--<190.0,38.0>> -> L<<190.0,38.0>--<72.0,82.0>>
@@ -4328,6 +4100,8 @@ logicalnot, plusminus, greaterequal, lessequal, approxequal
 
 	* lozenge (U+25CA): L<<434.0,362.0>--<425.0,374.0>> -> L<<425.0,374.0>--<302.0,549.0>>
 
+	* oe (U+0153): L<<605.0,5.0>--<497.0,38.0>> -> L<<497.0,38.0>--<379.0,82.0>>
+
 	* uni0136 (U+0136): L<<329.0,490.0>--<369.0,639.0>> -> L<<369.0,639.0>--<401.0,792.0>>
 
 	* uni0136 (U+0136): L<<412.0,9.0>--<370.0,177.0>> -> L<<370.0,177.0>--<336.0,285.0>>
@@ -4343,6 +4117,12 @@ logicalnot, plusminus, greaterequal, lessequal, approxequal
 	* uni0198 (U+0198): L<<412.0,9.0>--<370.0,177.0>> -> L<<370.0,177.0>--<336.0,285.0>>
 
 	* uni0198 (U+0198): L<<494.0,410.0>--<535.0,336.0>> -> L<<535.0,336.0>--<626.0,135.0>>
+
+	* uni01DD (U+01DD): L<<295.0,655.0>--<403.0,622.0>> -> L<<403.0,622.0>--<520.0,578.0>>
+
+	* uni01E3 (U+01E3): L<<312.0,655.0>--<420.0,622.0>> -> L<<420.0,622.0>--<537.0,578.0>>
+
+	* uni01E3 (U+01E3): L<<612.0,5.0>--<504.0,38.0>> -> L<<504.0,38.0>--<386.0,82.0>>
 
 	* uni01E8 (U+01E8): L<<329.0,490.0>--<369.0,639.0>> -> L<<369.0,639.0>--<401.0,792.0>>
 
@@ -4362,7 +4142,13 @@ logicalnot, plusminus, greaterequal, lessequal, approxequal
 
 	* uni0229 (U+0229): L<<298.0,5.0>--<190.0,38.0>> -> L<<190.0,38.0>--<72.0,82.0>>
 
+	* uni0247 (U+0247): L<<298.0,5.0>--<190.0,38.0>> -> L<<190.0,38.0>--<146.0,54.0>>
+
 	* uni024C (U+024C): L<<634.0,452.0>--<563.0,383.0>> -> L<<563.0,383.0>--<519.0,345.0>>
+
+	* uni0256 (U+0256): L<<546.0,785.0>--<546.0,15.0>> -> L<<546.0,15.0>--<546.0,13.0>>
+
+	* uni0259 (U+0259): L<<295.0,655.0>--<403.0,622.0>> -> L<<403.0,622.0>--<520.0,578.0>>
 
 	* uni029D (U+029D): L<<222.0,-209.0>--<118.0,-209.0>> -> L<<118.0,-209.0>--<114.0,-209.0>>
 
