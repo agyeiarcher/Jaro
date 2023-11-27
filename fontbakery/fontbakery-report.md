@@ -34,8 +34,7 @@ fontbakery version: 0.9.0
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1213, but got 1200 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 455, but got 300 instead [code: descent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 401, but got 300 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
@@ -82,8 +81,6 @@ fontbakery version: 0.9.0
 	- uni030D
 
 	- uni030F
-
-	- uni0310
 
 	- uni0311
 
@@ -235,8 +232,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00B5	Contours detected: 0	Expected: 1
 
-	- Glyph name: germandbls	Contours detected: 2	Expected: 1
-
 	- Glyph name: ae	Contours detected: 4	Expected: 3
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
@@ -319,37 +314,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1E14	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni1E15	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E16	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni1E17	Contours detected: 3	Expected: 4
-
 	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E50	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E51	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E52	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E53	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1EA5	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1EA7	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1EBF	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1EC1	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1ED1	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1ED3	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
@@ -479,8 +446,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: germandbls	Contours detected: 2	Expected: 1
-
 	- Glyph name: greaterequal	Contours detected: 0	Expected: 2
 
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
@@ -565,37 +530,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1E14	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni1E15	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E16	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni1E17	Contours detected: 3	Expected: 4
-
 	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E50	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E51	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E52	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E53	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1EA5	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1EA7	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1EBF	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1EC1	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1ED1	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1ED3	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
@@ -674,7 +611,7 @@ Width = 406:
 greater
 
 Width = 600:
-lessequal, approxequal, greaterequal, plusminus, logicalnot
+plusminus, greaterequal, approxequal, lessequal, logicalnot
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
@@ -735,8 +672,6 @@ lessequal, approxequal, greaterequal, plusminus, logicalnot
 
 	* uni00B2 (U+00B2): L<<26.0,15.0>--<25.0,354.0>>
 
-	* uni0123 (U+0123): L<<370.0,871.0>--<369.0,726.0>>
-
 	* uni018B (U+018B): L<<34.0,799.0>--<531.0,801.0>>
 
 	* uni01E2 (U+01E2): L<<766.0,1.0>--<334.0,0.0>>
@@ -756,12 +691,6 @@ lessequal, approxequal, greaterequal, plusminus, logicalnot
 	* uni02EE (U+02EE): L<<25.0,717.0>--<26.0,862.0>>
 
 	* uni02EE (U+02EE): L<<285.0,717.0>--<286.0,862.0>>
-
-	* uni0312 (U+0312): L<<237.0,1011.0>--<236.0,866.0>>
-
-	* uni0313 (U+0313): L<<25.0,1004.0>--<26.0,1149.0>>
-
-	* uni0315 (U+0315): L<<25.0,637.0>--<26.0,782.0>>
 
 	* uni0E3F (U+0E3F): L<<430.0,598.0>--<429.0,800.0>>
 
@@ -806,8 +735,7 @@ lessequal, approxequal, greaterequal, plusminus, logicalnot
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1213, but got 1200 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 455, but got 300 instead [code: descent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 401, but got 300 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
@@ -854,8 +782,6 @@ lessequal, approxequal, greaterequal, plusminus, logicalnot
 	- uni030D
 
 	- uni030F
-
-	- uni0310
 
 	- uni0311
 
@@ -1007,8 +933,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00B5	Contours detected: 0	Expected: 1
 
-	- Glyph name: germandbls	Contours detected: 2	Expected: 1
-
 	- Glyph name: ae	Contours detected: 4	Expected: 3
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
@@ -1091,37 +1015,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1E14	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni1E15	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E16	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni1E17	Contours detected: 3	Expected: 4
-
 	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E50	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E51	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E52	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E53	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1EA5	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1EA7	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1EBF	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1EC1	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1ED1	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1ED3	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
@@ -1251,8 +1147,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: germandbls	Contours detected: 2	Expected: 1
-
 	- Glyph name: greaterequal	Contours detected: 0	Expected: 2
 
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
@@ -1337,37 +1231,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1E14	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni1E15	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E16	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni1E17	Contours detected: 3	Expected: 4
-
 	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E50	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E51	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E52	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E53	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1EA5	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1EA7	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1EBF	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1EC1	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1ED1	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1ED3	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
@@ -1446,7 +1312,7 @@ Width = 406:
 greater
 
 Width = 600:
-lessequal, approxequal, greaterequal, plusminus, logicalnot
+plusminus, greaterequal, approxequal, lessequal, logicalnot
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
@@ -1507,8 +1373,6 @@ lessequal, approxequal, greaterequal, plusminus, logicalnot
 
 	* uni00B2 (U+00B2): L<<33.0,15.0>--<32.0,302.0>>
 
-	* uni0123 (U+0123): L<<379.0,871.0>--<378.0,723.0>>
-
 	* uni018B (U+018B): L<<50.0,799.0>--<550.0,801.0>>
 
 	* uni01E2 (U+01E2): L<<791.0,1.0>--<364.0,0.0>>
@@ -1529,12 +1393,6 @@ lessequal, approxequal, greaterequal, plusminus, logicalnot
 
 	* uni02EE (U+02EE): L<<33.0,717.0>--<34.0,865.0>>
 
-	* uni0312 (U+0312): L<<241.0,1011.0>--<240.0,863.0>>
-
-	* uni0313 (U+0313): L<<25.0,1004.0>--<26.0,1152.0>>
-
-	* uni0315 (U+0315): L<<25.0,637.0>--<26.0,785.0>>
-
 	* uni0E3F (U+0E3F): L<<434.0,622.0>--<433.0,800.0>>
 
 	* uni2154 (U+2154): L<<26.0,410.0>--<25.0,599.0>>
@@ -1544,7 +1402,7 @@ lessequal, approxequal, greaterequal, plusminus, logicalnot
 	* uni2C72 (U+2C72): L<<42.0,165.0>--<43.0,785.0>>
 
 	* zero (U+0030): L<<73.0,799.0>--<541.0,801.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[22] Jaro-12ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[21] Jaro-12ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -1576,8 +1434,7 @@ lessequal, approxequal, greaterequal, plusminus, logicalnot
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1213, but got 1200 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 455, but got 300 instead [code: descent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 401, but got 300 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
@@ -1624,8 +1481,6 @@ lessequal, approxequal, greaterequal, plusminus, logicalnot
 	- uni030D
 
 	- uni030F
-
-	- uni0310
 
 	- uni0311
 
@@ -1777,8 +1632,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00B5	Contours detected: 0	Expected: 1
 
-	- Glyph name: germandbls	Contours detected: 2	Expected: 1
-
 	- Glyph name: ae	Contours detected: 4	Expected: 3
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
@@ -1861,25 +1714,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1E14	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni1E15	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E16	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni1E17	Contours detected: 3	Expected: 4
-
 	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E50	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E51	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E52	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E53	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
@@ -2009,8 +1846,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: germandbls	Contours detected: 2	Expected: 1
-
 	- Glyph name: greaterequal	Contours detected: 0	Expected: 2
 
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
@@ -2095,25 +1930,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1E14	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni1E15	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E16	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni1E17	Contours detected: 3	Expected: 4
-
 	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E50	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E51	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E52	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E53	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
@@ -2192,7 +2011,7 @@ Width = 406:
 greater
 
 Width = 600:
-lessequal, approxequal, greaterequal, plusminus, logicalnot
+plusminus, greaterequal, approxequal, lessequal, logicalnot
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
@@ -2388,26 +2207,6 @@ lessequal, approxequal, greaterequal, plusminus, logicalnot
 	* uniA740 (U+A740): L<<578.0,413.0>--<626.0,325.0>> -> L<<626.0,325.0>--<715.0,124.0>>
 
 	* uniA740 (U+A740): L<<700.0,679.0>--<625.0,501.0>> -> L<<625.0,501.0>--<578.0,413.0>> [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* uni1E14 (U+1E14): B<<392.0,981.0>-<389.0,974.0>-<385.0,973.0>>/L<<385.0,973.0>--<405.0,973.0>> = 14.036243467926484
-
-	* uni1E14 (U+1E14): L<<194.0,973.0>--<378.0,973.0>>/L<<378.0,973.0>--<374.0,974.0>> = 14.036243467926484
-
-	* uni1E15 (U+1E15): B<<409.0,841.0>-<406.0,834.0>-<402.0,833.0>>/L<<402.0,833.0>--<422.0,833.0>> = 14.036243467926484
-
-	* uni1E15 (U+1E15): L<<211.0,833.0>--<395.0,833.0>>/L<<395.0,833.0>--<391.0,834.0>> = 14.036243467926484
-
-	* uni1E50 (U+1E50): B<<429.0,981.0>-<426.0,974.0>-<422.0,973.0>>/L<<422.0,973.0>--<442.0,973.0>> = 14.036243467926484
-
-	* uni1E50 (U+1E50): L<<231.0,973.0>--<415.0,973.0>>/L<<415.0,973.0>--<411.0,974.0>> = 14.036243467926484
-
-	* uni1E51 (U+1E51): B<<400.0,841.0>-<397.0,834.0>-<393.0,833.0>>/L<<393.0,833.0>--<413.0,833.0>> = 14.036243467926484
-
-	* uni1E51 (U+1E51): L<<202.0,833.0>--<386.0,833.0>>/L<<386.0,833.0>--<382.0,834.0>> = 14.036243467926484 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -2457,8 +2256,6 @@ lessequal, approxequal, greaterequal, plusminus, logicalnot
 
 	* uni00B2 (U+00B2): L<<42.0,15.0>--<41.0,223.0>>
 
-	* uni0123 (U+0123): L<<391.0,871.0>--<390.0,720.0>>
-
 	* uni0241 (U+0241): L<<65.0,15.0>--<64.0,289.0>>
 
 	* uni0242 (U+0242): L<<65.0,15.0>--<64.0,177.0>>
@@ -2476,12 +2273,6 @@ lessequal, approxequal, greaterequal, plusminus, logicalnot
 	* uni02EE (U+02EE): L<<306.0,717.0>--<307.0,868.0>>
 
 	* uni02EE (U+02EE): L<<46.0,717.0>--<47.0,868.0>>
-
-	* uni0312 (U+0312): L<<246.0,1011.0>--<245.0,860.0>>
-
-	* uni0313 (U+0313): L<<25.0,1004.0>--<26.0,1155.0>>
-
-	* uni0315 (U+0315): L<<25.0,637.0>--<26.0,788.0>>
 
 	* uni0E3F (U+0E3F): L<<439.0,659.0>--<438.0,800.0>>
 
@@ -2520,8 +2311,7 @@ lessequal, approxequal, greaterequal, plusminus, logicalnot
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1213, but got 1200 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 455, but got 300 instead [code: descent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 401, but got 300 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
@@ -2568,8 +2358,6 @@ lessequal, approxequal, greaterequal, plusminus, logicalnot
 	- uni030D
 
 	- uni030F
-
-	- uni0310
 
 	- uni0311
 
@@ -2720,8 +2508,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: plusminus	Contours detected: 0	Expected: 1or2
 
 	- Glyph name: uni00B5	Contours detected: 0	Expected: 1
-
-	- Glyph name: germandbls	Contours detected: 2	Expected: 1
 
 	- Glyph name: ae	Contours detected: 4	Expected: 3
 
@@ -2937,8 +2723,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: germandbls	Contours detected: 2	Expected: 1
-
 	- Glyph name: greaterequal	Contours detected: 0	Expected: 2
 
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
@@ -3098,10 +2882,10 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 406:
-greater, less
+less, greater
 
 Width = 600:
-lessequal, approxequal, greaterequal, plusminus, logicalnot
+plusminus, greaterequal, approxequal, lessequal, logicalnot
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
@@ -3352,8 +3136,6 @@ lessequal, approxequal, greaterequal, plusminus, logicalnot
 
 	* uni00B2 (U+00B2): L<<44.0,15.0>--<43.0,210.0>>
 
-	* uni0123 (U+0123): L<<393.0,871.0>--<392.0,719.0>>
-
 	* uni0241 (U+0241): L<<69.0,15.0>--<68.0,284.0>>
 
 	* uni0242 (U+0242): L<<69.0,15.0>--<68.0,174.0>>
@@ -3371,12 +3153,6 @@ lessequal, approxequal, greaterequal, plusminus, logicalnot
 	* uni02EE (U+02EE): L<<308.0,717.0>--<309.0,869.0>>
 
 	* uni02EE (U+02EE): L<<48.0,717.0>--<49.0,869.0>>
-
-	* uni0312 (U+0312): L<<247.0,1011.0>--<246.0,859.0>>
-
-	* uni0313 (U+0313): L<<25.0,1004.0>--<26.0,1156.0>>
-
-	* uni0315 (U+0315): L<<25.0,637.0>--<26.0,789.0>>
 
 	* uni0E3F (U+0E3F): L<<440.0,665.0>--<439.0,800.0>>
 
@@ -3415,8 +3191,7 @@ lessequal, approxequal, greaterequal, plusminus, logicalnot
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1213, but got 1200 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 455, but got 300 instead [code: descent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 401, but got 300 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
@@ -3463,8 +3238,6 @@ lessequal, approxequal, greaterequal, plusminus, logicalnot
 	- uni030D
 
 	- uni030F
-
-	- uni0310
 
 	- uni0311
 
@@ -3616,8 +3389,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00B5	Contours detected: 0	Expected: 1
 
-	- Glyph name: germandbls	Contours detected: 2	Expected: 1
-
 	- Glyph name: ae	Contours detected: 4	Expected: 3
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
@@ -3700,25 +3471,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1E14	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni1E15	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E16	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni1E17	Contours detected: 3	Expected: 4
-
 	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E50	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E51	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E52	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E53	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
@@ -3848,8 +3603,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: germandbls	Contours detected: 2	Expected: 1
-
 	- Glyph name: greaterequal	Contours detected: 0	Expected: 2
 
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
@@ -3934,25 +3687,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1E14	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni1E15	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E16	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni1E17	Contours detected: 3	Expected: 4
-
 	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E50	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E51	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E52	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E53	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
@@ -4031,7 +3768,7 @@ Width = 406:
 greater
 
 Width = 600:
-lessequal, approxequal, greaterequal, plusminus, logicalnot
+plusminus, greaterequal, approxequal, lessequal, logicalnot
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
@@ -4262,8 +3999,6 @@ lessequal, approxequal, greaterequal, plusminus, logicalnot
 
 	* uni00B2 (U+00B2): L<<39.0,15.0>--<38.0,249.0>>
 
-	* uni0123 (U+0123): L<<386.0,871.0>--<385.0,721.0>>
-
 	* uni0241 (U+0241): L<<57.0,15.0>--<56.0,300.0>>
 
 	* uni0242 (U+0242): L<<57.0,14.0>--<56.0,182.0>>
@@ -4282,12 +4017,6 @@ lessequal, approxequal, greaterequal, plusminus, logicalnot
 
 	* uni02EE (U+02EE): L<<42.0,717.0>--<43.0,867.0>>
 
-	* uni0312 (U+0312): L<<244.0,1011.0>--<243.0,861.0>>
-
-	* uni0313 (U+0313): L<<25.0,1004.0>--<26.0,1154.0>>
-
-	* uni0315 (U+0315): L<<25.0,637.0>--<26.0,787.0>>
-
 	* uni0E3F (U+0E3F): L<<437.0,647.0>--<436.0,800.0>>
 
 	* uni2154 (U+2154): L<<26.0,410.0>--<25.0,565.0>>
@@ -4301,7 +4030,7 @@ lessequal, approxequal, greaterequal, plusminus, logicalnot
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 15 | 30 | 60 | 629 | 26 | 422 | 0 |
+| 15 | 30 | 59 | 629 | 26 | 423 | 0 |
 | 1% | 3% | 5% | 53% | 2% | 36% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
