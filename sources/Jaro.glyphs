@@ -31196,12 +31196,12 @@ width = 1000;
 );
 },
 {
-color = 0;
+color = 7;
 export = 0;
 glyphname = P.ss01;
 kernLeft = KO_R.ss02;
 kernRight = KO_P.ss01;
-lastChange = "2024-01-07 22:37:53 +0000";
+lastChange = "2024-01-07 22:44:14 +0000";
 layers = (
 {
 layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
@@ -31450,12 +31450,12 @@ width = 977;
 );
 },
 {
-color = 0;
+color = 7;
 export = 0;
 glyphname = R.ss01;
 kernLeft = KO_H;
 kernRight = KO_R.ss01;
-lastChange = "2024-01-07 22:37:53 +0000";
+lastChange = "2024-01-07 22:44:14 +0000";
 layers = (
 {
 layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
@@ -31750,12 +31750,12 @@ metricLeft = H;
 metricRight = R;
 },
 {
-color = 0;
+color = 7;
 export = 0;
 glyphname = P.ss02;
 kernLeft = KO_H;
 kernRight = KO_P.ss02;
-lastChange = "2024-01-07 22:37:53 +0000";
+lastChange = "2024-01-07 22:44:14 +0000";
 layers = (
 {
 associatedMasterId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
@@ -32436,10 +32436,10 @@ width = 953;
 metricLeft = P;
 },
 {
-color = 0;
+color = 7;
 export = 0;
 glyphname = Pstroke.ss02;
-lastChange = "2024-01-07 22:37:53 +0000";
+lastChange = "2024-01-07 22:44:14 +0000";
 layers = (
 {
 layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
@@ -32558,12 +32558,12 @@ width = 918;
 );
 },
 {
-color = 0;
+color = 7;
 export = 0;
 glyphname = R.ss02;
 kernLeft = KO_R.ss02;
 kernRight = KO_R.ss02;
-lastChange = "2024-01-07 22:37:53 +0000";
+lastChange = "2024-01-07 22:44:14 +0000";
 layers = (
 {
 associatedMasterId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
@@ -33470,12 +33470,12 @@ width = 987;
 );
 },
 {
-color = 0;
+color = 7;
 export = 0;
 glyphname = Y.ss02;
 kernLeft = KO_R.ss02;
 kernRight = KO_H;
-lastChange = "2024-01-07 22:37:53 +0000";
+lastChange = "2024-01-07 22:44:14 +0000";
 layers = (
 {
 layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
@@ -33575,12 +33575,12 @@ width = 1005;
 metricRight = H;
 },
 {
-color = 0;
+color = 7;
 export = 0;
 glyphname = R.ss03;
 kernLeft = KO_R.ss02;
 kernRight = KO_R.ss02;
-lastChange = "2024-01-07 22:37:53 +0000";
+lastChange = "2024-01-07 22:44:14 +0000";
 layers = (
 {
 layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
@@ -33721,12 +33721,12 @@ width = 987;
 );
 },
 {
-color = 0;
+color = 7;
 export = 0;
 glyphname = Y.ss03;
 kernLeft = KO_R.ss02;
 kernRight = KO_H;
-lastChange = "2024-01-07 22:37:53 +0000";
+lastChange = "2024-01-07 22:44:14 +0000";
 layers = (
 {
 layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
@@ -33834,12 +33834,12 @@ width = 1005;
 metricRight = H;
 },
 {
-color = 0;
+color = 7;
 export = 0;
 glyphname = Macute.ss06;
 kernLeft = KO_M;
 kernRight = KO_Iacute;
-lastChange = "2024-01-07 22:37:54 +0000";
+lastChange = "2024-01-07 22:44:14 +0000";
 layers = (
 {
 layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
@@ -33870,12 +33870,12 @@ width = 1500;
 );
 },
 {
-color = 0;
+color = 7;
 export = 0;
 glyphname = Mdotbelow.ss06;
 kernLeft = KO_M;
 kernRight = KO_Iacute;
-lastChange = "2024-01-07 22:37:54 +0000";
+lastChange = "2024-01-07 22:44:14 +0000";
 layers = (
 {
 layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
@@ -33906,12 +33906,12 @@ width = 1500;
 );
 },
 {
-color = 0;
+color = 7;
 export = 0;
 glyphname = Racute.ss08;
 kernLeft = KO_H;
 kernRight = KO_Rcaron;
-lastChange = "2024-01-07 22:37:54 +0000";
+lastChange = "2024-01-07 22:44:14 +0000";
 layers = (
 {
 layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
@@ -33942,12 +33942,12 @@ width = 1025;
 );
 },
 {
-color = 0;
+color = 7;
 export = 0;
 glyphname = Rcaron.ss08;
 kernLeft = KO_H;
 kernRight = KO_Rcaron;
-lastChange = "2024-01-07 22:37:54 +0000";
+lastChange = "2024-01-07 22:44:14 +0000";
 layers = (
 {
 layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
@@ -33978,12 +33978,12 @@ width = 1025;
 );
 },
 {
-color = 0;
+color = 7;
 export = 0;
 glyphname = Rdotbelow.ss08;
 kernLeft = KO_H;
 kernRight = KO_Rcaron;
-lastChange = "2024-01-07 22:37:54 +0000";
+lastChange = "2024-01-07 22:44:14 +0000";
 layers = (
 {
 layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
@@ -34014,12 +34014,12 @@ width = 1025;
 );
 },
 {
-color = 0;
+color = 7;
 export = 0;
 glyphname = Rmacronbelow.ss08;
 kernLeft = KO_U;
 kernRight = KO_Rcaron;
-lastChange = "2024-01-07 22:37:54 +0000";
+lastChange = "2024-01-07 22:44:14 +0000";
 layers = (
 {
 layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
@@ -42506,11 +42506,12 @@ width = 763;
 unicode = 7825;
 },
 {
-color = 8;
+color = 7;
+export = 0;
 glyphname = e.ss01;
 kernLeft = KO_e.ss01;
 kernRight = KO_e.ss01;
-lastChange = "2024-01-07 22:37:53 +0000";
+lastChange = "2024-01-07 22:44:14 +0000";
 layers = (
 {
 layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
@@ -42643,11 +42644,12 @@ width = 1000;
 );
 },
 {
-color = 8;
+color = 7;
+export = 0;
 glyphname = e.ss02;
 kernLeft = KO_e.ss02;
 kernRight = KO_e.ss02;
-lastChange = "2024-01-07 22:37:53 +0000";
+lastChange = "2024-01-07 22:44:14 +0000";
 layers = (
 {
 layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
@@ -42786,11 +42788,12 @@ width = 900;
 );
 },
 {
-color = 8;
+color = 7;
+export = 0;
 glyphname = t.ss02;
 kernLeft = KO_t.ss02;
 kernRight = KO_t.ss02;
-lastChange = "2024-01-07 22:37:53 +0000";
+lastChange = "2024-01-07 22:44:14 +0000";
 layers = (
 {
 anchors = (
@@ -46745,10 +46748,10 @@ metricLeft = zero;
 metricRight = zero;
 },
 {
-color = 0;
+color = 7;
 export = 0;
 glyphname = six.ss02;
-lastChange = "2024-01-07 22:37:53 +0000";
+lastChange = "2024-01-07 22:44:14 +0000";
 layers = (
 {
 layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
@@ -46893,10 +46896,10 @@ width = 938;
 );
 },
 {
-color = 0;
+color = 7;
 export = 0;
 glyphname = nine.ss02;
-lastChange = "2024-01-07 22:37:54 +0000";
+lastChange = "2024-01-07 22:44:14 +0000";
 layers = (
 {
 layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
@@ -46925,10 +46928,10 @@ width = 938;
 );
 },
 {
-color = 0;
+color = 7;
 export = 0;
 glyphname = six.ss03;
-lastChange = "2024-01-07 22:37:53 +0000";
+lastChange = "2024-01-07 22:44:14 +0000";
 layers = (
 {
 layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
@@ -47074,10 +47077,10 @@ width = 935;
 metricLeft = six;
 },
 {
-color = 0;
+color = 7;
 export = 0;
 glyphname = nine.ss03;
-lastChange = "2024-01-07 22:37:54 +0000";
+lastChange = "2024-01-07 22:44:14 +0000";
 layers = (
 {
 layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
