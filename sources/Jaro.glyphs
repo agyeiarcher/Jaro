@@ -954,8 +954,6 @@ feature dnom;
 feature frac;
 feature ordn;
 feature case;
-feature ss01;
-feature ss02;
 ";
 tag = aalt;
 },
@@ -1135,33 +1133,6 @@ sub f i by fi;
 sub f l by fl;
 ";
 tag = liga;
-},
-{
-automatic = 1;
-code = "sub e by e.ss01;
-";
-labels = (
-{
-language = dflt;
-value = "";
-}
-);
-notes = "Name: ";
-tag = ss01;
-},
-{
-automatic = 1;
-code = "sub e by e.ss02;
-sub t by t.ss02;
-";
-labels = (
-{
-language = dflt;
-value = "";
-}
-);
-notes = "Name: ";
-tag = ss02;
 }
 );
 fontMaster = (
