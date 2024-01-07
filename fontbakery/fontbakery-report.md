@@ -44,9 +44,6 @@ fontbakery version: 0.9.0
 
 * 🔥 **FAIL** name id 256 missing from name table
 * 🔥 **FAIL** name id 257 missing from name table
-* 🔥 **FAIL** name id 258 missing from name table
-* 🔥 **FAIL** name id 259 missing from name table
-* 🔥 **FAIL** name id 260 missing from name table
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -197,10 +194,6 @@ fontbakery version: 0.9.0
 
 	- Iacute.czech
 
-	- M.alt
-
-	- N.alt
-
 	- dotlessi_ogonek
 
 	- uni03010304.001
@@ -224,13 +217,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: yen	Contours detected: 4	Expected: 1or2
 
-	- Glyph name: logicalnot	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: plusminus	Contours detected: 0	Expected: 1or2
-
-	- Glyph name: uni00B5	Contours detected: 0	Expected: 1
 
 	- Glyph name: ae	Contours detected: 4	Expected: 3
 
@@ -340,11 +327,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni20A6	Contours detected: 0	Expected: 1, 3or5
-
-	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4or7
-
-	- Glyph name: uni20AA	Contours detected: 0	Expected: 2
+	- Glyph name: uni20A9	Contours detected: 5	Expected: 1, 3, 4or7
 
 	- Glyph name: dong	Contours detected: 5	Expected: 3or4
 
@@ -352,21 +335,19 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20AD	Contours detected: 3	Expected: 1
 
-	- Glyph name: uni20AE	Contours detected: 0	Expected: 1
+	- Glyph name: uni20AE	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2or4
+	- Glyph name: uni20B1	Contours detected: 6	Expected: 1, 2or4
 
-	- Glyph name: uni20B4	Contours detected: 0	Expected: 1or2
+	- Glyph name: uni20B4	Contours detected: 4	Expected: 1or2
 
-	- Glyph name: uni20B8	Contours detected: 0	Expected: 2
+	- Glyph name: uni20B9	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20B9	Contours detected: 0	Expected: 1
+	- Glyph name: uni20BA	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
+	- Glyph name: uni20BC	Contours detected: 3	Expected: 1
 
-	- Glyph name: uni20BC	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
+	- Glyph name: uni20BD	Contours detected: 4	Expected: 2
 
 	- Glyph name: arrowleft	Contours detected: 2	Expected: 1
 
@@ -388,27 +369,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni2199	Contours detected: 2	Expected: 1
 
-	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
-
-	- Glyph name: emptyset	Contours detected: 0	Expected: 3
-
-	- Glyph name: product	Contours detected: 0	Expected: 1
-
-	- Glyph name: summation	Contours detected: 0	Expected: 1
-
-	- Glyph name: radical	Contours detected: 0	Expected: 1
-
-	- Glyph name: infinity	Contours detected: 0	Expected: 3
-
-	- Glyph name: integral	Contours detected: 0	Expected: 1
-
-	- Glyph name: approxequal	Contours detected: 0	Expected: 2
-
-	- Glyph name: lessequal	Contours detected: 0	Expected: 2
-
-	- Glyph name: greaterequal	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
+	- Glyph name: infinity	Contours detected: 1	Expected: 3
 
 	- Glyph name: Euro	Contours detected: 4	Expected: 1or2
 
@@ -421,8 +382,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: ae	Contours detected: 4	Expected: 3
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: approxequal	Contours detected: 0	Expected: 2
 
 	- Glyph name: arrowboth	Contours detected: 3	Expected: 1
 
@@ -442,21 +401,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dong	Contours detected: 5	Expected: 3or4
 
-	- Glyph name: emptyset	Contours detected: 0	Expected: 3
-
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: greaterequal	Contours detected: 0	Expected: 2
 
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
-	- Glyph name: infinity	Contours detected: 0	Expected: 3
-
-	- Glyph name: integral	Contours detected: 0	Expected: 1
-
-	- Glyph name: lessequal	Contours detected: 0	Expected: 2
-
-	- Glyph name: logicalnot	Contours detected: 0	Expected: 1
+	- Glyph name: infinity	Contours detected: 1	Expected: 3
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
@@ -464,25 +413,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
-	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
-
-	- Glyph name: plusminus	Contours detected: 0	Expected: 1or2
-
-	- Glyph name: product	Contours detected: 0	Expected: 1
-
-	- Glyph name: radical	Contours detected: 0	Expected: 1
-
 	- Glyph name: sterling	Contours detected: 3	Expected: 1or2
-
-	- Glyph name: summation	Contours detected: 0	Expected: 1
 
 	- Glyph name: tbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: uni00B5	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0180	Contours detected: 3	Expected: 2
 
@@ -556,29 +493,23 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni20A6	Contours detected: 0	Expected: 1, 3or5
-
-	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4or7
-
-	- Glyph name: uni20AA	Contours detected: 0	Expected: 2
+	- Glyph name: uni20A9	Contours detected: 5	Expected: 1, 3, 4or7
 
 	- Glyph name: uni20AD	Contours detected: 3	Expected: 1
 
-	- Glyph name: uni20AE	Contours detected: 0	Expected: 1
+	- Glyph name: uni20AE	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2or4
+	- Glyph name: uni20B1	Contours detected: 6	Expected: 1, 2or4
 
-	- Glyph name: uni20B4	Contours detected: 0	Expected: 1or2
+	- Glyph name: uni20B4	Contours detected: 4	Expected: 1or2
 
-	- Glyph name: uni20B8	Contours detected: 0	Expected: 2
+	- Glyph name: uni20B9	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20B9	Contours detected: 0	Expected: 1
+	- Glyph name: uni20BA	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
+	- Glyph name: uni20BC	Contours detected: 3	Expected: 1
 
-	- Glyph name: uni20BC	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
+	- Glyph name: uni20BD	Contours detected: 4	Expected: 2
 
 	- Glyph name: uni2196	Contours detected: 2	Expected: 1
 
@@ -587,8 +518,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni2198	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni2199	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
@@ -601,17 +530,23 @@ The following glyphs do not have the recommended number of contours:
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
-* ⚠ **WARN** The most common width is 426 among a set of 6 math glyphs.
+* ⚠ **WARN** The most common width is 426 among a set of 7 math glyphs.
 The following math glyphs have a different width, though:
 
 Width = 398:
-less
+lessequal, less
 
 Width = 406:
 greater
 
-Width = 600:
-approxequal, lessequal, greaterequal, logicalnot, plusminus
+Width = 438:
+multiply
+
+Width = 702:
+approxequal
+
+Width = 376:
+greaterequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
@@ -698,7 +633,7 @@ approxequal, lessequal, greaterequal, logicalnot, plusminus
 
 	* uni0198 (U+0198): L<<494.0,410.0>--<535.0,336.0>> -> L<<535.0,336.0>--<626.0,135.0>>
 
-	* uni01DD (U+01DD): L<<295.0,655.0>--<403.0,622.0>> -> L<<403.0,622.0>--<520.0,578.0>>
+	* uni01DD (U+01DD): L<<295.0,655.0>--<402.0,622.0>> -> L<<402.0,622.0>--<520.0,578.0>>
 
 	* uni01E3 (U+01E3): L<<312.0,655.0>--<420.0,622.0>> -> L<<420.0,622.0>--<537.0,578.0>>
 
@@ -728,7 +663,7 @@ approxequal, lessequal, greaterequal, logicalnot, plusminus
 
 	* uni0256 (U+0256): L<<546.0,785.0>--<546.0,15.0>> -> L<<546.0,15.0>--<546.0,13.0>>
 
-	* uni0259 (U+0259): L<<295.0,655.0>--<403.0,622.0>> -> L<<403.0,622.0>--<520.0,578.0>>
+	* uni0259 (U+0259): L<<295.0,655.0>--<402.0,622.0>> -> L<<402.0,622.0>--<520.0,578.0>>
 
 	* uni029D (U+029D): L<<222.0,-209.0>--<118.0,-209.0>> -> L<<118.0,-209.0>--<114.0,-209.0>>
 
@@ -786,13 +721,13 @@ approxequal, lessequal, greaterequal, logicalnot, plusminus
 
 	* uni2C64 (U+2C64): L<<574.0,456.0>--<503.0,388.0>> -> L<<503.0,388.0>--<461.0,350.0>>
 
-	* uniA740 (U+A740): L<<410.0,490.0>--<450.0,639.0>> -> L<<450.0,639.0>--<482.0,792.0>>
+	* uniA740 (U+A740): L<<400.0,490.0>--<440.0,639.0>> -> L<<440.0,639.0>--<472.0,792.0>>
 
-	* uniA740 (U+A740): L<<493.0,9.0>--<451.0,177.0>> -> L<<451.0,177.0>--<417.0,285.0>>
+	* uniA740 (U+A740): L<<483.0,9.0>--<441.0,177.0>> -> L<<441.0,177.0>--<407.0,285.0>>
 
-	* uniA740 (U+A740): L<<575.0,410.0>--<616.0,336.0>> -> L<<616.0,336.0>--<707.0,135.0>>
+	* uniA740 (U+A740): L<<565.0,410.0>--<606.0,336.0>> -> L<<606.0,336.0>--<697.0,135.0>>
 
-	* uniA740 (U+A740): L<<692.0,666.0>--<615.0,484.0>> -> L<<615.0,484.0>--<575.0,410.0>> [code: found-colinear-vectors]
+	* uniA740 (U+A740): L<<682.0,666.0>--<605.0,484.0>> -> L<<605.0,484.0>--<565.0,410.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -806,9 +741,9 @@ approxequal, lessequal, greaterequal, logicalnot, plusminus
 
 	* onehalf (U+00BD): L<<367.0,10.0>--<366.0,165.0>>
 
-	* percent (U+0025): L<<342.0,367.0>--<541.0,368.0>>
+	* percent (U+0025): L<<343.0,367.0>--<542.0,368.0>>
 
-	* percent (U+0025): L<<39.0,800.0>--<238.0,801.0>>
+	* percent (U+0025): L<<40.0,800.0>--<239.0,801.0>>
 
 	* perthousand (U+2030): L<<343.0,367.0>--<542.0,368.0>>
 
@@ -856,9 +791,9 @@ approxequal, lessequal, greaterequal, logicalnot, plusminus
 
 	* uni02C0 (U+02C0): L<<26.0,320.0>--<25.0,497.0>>
 
-	* uni02EE (U+02EE): L<<302.0,717.0>--<303.0,867.0>>
+	* uni02EE (U+02EE): L<<25.0,717.0>--<26.0,867.0>>
 
-	* uni02EE (U+02EE): L<<42.0,717.0>--<43.0,867.0>>
+	* uni02EE (U+02EE): L<<285.0,717.0>--<286.0,867.0>>
 
 	* uni0E3F (U+0E3F): L<<437.0,647.0>--<436.0,800.0>>
 
@@ -909,9 +844,6 @@ approxequal, lessequal, greaterequal, logicalnot, plusminus
 
 * 🔥 **FAIL** name id 256 missing from name table
 * 🔥 **FAIL** name id 257 missing from name table
-* 🔥 **FAIL** name id 258 missing from name table
-* 🔥 **FAIL** name id 259 missing from name table
-* 🔥 **FAIL** name id 260 missing from name table
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -1062,10 +994,6 @@ approxequal, lessequal, greaterequal, logicalnot, plusminus
 
 	- Iacute.czech
 
-	- M.alt
-
-	- N.alt
-
 	- dotlessi_ogonek
 
 	- uni03010304.001
@@ -1089,13 +1017,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: yen	Contours detected: 4	Expected: 1or2
 
-	- Glyph name: logicalnot	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: plusminus	Contours detected: 0	Expected: 1or2
-
-	- Glyph name: uni00B5	Contours detected: 0	Expected: 1
 
 	- Glyph name: ae	Contours detected: 4	Expected: 3
 
@@ -1205,11 +1127,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni20A6	Contours detected: 0	Expected: 1, 3or5
-
-	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4or7
-
-	- Glyph name: uni20AA	Contours detected: 0	Expected: 2
+	- Glyph name: uni20A9	Contours detected: 5	Expected: 1, 3, 4or7
 
 	- Glyph name: dong	Contours detected: 5	Expected: 3or4
 
@@ -1217,21 +1135,19 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20AD	Contours detected: 3	Expected: 1
 
-	- Glyph name: uni20AE	Contours detected: 0	Expected: 1
+	- Glyph name: uni20AE	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2or4
+	- Glyph name: uni20B1	Contours detected: 6	Expected: 1, 2or4
 
-	- Glyph name: uni20B4	Contours detected: 0	Expected: 1or2
+	- Glyph name: uni20B4	Contours detected: 4	Expected: 1or2
 
-	- Glyph name: uni20B8	Contours detected: 0	Expected: 2
+	- Glyph name: uni20B9	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20B9	Contours detected: 0	Expected: 1
+	- Glyph name: uni20BA	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
+	- Glyph name: uni20BC	Contours detected: 3	Expected: 1
 
-	- Glyph name: uni20BC	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
+	- Glyph name: uni20BD	Contours detected: 4	Expected: 2
 
 	- Glyph name: arrowleft	Contours detected: 2	Expected: 1
 
@@ -1253,27 +1169,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni2199	Contours detected: 2	Expected: 1
 
-	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
-
-	- Glyph name: emptyset	Contours detected: 0	Expected: 3
-
-	- Glyph name: product	Contours detected: 0	Expected: 1
-
-	- Glyph name: summation	Contours detected: 0	Expected: 1
-
-	- Glyph name: radical	Contours detected: 0	Expected: 1
-
-	- Glyph name: infinity	Contours detected: 0	Expected: 3
-
-	- Glyph name: integral	Contours detected: 0	Expected: 1
-
-	- Glyph name: approxequal	Contours detected: 0	Expected: 2
-
-	- Glyph name: lessequal	Contours detected: 0	Expected: 2
-
-	- Glyph name: greaterequal	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
+	- Glyph name: infinity	Contours detected: 1	Expected: 3
 
 	- Glyph name: Euro	Contours detected: 4	Expected: 1or2
 
@@ -1286,8 +1182,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: ae	Contours detected: 4	Expected: 3
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: approxequal	Contours detected: 0	Expected: 2
 
 	- Glyph name: arrowboth	Contours detected: 3	Expected: 1
 
@@ -1307,21 +1201,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dong	Contours detected: 5	Expected: 3or4
 
-	- Glyph name: emptyset	Contours detected: 0	Expected: 3
-
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: greaterequal	Contours detected: 0	Expected: 2
 
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
-	- Glyph name: infinity	Contours detected: 0	Expected: 3
-
-	- Glyph name: integral	Contours detected: 0	Expected: 1
-
-	- Glyph name: lessequal	Contours detected: 0	Expected: 2
-
-	- Glyph name: logicalnot	Contours detected: 0	Expected: 1
+	- Glyph name: infinity	Contours detected: 1	Expected: 3
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
@@ -1329,25 +1213,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
-	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
-
-	- Glyph name: plusminus	Contours detected: 0	Expected: 1or2
-
-	- Glyph name: product	Contours detected: 0	Expected: 1
-
-	- Glyph name: radical	Contours detected: 0	Expected: 1
-
 	- Glyph name: sterling	Contours detected: 3	Expected: 1or2
-
-	- Glyph name: summation	Contours detected: 0	Expected: 1
 
 	- Glyph name: tbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: uni00B5	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0180	Contours detected: 3	Expected: 2
 
@@ -1421,29 +1293,23 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni20A6	Contours detected: 0	Expected: 1, 3or5
-
-	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4or7
-
-	- Glyph name: uni20AA	Contours detected: 0	Expected: 2
+	- Glyph name: uni20A9	Contours detected: 5	Expected: 1, 3, 4or7
 
 	- Glyph name: uni20AD	Contours detected: 3	Expected: 1
 
-	- Glyph name: uni20AE	Contours detected: 0	Expected: 1
+	- Glyph name: uni20AE	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2or4
+	- Glyph name: uni20B1	Contours detected: 6	Expected: 1, 2or4
 
-	- Glyph name: uni20B4	Contours detected: 0	Expected: 1or2
+	- Glyph name: uni20B4	Contours detected: 4	Expected: 1or2
 
-	- Glyph name: uni20B8	Contours detected: 0	Expected: 2
+	- Glyph name: uni20B9	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20B9	Contours detected: 0	Expected: 1
+	- Glyph name: uni20BA	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
+	- Glyph name: uni20BC	Contours detected: 3	Expected: 1
 
-	- Glyph name: uni20BC	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
+	- Glyph name: uni20BD	Contours detected: 4	Expected: 2
 
 	- Glyph name: uni2196	Contours detected: 2	Expected: 1
 
@@ -1452,8 +1318,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni2198	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni2199	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
@@ -1466,14 +1330,20 @@ The following glyphs do not have the recommended number of contours:
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
-* ⚠ **WARN** The most common width is 426 among a set of 6 math glyphs.
+* ⚠ **WARN** The most common width is 426 among a set of 7 math glyphs.
 The following math glyphs have a different width, though:
 
 Width = 406:
-greater, less
+lessequal, greater, less
 
-Width = 600:
-approxequal, lessequal, greaterequal, logicalnot, plusminus
+Width = 424:
+multiply
+
+Width = 707:
+approxequal
+
+Width = 376:
+greaterequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
@@ -1662,13 +1532,13 @@ approxequal, lessequal, greaterequal, logicalnot, plusminus
 
 	* uni2C72 (U+2C72): L<<926.0,850.0>--<926.0,850.0>> -> L<<926.0,850.0>--<1095.0,850.0>>
 
-	* uniA740 (U+A740): L<<426.0,467.0>--<466.0,616.0>> -> L<<466.0,616.0>--<502.0,792.0>>
+	* uniA740 (U+A740): L<<413.0,467.0>--<453.0,616.0>> -> L<<453.0,616.0>--<489.0,792.0>>
 
-	* uniA740 (U+A740): L<<513.0,9.0>--<469.0,199.0>> -> L<<469.0,199.0>--<436.0,308.0>>
+	* uniA740 (U+A740): L<<500.0,9.0>--<456.0,199.0>> -> L<<456.0,199.0>--<423.0,308.0>>
 
-	* uniA740 (U+A740): L<<580.0,414.0>--<632.0,319.0>> -> L<<632.0,319.0>--<720.0,119.0>>
+	* uniA740 (U+A740): L<<567.0,414.0>--<619.0,319.0>> -> L<<619.0,319.0>--<707.0,119.0>>
 
-	* uniA740 (U+A740): L<<704.0,686.0>--<631.0,510.0>> -> L<<631.0,510.0>--<580.0,414.0>> [code: found-colinear-vectors]
+	* uniA740 (U+A740): L<<691.0,686.0>--<618.0,510.0>> -> L<<618.0,510.0>--<567.0,414.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -1688,9 +1558,9 @@ approxequal, lessequal, greaterequal, logicalnot, plusminus
 
 	* onehalf (U+00BD): L<<364.0,10.0>--<363.0,139.0>>
 
-	* percent (U+0025): L<<342.0,367.0>--<541.0,368.0>>
+	* percent (U+0025): L<<343.0,367.0>--<542.0,368.0>>
 
-	* percent (U+0025): L<<39.0,800.0>--<238.0,801.0>>
+	* percent (U+0025): L<<40.0,800.0>--<239.0,801.0>>
 
 	* perthousand (U+2030): L<<343.0,367.0>--<542.0,368.0>>
 
@@ -1738,9 +1608,9 @@ approxequal, lessequal, greaterequal, logicalnot, plusminus
 
 	* uni02C0 (U+02C0): L<<26.0,320.0>--<25.0,487.0>>
 
-	* uni02EE (U+02EE): L<<308.0,717.0>--<309.0,869.0>>
+	* uni02EE (U+02EE): L<<25.0,717.0>--<26.0,869.0>>
 
-	* uni02EE (U+02EE): L<<48.0,717.0>--<49.0,869.0>>
+	* uni02EE (U+02EE): L<<285.0,717.0>--<286.0,869.0>>
 
 	* uni0E3F (U+0E3F): L<<440.0,665.0>--<439.0,800.0>>
 
@@ -1789,9 +1659,6 @@ approxequal, lessequal, greaterequal, logicalnot, plusminus
 
 * 🔥 **FAIL** name id 256 missing from name table
 * 🔥 **FAIL** name id 257 missing from name table
-* 🔥 **FAIL** name id 258 missing from name table
-* 🔥 **FAIL** name id 259 missing from name table
-* 🔥 **FAIL** name id 260 missing from name table
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -1942,10 +1809,6 @@ approxequal, lessequal, greaterequal, logicalnot, plusminus
 
 	- Iacute.czech
 
-	- M.alt
-
-	- N.alt
-
 	- dotlessi_ogonek
 
 	- uni03010304.001
@@ -1969,13 +1832,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: yen	Contours detected: 4	Expected: 1or2
 
-	- Glyph name: logicalnot	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: plusminus	Contours detected: 0	Expected: 1or2
-
-	- Glyph name: uni00B5	Contours detected: 0	Expected: 1
 
 	- Glyph name: ae	Contours detected: 4	Expected: 3
 
@@ -2085,11 +1942,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni20A6	Contours detected: 0	Expected: 1, 3or5
-
-	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4or7
-
-	- Glyph name: uni20AA	Contours detected: 0	Expected: 2
+	- Glyph name: uni20A9	Contours detected: 5	Expected: 1, 3, 4or7
 
 	- Glyph name: dong	Contours detected: 5	Expected: 3or4
 
@@ -2097,21 +1950,19 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20AD	Contours detected: 3	Expected: 1
 
-	- Glyph name: uni20AE	Contours detected: 0	Expected: 1
+	- Glyph name: uni20AE	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2or4
+	- Glyph name: uni20B1	Contours detected: 6	Expected: 1, 2or4
 
-	- Glyph name: uni20B4	Contours detected: 0	Expected: 1or2
+	- Glyph name: uni20B4	Contours detected: 4	Expected: 1or2
 
-	- Glyph name: uni20B8	Contours detected: 0	Expected: 2
+	- Glyph name: uni20B9	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20B9	Contours detected: 0	Expected: 1
+	- Glyph name: uni20BA	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
+	- Glyph name: uni20BC	Contours detected: 3	Expected: 1
 
-	- Glyph name: uni20BC	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
+	- Glyph name: uni20BD	Contours detected: 4	Expected: 2
 
 	- Glyph name: arrowleft	Contours detected: 2	Expected: 1
 
@@ -2133,27 +1984,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni2199	Contours detected: 2	Expected: 1
 
-	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
-
-	- Glyph name: emptyset	Contours detected: 0	Expected: 3
-
-	- Glyph name: product	Contours detected: 0	Expected: 1
-
-	- Glyph name: summation	Contours detected: 0	Expected: 1
-
-	- Glyph name: radical	Contours detected: 0	Expected: 1
-
-	- Glyph name: infinity	Contours detected: 0	Expected: 3
-
-	- Glyph name: integral	Contours detected: 0	Expected: 1
-
-	- Glyph name: approxequal	Contours detected: 0	Expected: 2
-
-	- Glyph name: lessequal	Contours detected: 0	Expected: 2
-
-	- Glyph name: greaterequal	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
+	- Glyph name: infinity	Contours detected: 1	Expected: 3
 
 	- Glyph name: Euro	Contours detected: 4	Expected: 1or2
 
@@ -2166,8 +1997,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: ae	Contours detected: 4	Expected: 3
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: approxequal	Contours detected: 0	Expected: 2
 
 	- Glyph name: arrowboth	Contours detected: 3	Expected: 1
 
@@ -2187,21 +2016,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dong	Contours detected: 5	Expected: 3or4
 
-	- Glyph name: emptyset	Contours detected: 0	Expected: 3
-
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: greaterequal	Contours detected: 0	Expected: 2
 
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
-	- Glyph name: infinity	Contours detected: 0	Expected: 3
-
-	- Glyph name: integral	Contours detected: 0	Expected: 1
-
-	- Glyph name: lessequal	Contours detected: 0	Expected: 2
-
-	- Glyph name: logicalnot	Contours detected: 0	Expected: 1
+	- Glyph name: infinity	Contours detected: 1	Expected: 3
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
@@ -2209,25 +2028,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
-	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
-
-	- Glyph name: plusminus	Contours detected: 0	Expected: 1or2
-
-	- Glyph name: product	Contours detected: 0	Expected: 1
-
-	- Glyph name: radical	Contours detected: 0	Expected: 1
-
 	- Glyph name: sterling	Contours detected: 3	Expected: 1or2
-
-	- Glyph name: summation	Contours detected: 0	Expected: 1
 
 	- Glyph name: tbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: uni00B5	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0180	Contours detected: 3	Expected: 2
 
@@ -2301,29 +2108,23 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni20A6	Contours detected: 0	Expected: 1, 3or5
-
-	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4or7
-
-	- Glyph name: uni20AA	Contours detected: 0	Expected: 2
+	- Glyph name: uni20A9	Contours detected: 5	Expected: 1, 3, 4or7
 
 	- Glyph name: uni20AD	Contours detected: 3	Expected: 1
 
-	- Glyph name: uni20AE	Contours detected: 0	Expected: 1
+	- Glyph name: uni20AE	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2or4
+	- Glyph name: uni20B1	Contours detected: 6	Expected: 1, 2or4
 
-	- Glyph name: uni20B4	Contours detected: 0	Expected: 1or2
+	- Glyph name: uni20B4	Contours detected: 4	Expected: 1or2
 
-	- Glyph name: uni20B8	Contours detected: 0	Expected: 2
+	- Glyph name: uni20B9	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20B9	Contours detected: 0	Expected: 1
+	- Glyph name: uni20BA	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
+	- Glyph name: uni20BC	Contours detected: 3	Expected: 1
 
-	- Glyph name: uni20BC	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
+	- Glyph name: uni20BD	Contours detected: 4	Expected: 2
 
 	- Glyph name: uni2196	Contours detected: 2	Expected: 1
 
@@ -2332,8 +2133,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni2198	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni2199	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
@@ -2346,17 +2145,20 @@ The following glyphs do not have the recommended number of contours:
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
-* ⚠ **WARN** The most common width is 426 among a set of 6 math glyphs.
+* ⚠ **WARN** The most common width is 426 among a set of 7 math glyphs.
 The following math glyphs have a different width, though:
 
 Width = 377:
-less
+lessequal, less, greaterequal
 
 Width = 406:
 greater
 
-Width = 600:
-approxequal, lessequal, greaterequal, logicalnot, plusminus
+Width = 474:
+multiply
+
+Width = 687:
+approxequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
@@ -2381,9 +2183,9 @@ approxequal, lessequal, greaterequal, logicalnot, plusminus
 
 	* onehalf (U+00BD): L<<376.0,10.0>--<375.0,234.0>>
 
-	* percent (U+0025): L<<342.0,367.0>--<541.0,368.0>>
+	* percent (U+0025): L<<343.0,367.0>--<542.0,368.0>>
 
-	* percent (U+0025): L<<39.0,800.0>--<238.0,801.0>>
+	* percent (U+0025): L<<40.0,800.0>--<239.0,801.0>>
 
 	* perthousand (U+2030): L<<343.0,367.0>--<542.0,368.0>>
 
@@ -2490,9 +2292,6 @@ approxequal, lessequal, greaterequal, logicalnot, plusminus
 
 * 🔥 **FAIL** name id 256 missing from name table
 * 🔥 **FAIL** name id 257 missing from name table
-* 🔥 **FAIL** name id 258 missing from name table
-* 🔥 **FAIL** name id 259 missing from name table
-* 🔥 **FAIL** name id 260 missing from name table
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -2643,10 +2442,6 @@ approxequal, lessequal, greaterequal, logicalnot, plusminus
 
 	- Iacute.czech
 
-	- M.alt
-
-	- N.alt
-
 	- dotlessi_ogonek
 
 	- uni03010304.001
@@ -2670,13 +2465,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: yen	Contours detected: 4	Expected: 1or2
 
-	- Glyph name: logicalnot	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: plusminus	Contours detected: 0	Expected: 1or2
-
-	- Glyph name: uni00B5	Contours detected: 0	Expected: 1
 
 	- Glyph name: ae	Contours detected: 4	Expected: 3
 
@@ -2786,11 +2575,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni20A6	Contours detected: 0	Expected: 1, 3or5
-
-	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4or7
-
-	- Glyph name: uni20AA	Contours detected: 0	Expected: 2
+	- Glyph name: uni20A9	Contours detected: 5	Expected: 1, 3, 4or7
 
 	- Glyph name: dong	Contours detected: 5	Expected: 3or4
 
@@ -2798,21 +2583,19 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20AD	Contours detected: 3	Expected: 1
 
-	- Glyph name: uni20AE	Contours detected: 0	Expected: 1
+	- Glyph name: uni20AE	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2or4
+	- Glyph name: uni20B1	Contours detected: 6	Expected: 1, 2or4
 
-	- Glyph name: uni20B4	Contours detected: 0	Expected: 1or2
+	- Glyph name: uni20B4	Contours detected: 4	Expected: 1or2
 
-	- Glyph name: uni20B8	Contours detected: 0	Expected: 2
+	- Glyph name: uni20B9	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20B9	Contours detected: 0	Expected: 1
+	- Glyph name: uni20BA	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
+	- Glyph name: uni20BC	Contours detected: 3	Expected: 1
 
-	- Glyph name: uni20BC	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
+	- Glyph name: uni20BD	Contours detected: 4	Expected: 2
 
 	- Glyph name: arrowleft	Contours detected: 2	Expected: 1
 
@@ -2834,27 +2617,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni2199	Contours detected: 2	Expected: 1
 
-	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
-
-	- Glyph name: emptyset	Contours detected: 0	Expected: 3
-
-	- Glyph name: product	Contours detected: 0	Expected: 1
-
-	- Glyph name: summation	Contours detected: 0	Expected: 1
-
-	- Glyph name: radical	Contours detected: 0	Expected: 1
-
-	- Glyph name: infinity	Contours detected: 0	Expected: 3
-
-	- Glyph name: integral	Contours detected: 0	Expected: 1
-
-	- Glyph name: approxequal	Contours detected: 0	Expected: 2
-
-	- Glyph name: lessequal	Contours detected: 0	Expected: 2
-
-	- Glyph name: greaterequal	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
+	- Glyph name: infinity	Contours detected: 1	Expected: 3
 
 	- Glyph name: Euro	Contours detected: 4	Expected: 1or2
 
@@ -2867,8 +2630,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: ae	Contours detected: 4	Expected: 3
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: approxequal	Contours detected: 0	Expected: 2
 
 	- Glyph name: arrowboth	Contours detected: 3	Expected: 1
 
@@ -2888,21 +2649,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dong	Contours detected: 5	Expected: 3or4
 
-	- Glyph name: emptyset	Contours detected: 0	Expected: 3
-
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: greaterequal	Contours detected: 0	Expected: 2
 
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
-	- Glyph name: infinity	Contours detected: 0	Expected: 3
-
-	- Glyph name: integral	Contours detected: 0	Expected: 1
-
-	- Glyph name: lessequal	Contours detected: 0	Expected: 2
-
-	- Glyph name: logicalnot	Contours detected: 0	Expected: 1
+	- Glyph name: infinity	Contours detected: 1	Expected: 3
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
@@ -2910,25 +2661,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
-	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
-
-	- Glyph name: plusminus	Contours detected: 0	Expected: 1or2
-
-	- Glyph name: product	Contours detected: 0	Expected: 1
-
-	- Glyph name: radical	Contours detected: 0	Expected: 1
-
 	- Glyph name: sterling	Contours detected: 3	Expected: 1or2
-
-	- Glyph name: summation	Contours detected: 0	Expected: 1
 
 	- Glyph name: tbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: uni00B5	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0180	Contours detected: 3	Expected: 2
 
@@ -3002,29 +2741,23 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni20A6	Contours detected: 0	Expected: 1, 3or5
-
-	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4or7
-
-	- Glyph name: uni20AA	Contours detected: 0	Expected: 2
+	- Glyph name: uni20A9	Contours detected: 5	Expected: 1, 3, 4or7
 
 	- Glyph name: uni20AD	Contours detected: 3	Expected: 1
 
-	- Glyph name: uni20AE	Contours detected: 0	Expected: 1
+	- Glyph name: uni20AE	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2or4
+	- Glyph name: uni20B1	Contours detected: 6	Expected: 1, 2or4
 
-	- Glyph name: uni20B4	Contours detected: 0	Expected: 1or2
+	- Glyph name: uni20B4	Contours detected: 4	Expected: 1or2
 
-	- Glyph name: uni20B8	Contours detected: 0	Expected: 2
+	- Glyph name: uni20B9	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20B9	Contours detected: 0	Expected: 1
+	- Glyph name: uni20BA	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
+	- Glyph name: uni20BC	Contours detected: 3	Expected: 1
 
-	- Glyph name: uni20BC	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
+	- Glyph name: uni20BD	Contours detected: 4	Expected: 2
 
 	- Glyph name: uni2196	Contours detected: 2	Expected: 1
 
@@ -3033,8 +2766,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni2198	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni2199	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
@@ -3047,17 +2778,23 @@ The following glyphs do not have the recommended number of contours:
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
-* ⚠ **WARN** The most common width is 426 among a set of 6 math glyphs.
+* ⚠ **WARN** The most common width is 426 among a set of 7 math glyphs.
 The following math glyphs have a different width, though:
 
 Width = 403:
-less
+lessequal, less
 
 Width = 406:
 greater
 
-Width = 600:
-approxequal, lessequal, greaterequal, logicalnot, plusminus
+Width = 429:
+multiply
+
+Width = 705:
+approxequal
+
+Width = 376:
+greaterequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
@@ -3146,11 +2883,7 @@ approxequal, lessequal, greaterequal, logicalnot, plusminus
 
 	* uni0198 (U+0198): L<<596.0,624.0>--<545.0,501.0>> -> L<<545.0,501.0>--<498.0,413.0>>
 
-	* uni01AC (U+01AC): L<<336.0,633.0>--<335.0,633.0>> -> L<<335.0,633.0>--<200.0,633.0>>
-
-	* uni01AC (U+01AC): L<<341.0,633.0>--<336.0,633.0>> -> L<<336.0,633.0>--<335.0,633.0>>
-
-	* uni01DD (U+01DD): L<<296.0,655.0>--<404.0,627.0>> -> L<<404.0,627.0>--<524.0,585.0>>
+	* uni01DD (U+01DD): L<<296.0,655.0>--<403.0,627.0>> -> L<<403.0,627.0>--<524.0,585.0>>
 
 	* uni01E3 (U+01E3): L<<318.0,655.0>--<425.0,627.0>> -> L<<425.0,627.0>--<546.0,585.0>>
 
@@ -3180,7 +2913,7 @@ approxequal, lessequal, greaterequal, logicalnot, plusminus
 
 	* uni0256 (U+0256): L<<554.0,785.0>--<554.0,15.0>> -> L<<554.0,15.0>--<554.0,13.0>>
 
-	* uni0259 (U+0259): L<<296.0,655.0>--<404.0,627.0>> -> L<<404.0,627.0>--<524.0,585.0>>
+	* uni0259 (U+0259): L<<296.0,655.0>--<403.0,627.0>> -> L<<403.0,627.0>--<524.0,585.0>>
 
 	* uni029D (U+029D): L<<222.0,-199.0>--<118.0,-199.0>> -> L<<118.0,-199.0>--<114.0,-199.0>>
 
@@ -3246,13 +2979,13 @@ approxequal, lessequal, greaterequal, logicalnot, plusminus
 
 	* uni2C72 (U+2C72): L<<918.0,850.0>--<918.0,850.0>> -> L<<918.0,850.0>--<1082.0,850.0>>
 
-	* uniA740 (U+A740): L<<420.0,475.0>--<460.0,624.0>> -> L<<460.0,624.0>--<495.0,792.0>>
+	* uniA740 (U+A740): L<<408.0,475.0>--<448.0,624.0>> -> L<<448.0,624.0>--<483.0,792.0>>
 
-	* uniA740 (U+A740): L<<506.0,9.0>--<463.0,192.0>> -> L<<463.0,192.0>--<429.0,300.0>>
+	* uniA740 (U+A740): L<<494.0,9.0>--<451.0,192.0>> -> L<<451.0,192.0>--<417.0,300.0>>
 
-	* uniA740 (U+A740): L<<578.0,413.0>--<626.0,325.0>> -> L<<626.0,325.0>--<715.0,124.0>>
+	* uniA740 (U+A740): L<<566.0,413.0>--<614.0,325.0>> -> L<<614.0,325.0>--<703.0,124.0>>
 
-	* uniA740 (U+A740): L<<700.0,679.0>--<625.0,501.0>> -> L<<625.0,501.0>--<578.0,413.0>> [code: found-colinear-vectors]
+	* uniA740 (U+A740): L<<688.0,679.0>--<613.0,501.0>> -> L<<613.0,501.0>--<566.0,413.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -3266,9 +2999,9 @@ approxequal, lessequal, greaterequal, logicalnot, plusminus
 
 	* onehalf (U+00BD): L<<365.0,10.0>--<364.0,148.0>>
 
-	* percent (U+0025): L<<342.0,367.0>--<541.0,368.0>>
+	* percent (U+0025): L<<343.0,367.0>--<542.0,368.0>>
 
-	* percent (U+0025): L<<39.0,800.0>--<238.0,801.0>>
+	* percent (U+0025): L<<40.0,800.0>--<239.0,801.0>>
 
 	* perthousand (U+2030): L<<343.0,367.0>--<542.0,368.0>>
 
@@ -3316,9 +3049,9 @@ approxequal, lessequal, greaterequal, logicalnot, plusminus
 
 	* uni02C0 (U+02C0): L<<26.0,320.0>--<25.0,490.0>>
 
-	* uni02EE (U+02EE): L<<306.0,717.0>--<307.0,868.0>>
+	* uni02EE (U+02EE): L<<25.0,717.0>--<26.0,868.0>>
 
-	* uni02EE (U+02EE): L<<46.0,717.0>--<47.0,868.0>>
+	* uni02EE (U+02EE): L<<285.0,717.0>--<286.0,868.0>>
 
 	* uni0E3F (U+0E3F): L<<439.0,659.0>--<438.0,800.0>>
 
@@ -3367,9 +3100,6 @@ approxequal, lessequal, greaterequal, logicalnot, plusminus
 
 * 🔥 **FAIL** name id 256 missing from name table
 * 🔥 **FAIL** name id 257 missing from name table
-* 🔥 **FAIL** name id 258 missing from name table
-* 🔥 **FAIL** name id 259 missing from name table
-* 🔥 **FAIL** name id 260 missing from name table
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -3520,10 +3250,6 @@ approxequal, lessequal, greaterequal, logicalnot, plusminus
 
 	- Iacute.czech
 
-	- M.alt
-
-	- N.alt
-
 	- dotlessi_ogonek
 
 	- uni03010304.001
@@ -3547,13 +3273,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: yen	Contours detected: 4	Expected: 1or2
 
-	- Glyph name: logicalnot	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: plusminus	Contours detected: 0	Expected: 1or2
-
-	- Glyph name: uni00B5	Contours detected: 0	Expected: 1
 
 	- Glyph name: ae	Contours detected: 4	Expected: 3
 
@@ -3663,11 +3383,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni20A6	Contours detected: 0	Expected: 1, 3or5
-
-	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4or7
-
-	- Glyph name: uni20AA	Contours detected: 0	Expected: 2
+	- Glyph name: uni20A9	Contours detected: 5	Expected: 1, 3, 4or7
 
 	- Glyph name: dong	Contours detected: 5	Expected: 3or4
 
@@ -3675,21 +3391,19 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20AD	Contours detected: 3	Expected: 1
 
-	- Glyph name: uni20AE	Contours detected: 0	Expected: 1
+	- Glyph name: uni20AE	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2or4
+	- Glyph name: uni20B1	Contours detected: 6	Expected: 1, 2or4
 
-	- Glyph name: uni20B4	Contours detected: 0	Expected: 1or2
+	- Glyph name: uni20B4	Contours detected: 4	Expected: 1or2
 
-	- Glyph name: uni20B8	Contours detected: 0	Expected: 2
+	- Glyph name: uni20B9	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20B9	Contours detected: 0	Expected: 1
+	- Glyph name: uni20BA	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
+	- Glyph name: uni20BC	Contours detected: 3	Expected: 1
 
-	- Glyph name: uni20BC	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
+	- Glyph name: uni20BD	Contours detected: 4	Expected: 2
 
 	- Glyph name: arrowleft	Contours detected: 2	Expected: 1
 
@@ -3711,27 +3425,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni2199	Contours detected: 2	Expected: 1
 
-	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
-
-	- Glyph name: emptyset	Contours detected: 0	Expected: 3
-
-	- Glyph name: product	Contours detected: 0	Expected: 1
-
-	- Glyph name: summation	Contours detected: 0	Expected: 1
-
-	- Glyph name: radical	Contours detected: 0	Expected: 1
-
-	- Glyph name: infinity	Contours detected: 0	Expected: 3
-
-	- Glyph name: integral	Contours detected: 0	Expected: 1
-
-	- Glyph name: approxequal	Contours detected: 0	Expected: 2
-
-	- Glyph name: lessequal	Contours detected: 0	Expected: 2
-
-	- Glyph name: greaterequal	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
+	- Glyph name: infinity	Contours detected: 1	Expected: 3
 
 	- Glyph name: Euro	Contours detected: 4	Expected: 1or2
 
@@ -3744,8 +3438,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: ae	Contours detected: 4	Expected: 3
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: approxequal	Contours detected: 0	Expected: 2
 
 	- Glyph name: arrowboth	Contours detected: 3	Expected: 1
 
@@ -3765,21 +3457,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dong	Contours detected: 5	Expected: 3or4
 
-	- Glyph name: emptyset	Contours detected: 0	Expected: 3
-
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: greaterequal	Contours detected: 0	Expected: 2
 
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
-	- Glyph name: infinity	Contours detected: 0	Expected: 3
-
-	- Glyph name: integral	Contours detected: 0	Expected: 1
-
-	- Glyph name: lessequal	Contours detected: 0	Expected: 2
-
-	- Glyph name: logicalnot	Contours detected: 0	Expected: 1
+	- Glyph name: infinity	Contours detected: 1	Expected: 3
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
@@ -3787,25 +3469,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
-	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
-
-	- Glyph name: plusminus	Contours detected: 0	Expected: 1or2
-
-	- Glyph name: product	Contours detected: 0	Expected: 1
-
-	- Glyph name: radical	Contours detected: 0	Expected: 1
-
 	- Glyph name: sterling	Contours detected: 3	Expected: 1or2
-
-	- Glyph name: summation	Contours detected: 0	Expected: 1
 
 	- Glyph name: tbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: uni00B5	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0180	Contours detected: 3	Expected: 2
 
@@ -3879,29 +3549,23 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni20A6	Contours detected: 0	Expected: 1, 3or5
-
-	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4or7
-
-	- Glyph name: uni20AA	Contours detected: 0	Expected: 2
+	- Glyph name: uni20A9	Contours detected: 5	Expected: 1, 3, 4or7
 
 	- Glyph name: uni20AD	Contours detected: 3	Expected: 1
 
-	- Glyph name: uni20AE	Contours detected: 0	Expected: 1
+	- Glyph name: uni20AE	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2or4
+	- Glyph name: uni20B1	Contours detected: 6	Expected: 1, 2or4
 
-	- Glyph name: uni20B4	Contours detected: 0	Expected: 1or2
+	- Glyph name: uni20B4	Contours detected: 4	Expected: 1or2
 
-	- Glyph name: uni20B8	Contours detected: 0	Expected: 2
+	- Glyph name: uni20B9	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20B9	Contours detected: 0	Expected: 1
+	- Glyph name: uni20BA	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
+	- Glyph name: uni20BC	Contours detected: 3	Expected: 1
 
-	- Glyph name: uni20BC	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
+	- Glyph name: uni20BD	Contours detected: 4	Expected: 2
 
 	- Glyph name: uni2196	Contours detected: 2	Expected: 1
 
@@ -3910,8 +3574,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni2198	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni2199	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni25CC	Contours detected: 0	Expected: 16or12
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
@@ -3924,17 +3586,23 @@ The following glyphs do not have the recommended number of contours:
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
-* ⚠ **WARN** The most common width is 426 among a set of 6 math glyphs.
+* ⚠ **WARN** The most common width is 426 among a set of 7 math glyphs.
 The following math glyphs have a different width, though:
 
 Width = 388:
-less
+lessequal, less
 
 Width = 406:
 greater
 
-Width = 600:
-approxequal, lessequal, greaterequal, logicalnot, plusminus
+Width = 456:
+multiply
+
+Width = 694:
+approxequal
+
+Width = 377:
+greaterequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
@@ -3959,9 +3627,9 @@ approxequal, lessequal, greaterequal, logicalnot, plusminus
 
 	* onehalf (U+00BD): L<<372.0,10.0>--<371.0,199.0>>
 
-	* percent (U+0025): L<<342.0,367.0>--<541.0,368.0>>
+	* percent (U+0025): L<<343.0,367.0>--<542.0,368.0>>
 
-	* percent (U+0025): L<<39.0,800.0>--<238.0,801.0>>
+	* percent (U+0025): L<<40.0,800.0>--<239.0,801.0>>
 
 	* perthousand (U+2030): L<<343.0,367.0>--<542.0,368.0>>
 
@@ -4011,9 +3679,9 @@ approxequal, lessequal, greaterequal, logicalnot, plusminus
 
 	* uni02BC (U+02BC): L<<25.0,877.0>--<26.0,1022.0>>
 
-	* uni02EE (U+02EE): L<<293.0,717.0>--<294.0,865.0>>
+	* uni02EE (U+02EE): L<<25.0,717.0>--<26.0,865.0>>
 
-	* uni02EE (U+02EE): L<<33.0,717.0>--<34.0,865.0>>
+	* uni02EE (U+02EE): L<<285.0,717.0>--<286.0,865.0>>
 
 	* uni0E3F (U+0E3F): L<<434.0,622.0>--<433.0,800.0>>
 
