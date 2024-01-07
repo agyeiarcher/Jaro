@@ -2,7 +2,7 @@
 
 fontbakery version: 0.9.0
 
-<details><summary><b>[21] Jaro-24ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+<details><summary><b>[20] Jaro-24ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -44,90 +44,6 @@ fontbakery version: 0.9.0
 
 * 🔥 **FAIL** name id 256 missing from name table
 * 🔥 **FAIL** name id 257 missing from name table
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- acutecomb
-
-	- dotbelowcomb
-
-	- gravecomb
-
-	- hookabovecomb
-
-	- tildecomb
-
-	- uni0302
-
-	- uni0304
-
-	- uni0306
-
-	- uni0307
-
-	- uni0308
-
-	- uni030A
-
-	- uni030B
-
-	- uni030C
-
-	- uni030D
-
-	- uni030F
-
-	- uni0311
-
-	- uni0312
-
-	- uni0313
-
-	- uni031B
-
-	- uni0320
-
-	- uni0324
-
-	- uni0325
-
-	- uni0326
-
-	- uni0327
-
-	- uni0328
-
-	- uni0329
-
-	- uni032D
-
-	- uni032E
-
-	- uni032F
-
-	- uni0330
-
-	- uni0331
-
-	- uni0332
-
-	- uni0334
-
-	- uni0335
-
-	- uni0358
-
-	- uni1DC4
-
-	- uni1DC5
-
-	- uni1DC6
-
-	- uni1DC7
-
-	- uni1DCA [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -802,7 +718,7 @@ greaterequal
 	* uni2C64 (U+2C64): L<<270.0,274.0>--<269.0,-139.0>>
 
 	* zero (U+0030): L<<106.0,799.0>--<542.0,801.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[22] Jaro-6ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[21] Jaro-6ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -844,90 +760,6 @@ greaterequal
 
 * 🔥 **FAIL** name id 256 missing from name table
 * 🔥 **FAIL** name id 257 missing from name table
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- acutecomb
-
-	- dotbelowcomb
-
-	- gravecomb
-
-	- hookabovecomb
-
-	- tildecomb
-
-	- uni0302
-
-	- uni0304
-
-	- uni0306
-
-	- uni0307
-
-	- uni0308
-
-	- uni030A
-
-	- uni030B
-
-	- uni030C
-
-	- uni030D
-
-	- uni030F
-
-	- uni0311
-
-	- uni0312
-
-	- uni0313
-
-	- uni031B
-
-	- uni0320
-
-	- uni0324
-
-	- uni0325
-
-	- uni0326
-
-	- uni0327
-
-	- uni0328
-
-	- uni0329
-
-	- uni032D
-
-	- uni032E
-
-	- uni032F
-
-	- uni0330
-
-	- uni0331
-
-	- uni0332
-
-	- uni0334
-
-	- uni0335
-
-	- uni0358
-
-	- uni1DC4
-
-	- uni1DC5
-
-	- uni1DC6
-
-	- uni1DC7
-
-	- uni1DCA [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -1617,7 +1449,7 @@ greaterequal
 	* uni2154 (U+2154): L<<26.0,410.0>--<25.0,539.0>>
 
 	* zero (U+0030): L<<131.0,799.0>--<543.0,801.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[20] Jaro-72ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[19] Jaro-72ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -1659,90 +1491,6 @@ greaterequal
 
 * 🔥 **FAIL** name id 256 missing from name table
 * 🔥 **FAIL** name id 257 missing from name table
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- acutecomb
-
-	- dotbelowcomb
-
-	- gravecomb
-
-	- hookabovecomb
-
-	- tildecomb
-
-	- uni0302
-
-	- uni0304
-
-	- uni0306
-
-	- uni0307
-
-	- uni0308
-
-	- uni030A
-
-	- uni030B
-
-	- uni030C
-
-	- uni030D
-
-	- uni030F
-
-	- uni0311
-
-	- uni0312
-
-	- uni0313
-
-	- uni031B
-
-	- uni0320
-
-	- uni0324
-
-	- uni0325
-
-	- uni0326
-
-	- uni0327
-
-	- uni0328
-
-	- uni0329
-
-	- uni032D
-
-	- uni032E
-
-	- uni032F
-
-	- uni0330
-
-	- uni0331
-
-	- uni0332
-
-	- uni0334
-
-	- uni0335
-
-	- uni0358
-
-	- uni1DC4
-
-	- uni1DC5
-
-	- uni1DC6
-
-	- uni1DC7
-
-	- uni1DCA [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -2250,7 +1998,7 @@ approxequal
 	* uni2C72 (U+2C72): L<<856.0,679.0>--<857.0,171.0>>
 
 	* zero (U+0030): L<<40.0,799.0>--<540.0,801.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[21] Jaro-12ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[20] Jaro-12ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -2292,90 +2040,6 @@ approxequal
 
 * 🔥 **FAIL** name id 256 missing from name table
 * 🔥 **FAIL** name id 257 missing from name table
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- acutecomb
-
-	- dotbelowcomb
-
-	- gravecomb
-
-	- hookabovecomb
-
-	- tildecomb
-
-	- uni0302
-
-	- uni0304
-
-	- uni0306
-
-	- uni0307
-
-	- uni0308
-
-	- uni030A
-
-	- uni030B
-
-	- uni030C
-
-	- uni030D
-
-	- uni030F
-
-	- uni0311
-
-	- uni0312
-
-	- uni0313
-
-	- uni031B
-
-	- uni0320
-
-	- uni0324
-
-	- uni0325
-
-	- uni0326
-
-	- uni0327
-
-	- uni0328
-
-	- uni0329
-
-	- uni032D
-
-	- uni032E
-
-	- uni032F
-
-	- uni0330
-
-	- uni0331
-
-	- uni0332
-
-	- uni0334
-
-	- uni0335
-
-	- uni0358
-
-	- uni1DC4
-
-	- uni1DC5
-
-	- uni1DC6
-
-	- uni1DC7
-
-	- uni1DCA [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -3058,7 +2722,7 @@ greaterequal
 	* uni2154 (U+2154): L<<26.0,410.0>--<25.0,548.0>>
 
 	* zero (U+0030): L<<123.0,799.0>--<543.0,801.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[20] Jaro-48ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[19] Jaro-48ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -3100,90 +2764,6 @@ greaterequal
 
 * 🔥 **FAIL** name id 256 missing from name table
 * 🔥 **FAIL** name id 257 missing from name table
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- acutecomb
-
-	- dotbelowcomb
-
-	- gravecomb
-
-	- hookabovecomb
-
-	- tildecomb
-
-	- uni0302
-
-	- uni0304
-
-	- uni0306
-
-	- uni0307
-
-	- uni0308
-
-	- uni030A
-
-	- uni030B
-
-	- uni030C
-
-	- uni030D
-
-	- uni030F
-
-	- uni0311
-
-	- uni0312
-
-	- uni0313
-
-	- uni031B
-
-	- uni0320
-
-	- uni0324
-
-	- uni0325
-
-	- uni0326
-
-	- uni0327
-
-	- uni0328
-
-	- uni0329
-
-	- uni032D
-
-	- uni032E
-
-	- uni032F
-
-	- uni0330
-
-	- uni0331
-
-	- uni0332
-
-	- uni0334
-
-	- uni0335
-
-	- uni0358
-
-	- uni1DC4
-
-	- uni1DC5
-
-	- uni1DC6
-
-	- uni1DC7
-
-	- uni1DCA [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -3698,8 +3278,8 @@ greaterequal
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 15 | 30 | 59 | 629 | 26 | 423 | 0 |
-| 1% | 3% | 5% | 53% | 2% | 36% | 0% |
+| 15 | 25 | 59 | 629 | 26 | 428 | 0 |
+| 1% | 2% | 5% | 53% | 2% | 36% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
