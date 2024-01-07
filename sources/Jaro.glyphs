@@ -1188,7 +1188,7 @@ value = 2000;
 },
 {
 name = winDescent;
-value = 668;
+value = 673;
 },
 {
 name = vheaVertAscender;
@@ -1376,7 +1376,7 @@ value = 2000;
 },
 {
 name = winDescent;
-value = 668;
+value = 673;
 },
 {
 name = vheaVertAscender;
