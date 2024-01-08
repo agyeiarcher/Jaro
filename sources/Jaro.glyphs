@@ -76,7 +76,9 @@ Y¥Y",
 A,
 DEFHUVWXYmnpquvwy,
 "ɛ",
-JK
+JK,
+"1",
+"̈"
 );
 axes = (
 {
@@ -66596,7 +66598,7 @@ unicode = 816;
 {
 color = 4;
 glyphname = macronbelowcomb;
-lastChange = "2024-01-07 22:37:54 +0000";
+lastChange = "2024-01-08 20:38:26 +0000";
 layers = (
 {
 anchors = (
@@ -66607,6 +66609,10 @@ pos = (243,0);
 {
 name = bottom;
 pos = (243,-150);
+},
+{
+name = top;
+pos = (243,1100);
 }
 );
 layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
@@ -66644,6 +66650,10 @@ pos = (243,0);
 {
 name = bottom;
 pos = (243,-150);
+},
+{
+name = top;
+pos = (243,1100);
 }
 );
 layerId = m002;
