@@ -1,20 +1,1363 @@
 ## FontBakery report
 
-fontbakery version: 0.9.0
+fontbakery version: 0.10.4
 
-<details><summary><b>[18] Jaro-24ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
-
-
-* 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
-</div></details><details><summary>💔 <b>ERROR:</b> Show hinting filesize impact. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/hinting_impact">com.google.fonts/check/hinting_impact</a>)</summary><div>
+<details><summary><b>[5] Experimental checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
-* 💔 **ERROR** The condition <FontBakeryCondition:hinting_stats> had an error: ModuleNotFoundError: No module named 'dehinter'
-</div></details><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+* 🔥 **FAIL** GF_Latin_African glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| agq_Latn (Aghem) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni025B |
+|  ^  | Shaper didn't attach uni0304 to uni0190 |
+| ksf_Latn (Bafia) | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+| dua_Latn (Duala) | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+| ee_Latn (Ewe) | Shaper didn't attach tildecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach tildecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach tildecomb to uni025B |
+|  ^  | Shaper didn't attach tildecomb to uni0190 |
+| ewo_Latn (Ewondo) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+| nmg_Latn (Kwasio) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni025B |
+|  ^  | Shaper didn't attach uni0304 to uni0190 |
+| ln_Latn (Lingala) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+| lu_Latn (Luba-Katanga) | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+| nnh_Latn (Ngiemboon) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+| jgo_Latn (Ngomba) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to eng |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to eng |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni025B |
+|  ^  | Shaper didn't attach acutecomb to eng |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni025B |
+|  ^  | Shaper didn't attach uni0304 to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to eng |
+|  ^  | Shaper didn't attach gravecomb to eng |
+|  ^  | Shaper didn't attach uni0304 to eng |
+| nus_Latn (Nuer) | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni025B |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0308 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0190 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+| yav_Latn (Yangben) | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+
+ [code: failed-language-shaping]
+* 🔥 **FAIL** GF_Latin_Beyond glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| ln_Latn (Lingala) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+| lu_Latn (Luba-Katanga) | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+| nus_Latn (Nuer) | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni025B |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0308 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0190 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+| yav_Latn (Yangben) | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+
+ [code: failed-language-shaping]
+* ⚠ **WARN** GF_Latin_Core glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| lg_Latn (Ganda) | No variant glyphs were found for Eng |
+| dyo_Latn (Jola-Fonyi) | No variant glyphs were found for Eng |
+| ny_Latn (Nyanja) | No variant glyphs were found for Eng |
+| wo_Latn (Wolof) | No variant glyphs were found for Eng |
+
+ [code: warning-language-shaping]
+* ⚠ **WARN** GF_Latin_African glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| agq_Latn (Aghem) | No variant glyphs were found for Eng |
+| ksf_Latn (Bafia) | No variant glyphs were found for Eng |
+| bm_Latn (Bambara) | No variant glyphs were found for Eng |
+| fuq_Latn (Central-Eastern Niger Fulfulde) | No variant glyphs were found for Eng |
+| dua_Latn (Duala) | No variant glyphs were found for Eng |
+| dyu_Latn (Dyula) | No variant glyphs were found for Eng |
+| ee_Latn (Ewe) | No variant glyphs were found for Eng |
+| ewo_Latn (Ewondo) | No variant glyphs were found for Eng |
+| gaa_Latn (Ga) | No variant glyphs were found for uni01B7 |
+| nmg_Latn (Kwasio) | No variant glyphs were found for Eng |
+| ffm_Latn (Maasina Fulfulde) | No variant glyphs were found for Eng |
+| mas_Latn (Masai) | No variant glyphs were found for Eng |
+| mua_Latn (Mundang) | No variant glyphs were found for Eng |
+| nnh_Latn (Ngiemboon) | No variant glyphs were found for Eng |
+| jgo_Latn (Ngomba) | No variant glyphs were found for Eng |
+| nus_Latn (Nuer) | No variant glyphs were found for Eng |
+| nym_Latn (Nyamwezi) | No variant glyphs were found for Eng |
+| srr_Latn (Serer) | No variant glyphs were found for Eng |
+| twq_Latn (Tasawaq) | No variant glyphs were found for Eng |
+| tem_Latn (Timne) | No variant glyphs were found for Eng |
+| yav_Latn (Yangben) | No variant glyphs were found for Eng |
+| dje_Latn (Zarma) | No variant glyphs were found for Eng |
+
+ [code: warning-language-shaping]
+* ⚠ **WARN** GF_Latin_Beyond glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| bss_Latn (Akoose) | No exemplar glyphs were defined for language Akoose |
+| gaa_Latn (Ga) | No variant glyphs were found for uni01B7 |
+| mfv_Latn (Mandjak) | No variant glyphs were found for Eng |
+| nus_Latn (Nuer) | No variant glyphs were found for Eng |
+| nym_Latn (Nyamwezi) | No variant glyphs were found for Eng |
+| yav_Latn (Yangben) | No variant glyphs were found for Eng |
+
+ [code: warning-language-shaping]
+</div></details><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+* 🔥 **FAIL** GF_Latin_African glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| agq_Latn (Aghem) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni025B |
+|  ^  | Shaper didn't attach uni0304 to uni0190 |
+| ksf_Latn (Bafia) | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+| dua_Latn (Duala) | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+| ee_Latn (Ewe) | Shaper didn't attach tildecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach tildecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach tildecomb to uni025B |
+|  ^  | Shaper didn't attach tildecomb to uni0190 |
+| ewo_Latn (Ewondo) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+| nmg_Latn (Kwasio) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni025B |
+|  ^  | Shaper didn't attach uni0304 to uni0190 |
+| ln_Latn (Lingala) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+| lu_Latn (Luba-Katanga) | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+| nnh_Latn (Ngiemboon) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+| jgo_Latn (Ngomba) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to eng |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to eng |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni025B |
+|  ^  | Shaper didn't attach acutecomb to eng |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni025B |
+|  ^  | Shaper didn't attach uni0304 to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to eng |
+|  ^  | Shaper didn't attach gravecomb to eng |
+|  ^  | Shaper didn't attach uni0304 to eng |
+| nus_Latn (Nuer) | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni025B |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0308 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0190 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+| yav_Latn (Yangben) | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+
+ [code: failed-language-shaping]
+* 🔥 **FAIL** GF_Latin_Beyond glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| ln_Latn (Lingala) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+| lu_Latn (Luba-Katanga) | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+| nus_Latn (Nuer) | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni025B |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0308 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0190 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+| yav_Latn (Yangben) | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+
+ [code: failed-language-shaping]
+* ⚠ **WARN** GF_Latin_Core glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| lg_Latn (Ganda) | No variant glyphs were found for Eng |
+| dyo_Latn (Jola-Fonyi) | No variant glyphs were found for Eng |
+| ny_Latn (Nyanja) | No variant glyphs were found for Eng |
+| wo_Latn (Wolof) | No variant glyphs were found for Eng |
+
+ [code: warning-language-shaping]
+* ⚠ **WARN** GF_Latin_African glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| agq_Latn (Aghem) | No variant glyphs were found for Eng |
+| ksf_Latn (Bafia) | No variant glyphs were found for Eng |
+| bm_Latn (Bambara) | No variant glyphs were found for Eng |
+| fuq_Latn (Central-Eastern Niger Fulfulde) | No variant glyphs were found for Eng |
+| dua_Latn (Duala) | No variant glyphs were found for Eng |
+| dyu_Latn (Dyula) | No variant glyphs were found for Eng |
+| ee_Latn (Ewe) | No variant glyphs were found for Eng |
+| ewo_Latn (Ewondo) | No variant glyphs were found for Eng |
+| gaa_Latn (Ga) | No variant glyphs were found for uni01B7 |
+| nmg_Latn (Kwasio) | No variant glyphs were found for Eng |
+| ffm_Latn (Maasina Fulfulde) | No variant glyphs were found for Eng |
+| mas_Latn (Masai) | No variant glyphs were found for Eng |
+| mua_Latn (Mundang) | No variant glyphs were found for Eng |
+| nnh_Latn (Ngiemboon) | No variant glyphs were found for Eng |
+| jgo_Latn (Ngomba) | No variant glyphs were found for Eng |
+| nus_Latn (Nuer) | No variant glyphs were found for Eng |
+| nym_Latn (Nyamwezi) | No variant glyphs were found for Eng |
+| srr_Latn (Serer) | No variant glyphs were found for Eng |
+| twq_Latn (Tasawaq) | No variant glyphs were found for Eng |
+| tem_Latn (Timne) | No variant glyphs were found for Eng |
+| yav_Latn (Yangben) | No variant glyphs were found for Eng |
+| dje_Latn (Zarma) | No variant glyphs were found for Eng |
+
+ [code: warning-language-shaping]
+* ⚠ **WARN** GF_Latin_Beyond glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| bss_Latn (Akoose) | No exemplar glyphs were defined for language Akoose |
+| gaa_Latn (Ga) | No variant glyphs were found for uni01B7 |
+| mfv_Latn (Mandjak) | No variant glyphs were found for Eng |
+| nus_Latn (Nuer) | No variant glyphs were found for Eng |
+| nym_Latn (Nyamwezi) | No variant glyphs were found for Eng |
+| yav_Latn (Yangben) | No variant glyphs were found for Eng |
+
+ [code: warning-language-shaping]
+</div></details><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+
+
+* 🔥 **FAIL** GF_Latin_African glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| agq_Latn (Aghem) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni025B |
+|  ^  | Shaper didn't attach uni0304 to uni0190 |
+| ksf_Latn (Bafia) | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+| dua_Latn (Duala) | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+| ee_Latn (Ewe) | Shaper didn't attach tildecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach tildecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach tildecomb to uni025B |
+|  ^  | Shaper didn't attach tildecomb to uni0190 |
+| ewo_Latn (Ewondo) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+| nmg_Latn (Kwasio) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni025B |
+|  ^  | Shaper didn't attach uni0304 to uni0190 |
+| ln_Latn (Lingala) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+| lu_Latn (Luba-Katanga) | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+| nnh_Latn (Ngiemboon) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+| jgo_Latn (Ngomba) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to eng |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to eng |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni025B |
+|  ^  | Shaper didn't attach acutecomb to eng |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni025B |
+|  ^  | Shaper didn't attach uni0304 to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to eng |
+|  ^  | Shaper didn't attach gravecomb to eng |
+|  ^  | Shaper didn't attach uni0304 to eng |
+| nus_Latn (Nuer) | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni025B |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0308 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0190 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+| yav_Latn (Yangben) | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+
+ [code: failed-language-shaping]
+* 🔥 **FAIL** GF_Latin_Beyond glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| ln_Latn (Lingala) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+| lu_Latn (Luba-Katanga) | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+| nus_Latn (Nuer) | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni025B |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0308 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0190 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+| yav_Latn (Yangben) | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+
+ [code: failed-language-shaping]
+* ⚠ **WARN** GF_Latin_Core glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| lg_Latn (Ganda) | No variant glyphs were found for Eng |
+| dyo_Latn (Jola-Fonyi) | No variant glyphs were found for Eng |
+| ny_Latn (Nyanja) | No variant glyphs were found for Eng |
+| wo_Latn (Wolof) | No variant glyphs were found for Eng |
+
+ [code: warning-language-shaping]
+* ⚠ **WARN** GF_Latin_African glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| agq_Latn (Aghem) | No variant glyphs were found for Eng |
+| ksf_Latn (Bafia) | No variant glyphs were found for Eng |
+| bm_Latn (Bambara) | No variant glyphs were found for Eng |
+| fuq_Latn (Central-Eastern Niger Fulfulde) | No variant glyphs were found for Eng |
+| dua_Latn (Duala) | No variant glyphs were found for Eng |
+| dyu_Latn (Dyula) | No variant glyphs were found for Eng |
+| ee_Latn (Ewe) | No variant glyphs were found for Eng |
+| ewo_Latn (Ewondo) | No variant glyphs were found for Eng |
+| gaa_Latn (Ga) | No variant glyphs were found for uni01B7 |
+| nmg_Latn (Kwasio) | No variant glyphs were found for Eng |
+| ffm_Latn (Maasina Fulfulde) | No variant glyphs were found for Eng |
+| mas_Latn (Masai) | No variant glyphs were found for Eng |
+| mua_Latn (Mundang) | No variant glyphs were found for Eng |
+| nnh_Latn (Ngiemboon) | No variant glyphs were found for Eng |
+| jgo_Latn (Ngomba) | No variant glyphs were found for Eng |
+| nus_Latn (Nuer) | No variant glyphs were found for Eng |
+| nym_Latn (Nyamwezi) | No variant glyphs were found for Eng |
+| srr_Latn (Serer) | No variant glyphs were found for Eng |
+| twq_Latn (Tasawaq) | No variant glyphs were found for Eng |
+| tem_Latn (Timne) | No variant glyphs were found for Eng |
+| yav_Latn (Yangben) | No variant glyphs were found for Eng |
+| dje_Latn (Zarma) | No variant glyphs were found for Eng |
+
+ [code: warning-language-shaping]
+* ⚠ **WARN** GF_Latin_Beyond glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| bss_Latn (Akoose) | No exemplar glyphs were defined for language Akoose |
+| gaa_Latn (Ga) | No variant glyphs were found for uni01B7 |
+| mfv_Latn (Mandjak) | No variant glyphs were found for Eng |
+| nus_Latn (Nuer) | No variant glyphs were found for Eng |
+| nym_Latn (Nyamwezi) | No variant glyphs were found for Eng |
+| yav_Latn (Yangben) | No variant glyphs were found for Eng |
+
+ [code: warning-language-shaping]
+</div></details><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+
+
+* 🔥 **FAIL** GF_Latin_African glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| agq_Latn (Aghem) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni025B |
+|  ^  | Shaper didn't attach uni0304 to uni0190 |
+| ksf_Latn (Bafia) | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+| dua_Latn (Duala) | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+| ee_Latn (Ewe) | Shaper didn't attach tildecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach tildecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach tildecomb to uni025B |
+|  ^  | Shaper didn't attach tildecomb to uni0190 |
+| ewo_Latn (Ewondo) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+| nmg_Latn (Kwasio) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni025B |
+|  ^  | Shaper didn't attach uni0304 to uni0190 |
+| ln_Latn (Lingala) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+| lu_Latn (Luba-Katanga) | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+| nnh_Latn (Ngiemboon) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+| jgo_Latn (Ngomba) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to eng |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to eng |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni025B |
+|  ^  | Shaper didn't attach acutecomb to eng |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni025B |
+|  ^  | Shaper didn't attach uni0304 to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to eng |
+|  ^  | Shaper didn't attach gravecomb to eng |
+|  ^  | Shaper didn't attach uni0304 to eng |
+| nus_Latn (Nuer) | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni025B |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0308 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0190 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+| yav_Latn (Yangben) | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+
+ [code: failed-language-shaping]
+* 🔥 **FAIL** GF_Latin_Beyond glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| ln_Latn (Lingala) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+| lu_Latn (Luba-Katanga) | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+| nus_Latn (Nuer) | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni025B |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0308 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0190 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+| yav_Latn (Yangben) | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+
+ [code: failed-language-shaping]
+* ⚠ **WARN** GF_Latin_Core glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| lg_Latn (Ganda) | No variant glyphs were found for Eng |
+| dyo_Latn (Jola-Fonyi) | No variant glyphs were found for Eng |
+| ny_Latn (Nyanja) | No variant glyphs were found for Eng |
+| wo_Latn (Wolof) | No variant glyphs were found for Eng |
+
+ [code: warning-language-shaping]
+* ⚠ **WARN** GF_Latin_African glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| agq_Latn (Aghem) | No variant glyphs were found for Eng |
+| ksf_Latn (Bafia) | No variant glyphs were found for Eng |
+| bm_Latn (Bambara) | No variant glyphs were found for Eng |
+| fuq_Latn (Central-Eastern Niger Fulfulde) | No variant glyphs were found for Eng |
+| dua_Latn (Duala) | No variant glyphs were found for Eng |
+| dyu_Latn (Dyula) | No variant glyphs were found for Eng |
+| ee_Latn (Ewe) | No variant glyphs were found for Eng |
+| ewo_Latn (Ewondo) | No variant glyphs were found for Eng |
+| gaa_Latn (Ga) | No variant glyphs were found for uni01B7 |
+| nmg_Latn (Kwasio) | No variant glyphs were found for Eng |
+| ffm_Latn (Maasina Fulfulde) | No variant glyphs were found for Eng |
+| mas_Latn (Masai) | No variant glyphs were found for Eng |
+| mua_Latn (Mundang) | No variant glyphs were found for Eng |
+| nnh_Latn (Ngiemboon) | No variant glyphs were found for Eng |
+| jgo_Latn (Ngomba) | No variant glyphs were found for Eng |
+| nus_Latn (Nuer) | No variant glyphs were found for Eng |
+| nym_Latn (Nyamwezi) | No variant glyphs were found for Eng |
+| srr_Latn (Serer) | No variant glyphs were found for Eng |
+| twq_Latn (Tasawaq) | No variant glyphs were found for Eng |
+| tem_Latn (Timne) | No variant glyphs were found for Eng |
+| yav_Latn (Yangben) | No variant glyphs were found for Eng |
+| dje_Latn (Zarma) | No variant glyphs were found for Eng |
+
+ [code: warning-language-shaping]
+* ⚠ **WARN** GF_Latin_Beyond glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| bss_Latn (Akoose) | No exemplar glyphs were defined for language Akoose |
+| gaa_Latn (Ga) | No variant glyphs were found for uni01B7 |
+| mfv_Latn (Mandjak) | No variant glyphs were found for Eng |
+| nus_Latn (Nuer) | No variant glyphs were found for Eng |
+| nym_Latn (Nyamwezi) | No variant glyphs were found for Eng |
+| yav_Latn (Yangben) | No variant glyphs were found for Eng |
+
+ [code: warning-language-shaping]
+</div></details><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+
+
+* 🔥 **FAIL** GF_Latin_African glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| agq_Latn (Aghem) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni025B |
+|  ^  | Shaper didn't attach uni0304 to uni0190 |
+| ksf_Latn (Bafia) | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+| dua_Latn (Duala) | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+| ee_Latn (Ewe) | Shaper didn't attach tildecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach tildecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach tildecomb to uni025B |
+|  ^  | Shaper didn't attach tildecomb to uni0190 |
+| ewo_Latn (Ewondo) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+| nmg_Latn (Kwasio) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni025B |
+|  ^  | Shaper didn't attach uni0304 to uni0190 |
+| ln_Latn (Lingala) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+| lu_Latn (Luba-Katanga) | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+| nnh_Latn (Ngiemboon) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+| jgo_Latn (Ngomba) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to eng |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to eng |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni025B |
+|  ^  | Shaper didn't attach acutecomb to eng |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach uni0304 to uni025B |
+|  ^  | Shaper didn't attach uni0304 to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to eng |
+|  ^  | Shaper didn't attach gravecomb to eng |
+|  ^  | Shaper didn't attach uni0304 to eng |
+| nus_Latn (Nuer) | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni025B |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0308 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0190 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+| yav_Latn (Yangben) | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+
+ [code: failed-language-shaping]
+* 🔥 **FAIL** GF_Latin_Beyond glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| ln_Latn (Lingala) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0190 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0190 |
+| lu_Latn (Luba-Katanga) | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+| nus_Latn (Nuer) | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni025B |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0308 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0190 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+|  ^  | Shaper didn't attach uni0331 to uni0190 |
+|  ^  | Shaper didn't attach uni0308 to uni0331 |
+| yav_Latn (Yangben) | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0190 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0190 |
+
+ [code: failed-language-shaping]
+* ⚠ **WARN** GF_Latin_Core glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| lg_Latn (Ganda) | No variant glyphs were found for Eng |
+| dyo_Latn (Jola-Fonyi) | No variant glyphs were found for Eng |
+| ny_Latn (Nyanja) | No variant glyphs were found for Eng |
+| wo_Latn (Wolof) | No variant glyphs were found for Eng |
+
+ [code: warning-language-shaping]
+* ⚠ **WARN** GF_Latin_African glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| agq_Latn (Aghem) | No variant glyphs were found for Eng |
+| ksf_Latn (Bafia) | No variant glyphs were found for Eng |
+| bm_Latn (Bambara) | No variant glyphs were found for Eng |
+| fuq_Latn (Central-Eastern Niger Fulfulde) | No variant glyphs were found for Eng |
+| dua_Latn (Duala) | No variant glyphs were found for Eng |
+| dyu_Latn (Dyula) | No variant glyphs were found for Eng |
+| ee_Latn (Ewe) | No variant glyphs were found for Eng |
+| ewo_Latn (Ewondo) | No variant glyphs were found for Eng |
+| gaa_Latn (Ga) | No variant glyphs were found for uni01B7 |
+| nmg_Latn (Kwasio) | No variant glyphs were found for Eng |
+| ffm_Latn (Maasina Fulfulde) | No variant glyphs were found for Eng |
+| mas_Latn (Masai) | No variant glyphs were found for Eng |
+| mua_Latn (Mundang) | No variant glyphs were found for Eng |
+| nnh_Latn (Ngiemboon) | No variant glyphs were found for Eng |
+| jgo_Latn (Ngomba) | No variant glyphs were found for Eng |
+| nus_Latn (Nuer) | No variant glyphs were found for Eng |
+| nym_Latn (Nyamwezi) | No variant glyphs were found for Eng |
+| srr_Latn (Serer) | No variant glyphs were found for Eng |
+| twq_Latn (Tasawaq) | No variant glyphs were found for Eng |
+| tem_Latn (Timne) | No variant glyphs were found for Eng |
+| yav_Latn (Yangben) | No variant glyphs were found for Eng |
+| dje_Latn (Zarma) | No variant glyphs were found for Eng |
+
+ [code: warning-language-shaping]
+* ⚠ **WARN** GF_Latin_Beyond glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| bss_Latn (Akoose) | No exemplar glyphs were defined for language Akoose |
+| gaa_Latn (Ga) | No variant glyphs were found for uni01B7 |
+| mfv_Latn (Mandjak) | No variant glyphs were found for Eng |
+| nus_Latn (Nuer) | No variant glyphs were found for Eng |
+| nym_Latn (Nyamwezi) | No variant glyphs were found for Eng |
+| yav_Latn (Yangben) | No variant glyphs were found for Eng |
+
+ [code: warning-language-shaping]
+</div></details><br></div></details><details><summary><b>[17] Jaro-24ptRegular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
 * 🔥 **FAIL** Font names are incorrect:
@@ -24,13 +1367,17 @@ fontbakery version: 0.9.0
 | Family Name | Jaro 24pt | Jaro 24pt |
 | Subfamily Name | Regular | Regular |
 | Full Name | Jaro 24pt Regular | Jaro 24pt Regular |
-| Poscript Name | Jaro-24ptRegular | Jaro24pt-Regular |
-| Typographic Family Name | Jaro | N/A |
-| Typographic Subfamily Name | 24pt Regular | N/A | [code: bad-names]
+| Postscript Name | **Jaro-24ptRegular** | **Jaro24pt-Regular** |
+| Typographic Family Name | **Jaro** | **N/A** |
+| Typographic Subfamily Name | **24pt Regular** | **N/A** | [code: bad-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current FontBakery version is 0.9.0, while a newer 0.10.8 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current FontBakery version is 0.10.4, while a newer 0.10.8 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
+
+
+* 🔥 **FAIL** Glyph "dotlessi_ogonek" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -70,6 +1417,118 @@ fontbakery version: 0.9.0
 
 	- 0x1D4D (MODIFIER LETTER SMALL G)
  [code: missing-codepoints]
+</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
+
+
+* ⚠ **WARN** The following codepoints supported by the font are not covered by
+    any subsets defined in the font's metadata file, and will never
+    be served. You can solve this by either manually adding additional
+    subset declarations to METADATA.pb, or by editing the glyphset
+    definitions.
+
+ * U+02B0 MODIFIER LETTER SMALL H: not included in any glyphset definition
+ * U+02B7 MODIFIER LETTER SMALL W: not included in any glyphset definition
+ * U+02B8 MODIFIER LETTER SMALL Y: not included in any glyphset definition
+ * U+02B9 MODIFIER LETTER PRIME: not included in any glyphset definition
+ * U+02BE MODIFIER LETTER RIGHT HALF RING: not included in any glyphset definition
+ * U+02BF MODIFIER LETTER LEFT HALF RING: not included in any glyphset definition
+ * U+02C0 MODIFIER LETTER GLOTTAL STOP: not included in any glyphset definition
+ * U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi
+ * U+02C8 MODIFIER LETTER VERTICAL LINE: not included in any glyphset definition
+ * U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition
+ * U+02CB MODIFIER LETTER GRAVE ACCENT: not included in any glyphset definition
+ * U+02D7 MODIFIER LETTER MINUS SIGN: not included in any glyphset definition
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
+ * U+02EE MODIFIER LETTER DOUBLE APOSTROPHE: not included in any glyphset definition
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, cherokee, math
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: coptic, malayalam, tai-le, tifinagh, old-permic, canadian-aboriginal, math, syriac
+ * U+030A COMBINING RING ABOVE: try adding syriac
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+ * U+030D COMBINING VERTICAL LINE ABOVE: not included in any glyphset definition
+ * U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition
+ * U+0310 COMBINING CANDRABINDU: not included in any glyphset definition
+ * U+0311 COMBINING INVERTED BREVE: try adding coptic
+ * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
+ * U+0313 COMBINING COMMA ABOVE: try adding old-permic
+ * U+0315 COMBINING COMMA ABOVE RIGHT: not included in any glyphset definition
+ * U+031B COMBINING HORN: not included in any glyphset definition
+ * U+0320 COMBINING MINUS SIGN BELOW: try adding syriac
+ * U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac
+ * U+0325 COMBINING RING BELOW: try adding syriac
+ * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
+ * U+0327 COMBINING CEDILLA: not included in any glyphset definition
+ * U+0328 COMBINING OGONEK: not included in any glyphset definition
+ * U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac
+ * U+032E COMBINING BREVE BELOW: try adding syriac
+ * U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition
+ * U+0330 COMBINING TILDE BELOW: try adding one of: math, cherokee, syriac
+ * U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, tifinagh, cherokee, gothic, syriac
+ * U+0332 COMBINING LOW LINE: not included in any glyphset definition
+ * U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition
+ * U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition
+ * U+0358 COMBINING DOT ABOVE RIGHT: try adding osage
+ * U+0361 COMBINING DOUBLE INVERTED BREVE: try adding coptic
+ * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, elbasan, greek
+ * U+03BB GREEK SMALL LETTER LAMDA: try adding one of: math, greek
+ * U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi
+ * U+03C7 GREEK SMALL LETTER CHI: try adding one of: math, greek
+ * U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai
+ * U+1D58 MODIFIER LETTER SMALL U: not included in any glyphset definition
+ * U+1D5B MODIFIER LETTER SMALL V: not included in any glyphset definition
+ * U+1D7D LATIN SMALL LETTER P WITH STROKE: not included in any glyphset definition
+ * U+1D7E LATIN SMALL CAPITAL LETTER U WITH STROKE: not included in any glyphset definition
+ * U+1DBB MODIFIER LETTER SMALL Z: not included in any glyphset definition
+ * U+1DBF MODIFIER LETTER SMALL THETA: not included in any glyphset definition
+ * U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition
+ * U+1DC5 COMBINING GRAVE-MACRON: not included in any glyphset definition
+ * U+1DC6 COMBINING MACRON-GRAVE: not included in any glyphset definition
+ * U+1DC7 COMBINING ACUTE-MACRON: not included in any glyphset definition
+ * U+1DCA COMBINING LATIN SMALL LETTER R BELOW: not included in any glyphset definition
+ * U+2016 DOUBLE VERTICAL LINE: not included in any glyphset definition
+ * U+2021 DOUBLE DAGGER: try adding adlam
+ * U+2030 PER MILLE SIGN: try adding adlam
+ * U+207F SUPERSCRIPT LATIN SMALL LETTER N: not included in any glyphset definition
+ * U+2126 OHM SIGN: not included in any glyphset definition
+ * U+212E ESTIMATED SYMBOL: not included in any glyphset definition
+ * U+2144 TURNED SANS-SERIF CAPITAL Y: not included in any glyphset definition
+ * U+2153 VULGAR FRACTION ONE THIRD: not included in any glyphset definition
+ * U+2154 VULGAR FRACTION TWO THIRDS: not included in any glyphset definition
+ * U+215B VULGAR FRACTION ONE EIGHTH: not included in any glyphset definition
+ * U+215C VULGAR FRACTION THREE EIGHTHS: not included in any glyphset definition
+ * U+215D VULGAR FRACTION FIVE EIGHTHS: not included in any glyphset definition
+ * U+215E VULGAR FRACTION SEVEN EIGHTHS: not included in any glyphset definition
+ * U+2190 LEFTWARDS ARROW: try adding one of: math, symbols
+ * U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols
+ * U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols
+ * U+2195 UP DOWN ARROW: try adding one of: math, symbols
+ * U+2196 NORTH WEST ARROW: try adding one of: math, symbols
+ * U+2197 NORTH EAST ARROW: try adding one of: math, symbols
+ * U+2198 SOUTH EAST ARROW: try adding one of: math, symbols
+ * U+2199 SOUTH WEST ARROW: try adding one of: math, symbols
+ * U+2202 PARTIAL DIFFERENTIAL: try adding math
+ * U+2205 EMPTY SET: try adding math
+ * U+2206 INCREMENT: try adding math
+ * U+220F N-ARY PRODUCT: try adding math
+ * U+2211 N-ARY SUMMATION: try adding math
+ * U+221A SQUARE ROOT: try adding math
+ * U+221E INFINITY: try adding math
+ * U+222B INTEGRAL: try adding math
+ * U+2248 ALMOST EQUAL TO: try adding math
+ * U+2260 NOT EQUAL TO: try adding math
+ * U+2264 LESS-THAN OR EQUAL TO: try adding math
+ * U+2265 GREATER-THAN OR EQUAL TO: try adding math
+ * U+25CA LOZENGE: try adding one of: math, symbols
+ * U+25CC DOTTED CIRCLE: try adding one of: osage, lao, hanunoo, myanmar, mahajani, batak, tirhuta, khojki, chakma, sharada, syriac, limbu, pahawh-hmong, takri, yi, buginese, tifinagh, grantha, sundanese, cham, duployan, khmer, psalter-pahlavi, brahmi, tamil, siddham, gujarati, masaram-gondi, thaana, caucasian-albanian, thai, math, buhid, javanese, nko, wancho, rejang, kharoshthi, kayah-li, oriya, kaithi, mende-kikakui, hanifi-rohingya, phags-pa, gunjala-gondi, soyombo, elbasan, bhaiksuki, coptic, bengali, marchen, mandaic, lepcha, bassa-vah, zanabazar-square, miao, tai-viet, dogra, modi, gurmukhi, tibetan, hebrew, malayalam, newa, sinhala, symbols, khudawadi, meetei-mayek, old-permic, sogdian, kannada, telugu, mongolian, tai-le, ahom, syloti-nagri, new-tai-lue, adlam, balinese, devanagari, manichaean, tagbanwa, music, tagalog
+ * U+AB53 LATIN SMALL LETTER CHI: not included in any glyphset definition
+ * U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition
+ * U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition
+
+Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `latin`, `latin-ext`, `vietnamese` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
 
 
@@ -82,10 +1541,6 @@ fontbakery version: 0.9.0
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
-
-
-* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
@@ -114,11 +1569,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: braceright	Contours detected: 3	Expected: 1
 
-	- Glyph name: cent	Contours detected: 4	Expected: 1or2
+	- Glyph name: cent	Contours detected: 4	Expected: 1 or 2
 
-	- Glyph name: sterling	Contours detected: 3	Expected: 1or2
+	- Glyph name: sterling	Contours detected: 3	Expected: 1 or 2
 
-	- Glyph name: yen	Contours detected: 4	Expected: 1or2
+	- Glyph name: yen	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
@@ -230,19 +1685,19 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni20A9	Contours detected: 5	Expected: 1, 3, 4or7
+	- Glyph name: uni20A9	Contours detected: 5	Expected: 1, 3, 4 or 7
 
-	- Glyph name: dong	Contours detected: 5	Expected: 3or4
+	- Glyph name: dong	Contours detected: 5	Expected: 3 or 4
 
-	- Glyph name: Euro	Contours detected: 4	Expected: 1or2
+	- Glyph name: Euro	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: uni20AD	Contours detected: 3	Expected: 1
 
 	- Glyph name: uni20AE	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20B1	Contours detected: 6	Expected: 1, 2or4
+	- Glyph name: uni20B1	Contours detected: 6	Expected: 1, 2 or 4
 
-	- Glyph name: uni20B4	Contours detected: 4	Expected: 1or2
+	- Glyph name: uni20B4	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: uni20B9	Contours detected: 4	Expected: 1
 
@@ -274,7 +1729,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: infinity	Contours detected: 1	Expected: 3
 
-	- Glyph name: Euro	Contours detected: 4	Expected: 1or2
+	- Glyph name: Euro	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: Oslashacute	Contours detected: 3	Expected: 4
 
@@ -298,11 +1753,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: braceright	Contours detected: 3	Expected: 1
 
-	- Glyph name: cent	Contours detected: 4	Expected: 1or2
+	- Glyph name: cent	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: dong	Contours detected: 5	Expected: 3or4
+	- Glyph name: dong	Contours detected: 5	Expected: 3 or 4
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
@@ -316,7 +1771,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
-	- Glyph name: sterling	Contours detected: 3	Expected: 1or2
+	- Glyph name: sterling	Contours detected: 3	Expected: 1 or 2
 
 	- Glyph name: tbar	Contours detected: 2	Expected: 1
 
@@ -396,15 +1851,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni20A9	Contours detected: 5	Expected: 1, 3, 4or7
+	- Glyph name: uni20A9	Contours detected: 5	Expected: 1, 3, 4 or 7
 
 	- Glyph name: uni20AD	Contours detected: 3	Expected: 1
 
 	- Glyph name: uni20AE	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20B1	Contours detected: 6	Expected: 1, 2or4
+	- Glyph name: uni20B1	Contours detected: 6	Expected: 1, 2 or 4
 
-	- Glyph name: uni20B4	Contours detected: 4	Expected: 1or2
+	- Glyph name: uni20B4	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: uni20B9	Contours detected: 4	Expected: 1
 
@@ -424,7 +1879,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: yen	Contours detected: 4	Expected: 1or2
+	- Glyph name: yen	Contours detected: 4	Expected: 1 or 2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
 
@@ -923,19 +2378,17 @@ greaterequal
 	* uni2C64 (U+2C64): L<<449.0,456.0>--<448.0,-231.0>>
 
 	* zero (U+0030): L<<177.0,1332.0>--<904.0,1335.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[19] Jaro-6ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
-</div></details><details><summary>💔 <b>ERROR:</b> Show hinting filesize impact. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/hinting_impact">com.google.fonts/check/hinting_impact</a>)</summary><div>
+* ⚠ **WARN** The dot of soft dotted characters used in orthographies _must_ disappear in the following strings: i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄
 
+The dot of soft dotted characters _should_ disappear in other cases, for example: i᷄ i᷅ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̠᷄ i̠᷅ i̠᷆ i̠᷇ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥᷄ i̥᷅ i̥᷆ i̥᷇ i̦᷄ i̦᷅
 
-* 💔 **ERROR** The condition <FontBakeryCondition:hinting_stats> had an error: ModuleNotFoundError: No module named 'dehinter'
-</div></details><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers), Navajo (Latn, 166,319 speakers), Igbo (Latn, 27,823,640 speakers). 
 
-
-* 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+Your font does *not* cover the following languages that require the soft-dotted feature: Ukrainian (Cyrl, 29,273,587 speakers), Aghem (Latn, 38,843 speakers), Belarusian (Cyrl, 10,064,517 speakers), Basaa (Latn, 332,940 speakers). [code: soft-dotted]
+</div></details><br></div></details><details><summary><b>[18] Jaro-6ptRegular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
 * 🔥 **FAIL** Font names are incorrect:
@@ -945,13 +2398,17 @@ greaterequal
 | Family Name | Jaro 6pt | Jaro 6pt |
 | Subfamily Name | Regular | Regular |
 | Full Name | Jaro 6pt Regular | Jaro 6pt Regular |
-| Poscript Name | Jaro-6ptRegular | Jaro6pt-Regular |
-| Typographic Family Name | Jaro | N/A |
-| Typographic Subfamily Name | 6pt Regular | N/A | [code: bad-names]
+| Postscript Name | **Jaro-6ptRegular** | **Jaro6pt-Regular** |
+| Typographic Family Name | **Jaro** | **N/A** |
+| Typographic Subfamily Name | **6pt Regular** | **N/A** | [code: bad-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current FontBakery version is 0.9.0, while a newer 0.10.8 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current FontBakery version is 0.10.4, while a newer 0.10.8 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
+
+
+* 🔥 **FAIL** Glyph "dotlessi_ogonek" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -991,6 +2448,118 @@ greaterequal
 
 	- 0x1D4D (MODIFIER LETTER SMALL G)
  [code: missing-codepoints]
+</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
+
+
+* ⚠ **WARN** The following codepoints supported by the font are not covered by
+    any subsets defined in the font's metadata file, and will never
+    be served. You can solve this by either manually adding additional
+    subset declarations to METADATA.pb, or by editing the glyphset
+    definitions.
+
+ * U+02B0 MODIFIER LETTER SMALL H: not included in any glyphset definition
+ * U+02B7 MODIFIER LETTER SMALL W: not included in any glyphset definition
+ * U+02B8 MODIFIER LETTER SMALL Y: not included in any glyphset definition
+ * U+02B9 MODIFIER LETTER PRIME: not included in any glyphset definition
+ * U+02BE MODIFIER LETTER RIGHT HALF RING: not included in any glyphset definition
+ * U+02BF MODIFIER LETTER LEFT HALF RING: not included in any glyphset definition
+ * U+02C0 MODIFIER LETTER GLOTTAL STOP: not included in any glyphset definition
+ * U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi
+ * U+02C8 MODIFIER LETTER VERTICAL LINE: not included in any glyphset definition
+ * U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition
+ * U+02CB MODIFIER LETTER GRAVE ACCENT: not included in any glyphset definition
+ * U+02D7 MODIFIER LETTER MINUS SIGN: not included in any glyphset definition
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
+ * U+02EE MODIFIER LETTER DOUBLE APOSTROPHE: not included in any glyphset definition
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, cherokee, math
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: coptic, malayalam, tai-le, tifinagh, old-permic, canadian-aboriginal, math, syriac
+ * U+030A COMBINING RING ABOVE: try adding syriac
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+ * U+030D COMBINING VERTICAL LINE ABOVE: not included in any glyphset definition
+ * U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition
+ * U+0310 COMBINING CANDRABINDU: not included in any glyphset definition
+ * U+0311 COMBINING INVERTED BREVE: try adding coptic
+ * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
+ * U+0313 COMBINING COMMA ABOVE: try adding old-permic
+ * U+0315 COMBINING COMMA ABOVE RIGHT: not included in any glyphset definition
+ * U+031B COMBINING HORN: not included in any glyphset definition
+ * U+0320 COMBINING MINUS SIGN BELOW: try adding syriac
+ * U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac
+ * U+0325 COMBINING RING BELOW: try adding syriac
+ * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
+ * U+0327 COMBINING CEDILLA: not included in any glyphset definition
+ * U+0328 COMBINING OGONEK: not included in any glyphset definition
+ * U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac
+ * U+032E COMBINING BREVE BELOW: try adding syriac
+ * U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition
+ * U+0330 COMBINING TILDE BELOW: try adding one of: math, cherokee, syriac
+ * U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, tifinagh, cherokee, gothic, syriac
+ * U+0332 COMBINING LOW LINE: not included in any glyphset definition
+ * U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition
+ * U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition
+ * U+0358 COMBINING DOT ABOVE RIGHT: try adding osage
+ * U+0361 COMBINING DOUBLE INVERTED BREVE: try adding coptic
+ * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, elbasan, greek
+ * U+03BB GREEK SMALL LETTER LAMDA: try adding one of: math, greek
+ * U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi
+ * U+03C7 GREEK SMALL LETTER CHI: try adding one of: math, greek
+ * U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai
+ * U+1D58 MODIFIER LETTER SMALL U: not included in any glyphset definition
+ * U+1D5B MODIFIER LETTER SMALL V: not included in any glyphset definition
+ * U+1D7D LATIN SMALL LETTER P WITH STROKE: not included in any glyphset definition
+ * U+1D7E LATIN SMALL CAPITAL LETTER U WITH STROKE: not included in any glyphset definition
+ * U+1DBB MODIFIER LETTER SMALL Z: not included in any glyphset definition
+ * U+1DBF MODIFIER LETTER SMALL THETA: not included in any glyphset definition
+ * U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition
+ * U+1DC5 COMBINING GRAVE-MACRON: not included in any glyphset definition
+ * U+1DC6 COMBINING MACRON-GRAVE: not included in any glyphset definition
+ * U+1DC7 COMBINING ACUTE-MACRON: not included in any glyphset definition
+ * U+1DCA COMBINING LATIN SMALL LETTER R BELOW: not included in any glyphset definition
+ * U+2016 DOUBLE VERTICAL LINE: not included in any glyphset definition
+ * U+2021 DOUBLE DAGGER: try adding adlam
+ * U+2030 PER MILLE SIGN: try adding adlam
+ * U+207F SUPERSCRIPT LATIN SMALL LETTER N: not included in any glyphset definition
+ * U+2126 OHM SIGN: not included in any glyphset definition
+ * U+212E ESTIMATED SYMBOL: not included in any glyphset definition
+ * U+2144 TURNED SANS-SERIF CAPITAL Y: not included in any glyphset definition
+ * U+2153 VULGAR FRACTION ONE THIRD: not included in any glyphset definition
+ * U+2154 VULGAR FRACTION TWO THIRDS: not included in any glyphset definition
+ * U+215B VULGAR FRACTION ONE EIGHTH: not included in any glyphset definition
+ * U+215C VULGAR FRACTION THREE EIGHTHS: not included in any glyphset definition
+ * U+215D VULGAR FRACTION FIVE EIGHTHS: not included in any glyphset definition
+ * U+215E VULGAR FRACTION SEVEN EIGHTHS: not included in any glyphset definition
+ * U+2190 LEFTWARDS ARROW: try adding one of: math, symbols
+ * U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols
+ * U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols
+ * U+2195 UP DOWN ARROW: try adding one of: math, symbols
+ * U+2196 NORTH WEST ARROW: try adding one of: math, symbols
+ * U+2197 NORTH EAST ARROW: try adding one of: math, symbols
+ * U+2198 SOUTH EAST ARROW: try adding one of: math, symbols
+ * U+2199 SOUTH WEST ARROW: try adding one of: math, symbols
+ * U+2202 PARTIAL DIFFERENTIAL: try adding math
+ * U+2205 EMPTY SET: try adding math
+ * U+2206 INCREMENT: try adding math
+ * U+220F N-ARY PRODUCT: try adding math
+ * U+2211 N-ARY SUMMATION: try adding math
+ * U+221A SQUARE ROOT: try adding math
+ * U+221E INFINITY: try adding math
+ * U+222B INTEGRAL: try adding math
+ * U+2248 ALMOST EQUAL TO: try adding math
+ * U+2260 NOT EQUAL TO: try adding math
+ * U+2264 LESS-THAN OR EQUAL TO: try adding math
+ * U+2265 GREATER-THAN OR EQUAL TO: try adding math
+ * U+25CA LOZENGE: try adding one of: math, symbols
+ * U+25CC DOTTED CIRCLE: try adding one of: osage, lao, hanunoo, myanmar, mahajani, batak, tirhuta, khojki, chakma, sharada, syriac, limbu, pahawh-hmong, takri, yi, buginese, tifinagh, grantha, sundanese, cham, duployan, khmer, psalter-pahlavi, brahmi, tamil, siddham, gujarati, masaram-gondi, thaana, caucasian-albanian, thai, math, buhid, javanese, nko, wancho, rejang, kharoshthi, kayah-li, oriya, kaithi, mende-kikakui, hanifi-rohingya, phags-pa, gunjala-gondi, soyombo, elbasan, bhaiksuki, coptic, bengali, marchen, mandaic, lepcha, bassa-vah, zanabazar-square, miao, tai-viet, dogra, modi, gurmukhi, tibetan, hebrew, malayalam, newa, sinhala, symbols, khudawadi, meetei-mayek, old-permic, sogdian, kannada, telugu, mongolian, tai-le, ahom, syloti-nagri, new-tai-lue, adlam, balinese, devanagari, manichaean, tagbanwa, music, tagalog
+ * U+AB53 LATIN SMALL LETTER CHI: not included in any glyphset definition
+ * U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition
+ * U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition
+
+Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `latin`, `latin-ext`, `vietnamese` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
 
 
@@ -1003,10 +2572,6 @@ greaterequal
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
-
-
-* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
@@ -1035,11 +2600,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: braceright	Contours detected: 3	Expected: 1
 
-	- Glyph name: cent	Contours detected: 4	Expected: 1or2
+	- Glyph name: cent	Contours detected: 4	Expected: 1 or 2
 
-	- Glyph name: sterling	Contours detected: 3	Expected: 1or2
+	- Glyph name: sterling	Contours detected: 3	Expected: 1 or 2
 
-	- Glyph name: yen	Contours detected: 4	Expected: 1or2
+	- Glyph name: yen	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
@@ -1151,19 +2716,19 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni20A9	Contours detected: 5	Expected: 1, 3, 4or7
+	- Glyph name: uni20A9	Contours detected: 5	Expected: 1, 3, 4 or 7
 
-	- Glyph name: dong	Contours detected: 5	Expected: 3or4
+	- Glyph name: dong	Contours detected: 5	Expected: 3 or 4
 
-	- Glyph name: Euro	Contours detected: 4	Expected: 1or2
+	- Glyph name: Euro	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: uni20AD	Contours detected: 3	Expected: 1
 
 	- Glyph name: uni20AE	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20B1	Contours detected: 6	Expected: 1, 2or4
+	- Glyph name: uni20B1	Contours detected: 6	Expected: 1, 2 or 4
 
-	- Glyph name: uni20B4	Contours detected: 4	Expected: 1or2
+	- Glyph name: uni20B4	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: uni20B9	Contours detected: 4	Expected: 1
 
@@ -1195,7 +2760,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: infinity	Contours detected: 1	Expected: 3
 
-	- Glyph name: Euro	Contours detected: 4	Expected: 1or2
+	- Glyph name: Euro	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: Oslashacute	Contours detected: 3	Expected: 4
 
@@ -1219,11 +2784,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: braceright	Contours detected: 3	Expected: 1
 
-	- Glyph name: cent	Contours detected: 4	Expected: 1or2
+	- Glyph name: cent	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: dong	Contours detected: 5	Expected: 3or4
+	- Glyph name: dong	Contours detected: 5	Expected: 3 or 4
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
@@ -1237,7 +2802,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
-	- Glyph name: sterling	Contours detected: 3	Expected: 1or2
+	- Glyph name: sterling	Contours detected: 3	Expected: 1 or 2
 
 	- Glyph name: tbar	Contours detected: 2	Expected: 1
 
@@ -1317,15 +2882,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni20A9	Contours detected: 5	Expected: 1, 3, 4or7
+	- Glyph name: uni20A9	Contours detected: 5	Expected: 1, 3, 4 or 7
 
 	- Glyph name: uni20AD	Contours detected: 3	Expected: 1
 
 	- Glyph name: uni20AE	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20B1	Contours detected: 6	Expected: 1, 2or4
+	- Glyph name: uni20B1	Contours detected: 6	Expected: 1, 2 or 4
 
-	- Glyph name: uni20B4	Contours detected: 4	Expected: 1or2
+	- Glyph name: uni20B4	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: uni20B9	Contours detected: 4	Expected: 1
 
@@ -1345,7 +2910,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: yen	Contours detected: 4	Expected: 1or2
+	- Glyph name: yen	Contours detected: 4	Expected: 1 or 2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
 
@@ -1358,7 +2923,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 677:
-greater, lessequal, less
+lessequal, less, greater
 
 Width = 707:
 multiply
@@ -1817,19 +3382,17 @@ greaterequal
 	* uni2154 (U+2154): L<<43.0,684.0>--<42.0,899.0>>
 
 	* zero (U+0030): L<<218.0,1332.0>--<905.0,1335.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[16] Jaro-72ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
-</div></details><details><summary>💔 <b>ERROR:</b> Show hinting filesize impact. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/hinting_impact">com.google.fonts/check/hinting_impact</a>)</summary><div>
+* ⚠ **WARN** The dot of soft dotted characters used in orthographies _must_ disappear in the following strings: i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄
 
+The dot of soft dotted characters _should_ disappear in other cases, for example: i᷄ i᷅ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̠᷄ i̠᷅ i̠᷆ i̠᷇ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥᷄ i̥᷅ i̥᷆ i̥᷇ i̦᷄ i̦᷅
 
-* 💔 **ERROR** The condition <FontBakeryCondition:hinting_stats> had an error: ModuleNotFoundError: No module named 'dehinter'
-</div></details><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers), Navajo (Latn, 166,319 speakers), Igbo (Latn, 27,823,640 speakers). 
 
-
-* 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+Your font does *not* cover the following languages that require the soft-dotted feature: Ukrainian (Cyrl, 29,273,587 speakers), Aghem (Latn, 38,843 speakers), Belarusian (Cyrl, 10,064,517 speakers), Basaa (Latn, 332,940 speakers). [code: soft-dotted]
+</div></details><br></div></details><details><summary><b>[15] Jaro-72ptRegular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
 * 🔥 **FAIL** Font names are incorrect:
@@ -1839,13 +3402,17 @@ greaterequal
 | Family Name | Jaro 72pt | Jaro 72pt |
 | Subfamily Name | Regular | Regular |
 | Full Name | Jaro 72pt Regular | Jaro 72pt Regular |
-| Poscript Name | Jaro-72ptRegular | Jaro72pt-Regular |
-| Typographic Family Name | Jaro | N/A |
-| Typographic Subfamily Name | 72pt Regular | N/A | [code: bad-names]
+| Postscript Name | **Jaro-72ptRegular** | **Jaro72pt-Regular** |
+| Typographic Family Name | **Jaro** | **N/A** |
+| Typographic Subfamily Name | **72pt Regular** | **N/A** | [code: bad-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current FontBakery version is 0.9.0, while a newer 0.10.8 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current FontBakery version is 0.10.4, while a newer 0.10.8 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
+
+
+* 🔥 **FAIL** Glyph "dotlessi_ogonek" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -1885,6 +3452,118 @@ greaterequal
 
 	- 0x1D4D (MODIFIER LETTER SMALL G)
  [code: missing-codepoints]
+</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
+
+
+* ⚠ **WARN** The following codepoints supported by the font are not covered by
+    any subsets defined in the font's metadata file, and will never
+    be served. You can solve this by either manually adding additional
+    subset declarations to METADATA.pb, or by editing the glyphset
+    definitions.
+
+ * U+02B0 MODIFIER LETTER SMALL H: not included in any glyphset definition
+ * U+02B7 MODIFIER LETTER SMALL W: not included in any glyphset definition
+ * U+02B8 MODIFIER LETTER SMALL Y: not included in any glyphset definition
+ * U+02B9 MODIFIER LETTER PRIME: not included in any glyphset definition
+ * U+02BE MODIFIER LETTER RIGHT HALF RING: not included in any glyphset definition
+ * U+02BF MODIFIER LETTER LEFT HALF RING: not included in any glyphset definition
+ * U+02C0 MODIFIER LETTER GLOTTAL STOP: not included in any glyphset definition
+ * U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi
+ * U+02C8 MODIFIER LETTER VERTICAL LINE: not included in any glyphset definition
+ * U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition
+ * U+02CB MODIFIER LETTER GRAVE ACCENT: not included in any glyphset definition
+ * U+02D7 MODIFIER LETTER MINUS SIGN: not included in any glyphset definition
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
+ * U+02EE MODIFIER LETTER DOUBLE APOSTROPHE: not included in any glyphset definition
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, cherokee, math
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: coptic, malayalam, tai-le, tifinagh, old-permic, canadian-aboriginal, math, syriac
+ * U+030A COMBINING RING ABOVE: try adding syriac
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+ * U+030D COMBINING VERTICAL LINE ABOVE: not included in any glyphset definition
+ * U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition
+ * U+0310 COMBINING CANDRABINDU: not included in any glyphset definition
+ * U+0311 COMBINING INVERTED BREVE: try adding coptic
+ * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
+ * U+0313 COMBINING COMMA ABOVE: try adding old-permic
+ * U+0315 COMBINING COMMA ABOVE RIGHT: not included in any glyphset definition
+ * U+031B COMBINING HORN: not included in any glyphset definition
+ * U+0320 COMBINING MINUS SIGN BELOW: try adding syriac
+ * U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac
+ * U+0325 COMBINING RING BELOW: try adding syriac
+ * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
+ * U+0327 COMBINING CEDILLA: not included in any glyphset definition
+ * U+0328 COMBINING OGONEK: not included in any glyphset definition
+ * U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac
+ * U+032E COMBINING BREVE BELOW: try adding syriac
+ * U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition
+ * U+0330 COMBINING TILDE BELOW: try adding one of: math, cherokee, syriac
+ * U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, tifinagh, cherokee, gothic, syriac
+ * U+0332 COMBINING LOW LINE: not included in any glyphset definition
+ * U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition
+ * U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition
+ * U+0358 COMBINING DOT ABOVE RIGHT: try adding osage
+ * U+0361 COMBINING DOUBLE INVERTED BREVE: try adding coptic
+ * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, elbasan, greek
+ * U+03BB GREEK SMALL LETTER LAMDA: try adding one of: math, greek
+ * U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi
+ * U+03C7 GREEK SMALL LETTER CHI: try adding one of: math, greek
+ * U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai
+ * U+1D58 MODIFIER LETTER SMALL U: not included in any glyphset definition
+ * U+1D5B MODIFIER LETTER SMALL V: not included in any glyphset definition
+ * U+1D7D LATIN SMALL LETTER P WITH STROKE: not included in any glyphset definition
+ * U+1D7E LATIN SMALL CAPITAL LETTER U WITH STROKE: not included in any glyphset definition
+ * U+1DBB MODIFIER LETTER SMALL Z: not included in any glyphset definition
+ * U+1DBF MODIFIER LETTER SMALL THETA: not included in any glyphset definition
+ * U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition
+ * U+1DC5 COMBINING GRAVE-MACRON: not included in any glyphset definition
+ * U+1DC6 COMBINING MACRON-GRAVE: not included in any glyphset definition
+ * U+1DC7 COMBINING ACUTE-MACRON: not included in any glyphset definition
+ * U+1DCA COMBINING LATIN SMALL LETTER R BELOW: not included in any glyphset definition
+ * U+2016 DOUBLE VERTICAL LINE: not included in any glyphset definition
+ * U+2021 DOUBLE DAGGER: try adding adlam
+ * U+2030 PER MILLE SIGN: try adding adlam
+ * U+207F SUPERSCRIPT LATIN SMALL LETTER N: not included in any glyphset definition
+ * U+2126 OHM SIGN: not included in any glyphset definition
+ * U+212E ESTIMATED SYMBOL: not included in any glyphset definition
+ * U+2144 TURNED SANS-SERIF CAPITAL Y: not included in any glyphset definition
+ * U+2153 VULGAR FRACTION ONE THIRD: not included in any glyphset definition
+ * U+2154 VULGAR FRACTION TWO THIRDS: not included in any glyphset definition
+ * U+215B VULGAR FRACTION ONE EIGHTH: not included in any glyphset definition
+ * U+215C VULGAR FRACTION THREE EIGHTHS: not included in any glyphset definition
+ * U+215D VULGAR FRACTION FIVE EIGHTHS: not included in any glyphset definition
+ * U+215E VULGAR FRACTION SEVEN EIGHTHS: not included in any glyphset definition
+ * U+2190 LEFTWARDS ARROW: try adding one of: math, symbols
+ * U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols
+ * U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols
+ * U+2195 UP DOWN ARROW: try adding one of: math, symbols
+ * U+2196 NORTH WEST ARROW: try adding one of: math, symbols
+ * U+2197 NORTH EAST ARROW: try adding one of: math, symbols
+ * U+2198 SOUTH EAST ARROW: try adding one of: math, symbols
+ * U+2199 SOUTH WEST ARROW: try adding one of: math, symbols
+ * U+2202 PARTIAL DIFFERENTIAL: try adding math
+ * U+2205 EMPTY SET: try adding math
+ * U+2206 INCREMENT: try adding math
+ * U+220F N-ARY PRODUCT: try adding math
+ * U+2211 N-ARY SUMMATION: try adding math
+ * U+221A SQUARE ROOT: try adding math
+ * U+221E INFINITY: try adding math
+ * U+222B INTEGRAL: try adding math
+ * U+2248 ALMOST EQUAL TO: try adding math
+ * U+2260 NOT EQUAL TO: try adding math
+ * U+2264 LESS-THAN OR EQUAL TO: try adding math
+ * U+2265 GREATER-THAN OR EQUAL TO: try adding math
+ * U+25CA LOZENGE: try adding one of: math, symbols
+ * U+25CC DOTTED CIRCLE: try adding one of: osage, lao, hanunoo, myanmar, mahajani, batak, tirhuta, khojki, chakma, sharada, syriac, limbu, pahawh-hmong, takri, yi, buginese, tifinagh, grantha, sundanese, cham, duployan, khmer, psalter-pahlavi, brahmi, tamil, siddham, gujarati, masaram-gondi, thaana, caucasian-albanian, thai, math, buhid, javanese, nko, wancho, rejang, kharoshthi, kayah-li, oriya, kaithi, mende-kikakui, hanifi-rohingya, phags-pa, gunjala-gondi, soyombo, elbasan, bhaiksuki, coptic, bengali, marchen, mandaic, lepcha, bassa-vah, zanabazar-square, miao, tai-viet, dogra, modi, gurmukhi, tibetan, hebrew, malayalam, newa, sinhala, symbols, khudawadi, meetei-mayek, old-permic, sogdian, kannada, telugu, mongolian, tai-le, ahom, syloti-nagri, new-tai-lue, adlam, balinese, devanagari, manichaean, tagbanwa, music, tagalog
+ * U+AB53 LATIN SMALL LETTER CHI: not included in any glyphset definition
+ * U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition
+ * U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition
+
+Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `latin`, `latin-ext`, `vietnamese` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
 
 
@@ -1897,10 +3576,6 @@ greaterequal
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
-
-
-* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
@@ -1929,11 +3604,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: braceright	Contours detected: 3	Expected: 1
 
-	- Glyph name: cent	Contours detected: 4	Expected: 1or2
+	- Glyph name: cent	Contours detected: 4	Expected: 1 or 2
 
-	- Glyph name: sterling	Contours detected: 3	Expected: 1or2
+	- Glyph name: sterling	Contours detected: 3	Expected: 1 or 2
 
-	- Glyph name: yen	Contours detected: 4	Expected: 1or2
+	- Glyph name: yen	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
@@ -2045,19 +3720,19 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni20A9	Contours detected: 5	Expected: 1, 3, 4or7
+	- Glyph name: uni20A9	Contours detected: 5	Expected: 1, 3, 4 or 7
 
-	- Glyph name: dong	Contours detected: 5	Expected: 3or4
+	- Glyph name: dong	Contours detected: 5	Expected: 3 or 4
 
-	- Glyph name: Euro	Contours detected: 4	Expected: 1or2
+	- Glyph name: Euro	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: uni20AD	Contours detected: 3	Expected: 1
 
 	- Glyph name: uni20AE	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20B1	Contours detected: 6	Expected: 1, 2or4
+	- Glyph name: uni20B1	Contours detected: 6	Expected: 1, 2 or 4
 
-	- Glyph name: uni20B4	Contours detected: 4	Expected: 1or2
+	- Glyph name: uni20B4	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: uni20B9	Contours detected: 4	Expected: 1
 
@@ -2089,7 +3764,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: infinity	Contours detected: 1	Expected: 3
 
-	- Glyph name: Euro	Contours detected: 4	Expected: 1or2
+	- Glyph name: Euro	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: Oslashacute	Contours detected: 3	Expected: 4
 
@@ -2113,11 +3788,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: braceright	Contours detected: 3	Expected: 1
 
-	- Glyph name: cent	Contours detected: 4	Expected: 1or2
+	- Glyph name: cent	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: dong	Contours detected: 5	Expected: 3or4
+	- Glyph name: dong	Contours detected: 5	Expected: 3 or 4
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
@@ -2131,7 +3806,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
-	- Glyph name: sterling	Contours detected: 3	Expected: 1or2
+	- Glyph name: sterling	Contours detected: 3	Expected: 1 or 2
 
 	- Glyph name: tbar	Contours detected: 2	Expected: 1
 
@@ -2211,15 +3886,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni20A9	Contours detected: 5	Expected: 1, 3, 4or7
+	- Glyph name: uni20A9	Contours detected: 5	Expected: 1, 3, 4 or 7
 
 	- Glyph name: uni20AD	Contours detected: 3	Expected: 1
 
 	- Glyph name: uni20AE	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20B1	Contours detected: 6	Expected: 1, 2or4
+	- Glyph name: uni20B1	Contours detected: 6	Expected: 1, 2 or 4
 
-	- Glyph name: uni20B4	Contours detected: 4	Expected: 1or2
+	- Glyph name: uni20B4	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: uni20B9	Contours detected: 4	Expected: 1
 
@@ -2239,7 +3914,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: yen	Contours detected: 4	Expected: 1or2
+	- Glyph name: yen	Contours detected: 4	Expected: 1 or 2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
 
@@ -2252,7 +3927,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 628:
-greaterequal, lessequal, less
+lessequal, greaterequal, less
 
 Width = 677:
 greater
@@ -2373,19 +4048,17 @@ approxequal
 	* uni2C72 (U+2C72): L<<42.0,285.0>--<43.0,1308.0>>
 
 	* zero (U+0030): L<<67.0,1332.0>--<900.0,1335.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[18] Jaro-12ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
-</div></details><details><summary>💔 <b>ERROR:</b> Show hinting filesize impact. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/hinting_impact">com.google.fonts/check/hinting_impact</a>)</summary><div>
+* ⚠ **WARN** The dot of soft dotted characters used in orthographies _must_ disappear in the following strings: i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄
 
+The dot of soft dotted characters _should_ disappear in other cases, for example: i᷄ i᷅ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̠᷄ i̠᷅ i̠᷆ i̠᷇ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥᷄ i̥᷅ i̥᷆ i̥᷇ i̦᷄ i̦᷅
 
-* 💔 **ERROR** The condition <FontBakeryCondition:hinting_stats> had an error: ModuleNotFoundError: No module named 'dehinter'
-</div></details><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers), Navajo (Latn, 166,319 speakers), Igbo (Latn, 27,823,640 speakers). 
 
-
-* 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+Your font does *not* cover the following languages that require the soft-dotted feature: Ukrainian (Cyrl, 29,273,587 speakers), Aghem (Latn, 38,843 speakers), Belarusian (Cyrl, 10,064,517 speakers), Basaa (Latn, 332,940 speakers). [code: soft-dotted]
+</div></details><br></div></details><details><summary><b>[17] Jaro-12ptRegular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
 * 🔥 **FAIL** Font names are incorrect:
@@ -2395,13 +4068,17 @@ approxequal
 | Family Name | Jaro 12pt | Jaro 12pt |
 | Subfamily Name | Regular | Regular |
 | Full Name | Jaro 12pt Regular | Jaro 12pt Regular |
-| Poscript Name | Jaro-12ptRegular | Jaro12pt-Regular |
-| Typographic Family Name | Jaro | N/A |
-| Typographic Subfamily Name | 12pt Regular | N/A | [code: bad-names]
+| Postscript Name | **Jaro-12ptRegular** | **Jaro12pt-Regular** |
+| Typographic Family Name | **Jaro** | **N/A** |
+| Typographic Subfamily Name | **12pt Regular** | **N/A** | [code: bad-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current FontBakery version is 0.9.0, while a newer 0.10.8 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current FontBakery version is 0.10.4, while a newer 0.10.8 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
+
+
+* 🔥 **FAIL** Glyph "dotlessi_ogonek" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -2441,6 +4118,118 @@ approxequal
 
 	- 0x1D4D (MODIFIER LETTER SMALL G)
  [code: missing-codepoints]
+</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
+
+
+* ⚠ **WARN** The following codepoints supported by the font are not covered by
+    any subsets defined in the font's metadata file, and will never
+    be served. You can solve this by either manually adding additional
+    subset declarations to METADATA.pb, or by editing the glyphset
+    definitions.
+
+ * U+02B0 MODIFIER LETTER SMALL H: not included in any glyphset definition
+ * U+02B7 MODIFIER LETTER SMALL W: not included in any glyphset definition
+ * U+02B8 MODIFIER LETTER SMALL Y: not included in any glyphset definition
+ * U+02B9 MODIFIER LETTER PRIME: not included in any glyphset definition
+ * U+02BE MODIFIER LETTER RIGHT HALF RING: not included in any glyphset definition
+ * U+02BF MODIFIER LETTER LEFT HALF RING: not included in any glyphset definition
+ * U+02C0 MODIFIER LETTER GLOTTAL STOP: not included in any glyphset definition
+ * U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi
+ * U+02C8 MODIFIER LETTER VERTICAL LINE: not included in any glyphset definition
+ * U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition
+ * U+02CB MODIFIER LETTER GRAVE ACCENT: not included in any glyphset definition
+ * U+02D7 MODIFIER LETTER MINUS SIGN: not included in any glyphset definition
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
+ * U+02EE MODIFIER LETTER DOUBLE APOSTROPHE: not included in any glyphset definition
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, cherokee, math
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: coptic, malayalam, tai-le, tifinagh, old-permic, canadian-aboriginal, math, syriac
+ * U+030A COMBINING RING ABOVE: try adding syriac
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+ * U+030D COMBINING VERTICAL LINE ABOVE: not included in any glyphset definition
+ * U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition
+ * U+0310 COMBINING CANDRABINDU: not included in any glyphset definition
+ * U+0311 COMBINING INVERTED BREVE: try adding coptic
+ * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
+ * U+0313 COMBINING COMMA ABOVE: try adding old-permic
+ * U+0315 COMBINING COMMA ABOVE RIGHT: not included in any glyphset definition
+ * U+031B COMBINING HORN: not included in any glyphset definition
+ * U+0320 COMBINING MINUS SIGN BELOW: try adding syriac
+ * U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac
+ * U+0325 COMBINING RING BELOW: try adding syriac
+ * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
+ * U+0327 COMBINING CEDILLA: not included in any glyphset definition
+ * U+0328 COMBINING OGONEK: not included in any glyphset definition
+ * U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac
+ * U+032E COMBINING BREVE BELOW: try adding syriac
+ * U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition
+ * U+0330 COMBINING TILDE BELOW: try adding one of: math, cherokee, syriac
+ * U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, tifinagh, cherokee, gothic, syriac
+ * U+0332 COMBINING LOW LINE: not included in any glyphset definition
+ * U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition
+ * U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition
+ * U+0358 COMBINING DOT ABOVE RIGHT: try adding osage
+ * U+0361 COMBINING DOUBLE INVERTED BREVE: try adding coptic
+ * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, elbasan, greek
+ * U+03BB GREEK SMALL LETTER LAMDA: try adding one of: math, greek
+ * U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi
+ * U+03C7 GREEK SMALL LETTER CHI: try adding one of: math, greek
+ * U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai
+ * U+1D58 MODIFIER LETTER SMALL U: not included in any glyphset definition
+ * U+1D5B MODIFIER LETTER SMALL V: not included in any glyphset definition
+ * U+1D7D LATIN SMALL LETTER P WITH STROKE: not included in any glyphset definition
+ * U+1D7E LATIN SMALL CAPITAL LETTER U WITH STROKE: not included in any glyphset definition
+ * U+1DBB MODIFIER LETTER SMALL Z: not included in any glyphset definition
+ * U+1DBF MODIFIER LETTER SMALL THETA: not included in any glyphset definition
+ * U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition
+ * U+1DC5 COMBINING GRAVE-MACRON: not included in any glyphset definition
+ * U+1DC6 COMBINING MACRON-GRAVE: not included in any glyphset definition
+ * U+1DC7 COMBINING ACUTE-MACRON: not included in any glyphset definition
+ * U+1DCA COMBINING LATIN SMALL LETTER R BELOW: not included in any glyphset definition
+ * U+2016 DOUBLE VERTICAL LINE: not included in any glyphset definition
+ * U+2021 DOUBLE DAGGER: try adding adlam
+ * U+2030 PER MILLE SIGN: try adding adlam
+ * U+207F SUPERSCRIPT LATIN SMALL LETTER N: not included in any glyphset definition
+ * U+2126 OHM SIGN: not included in any glyphset definition
+ * U+212E ESTIMATED SYMBOL: not included in any glyphset definition
+ * U+2144 TURNED SANS-SERIF CAPITAL Y: not included in any glyphset definition
+ * U+2153 VULGAR FRACTION ONE THIRD: not included in any glyphset definition
+ * U+2154 VULGAR FRACTION TWO THIRDS: not included in any glyphset definition
+ * U+215B VULGAR FRACTION ONE EIGHTH: not included in any glyphset definition
+ * U+215C VULGAR FRACTION THREE EIGHTHS: not included in any glyphset definition
+ * U+215D VULGAR FRACTION FIVE EIGHTHS: not included in any glyphset definition
+ * U+215E VULGAR FRACTION SEVEN EIGHTHS: not included in any glyphset definition
+ * U+2190 LEFTWARDS ARROW: try adding one of: math, symbols
+ * U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols
+ * U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols
+ * U+2195 UP DOWN ARROW: try adding one of: math, symbols
+ * U+2196 NORTH WEST ARROW: try adding one of: math, symbols
+ * U+2197 NORTH EAST ARROW: try adding one of: math, symbols
+ * U+2198 SOUTH EAST ARROW: try adding one of: math, symbols
+ * U+2199 SOUTH WEST ARROW: try adding one of: math, symbols
+ * U+2202 PARTIAL DIFFERENTIAL: try adding math
+ * U+2205 EMPTY SET: try adding math
+ * U+2206 INCREMENT: try adding math
+ * U+220F N-ARY PRODUCT: try adding math
+ * U+2211 N-ARY SUMMATION: try adding math
+ * U+221A SQUARE ROOT: try adding math
+ * U+221E INFINITY: try adding math
+ * U+222B INTEGRAL: try adding math
+ * U+2248 ALMOST EQUAL TO: try adding math
+ * U+2260 NOT EQUAL TO: try adding math
+ * U+2264 LESS-THAN OR EQUAL TO: try adding math
+ * U+2265 GREATER-THAN OR EQUAL TO: try adding math
+ * U+25CA LOZENGE: try adding one of: math, symbols
+ * U+25CC DOTTED CIRCLE: try adding one of: osage, lao, hanunoo, myanmar, mahajani, batak, tirhuta, khojki, chakma, sharada, syriac, limbu, pahawh-hmong, takri, yi, buginese, tifinagh, grantha, sundanese, cham, duployan, khmer, psalter-pahlavi, brahmi, tamil, siddham, gujarati, masaram-gondi, thaana, caucasian-albanian, thai, math, buhid, javanese, nko, wancho, rejang, kharoshthi, kayah-li, oriya, kaithi, mende-kikakui, hanifi-rohingya, phags-pa, gunjala-gondi, soyombo, elbasan, bhaiksuki, coptic, bengali, marchen, mandaic, lepcha, bassa-vah, zanabazar-square, miao, tai-viet, dogra, modi, gurmukhi, tibetan, hebrew, malayalam, newa, sinhala, symbols, khudawadi, meetei-mayek, old-permic, sogdian, kannada, telugu, mongolian, tai-le, ahom, syloti-nagri, new-tai-lue, adlam, balinese, devanagari, manichaean, tagbanwa, music, tagalog
+ * U+AB53 LATIN SMALL LETTER CHI: not included in any glyphset definition
+ * U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition
+ * U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition
+
+Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `latin`, `latin-ext`, `vietnamese` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
 
 
@@ -2453,10 +4242,6 @@ approxequal
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
-
-
-* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
@@ -2485,11 +4270,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: braceright	Contours detected: 3	Expected: 1
 
-	- Glyph name: cent	Contours detected: 4	Expected: 1or2
+	- Glyph name: cent	Contours detected: 4	Expected: 1 or 2
 
-	- Glyph name: sterling	Contours detected: 3	Expected: 1or2
+	- Glyph name: sterling	Contours detected: 3	Expected: 1 or 2
 
-	- Glyph name: yen	Contours detected: 4	Expected: 1or2
+	- Glyph name: yen	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
@@ -2601,19 +4386,19 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni20A9	Contours detected: 5	Expected: 1, 3, 4or7
+	- Glyph name: uni20A9	Contours detected: 5	Expected: 1, 3, 4 or 7
 
-	- Glyph name: dong	Contours detected: 5	Expected: 3or4
+	- Glyph name: dong	Contours detected: 5	Expected: 3 or 4
 
-	- Glyph name: Euro	Contours detected: 4	Expected: 1or2
+	- Glyph name: Euro	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: uni20AD	Contours detected: 3	Expected: 1
 
 	- Glyph name: uni20AE	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20B1	Contours detected: 6	Expected: 1, 2or4
+	- Glyph name: uni20B1	Contours detected: 6	Expected: 1, 2 or 4
 
-	- Glyph name: uni20B4	Contours detected: 4	Expected: 1or2
+	- Glyph name: uni20B4	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: uni20B9	Contours detected: 4	Expected: 1
 
@@ -2645,7 +4430,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: infinity	Contours detected: 1	Expected: 3
 
-	- Glyph name: Euro	Contours detected: 4	Expected: 1or2
+	- Glyph name: Euro	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: Oslashacute	Contours detected: 3	Expected: 4
 
@@ -2669,11 +4454,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: braceright	Contours detected: 3	Expected: 1
 
-	- Glyph name: cent	Contours detected: 4	Expected: 1or2
+	- Glyph name: cent	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: dong	Contours detected: 5	Expected: 3or4
+	- Glyph name: dong	Contours detected: 5	Expected: 3 or 4
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
@@ -2687,7 +4472,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
-	- Glyph name: sterling	Contours detected: 3	Expected: 1or2
+	- Glyph name: sterling	Contours detected: 3	Expected: 1 or 2
 
 	- Glyph name: tbar	Contours detected: 2	Expected: 1
 
@@ -2767,15 +4552,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni20A9	Contours detected: 5	Expected: 1, 3, 4or7
+	- Glyph name: uni20A9	Contours detected: 5	Expected: 1, 3, 4 or 7
 
 	- Glyph name: uni20AD	Contours detected: 3	Expected: 1
 
 	- Glyph name: uni20AE	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20B1	Contours detected: 6	Expected: 1, 2or4
+	- Glyph name: uni20B1	Contours detected: 6	Expected: 1, 2 or 4
 
-	- Glyph name: uni20B4	Contours detected: 4	Expected: 1or2
+	- Glyph name: uni20B4	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: uni20B9	Contours detected: 4	Expected: 1
 
@@ -2795,7 +4580,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: yen	Contours detected: 4	Expected: 1or2
+	- Glyph name: yen	Contours detected: 4	Expected: 1 or 2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
 
@@ -3274,19 +5059,17 @@ greaterequal
 	* uni2C64 (U+2C64): L<<452.0,477.0>--<451.0,-228.0>>
 
 	* zero (U+0030): L<<204.0,1332.0>--<905.0,1335.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[17] Jaro-48ptRegular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
-</div></details><details><summary>💔 <b>ERROR:</b> Show hinting filesize impact. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/hinting_impact">com.google.fonts/check/hinting_impact</a>)</summary><div>
+* ⚠ **WARN** The dot of soft dotted characters used in orthographies _must_ disappear in the following strings: i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄
 
+The dot of soft dotted characters _should_ disappear in other cases, for example: i᷄ i᷅ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̠᷄ i̠᷅ i̠᷆ i̠᷇ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥᷄ i̥᷅ i̥᷆ i̥᷇ i̦᷄ i̦᷅
 
-* 💔 **ERROR** The condition <FontBakeryCondition:hinting_stats> had an error: ModuleNotFoundError: No module named 'dehinter'
-</div></details><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers), Navajo (Latn, 166,319 speakers), Igbo (Latn, 27,823,640 speakers). 
 
-
-* 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+Your font does *not* cover the following languages that require the soft-dotted feature: Ukrainian (Cyrl, 29,273,587 speakers), Aghem (Latn, 38,843 speakers), Belarusian (Cyrl, 10,064,517 speakers), Basaa (Latn, 332,940 speakers). [code: soft-dotted]
+</div></details><br></div></details><details><summary><b>[16] Jaro-48ptRegular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
 * 🔥 **FAIL** Font names are incorrect:
@@ -3296,13 +5079,17 @@ greaterequal
 | Family Name | Jaro 48pt | Jaro 48pt |
 | Subfamily Name | Regular | Regular |
 | Full Name | Jaro 48pt Regular | Jaro 48pt Regular |
-| Poscript Name | Jaro-48ptRegular | Jaro48pt-Regular |
-| Typographic Family Name | Jaro | N/A |
-| Typographic Subfamily Name | 48pt Regular | N/A | [code: bad-names]
+| Postscript Name | **Jaro-48ptRegular** | **Jaro48pt-Regular** |
+| Typographic Family Name | **Jaro** | **N/A** |
+| Typographic Subfamily Name | **48pt Regular** | **N/A** | [code: bad-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current FontBakery version is 0.9.0, while a newer 0.10.8 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current FontBakery version is 0.10.4, while a newer 0.10.8 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
+
+
+* 🔥 **FAIL** Glyph "dotlessi_ogonek" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -3342,6 +5129,118 @@ greaterequal
 
 	- 0x1D4D (MODIFIER LETTER SMALL G)
  [code: missing-codepoints]
+</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
+
+
+* ⚠ **WARN** The following codepoints supported by the font are not covered by
+    any subsets defined in the font's metadata file, and will never
+    be served. You can solve this by either manually adding additional
+    subset declarations to METADATA.pb, or by editing the glyphset
+    definitions.
+
+ * U+02B0 MODIFIER LETTER SMALL H: not included in any glyphset definition
+ * U+02B7 MODIFIER LETTER SMALL W: not included in any glyphset definition
+ * U+02B8 MODIFIER LETTER SMALL Y: not included in any glyphset definition
+ * U+02B9 MODIFIER LETTER PRIME: not included in any glyphset definition
+ * U+02BE MODIFIER LETTER RIGHT HALF RING: not included in any glyphset definition
+ * U+02BF MODIFIER LETTER LEFT HALF RING: not included in any glyphset definition
+ * U+02C0 MODIFIER LETTER GLOTTAL STOP: not included in any glyphset definition
+ * U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi
+ * U+02C8 MODIFIER LETTER VERTICAL LINE: not included in any glyphset definition
+ * U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition
+ * U+02CB MODIFIER LETTER GRAVE ACCENT: not included in any glyphset definition
+ * U+02D7 MODIFIER LETTER MINUS SIGN: not included in any glyphset definition
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
+ * U+02EE MODIFIER LETTER DOUBLE APOSTROPHE: not included in any glyphset definition
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, cherokee, math
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: coptic, malayalam, tai-le, tifinagh, old-permic, canadian-aboriginal, math, syriac
+ * U+030A COMBINING RING ABOVE: try adding syriac
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+ * U+030D COMBINING VERTICAL LINE ABOVE: not included in any glyphset definition
+ * U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition
+ * U+0310 COMBINING CANDRABINDU: not included in any glyphset definition
+ * U+0311 COMBINING INVERTED BREVE: try adding coptic
+ * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
+ * U+0313 COMBINING COMMA ABOVE: try adding old-permic
+ * U+0315 COMBINING COMMA ABOVE RIGHT: not included in any glyphset definition
+ * U+031B COMBINING HORN: not included in any glyphset definition
+ * U+0320 COMBINING MINUS SIGN BELOW: try adding syriac
+ * U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac
+ * U+0325 COMBINING RING BELOW: try adding syriac
+ * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
+ * U+0327 COMBINING CEDILLA: not included in any glyphset definition
+ * U+0328 COMBINING OGONEK: not included in any glyphset definition
+ * U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac
+ * U+032E COMBINING BREVE BELOW: try adding syriac
+ * U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition
+ * U+0330 COMBINING TILDE BELOW: try adding one of: math, cherokee, syriac
+ * U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, tifinagh, cherokee, gothic, syriac
+ * U+0332 COMBINING LOW LINE: not included in any glyphset definition
+ * U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition
+ * U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition
+ * U+0358 COMBINING DOT ABOVE RIGHT: try adding osage
+ * U+0361 COMBINING DOUBLE INVERTED BREVE: try adding coptic
+ * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, elbasan, greek
+ * U+03BB GREEK SMALL LETTER LAMDA: try adding one of: math, greek
+ * U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi
+ * U+03C7 GREEK SMALL LETTER CHI: try adding one of: math, greek
+ * U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai
+ * U+1D58 MODIFIER LETTER SMALL U: not included in any glyphset definition
+ * U+1D5B MODIFIER LETTER SMALL V: not included in any glyphset definition
+ * U+1D7D LATIN SMALL LETTER P WITH STROKE: not included in any glyphset definition
+ * U+1D7E LATIN SMALL CAPITAL LETTER U WITH STROKE: not included in any glyphset definition
+ * U+1DBB MODIFIER LETTER SMALL Z: not included in any glyphset definition
+ * U+1DBF MODIFIER LETTER SMALL THETA: not included in any glyphset definition
+ * U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition
+ * U+1DC5 COMBINING GRAVE-MACRON: not included in any glyphset definition
+ * U+1DC6 COMBINING MACRON-GRAVE: not included in any glyphset definition
+ * U+1DC7 COMBINING ACUTE-MACRON: not included in any glyphset definition
+ * U+1DCA COMBINING LATIN SMALL LETTER R BELOW: not included in any glyphset definition
+ * U+2016 DOUBLE VERTICAL LINE: not included in any glyphset definition
+ * U+2021 DOUBLE DAGGER: try adding adlam
+ * U+2030 PER MILLE SIGN: try adding adlam
+ * U+207F SUPERSCRIPT LATIN SMALL LETTER N: not included in any glyphset definition
+ * U+2126 OHM SIGN: not included in any glyphset definition
+ * U+212E ESTIMATED SYMBOL: not included in any glyphset definition
+ * U+2144 TURNED SANS-SERIF CAPITAL Y: not included in any glyphset definition
+ * U+2153 VULGAR FRACTION ONE THIRD: not included in any glyphset definition
+ * U+2154 VULGAR FRACTION TWO THIRDS: not included in any glyphset definition
+ * U+215B VULGAR FRACTION ONE EIGHTH: not included in any glyphset definition
+ * U+215C VULGAR FRACTION THREE EIGHTHS: not included in any glyphset definition
+ * U+215D VULGAR FRACTION FIVE EIGHTHS: not included in any glyphset definition
+ * U+215E VULGAR FRACTION SEVEN EIGHTHS: not included in any glyphset definition
+ * U+2190 LEFTWARDS ARROW: try adding one of: math, symbols
+ * U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols
+ * U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols
+ * U+2195 UP DOWN ARROW: try adding one of: math, symbols
+ * U+2196 NORTH WEST ARROW: try adding one of: math, symbols
+ * U+2197 NORTH EAST ARROW: try adding one of: math, symbols
+ * U+2198 SOUTH EAST ARROW: try adding one of: math, symbols
+ * U+2199 SOUTH WEST ARROW: try adding one of: math, symbols
+ * U+2202 PARTIAL DIFFERENTIAL: try adding math
+ * U+2205 EMPTY SET: try adding math
+ * U+2206 INCREMENT: try adding math
+ * U+220F N-ARY PRODUCT: try adding math
+ * U+2211 N-ARY SUMMATION: try adding math
+ * U+221A SQUARE ROOT: try adding math
+ * U+221E INFINITY: try adding math
+ * U+222B INTEGRAL: try adding math
+ * U+2248 ALMOST EQUAL TO: try adding math
+ * U+2260 NOT EQUAL TO: try adding math
+ * U+2264 LESS-THAN OR EQUAL TO: try adding math
+ * U+2265 GREATER-THAN OR EQUAL TO: try adding math
+ * U+25CA LOZENGE: try adding one of: math, symbols
+ * U+25CC DOTTED CIRCLE: try adding one of: osage, lao, hanunoo, myanmar, mahajani, batak, tirhuta, khojki, chakma, sharada, syriac, limbu, pahawh-hmong, takri, yi, buginese, tifinagh, grantha, sundanese, cham, duployan, khmer, psalter-pahlavi, brahmi, tamil, siddham, gujarati, masaram-gondi, thaana, caucasian-albanian, thai, math, buhid, javanese, nko, wancho, rejang, kharoshthi, kayah-li, oriya, kaithi, mende-kikakui, hanifi-rohingya, phags-pa, gunjala-gondi, soyombo, elbasan, bhaiksuki, coptic, bengali, marchen, mandaic, lepcha, bassa-vah, zanabazar-square, miao, tai-viet, dogra, modi, gurmukhi, tibetan, hebrew, malayalam, newa, sinhala, symbols, khudawadi, meetei-mayek, old-permic, sogdian, kannada, telugu, mongolian, tai-le, ahom, syloti-nagri, new-tai-lue, adlam, balinese, devanagari, manichaean, tagbanwa, music, tagalog
+ * U+AB53 LATIN SMALL LETTER CHI: not included in any glyphset definition
+ * U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition
+ * U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition
+
+Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `latin`, `latin-ext`, `vietnamese` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
 
 
@@ -3354,10 +5253,6 @@ greaterequal
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
-
-
-* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
@@ -3386,11 +5281,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: braceright	Contours detected: 3	Expected: 1
 
-	- Glyph name: cent	Contours detected: 4	Expected: 1or2
+	- Glyph name: cent	Contours detected: 4	Expected: 1 or 2
 
-	- Glyph name: sterling	Contours detected: 3	Expected: 1or2
+	- Glyph name: sterling	Contours detected: 3	Expected: 1 or 2
 
-	- Glyph name: yen	Contours detected: 4	Expected: 1or2
+	- Glyph name: yen	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
@@ -3502,19 +5397,19 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni20A9	Contours detected: 5	Expected: 1, 3, 4or7
+	- Glyph name: uni20A9	Contours detected: 5	Expected: 1, 3, 4 or 7
 
-	- Glyph name: dong	Contours detected: 5	Expected: 3or4
+	- Glyph name: dong	Contours detected: 5	Expected: 3 or 4
 
-	- Glyph name: Euro	Contours detected: 4	Expected: 1or2
+	- Glyph name: Euro	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: uni20AD	Contours detected: 3	Expected: 1
 
 	- Glyph name: uni20AE	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20B1	Contours detected: 6	Expected: 1, 2or4
+	- Glyph name: uni20B1	Contours detected: 6	Expected: 1, 2 or 4
 
-	- Glyph name: uni20B4	Contours detected: 4	Expected: 1or2
+	- Glyph name: uni20B4	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: uni20B9	Contours detected: 4	Expected: 1
 
@@ -3546,7 +5441,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: infinity	Contours detected: 1	Expected: 3
 
-	- Glyph name: Euro	Contours detected: 4	Expected: 1or2
+	- Glyph name: Euro	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: Oslashacute	Contours detected: 3	Expected: 4
 
@@ -3570,11 +5465,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: braceright	Contours detected: 3	Expected: 1
 
-	- Glyph name: cent	Contours detected: 4	Expected: 1or2
+	- Glyph name: cent	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: dong	Contours detected: 5	Expected: 3or4
+	- Glyph name: dong	Contours detected: 5	Expected: 3 or 4
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
@@ -3588,7 +5483,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
-	- Glyph name: sterling	Contours detected: 3	Expected: 1or2
+	- Glyph name: sterling	Contours detected: 3	Expected: 1 or 2
 
 	- Glyph name: tbar	Contours detected: 2	Expected: 1
 
@@ -3668,15 +5563,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni20A9	Contours detected: 5	Expected: 1, 3, 4or7
+	- Glyph name: uni20A9	Contours detected: 5	Expected: 1, 3, 4 or 7
 
 	- Glyph name: uni20AD	Contours detected: 3	Expected: 1
 
 	- Glyph name: uni20AE	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni20B1	Contours detected: 6	Expected: 1, 2or4
+	- Glyph name: uni20B1	Contours detected: 6	Expected: 1, 2 or 4
 
-	- Glyph name: uni20B4	Contours detected: 4	Expected: 1or2
+	- Glyph name: uni20B4	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: uni20B9	Contours detected: 4	Expected: 1
 
@@ -3696,7 +5591,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: yen	Contours detected: 4	Expected: 1or2
+	- Glyph name: yen	Contours detected: 4	Expected: 1 or 2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
 
@@ -4031,14 +5926,24 @@ greaterequal
 	* uni2C72 (U+2C72): L<<70.0,275.0>--<71.0,1308.0>>
 
 	* zero (U+0030): L<<122.0,1332.0>--<902.0,1335.0>> [code: found-semi-vertical]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* ⚠ **WARN** The dot of soft dotted characters used in orthographies _must_ disappear in the following strings: i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄
+
+The dot of soft dotted characters _should_ disappear in other cases, for example: i᷄ i᷅ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̠᷄ i̠᷅ i̠᷆ i̠᷇ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥᷄ i̥᷅ i̥᷆ i̥᷇ i̦᷄ i̦᷅
+
+Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers), Navajo (Latn, 166,319 speakers), Igbo (Latn, 27,823,640 speakers). 
+
+Your font does *not* cover the following languages that require the soft-dotted feature: Ukrainian (Cyrl, 29,273,587 speakers), Aghem (Latn, 38,843 speakers), Belarusian (Cyrl, 10,064,517 speakers), Basaa (Latn, 332,940 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 15 | 10 | 63 | 629 | 26 | 439 | 0 |
-| 1% | 1% | 5% | 53% | 2% | 37% | 0% |
+| 0 | 20 | 68 | 635 | 31 | 449 | 0 |
+| 0% | 2% | 6% | 53% | 3% | 37% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
