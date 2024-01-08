@@ -75,7 +75,8 @@ W₩W
 Y¥Y",
 A,
 DEFHUVWXYmnpquvwy,
-"ɛ"
+"ɛ",
+"Ɛ"
 );
 axes = (
 {
@@ -8495,9 +8496,19 @@ unicode = 280;
 color = 8;
 glyphname = Eopen;
 kernRight = KO_K;
-lastChange = "2024-01-07 22:37:53 +0000";
+lastChange = "2024-01-08 20:34:12 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (480,0);
+},
+{
+name = top;
+pos = (480,1333);
+}
+);
 layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
 shapes = (
 {
@@ -8563,6 +8574,16 @@ nodes = (
 width = 728;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (393,0);
+},
+{
+name = top;
+pos = (393,1333);
+}
+);
 layerId = m002;
 shapes = (
 {
@@ -73975,9 +73996,9 @@ width = 900;
 unicode = 281;
 },
 {
-color = 9;
+color = 5;
 glyphname = eopen;
-lastChange = "2024-01-08 20:32:54 +0000";
+lastChange = "2024-01-08 20:32:58 +0000";
 layers = (
 {
 anchors = (
@@ -74357,14 +74378,14 @@ unicode = 7869;
 {
 color = 3;
 glyphname = eturned;
-lastChange = "2024-01-07 22:37:54 +0000";
+lastChange = "2024-01-08 20:34:16 +0000";
 layers = (
 {
 layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
 shapes = (
 {
 angle = 180;
-pos = (1020,660);
+pos = (1020,1100);
 ref = e;
 }
 );
@@ -74995,14 +75016,14 @@ unicode = 614;
 {
 color = 2;
 glyphname = hturned;
-lastChange = "2024-01-07 22:37:54 +0000";
+lastChange = "2024-01-08 20:34:16 +0000";
 layers = (
 {
 layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
 shapes = (
 {
 angle = 180;
-pos = (1050,660);
+pos = (1050,1100);
 ref = h;
 }
 );
