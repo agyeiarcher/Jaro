@@ -110,6 +110,10 @@ name = blueFuzz;
 value = 1;
 },
 {
+name = TTFBlueFuzz;
+value = 1;
+},
+{
 name = "Variable Font Origin";
 value = m002;
 },
