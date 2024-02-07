@@ -462,7 +462,7 @@ pos = -500;
 {
 }
 );
-name = "6pt ";
+name = "6pt Regular";
 userData = {
 GSCornerRadius = 15;
 GSExtrudeAngle = 30;
@@ -600,7 +600,7 @@ pos = -500;
 {
 }
 );
-name = "72pt ";
+name = "72pt Regular";
 userData = {
 GSCornerRadius = 15;
 GSExtrudeAngle = 30;
@@ -85196,7 +85196,7 @@ axesValues = (
 instanceInterpolations = {
 "462F72A0-0500-4E69-A49B-6C2F2580580D" = 1;
 };
-name = 6pt;
+name = "6pt Regular";
 userData = {
 fpID = "C7F14D86-50C8-47C2-9A4B-397307B38499";
 };
@@ -85209,7 +85209,7 @@ instanceInterpolations = {
 "462F72A0-0500-4E69-A49B-6C2F2580580D" = 0.90909;
 m002 = 0.09091;
 };
-name = 12pt;
+name = "12pt Regular";
 userData = {
 fpID = "403FCA2E-8A61-48AD-895E-8F296A3250A2";
 };
@@ -85222,7 +85222,7 @@ instanceInterpolations = {
 "462F72A0-0500-4E69-A49B-6C2F2580580D" = 0.72727;
 m002 = 0.27273;
 };
-name = 24pt;
+name = "24pt Regular";
 userData = {
 fpID = "9E22F8D0-51D2-4DFB-B175-6990D9EC7998";
 };
@@ -85235,7 +85235,7 @@ instanceInterpolations = {
 "462F72A0-0500-4E69-A49B-6C2F2580580D" = 0.36364;
 m002 = 0.63636;
 };
-name = 48pt;
+name = "48pt Regular";
 userData = {
 fpID = "235838DB-F862-4694-9D9F-29C4D0EEF14B";
 };
