@@ -345,6 +345,10 @@ sub f i by fi;
 sub f l by fl;
 ";
 tag = liga;
+},
+{
+code = "sub florin by florin.alt;";
+tag = aalt;
 }
 );
 fontMaster = (
