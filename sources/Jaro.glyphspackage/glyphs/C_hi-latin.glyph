@@ -2,6 +2,16 @@
 glyphname = "Chi-latin";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (680,-67);
+},
+{
+name = top;
+pos = (680,1334);
+}
+);
 layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
 shapes = (
 {
@@ -87,6 +97,16 @@ nodes = (
 width = 1356;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (584,-67);
+},
+{
+name = top;
+pos = (584,1334);
+}
+);
 layerId = m002;
 shapes = (
 {
@@ -172,6 +192,16 @@ nodes = (
 width = 1164;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (680,-67);
+},
+{
+name = top;
+pos = (680,1334);
+}
+);
 layerId = "85954F24-EB2F-433D-99D8-A177D9E36C25";
 shapes = (
 {
