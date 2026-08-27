@@ -1,47 +1,46 @@
 {
-glyphname = Uhornacute;
-kernLeft = KO_U;
-kernRight = KO_Uhorn;
+glyphname = uhornacute;
+kernRight = KO_a;
 layers = (
 {
 layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
 shapes = (
 {
-ref = Uhorn;
+ref = uhorn;
 },
 {
-pos = (950,233);
+pos = (328,0);
 ref = acutecomb;
 }
 );
-width = 1090;
+width = 1050;
 },
 {
 layerId = m002;
 shapes = (
 {
-ref = Uhorn;
+ref = uhorn;
 },
 {
-pos = (929,233);
+pos = (253,0);
 ref = acutecomb;
 }
 );
-width = 1000;
+width = 900;
 },
 {
 layerId = "85954F24-EB2F-433D-99D8-A177D9E36C25";
 shapes = (
 {
-ref = Uhorn;
+ref = uhorn;
 },
 {
-pos = (950,233);
+pos = (328,0);
 ref = acutecomb;
 }
 );
-width = 1090;
+width = 1050;
 }
 );
-unicode = 7912;
+unicode = 7913;
 }

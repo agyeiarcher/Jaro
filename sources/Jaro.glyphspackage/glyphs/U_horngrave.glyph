@@ -43,5 +43,5 @@ ref = gravecomb;
 width = 1090;
 }
 );
-unicode = (7914,7915);
+unicode = 7914;
 }

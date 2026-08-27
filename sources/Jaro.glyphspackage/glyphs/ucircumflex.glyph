@@ -1,47 +1,46 @@
 {
-glyphname = Ucircumflex;
-kernLeft = KO_U;
-kernRight = KO_H;
+glyphname = ucircumflex;
+kernRight = KO_a;
 layers = (
 {
 layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
 shapes = (
 {
-ref = U;
+ref = u;
 },
 {
-pos = (293,233);
+pos = (276,0);
 ref = circumflexcomb;
 }
 );
-width = 1090;
+width = 1050;
 },
 {
 layerId = m002;
 shapes = (
 {
-ref = U;
+ref = u;
 },
 {
-pos = (248,233);
+pos = (198,0);
 ref = circumflexcomb;
 }
 );
-width = 1000;
+width = 900;
 },
 {
 layerId = "85954F24-EB2F-433D-99D8-A177D9E36C25";
 shapes = (
 {
-ref = U;
+ref = u;
 },
 {
-pos = (293,233);
+pos = (276,0);
 ref = circumflexcomb;
 }
 );
-width = 1090;
+width = 1050;
 }
 );
-unicode = 219;
+unicode = 251;
 }
