@@ -1,0 +1,64 @@
+{
+glyphname = sobliquestroke;
+layers = (
+{
+layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(679,698,l),
+(679,782,l),
+(89,387,l),
+(89,303,l)
+);
+},
+{
+pos = (46,0);
+ref = s;
+}
+);
+width = 768;
+},
+{
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(633,652,l),
+(633,735,l),
+(43,433,l),
+(43,350,l)
+);
+},
+{
+ref = s;
+}
+);
+width = 677;
+},
+{
+layerId = "85954F24-EB2F-433D-99D8-A177D9E36C25";
+shapes = (
+{
+closed = 1;
+nodes = (
+(679,698,l),
+(679,782,l),
+(89,387,l),
+(89,303,l)
+);
+},
+{
+pos = (46,0);
+ref = s;
+}
+);
+width = 768;
+}
+);
+metricLeft = s;
+metricRight = s;
+unicode = 42921;
+}

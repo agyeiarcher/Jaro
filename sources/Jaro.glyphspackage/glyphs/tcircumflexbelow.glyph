@@ -1,0 +1,47 @@
+{
+glyphname = tcircumflexbelow;
+kernLeft = KO_t;
+kernRight = KO_tcaron;
+layers = (
+{
+layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
+shapes = (
+{
+ref = t;
+},
+{
+pos = (186,0);
+ref = circumflexbelowcomb;
+}
+);
+width = 625;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = t;
+},
+{
+pos = (146,0);
+ref = circumflexbelowcomb;
+}
+);
+width = 595;
+},
+{
+layerId = "85954F24-EB2F-433D-99D8-A177D9E36C25";
+shapes = (
+{
+ref = t;
+},
+{
+pos = (186,0);
+ref = circumflexbelowcomb;
+}
+);
+width = 625;
+}
+);
+unicode = 7793;
+}

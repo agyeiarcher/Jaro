@@ -1,0 +1,43 @@
+{
+glyphname = twosuperior;
+kernLeft = KO_twosuperior;
+kernRight = KO_twosuperior;
+layers = (
+{
+layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
+shapes = (
+{
+pos = (0,513);
+ref = two;
+scale = (0.66,0.66);
+}
+);
+width = 548;
+},
+{
+layerId = m002;
+shapes = (
+{
+pos = (0,513);
+ref = two;
+scale = (0.66,0.66);
+}
+);
+width = 548;
+},
+{
+layerId = "85954F24-EB2F-433D-99D8-A177D9E36C25";
+shapes = (
+{
+pos = (0,513);
+ref = two;
+scale = (0.66,0.66);
+}
+);
+width = 548;
+}
+);
+metricLeft = two;
+metricRight = two;
+unicode = 178;
+}

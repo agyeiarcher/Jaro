@@ -1,0 +1,59 @@
+{
+glyphname = onequarter;
+layers = (
+{
+layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (408,0);
+ref = fraction;
+},
+{
+pos = (563,0);
+ref = four.dnom;
+}
+);
+width = 1230;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (428,0);
+ref = fraction;
+},
+{
+pos = (583,0);
+ref = four.dnom;
+}
+);
+width = 1250;
+},
+{
+layerId = "85954F24-EB2F-433D-99D8-A177D9E36C25";
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (408,0);
+ref = fraction;
+},
+{
+pos = (563,0);
+ref = four.dnom;
+}
+);
+width = 1230;
+}
+);
+metricLeft = one.numr;
+metricRight = one.numr;
+unicode = 188;
+}

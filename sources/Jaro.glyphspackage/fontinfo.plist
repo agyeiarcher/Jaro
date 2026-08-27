@@ -1,0 +1,985 @@
+{
+.appVersion = "3310";
+.formatVersion = 3;
+axes = (
+{
+name = "Optical size";
+tag = opsz;
+}
+);
+customParameters = (
+{
+name = fsType;
+value = (
+);
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = blueScale;
+value = 0.04;
+},
+{
+name = blueShift;
+value = 7;
+},
+{
+name = blueFuzz;
+value = 1;
+},
+{
+name = TTFBlueFuzz;
+value = 1;
+},
+{
+name = "Variable Font Origin";
+value = "85954F24-EB2F-433D-99D8-A177D9E36C25";
+},
+{
+name = "Use Extension Kerning";
+value = 1;
+},
+{
+name = "Axis Mappings";
+value = {
+opsz = {
+6 = 6;
+12 = 12;
+72 = 72;
+};
+wght = {
+400 = 400;
+};
+};
+}
+);
+date = "2023-10-26 19:26:02 +0000";
+familyName = Jaro;
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+
+languagesystem latn dflt;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn KAZ;
+languagesystem latn TAT;
+languagesystem latn TRK;
+languagesystem latn ROM;
+languagesystem latn MOL;
+languagesystem latn MAH;
+languagesystem latn NSM;
+languagesystem latn CAT;
+languagesystem latn NLD;
+";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature locl;
+feature subs;
+feature sinf;
+feature sups;
+feature numr;
+feature dnom;
+feature frac;
+feature ordn;
+feature pnum;
+feature tnum;
+feature case;
+";
+tag = aalt;
+},
+{
+automatic = 1;
+code = "lookup ccmp_DFLT_1 {
+	lookupflag 0;
+	sub acutecomb macroncomb by acutecomb_macroncomb;
+	sub brevecomb acutecomb by brevecomb_acutecomb;
+	sub brevecomb gravecomb by brevecomb_gravecomb;
+	sub brevecomb hookabovecomb by brevecomb_hookabovecomb;
+	sub brevecomb tildecomb by brevecomb_tildecomb;
+	sub circumflexcomb acutecomb by circumflexcomb_acutecomb;
+	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;
+	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;
+	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;
+	sub gravecomb macroncomb by gravecomb_macroncomb;
+	sub macroncomb acutecomb by macroncomb_acutecomb;
+	sub macroncomb gravecomb by macroncomb_gravecomb;
+	sub tildecomb acutecomb by tildecomb_acutecomb;
+} ccmp_DFLT_1;
+
+lookup ccmp_Other_1 {
+	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb candraBinducomb caroncomb circumflexcomb commaabovecomb commaaboverightcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb verticallineabovecomb];
+	lookupflag UseMarkFilteringSet @CombiningTopAccents;
+	sub i' @CombiningTopAccents by idotless;
+	sub j' @CombiningTopAccents by jdotless;
+} ccmp_Other_1;
+
+lookup ccmp_latn_1 {
+	lookupflag 0;
+	sub itildebelow by i tildebelowcomb;
+} ccmp_latn_1;
+
+lookup ccmp_latn_2 {
+	lookupflag 0;
+	sub fi by f i;
+	sub fl by f l;
+	sub Ldot by L periodcentered.loclCAT.case;
+	sub ldot by l periodcentered.loclCAT;
+	sub lj by l j;
+	sub Lj by L j;
+	sub LJ by L J;
+	sub nj by n j;
+	sub Nj by N j;
+	sub NJ by N J;
+	sub dzcaron by d zcaron;
+	sub DZcaron by D Zcaron;
+} ccmp_latn_2;
+
+script latn;
+lookup ccmp_latn_1;
+lookup ccmp_latn_2;
+";
+tag = ccmp;
+},
+{
+automatic = 1;
+code = "script latn;
+language AZE;
+lookup locl_latn_0 {
+	sub i by idotaccent;
+} locl_latn_0;
+language CRT;
+lookup locl_latn_0;
+language KAZ;
+lookup locl_latn_0;
+language TAT;
+lookup locl_latn_0;
+language TRK;
+lookup locl_latn_0;
+
+script latn;
+language ROM;
+lookup locl_latn_1 {
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	sub Tcedilla by Tcommaaccent;
+	sub tcedilla by tcommaaccent;
+} locl_latn_1;
+language MOL;
+lookup locl_latn_1;
+
+script latn;
+language MAH;
+lookup locl_latn_2 {
+	sub Lcommaaccent by Lcommaaccent.loclMAH;
+	sub Ncommaaccent by Ncommaaccent.loclMAH;
+	sub lcommaaccent by lcommaaccent.loclMAH;
+	sub ncommaaccent by ncommaaccent.loclMAH;
+	sub commaaccentcomb by commaaccentcomb.loclMAH;
+} locl_latn_2;
+
+script latn;
+language NSM;
+lookup locl_latn_3 {
+	sub Eng by Eng.loclNSM;
+} locl_latn_3;
+
+script latn;
+language CAT;
+lookup locl_latn_4 {
+	sub l periodcentered' l by periodcentered.loclCAT;
+	sub L periodcentered' L by periodcentered.loclCAT.case;
+} locl_latn_4;
+
+script latn;
+language NLD;
+lookup locl_latn_5 {
+	sub iacute j' by jacute;
+	sub Iacute J' by Jacute;
+} locl_latn_5;
+";
+tag = locl;
+},
+{
+automatic = 1;
+code = "sub one by oneinferior;
+sub two by twoinferior;
+sub three by threeinferior;
+sub four by fourinferior;
+sub five by fiveinferior;
+sub six by sixinferior;
+sub seven by seveninferior;
+sub eight by eightinferior;
+sub nine by nineinferior;
+";
+tag = subs;
+},
+{
+automatic = 1;
+code = "sub one by oneinferior;
+sub two by twoinferior;
+sub three by threeinferior;
+sub four by fourinferior;
+sub five by fiveinferior;
+sub six by sixinferior;
+sub seven by seveninferior;
+sub eight by eightinferior;
+sub nine by nineinferior;
+";
+tag = sinf;
+},
+{
+automatic = 1;
+code = "sub one by onesuperior;
+sub two by twosuperior;
+sub three by threesuperior;
+sub four by foursuperior;
+sub five by fivesuperior;
+sub six by sixsuperior;
+sub seven by sevensuperior;
+sub eight by eightsuperior;
+sub nine by ninesuperior;
+";
+tag = sups;
+},
+{
+automatic = 1;
+code = "sub zero by zero.numr;
+sub one by one.numr;
+sub two by two.numr;
+sub three by three.numr;
+sub four by four.numr;
+sub five by five.numr;
+sub six by six.numr;
+sub seven by seven.numr;
+sub eight by eight.numr;
+sub nine by nine.numr;
+";
+tag = numr;
+},
+{
+automatic = 1;
+code = "sub zero by zero.dnom;
+sub one by one.dnom;
+sub two by two.dnom;
+sub three by three.dnom;
+sub four by four.dnom;
+sub five by five.dnom;
+sub six by six.dnom;
+sub seven by seven.dnom;
+sub eight by eight.dnom;
+sub nine by nine.dnom;
+";
+tag = dnom;
+},
+{
+automatic = 1;
+code = "lookup FRAC {
+	sub slash by fraction;
+} FRAC;
+lookup UP {
+	sub [zero one two three four five six seven eight nine] by [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];
+} UP;
+lookup DOWN {
+	sub fraction [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+	sub [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom] [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+} DOWN;
+";
+tag = frac;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+sub N o period by numero;
+";
+tag = ordn;
+},
+{
+automatic = 1;
+code = "sub zero.tf by zero;
+sub one.tf by one;
+sub two.tf by two;
+sub three.tf by three;
+sub four.tf by four;
+sub five.tf by five;
+sub six.tf by six;
+sub seven.tf by seven;
+sub eight.tf by eight;
+sub nine.tf by nine;
+";
+tag = pnum;
+},
+{
+automatic = 1;
+code = "sub zero by zero.tf;
+sub one by one.tf;
+sub two by two.tf;
+sub three by three.tf;
+sub four by four.tf;
+sub five by five.tf;
+sub six by six.tf;
+sub seven by seven.tf;
+sub eight by eight.tf;
+sub nine by nine.tf;
+";
+tag = tnum;
+},
+{
+automatic = 1;
+code = "sub periodcentered.loclCAT by periodcentered.loclCAT.case;
+";
+tag = case;
+},
+{
+automatic = 1;
+code = "lookupflag IgnoreMarks;
+sub f i by fi;
+sub f l by fl;
+";
+tag = liga;
+}
+);
+fontMaster = (
+{
+axesValues = (
+6
+);
+customParameters = (
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 2000;
+},
+{
+name = typoDescender;
+value = -500;
+},
+{
+name = winAscent;
+value = 2000;
+},
+{
+name = winDescent;
+value = 673;
+},
+{
+name = vheaVertAscender;
+value = 2000;
+},
+{
+name = vheaVertDescender;
+value = -500;
+},
+{
+name = vheaVertLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 2000;
+},
+{
+name = hheaDescender;
+value = -500;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = underlineThickness;
+value = 83;
+},
+{
+name = underlinePosition;
+value = -167;
+}
+);
+guides = (
+{
+locked = 1;
+pos = (-738,1558);
+},
+{
+locked = 1;
+pos = (-967,-300);
+},
+{
+locked = 1;
+pos = (-738,1650);
+},
+{
+angle = 180;
+locked = 1;
+pos = (-260,-50);
+},
+{
+locked = 1;
+pos = (-178,-250);
+},
+{
+locked = 1;
+pos = (67,783);
+},
+{
+locked = 1;
+pos = (67,550);
+},
+{
+locked = 1;
+pos = (447,353);
+},
+{
+locked = 1;
+pos = (447,980);
+}
+);
+id = "462F72A0-0500-4E69-A49B-6C2F2580580D";
+metricValues = (
+{
+pos = 2000;
+},
+{
+pos = 1333;
+},
+{
+pos = 1100;
+},
+{
+},
+{
+pos = -500;
+},
+{
+}
+);
+name = 6pt;
+userData = {
+GSCornerRadius = 15;
+GSExtrudeAngle = 30;
+GSExtrudeDontSubtract = 1;
+GSExtrudeOffset = 250;
+GSOffsetHorizontal = 15;
+GSOffsetMakeStroke = 1;
+GSOffsetVertical = 15;
+KernOnIndependentPairs = (
+"O O",
+"O H"
+);
+KernOnModels = (
+"c c",
+"o n",
+"h o",
+"n o",
+"o o",
+"o H",
+"o O",
+"H o",
+"O o",
+"H I",
+"H O",
+"H H"
+);
+};
+visible = 1;
+},
+{
+axesValues = (
+14
+);
+customParameters = (
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 2000;
+},
+{
+name = typoDescender;
+value = -500;
+},
+{
+name = winAscent;
+value = 2000;
+},
+{
+name = winDescent;
+value = 673;
+},
+{
+name = vheaVertAscender;
+value = 2000;
+},
+{
+name = vheaVertDescender;
+value = -500;
+},
+{
+name = vheaVertLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 2000;
+},
+{
+name = hheaDescender;
+value = -500;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = underlineThickness;
+value = 83;
+},
+{
+name = underlinePosition;
+value = -167;
+}
+);
+guides = (
+{
+locked = 1;
+pos = (-738,1558);
+},
+{
+locked = 1;
+pos = (-967,-300);
+},
+{
+locked = 1;
+pos = (-738,1650);
+},
+{
+angle = 180;
+locked = 1;
+pos = (-260,-50);
+},
+{
+locked = 1;
+pos = (-178,-250);
+},
+{
+locked = 1;
+pos = (67,783);
+},
+{
+locked = 1;
+pos = (67,550);
+},
+{
+locked = 1;
+pos = (447,353);
+},
+{
+locked = 1;
+pos = (447,980);
+}
+);
+id = "85954F24-EB2F-433D-99D8-A177D9E36C25";
+metricValues = (
+{
+pos = 2000;
+},
+{
+pos = 1333;
+},
+{
+pos = 1100;
+},
+{
+},
+{
+pos = -500;
+},
+{
+}
+);
+name = Regular;
+userData = {
+GSCornerRadius = 15;
+GSExtrudeAngle = 30;
+GSExtrudeDontSubtract = 1;
+GSExtrudeOffset = 250;
+GSOffsetHorizontal = 15;
+GSOffsetMakeStroke = 1;
+GSOffsetVertical = 15;
+KernOnIndependentPairs = (
+"O O",
+"O H"
+);
+KernOnModels = (
+"c c",
+"o n",
+"h o",
+"n o",
+"o o",
+"o H",
+"o O",
+"H o",
+"O o",
+"H I",
+"H O",
+"H H"
+);
+};
+},
+{
+axesValues = (
+72
+);
+customParameters = (
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 2000;
+},
+{
+name = typoDescender;
+value = -500;
+},
+{
+name = winAscent;
+value = 2000;
+},
+{
+name = winDescent;
+value = 673;
+},
+{
+name = vheaVertAscender;
+value = 2000;
+},
+{
+name = vheaVertDescender;
+value = -500;
+},
+{
+name = vheaVertLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 2000;
+},
+{
+name = hheaDescender;
+value = -500;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = underlineThickness;
+value = 83;
+},
+{
+name = underlinePosition;
+value = -167;
+}
+);
+guides = (
+{
+locked = 1;
+pos = (678,-533);
+},
+{
+locked = 1;
+pos = (183,1350);
+},
+{
+locked = 1;
+pos = (247,1150);
+},
+{
+locked = 1;
+pos = (-665,1650);
+},
+{
+locked = 1;
+pos = (-258,-300);
+},
+{
+angle = 180;
+locked = 1;
+pos = (-260,-50);
+},
+{
+locked = 1;
+pos = (-178,-250);
+}
+);
+id = m002;
+metricValues = (
+{
+pos = 2000;
+},
+{
+pos = 1333;
+},
+{
+pos = 1100;
+},
+{
+},
+{
+pos = -500;
+},
+{
+}
+);
+name = 72pt;
+userData = {
+GSCornerRadius = 15;
+GSExtrudeAngle = 30;
+GSExtrudeDontSubtract = 1;
+GSExtrudeOffset = 250;
+GSOffsetHorizontal = 15;
+GSOffsetMakeStroke = 1;
+GSOffsetVertical = 15;
+KernOnModels = (
+"i j",
+"o t",
+"c c",
+"t o",
+"h o",
+"n o",
+"o n",
+"o o",
+"o O",
+"H o",
+"O o",
+"H I",
+"H H",
+"H O",
+"O H",
+"O O"
+);
+};
+}
+);
+instances = (
+{
+axesValues = (
+6
+);
+instanceInterpolations = {
+"462F72A0-0500-4E69-A49B-6C2F2580580D" = 1;
+};
+name = Regular;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Jaro 6pt";
+}
+);
+}
+);
+userData = {
+fpID = "C7F14D86-50C8-47C2-9A4B-397307B38499";
+};
+},
+{
+axesValues = (
+14
+);
+instanceInterpolations = {
+"85954F24-EB2F-433D-99D8-A177D9E36C25" = 1;
+};
+name = Regular;
+userData = {
+fpID = "403FCA2E-8A61-48AD-895E-8F296A3250A2";
+};
+},
+{
+axesValues = (
+24
+);
+instanceInterpolations = {
+"85954F24-EB2F-433D-99D8-A177D9E36C25" = 0.82759;
+m002 = 0.17241;
+};
+name = Regular;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Jaro 24pt";
+}
+);
+}
+);
+userData = {
+fpID = "9E22F8D0-51D2-4DFB-B175-6990D9EC7998";
+};
+},
+{
+axesValues = (
+48
+);
+instanceInterpolations = {
+"85954F24-EB2F-433D-99D8-A177D9E36C25" = 0.41379;
+m002 = 0.58621;
+};
+name = Regular;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Jaro 48pt";
+}
+);
+}
+);
+userData = {
+fpID = "235838DB-F862-4694-9D9F-29C4D0EEF14B";
+};
+},
+{
+axesValues = (
+72
+);
+instanceInterpolations = {
+m002 = 1;
+};
+name = Regular;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Jaro 72pt";
+}
+);
+}
+);
+userData = {
+fpID = "1E3892B2-21D9-4512-924D-785A4B1E776B";
+};
+}
+);
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2023 The Jaro Project Authors (https://github.com/agyeiarcher/Jaro)";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Agyei Archer, Celine Hurka, Mirko Velimirović";
+}
+);
+},
+{
+key = designerURL;
+value = "http://agyei.design";
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://openfontlicense.org";
+},
+{
+key = vendorID;
+value = "!666";
+}
+);
+settings = {
+previewRemoveOverlap = 0;
+};
+unitsPerEm = 2000;
+userData = {
+GSDimensionPlugin.Dimensions = {
+"462F72A0-0500-4E69-A49B-6C2F2580580D" = {
+HH = "160";
+HV = "200";
+OH = "160";
+OV = "200";
+nV = "190";
+nd = "150";
+oH = "140";
+oV = "190";
+tH = "150";
+};
+m002 = {
+HH = "240";
+HV = "250";
+OH = "240";
+OV = "250";
+nV = "220";
+nd = "220";
+oH = "200";
+oV = "220";
+tH = "200";
+};
+};
+KernOnKerningWeightLimit = 60000;
+KernOnRegenerateGroups = 1;
+KernOnVersion = "1.27";
+hugojourdan.RainbowFontView.labelUsed = Layer;
+};
+versionMajor = 1;
+versionMinor = 0;
+}

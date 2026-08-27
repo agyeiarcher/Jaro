@@ -1,0 +1,62 @@
+{
+glyphname = Estroke;
+layers = (
+{
+layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
+shapes = (
+{
+ref = E;
+},
+{
+closed = 1;
+nodes = (
+(427,-110,l),
+(760,1485,l),
+(705,1485,l),
+(372,-110,l)
+);
+}
+);
+width = 987;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = E;
+},
+{
+closed = 1;
+nodes = (
+(500,-110,l),
+(667,1485,l),
+(612,1485,l),
+(445,-110,l)
+);
+}
+);
+width = 830;
+},
+{
+layerId = "85954F24-EB2F-433D-99D8-A177D9E36C25";
+shapes = (
+{
+ref = E;
+},
+{
+closed = 1;
+nodes = (
+(427,-110,l),
+(760,1485,l),
+(705,1485,l),
+(372,-110,l)
+);
+}
+);
+width = 987;
+}
+);
+metricLeft = E;
+metricRight = E;
+unicode = 582;
+}

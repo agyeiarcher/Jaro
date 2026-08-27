@@ -1,0 +1,59 @@
+{
+glyphname = Ocircumflextilde;
+kernLeft = KO_O;
+kernRight = KO_Oacute;
+layers = (
+{
+layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
+shapes = (
+{
+ref = O;
+},
+{
+pos = (323,233);
+ref = circumflexcomb;
+},
+{
+pos = (318,500);
+ref = tildecomb;
+}
+);
+width = 1147;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = O;
+},
+{
+pos = (255,233);
+ref = circumflexcomb;
+},
+{
+pos = (175,483);
+ref = tildecomb;
+}
+);
+width = 1007;
+},
+{
+layerId = "85954F24-EB2F-433D-99D8-A177D9E36C25";
+shapes = (
+{
+ref = O;
+},
+{
+pos = (323,233);
+ref = circumflexcomb;
+},
+{
+pos = (318,500);
+ref = tildecomb;
+}
+);
+width = 1147;
+}
+);
+unicode = 7894;
+}

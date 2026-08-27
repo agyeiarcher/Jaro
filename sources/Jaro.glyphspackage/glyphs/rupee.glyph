@@ -1,0 +1,45 @@
+{
+glyphname = rupee;
+layers = (
+{
+layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
+shapes = (
+{
+ref = R;
+},
+{
+pos = (1032,0);
+ref = s;
+}
+);
+width = 1754;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = R;
+},
+{
+pos = (1025,0);
+ref = s;
+}
+);
+width = 1702;
+},
+{
+layerId = "85954F24-EB2F-433D-99D8-A177D9E36C25";
+shapes = (
+{
+ref = R;
+},
+{
+pos = (1032,0);
+ref = s;
+}
+);
+width = 1754;
+}
+);
+unicode = 8360;
+}

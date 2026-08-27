@@ -1,0 +1,65 @@
+{
+glyphname = bhook;
+kernLeft = KO_i;
+kernRight = KO_o;
+layers = (
+{
+guides = (
+{
+pos = (150,965);
+}
+);
+layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
+shapes = (
+{
+ref = b;
+},
+{
+pos = (184,386);
+ref = _hooklc.part;
+}
+);
+width = 1050;
+},
+{
+guides = (
+{
+pos = (53,242);
+},
+{
+pos = (288,965);
+}
+);
+layerId = m002;
+shapes = (
+{
+ref = b;
+},
+{
+pos = (88,403);
+ref = _hooklc.part;
+}
+);
+width = 900;
+},
+{
+guides = (
+{
+pos = (150,965);
+}
+);
+layerId = "85954F24-EB2F-433D-99D8-A177D9E36C25";
+shapes = (
+{
+ref = b;
+},
+{
+pos = (184,386);
+ref = _hooklc.part;
+}
+);
+width = 1050;
+}
+);
+unicode = 595;
+}

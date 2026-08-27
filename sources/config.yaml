@@ -1,5 +1,5 @@
 sources:
-  - Jaro.glyphs
+  - Jaro.glyphspackage
 axisOrder:
   - opsz
   - wght
@@ -25,4 +25,3 @@ buildOTF: False
 #     values:
 #     - name: Regular
 #       value: 400
-      

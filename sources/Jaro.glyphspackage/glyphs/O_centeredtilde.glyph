@@ -1,0 +1,65 @@
+{
+glyphname = Ocenteredtilde;
+layers = (
+{
+layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(844,597,l),
+(844,736,l),
+(303,736,l),
+(303,597,l)
+);
+},
+{
+alignment = -1;
+ref = O;
+}
+);
+width = 1147;
+},
+{
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(774,579,l),
+(774,754,l),
+(233,754,l),
+(233,579,l)
+);
+},
+{
+alignment = -1;
+ref = O;
+}
+);
+width = 1007;
+},
+{
+layerId = "85954F24-EB2F-433D-99D8-A177D9E36C25";
+shapes = (
+{
+closed = 1;
+nodes = (
+(844,597,l),
+(844,736,l),
+(303,736,l),
+(303,597,l)
+);
+},
+{
+alignment = -1;
+ref = O;
+}
+);
+width = 1147;
+}
+);
+metricLeft = "=O";
+metricRight = "=O";
+unicode = 415;
+}

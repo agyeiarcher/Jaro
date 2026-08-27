@@ -1,0 +1,47 @@
+{
+glyphname = hhook;
+kernLeft = KO_i;
+kernRight = KO_n;
+layers = (
+{
+layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
+shapes = (
+{
+ref = h;
+},
+{
+pos = (184,386);
+ref = _hooklc.part;
+}
+);
+width = 1050;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = h;
+},
+{
+pos = (88,403);
+ref = _hooklc.part;
+}
+);
+width = 900;
+},
+{
+layerId = "85954F24-EB2F-433D-99D8-A177D9E36C25";
+shapes = (
+{
+ref = h;
+},
+{
+pos = (184,386);
+ref = _hooklc.part;
+}
+);
+width = 1050;
+}
+);
+unicode = 614;
+}

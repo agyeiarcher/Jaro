@@ -1,0 +1,47 @@
+{
+glyphname = yacute;
+kernLeft = KO_u;
+kernRight = KO_a;
+layers = (
+{
+layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
+shapes = (
+{
+ref = y;
+},
+{
+pos = (331,0);
+ref = acutecomb;
+}
+);
+width = 1050;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = y;
+},
+{
+pos = (253,0);
+ref = acutecomb;
+}
+);
+width = 900;
+},
+{
+layerId = "85954F24-EB2F-433D-99D8-A177D9E36C25";
+shapes = (
+{
+ref = y;
+},
+{
+pos = (331,0);
+ref = acutecomb;
+}
+);
+width = 1050;
+}
+);
+unicode = 253;
+}

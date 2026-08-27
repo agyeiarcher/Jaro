@@ -1,0 +1,58 @@
+{
+glyphname = oopen;
+kernLeft = KO_oopen;
+layers = (
+{
+anchors = (
+{
+name = ogonek;
+pos = (276,0);
+}
+);
+layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
+shapes = (
+{
+pos = (723,0);
+ref = c;
+scale = (-1,1);
+}
+);
+width = 723;
+},
+{
+anchors = (
+{
+name = ogonek;
+pos = (297,0);
+}
+);
+layerId = m002;
+shapes = (
+{
+pos = (632,0);
+ref = c;
+scale = (-1,1);
+}
+);
+width = 632;
+},
+{
+anchors = (
+{
+name = ogonek;
+pos = (276,0);
+}
+);
+layerId = "85954F24-EB2F-433D-99D8-A177D9E36C25";
+shapes = (
+{
+pos = (723,0);
+ref = c;
+scale = (-1,1);
+}
+);
+width = 723;
+}
+);
+unicode = 596;
+}

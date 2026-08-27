@@ -1,0 +1,45 @@
+{
+glyphname = Zstroke;
+layers = (
+{
+layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
+shapes = (
+{
+ref = Z;
+},
+{
+pos = (71,-536);
+ref = strokeshortcomb;
+}
+);
+width = 827;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = Z;
+},
+{
+pos = (73,-536);
+ref = strokeshortcomb;
+}
+);
+width = 835;
+},
+{
+layerId = "85954F24-EB2F-433D-99D8-A177D9E36C25";
+shapes = (
+{
+ref = Z;
+},
+{
+pos = (71,-536);
+ref = strokeshortcomb;
+}
+);
+width = 827;
+}
+);
+unicode = 437;
+}

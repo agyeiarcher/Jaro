@@ -1,0 +1,42 @@
+{
+glyphname = questiondown;
+kernRight = KO_questiondown;
+layers = (
+{
+layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
+shapes = (
+{
+angle = 180;
+pos = (750,1333);
+ref = question;
+}
+);
+width = 750;
+},
+{
+layerId = m002;
+shapes = (
+{
+angle = 180;
+pos = (717,1333);
+ref = question;
+}
+);
+width = 717;
+},
+{
+layerId = "85954F24-EB2F-433D-99D8-A177D9E36C25";
+shapes = (
+{
+angle = 180;
+pos = (750,1333);
+ref = question;
+}
+);
+width = 750;
+}
+);
+metricLeft = "=question";
+metricRight = "=question";
+unicode = 191;
+}
