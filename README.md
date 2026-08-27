@@ -1,5 +1,12 @@
 # Jaro
 
+> [!IMPORTANT]
+> This repo is no longer maintained, please use [github.com/agyeiagyeiagyei/Jaro](https://github.com/agyeiagyeiagyei/Jaro)
+
+<details>
+
+<summary>Original README content</summary>
+
 [![][Fontbakery]](https://agyeiarcher.github.io/Jaro/fontbakery/fontbakery-report.html)
 [![][Universal]](https://agyeiarcher.github.io/Jaro/fontbakery/fontbakery-report.html)
 [![][GF Profile]](https://agyeiarcher.github.io/Jaro/fontbakery/fontbakery-report.html)
@@ -49,3 +56,6 @@ https://scripts.sil.org/OFL
 ## Repository Layout
 
 This font repository structure is inspired by [Unified Font Repository v0.3](https://github.com/unified-font-repository/Unified-Font-Repository), modified for the Google Fonts workflow.
+
+
+</details>
