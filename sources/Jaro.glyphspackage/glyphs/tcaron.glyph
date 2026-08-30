@@ -107,12 +107,11 @@ alignment = -1;
 ref = t;
 },
 {
-alignment = -1;
-pos = (502,169);
+pos = (565,0);
 ref = caroncomb.alt;
 }
 );
-width = 625;
+width = 738;
 },
 {
 background = {
@@ -218,12 +217,11 @@ alignment = -1;
 ref = t;
 },
 {
-alignment = -1;
-pos = (511,170);
+pos = (575,0);
 ref = caroncomb.alt;
 }
 );
-width = 595;
+width = 788;
 },
 {
 background = {
@@ -329,13 +327,13 @@ alignment = -1;
 ref = t;
 },
 {
-alignment = -1;
-pos = (502,169);
+pos = (565,0);
 ref = caroncomb.alt;
 }
 );
-width = 625;
+width = 738;
 }
 );
+metricRight = "=caroncomb.alt";
 unicode = 357;
 }

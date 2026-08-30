@@ -1,0 +1,59 @@
+{
+glyphname = Lambdastroke;
+layers = (
+{
+layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
+shapes = (
+{
+ref = "Lambda-latin";
+},
+{
+closed = 1;
+nodes = (
+(926,1214,l),
+(926,1298,l),
+(116,1009,l),
+(116,926,l)
+);
+}
+);
+width = 1050;
+},
+{
+layerId = "85954F24-EB2F-433D-99D8-A177D9E36C25";
+shapes = (
+{
+ref = "Lambda-latin";
+},
+{
+closed = 1;
+nodes = (
+(926,1214,l),
+(926,1298,l),
+(116,1009,l),
+(116,926,l)
+);
+}
+);
+width = 1050;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = "Lambda-latin";
+},
+{
+closed = 1;
+nodes = (
+(885,1192,l),
+(885,1276,l),
+(75,987,l),
+(75,904,l)
+);
+}
+);
+width = 977;
+}
+);
+}

@@ -5,14 +5,16 @@ layers = (
 layerId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
 shapes = (
 {
+alignment = -1;
+pos = (392,0);
 ref = H;
 },
 {
-pos = (-292,0);
+pos = (100,0);
 ref = _hook.part;
 }
 );
-width = 1153;
+width = 1545;
 },
 {
 associatedMasterId = "462F72A0-0500-4E69-A49B-6C2F2580580D";
@@ -30,14 +32,15 @@ width = 1000;
 layerId = m002;
 shapes = (
 {
+alignment = -1;
+pos = (425,0);
 ref = H;
 },
 {
-pos = (-425,0);
 ref = _hook.part;
 }
 );
-width = 1000;
+width = 1425;
 },
 {
 associatedMasterId = m002;
@@ -54,14 +57,16 @@ width = 1000;
 layerId = "85954F24-EB2F-433D-99D8-A177D9E36C25";
 shapes = (
 {
+alignment = -1;
+pos = (392,0);
 ref = H;
 },
 {
-pos = (-292,0);
+pos = (100,0);
 ref = _hook.part;
 }
 );
-width = 1153;
+width = 1545;
 },
 {
 associatedMasterId = "85954F24-EB2F-433D-99D8-A177D9E36C25";
@@ -76,7 +81,7 @@ ref = H;
 width = 1000;
 }
 );
-metricLeft = O;
+metricLeft = T;
 metricRight = H;
 unicode = 42922;
 }
